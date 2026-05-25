@@ -1,0 +1,39 @@
+[
+  {
+    "id": "geometry-dash-maze-maps-v2",
+    "title": "Geometry Dash Maze Maps V2",
+    "category": "Parkour",
+    "thumb": "https://placehold.co/600x400?text=Geometry+Dash",
+    "embed": "https://html5.gamedistribution.com/bc4de39b3f9045cd920eb90cf14a8986/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=geometry-dash-maze-maps-v2",
+    "description": "Engellerden kaç ve parkurları tamamla.",
+    "seo": "Geometry Dash Maze Maps V2 ücretsiz parkour oyunu."
+  },
+
+  {
+    "id":"drift-boss",
+    "title":"Drift Boss",
+    "category":"Araba",
+    "thumb":"https://placehold.co/600x400?text=Drift+Boss",
+    "embed":"https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=drift-boss",
+    "description":"Virajlarda düşmeden ilerlemeye çalıştığın bağımlılık yapan refleks ve drift oyunu.",
+    "seo":"Drift Boss oyna, ücretsiz araba ve drift oyunu."
+  },
+
+  {
+    "id":"soccer-random",
+    "title":"Soccer Random",
+    "category":"Futbol",
+    "thumb":"https://placehold.co/600x400?text=Soccer+Random",
+    "embed":"https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=soccer-random",
+    "description":"Komik fizik motoruyla arkadaşınla veya bilgisayara karşı futbol maçı yap.",
+    "seo":"Soccer Random oyna, ücretsiz eğlenceli futbol oyunu."
+  },
+{
+  "id":"parking-fury",
+  "title":"Parking Fury",
+  "category":"Araba",
+  "thumb":"https://placehold.co/600x400?text=Parking+Fury",
+  "embed":"https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=parking-fury",
+  "description":"Dar alanlara aracını çarpmadan park etmeye çalıştığın eğlenceli araba oyunu.",
+  "seo":"Parking Fury oyna, ücretsiz araba ve park etme oyunu."
+}
