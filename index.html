@@ -1,28 +1,22 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OyunKafe - Ücretsiz Online Oyunlar</title>
-<meta name="description" content="OyunKafe ücretsiz online oyunlar. Araba, futbol ve parkour oyunlarını hemen oyna.">
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f4f6;color:#111827}
-<header class="header">
-    <img src="logo.png" alt="OyunKafe Logo">
-</header>
+
+.header{
+background:linear-gradient(135deg,#111827,#1f2937);
+color:white;
+text-align:center;
+padding:30px 20px;
+}
+
 .header img{
-  width:320px;
-  max-width:85%;
-  margin-bottom:0;
+width:320px;
+max-width:85%;
+height:auto;
+display:block;
+margin:0 auto;
 }
-    .header{
-  background:linear-gradient(135deg,#111827,#1f2937);
-  color:white;
-  text-align:center;
-  padding:30px 20px;
-}
-.header h1{margin:0;font-size:38px}.header p{margin:8px 0 0;color:#d1d5db}
+
 .container{width:92%;max-width:1150px;margin:28px auto}
 .info{background:white;padding:18px;border-radius:16px;box-shadow:0 5px 18px rgba(0,0,0,.08);margin-bottom:22px}
 .cats{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
@@ -31,104 +25,19 @@ body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f4f6;color:#1
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
 .card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.09)}
 .thumb{height:150px;display:flex;align-items:center;justify-content:center;font-size:27px;font-weight:900;color:white;text-align:center;padding:18px;background:linear-gradient(135deg,#2563eb,#7c3aed)}
-.card-content{padding:15px}.card h3{margin:0 0 8px;font-size:19px}.card p{margin:0 0 13px;color:#4b5563;line-height:1.45;font-size:14px}
+.card-content{padding:15px}
+.card h3{margin:0 0 8px;font-size:19px}
+.card p{margin:0 0 13px;color:#4b5563;line-height:1.45;font-size:14px}
 .tag{display:inline-block;background:#eff6ff;color:#1d4ed8;padding:5px 9px;border-radius:999px;font-size:12px;font-weight:700;margin-bottom:10px}
 .btn{border:0;background:#2563eb;color:white;padding:10px 15px;border-radius:10px;font-weight:800;cursor:pointer}
-.game{display:none;background:white;padding:18px;border-radius:18px;box-shadow:0 6px 20px rgba(0,0,0,.09);margin-bottom:25px}
-.game.active{display:block}.game-top{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:14px}
-.back{border:0;background:#111827;color:white;padding:10px 14px;border-radius:10px;font-weight:800;cursor:pointer}
-.frame{background:#000;border-radius:16px;overflow:hidden}iframe{width:100%;height:680px;border:0;display:block}
-.seo{margin-top:15px;color:#374151;line-height:1.6}.footer{text-align:center;color:#6b7280;padding:30px;font-size:14px}
-@media(max-width:700px){.header h1{font-size:30px}iframe{height:520px}.grid{grid-template-columns:1fr}}
+.footer{text-align:center;color:#6b7280;padding:30px;font-size:14px}
+
+@media(max-width:700px){
+.header img{
+width:220px;
+}
+.grid{
+grid-template-columns:1fr;
+}
+}
 </style>
-</head>
-<body>
-<header class="header">
-<img src="logo.png" alt="OyunKafe Logo">
-</header>
-  
-<main class="container">
-<section id="gameSection" class="game">
-<div class="game-top">
-<div>
-<h2 id="gameTitle"></h2>
-<p id="gameDesc"></p>
-</div>
-<button class="back" onclick="closeGame()">Oyunlara Dön</button>
-</div>
-<div class="frame"><iframe id="gameFrame" src="" allowfullscreen></iframe></div>
-<div class="seo" id="gameSeo"></div>
-</section>
-
-<section id="homeSection">
-<div class="info">
-<h2>Popüler Oyunlar</h2>
-<p>OyunKafe'de mobil ve bilgisayar uyumlu ücretsiz oyunları hemen oynayabilirsin.</p>
-<div id="categories" class="cats"></div>
-</div>
-<div id="gamesGrid" class="grid"></div>
-</section>
-</main>
-
-<footer class="footer">© 2026 OyunKafe - Ücretsiz Online Oyunlar</footer>
-
-<script>
-const games=[
-{id:"geometry-dash-maze-maps-v2",title:"Geometry Dash Maze Maps V2",category:"Parkour",embed:"https://html5.gamedistribution.com/bc4de39b3f9045cd920eb90cf14a8986/?gd_sdk_referrer_url=https://oyunkafe.com/#geometry-dash-maze-maps-v2",description:"Engellerden kaç, reflekslerini test et ve zorlu parkurları tamamla.",seo:"Geometry Dash Maze Maps V2, hızlı refleks isteyen eğlenceli bir parkour oyunudur. Mobilde ve bilgisayarda ücretsiz oynanabilir."},
-{id:"drift-boss",title:"Drift Boss",category:"Araba",embed:"https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/#drift-boss",description:"Virajlarda düşmeden ilerlemeye çalıştığın bağımlılık yapan drift oyunu.",seo:"Drift Boss, tek dokunuşla oynanan basit ama zorlayıcı bir araba oyunudur. Drift yap, virajları geç ve en yüksek skoru hedefle."},
-{id:"soccer-random",title:"Soccer Random",category:"Futbol",embed:"https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/#soccer-random",description:"Komik fizik motoruyla arkadaşınla veya bilgisayara karşı futbol maçı yap.",seo:"Soccer Random, eğlenceli ve hızlı oynanan bir futbol oyunudur. Komik hareketler, rastgele sahalar ve kısa maçlarla keyifli vakit geçir."}
-];
-
-let activeCategory="Tümü";
-
-function categories(){
-return ["Tümü",...new Set(games.map(g=>g.category))];
-}
-
-function renderCategories(){
-document.getElementById("categories").innerHTML=categories().map(c=>`<button class="cat ${c===activeCategory?"active":""}" onclick="setCategory('${c}')">${c}</button>`).join("");
-}
-
-function setCategory(c){
-activeCategory=c;
-renderCategories();
-renderGames();
-}
-
-function renderGames(){
-const filtered=activeCategory==="Tümü"?games:games.filter(g=>g.category===activeCategory);
-document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`
-<article class="card">
-<div class="thumb">${g.title}</div>
-<div class="card-content">
-<span class="tag">${g.category}</span>
-<h3>${g.title}</h3>
-<p>${g.description}</p>
-<button class="btn" onclick="openGame('${g.id}')">Oyna</button>
-</div>
-</article>`).join("");
-}
-
-function openGame(id){
-const g=games.find(x=>x.id===id);
-if(!g)return;
-document.getElementById("gameTitle").textContent=g.title;
-document.getElementById("gameDesc").textContent=g.description;
-document.getElementById("gameSeo").textContent=g.seo;
-document.getElementById("gameFrame").src=g.embed;
-document.getElementById("gameSection").classList.add("active");
-document.getElementById("homeSection").style.display="none";
-window.scrollTo({top:0,behavior:"smooth"});
-}
-
-function closeGame(){
-document.getElementById("gameFrame").src="";
-document.getElementById("gameSection").classList.remove("active");
-document.getElementById("homeSection").style.display="block";
-}
-
-renderCategories();
-renderGames();
-</script>
-</body>
-</html>
