@@ -185,7 +185,17 @@ function renderCategories(){document.getElementById("categories").innerHTML=cate
 function setCategory(c){activeCategory=c;renderCategories();renderGames();}
 function renderGames(){const filtered=activeCategory==="Tümü"?games:games.filter(g=>g.category===activeCategory);document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`<article class="card"><div class="thumb">${g.title}</div><div class="card-content"><span class="tag">${g.category}</span><h3>${g.title}</h3><p>${g.description}</p><button class="btn" onclick="openGame('${g.id}')">Oyna</button></div></article>`).join("");}
 function openGame(id){const g=games.find(x=>x.id===id);if(!g)return;document.getElementById("gameTitle").textContent=g.title;document.getElementById("gameDesc").textContent=g.description;document.getElementById("gameSeo").textContent=g.seo;document.getElementById("gameFrame").src=g.embed;document.getElementById("gameSection").classList.add("active");document.getElementById("homeSection").style.display="none";window.scrollTo({top:0,behavior:"smooth"});}
-function closeGame(){document.getElementById("gameFrame").src="";document.getElementById("gameSection").classList.remove("active");document.getElementById("homeSection").style.display="block";}
+function closeGame(){document.getElementById("gameFrame").src="";document.getElementById("gameSection").classList.remove("active");document.getElementById("homeSection").style.display="block";}function showPage(pageId){
+  document.getElementById("homeSection").style.display="none";
+  document.getElementById("gameSection").classList.remove("active");
+
+  document.getElementById("about").style.display="none";
+  document.getElementById("privacy").style.display="none";
+  document.getElementById("cookies").style.display="none";
+
+  document.getElementById(pageId).style.display="block";
+  window.scrollTo({top:0,behavior:"smooth"});
+}
 renderCategories();renderGames();
 </script>
 </body>
