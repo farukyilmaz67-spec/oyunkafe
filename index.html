@@ -3,26 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OyunKafe - Ücretsiz Online Oyunlar</title>
 <meta name="description" content="OyunKafe ücretsiz online oyunlar. Araba, futbol ve parkour oyunlarını hemen oyna.">
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f4f6;color:#111827}
+.navbar{background:#0b1220;color:white;display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 16px;position:sticky;top:0;z-index:20}
+.navbar button{border:0;background:#1f2937;color:white;padding:9px 13px;border-radius:999px;font-weight:700;cursor:pointer}
+.navbar button:hover{background:#2563eb}
 .header{
   background:linear-gradient(135deg,#111827,#1f2937);
   color:white;
   text-align:center;
-  padding:20px 20px;
+  padding:40px 20px;
 }
-
 .header img{
-  width:420px;
-  max-width:90%;
+  width:600px;
+  max-width:95%;
   height:auto;
   display:block;
-  margin:0 auto;
+  margin:0 auto 20px;
 }
 .container{width:92%;max-width:1150px;margin:28px auto}
 .info{background:white;padding:18px;border-radius:16px;box-shadow:0 5px 18px rgba(0,0,0,.08);margin-bottom:22px}
+.search-box{width:100%;padding:13px 15px;border:2px solid #e5e7eb;border-radius:12px;font-size:16px;margin:14px 0 6px}
+.page{display:none;background:white;padding:24px;border-radius:18px;box-shadow:0 6px 20px rgba(0,0,0,.09);line-height:1.7}
+.page.active{display:block}
+.page h2{margin-top:0}
+.page a{color:#2563eb;font-weight:700}
 .cats{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
 .cat{border:0;background:#e5e7eb;color:#111827;padding:9px 13px;border-radius:999px;cursor:pointer;font-weight:700}
 .cat.active{background:#2563eb;color:white}
@@ -40,27 +48,19 @@ body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f4f6;color:#1
 iframe{width:100%;height:680px;border:0;display:block}
 .seo{margin-top:15px;color:#374151;line-height:1.6}
 .footer{text-align:center;color:#6b7280;padding:30px;font-size:14px}
-@media(max-width:700px){
-  .header{
-    padding:26px 14px;
-  }
-
-  .header img{
-    width:360px;
-    max-width:95%;
-  }
-
-  iframe{
-    height:520px;
-  }
-
-  .grid{
-    grid-template-columns:1fr;
-  }
-}
+@media(max-width:700px){.header{padding:26px 14px}.header img{width:360px;max-width:95%}iframe{height:520px}.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
+
+<nav class="navbar">
+<button onclick="showPage('home')">Ana Sayfa</button>
+<button onclick="showPage('about')">Hakkımızda</button>
+<button onclick="showPage('contact')">İletişim</button>
+<button onclick="showPage('privacy')">Gizlilik Politikası</button>
+<button onclick="showPage('cookies')">Çerez Politikası</button>
+</nav>
+
 <header class="header">
 <img src="logo.png" alt="OyunKafe Logo">
 </header>
@@ -82,9 +82,44 @@ iframe{width:100%;height:680px;border:0;display:block}
 <div class="info">
 <h2>Popüler Oyunlar</h2>
 <p>OyunKafe'de mobil ve bilgisayar uyumlu ücretsiz oyunları hemen oynayabilirsin.</p>
+<input id="searchInput" class="search-box" type="text" placeholder="Oyun ara..." oninput="renderGames()">
 <div id="categories" class="cats"></div>
 </div>
 <div id="gamesGrid" class="grid"></div>
+</section>
+
+<section id="aboutPage" class="page">
+<h2>Hakkımızda</h2>
+<p>OyunKafe, MaveraGames tarafından geliştirilen ücretsiz online oyun platformudur.</p>
+<p>Amacımız, kullanıcılarımıza hızlı, güvenli ve eğlenceli bir oyun deneyimi sunmaktır. OyunKafe üzerinde araba, futbol, parkur, strateji, zeka, macera ve aksiyon kategorilerinde birçok oyunu ücretsiz olarak oynayabilirsiniz.</p>
+<p>Platformumuz düzenli olarak yeni oyunlarla güncellenmekte ve kullanıcı deneyimini geliştirmek için sürekli iyileştirilmektedir.</p>
+<p><strong>MaveraGames</strong> olarak oyuncuların kaliteli ve erişilebilir oyunlara kolayca ulaşabilmesini hedefliyoruz.</p>
+</section>
+
+<section id="contactPage" class="page">
+<h2>İletişim</h2>
+<p>OyunKafe ile ilgili görüş, öneri ve iş birlikleri için bizimle iletişime geçebilirsiniz.</p>
+<p><strong>E-posta:</strong> <a href="mailto:farukyilmaz67@gmail.com">farukyilmaz67@gmail.com</a></p>
+<p><strong>Şirket:</strong> MaveraGames</p>
+<p>Geri bildirimlerinizi memnuniyetle değerlendiriyoruz.</p>
+</section>
+
+<section id="privacyPage" class="page">
+<h2>Gizlilik Politikası</h2>
+<p>OyunKafe olarak ziyaretçilerimizin gizliliğine önem veriyoruz.</p>
+<p>Sitemizi ziyaret ettiğinizde bazı teknik veriler; IP adresi, tarayıcı bilgileri, cihaz türü ve ziyaret edilen sayfalar gibi bilgiler hizmet kalitesini artırmak amacıyla işlenebilir.</p>
+<p>OyunKafe kullanıcıların kişisel bilgilerini izinsiz olarak üçüncü kişilerle paylaşmaz.</p>
+<p>Sitemizde üçüncü taraf oyun sağlayıcıları, analiz araçları ve reklam hizmetleri kullanılabilir. Bu hizmetler kendi çerez ve gizlilik politikalarına sahip olabilir.</p>
+<p>Bu politikada zaman zaman güncelleme yapılabilir.</p>
+<p><strong>Son Güncelleme:</strong> 2026<br><strong>Şirket:</strong> MaveraGames</p>
+</section>
+
+<section id="cookiesPage" class="page">
+<h2>Çerez Politikası</h2>
+<p>OyunKafe, kullanıcı deneyimini geliştirmek, site performansını ölçmek ve ileride reklam hizmetleri sunmak amacıyla çerezlerden yararlanabilir.</p>
+<p>Çerezler, tarayıcınız aracılığıyla cihazınıza kaydedilen küçük veri dosyalarıdır. Bu dosyalar siteyi daha hızlı ve verimli kullanmanıza yardımcı olabilir.</p>
+<p>Tarayıcı ayarlarınızdan çerezleri silebilir veya engelleyebilirsiniz. Ancak bazı özellikler bu durumda beklenen şekilde çalışmayabilir.</p>
+<p>OyunKafe üzerinde üçüncü taraf oyun ve reklam sağlayıcıları da kendi çerezlerini kullanabilir.</p>
 </section>
 </main>
 
@@ -95,73 +130,16 @@ const games=[
 {id:"geometry-dash-maze-maps-v2",title:"Geometry Dash Maze Maps V2",category:"Parkour",embed:"https://html5.gamedistribution.com/bc4de39b3f9045cd920eb90cf14a8986/?gd_sdk_referrer_url=https://oyunkafe.com/#geometry-dash-maze-maps-v2",description:"Engellerden kaç, reflekslerini test et ve zorlu parkurları tamamla.",seo:"Geometry Dash Maze Maps V2, hızlı refleks isteyen eğlenceli bir parkour oyunudur. Mobilde ve bilgisayarda ücretsiz oynanabilir."},
 {id:"drift-boss",title:"Drift Boss",category:"Araba",embed:"https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/#drift-boss",description:"Virajlarda düşmeden ilerlemeye çalıştığın bağımlılık yapan drift oyunu.",seo:"Drift Boss, tek dokunuşla oynanan basit ama zorlayıcı bir araba oyunudur. Drift yap, virajları geç ve en yüksek skoru hedefle."},
 {id:"soccer-random",title:"Soccer Random",category:"Futbol",embed:"https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/#soccer-random",description:"Komik fizik motoruyla arkadaşınla veya bilgisayara karşı futbol maçı yap.",seo:"Soccer Random, eğlenceli ve hızlı oynanan bir futbol oyunudur. Komik hareketler, rastgele sahalar ve kısa maçlarla keyifli vakit geçir."}
-,
-{id:"parking-fury",title:"Parking Fury",category:"Araba",embed:"https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/#parking-fury",description:"Dar alanlarda park et ve sürüş becerilerini geliştir.",seo:"Parking Fury ücretsiz araba ve park etme oyunu."}
-
-,
-{id:"traffic-tour",title:"Traffic Tour",category:"Araba",embed:"https://html5.gamedistribution.com/ce3d2279ff684021a68b534e397f1122/?gd_sdk_referrer_url=https://oyunkafe.com/#traffic-tour",description:"Yoğun trafikte ilerle ve yüksek skor yap.",seo:"Traffic Tour ücretsiz trafik ve araba oyunu."}
-
-,
-{id:"football-legends",title:"Football Legends",category:"Futbol",embed:"https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/?gd_sdk_referrer_url=https://oyunkafe.com/#football-legends",description:"Efsane futbolcularla maç yap ve goller at.",seo:"Football Legends ücretsiz futbol oyunu."}
-
-,
-{id:"vex-8",title:"Vex 8",category:"Parkour",embed:"https://html5.gamedistribution.com/949009d40a2846f89f887de2285d6c28/?gd_sdk_referrer_url=https://oyunkafe.com/#vex-8",description:"Engelleri aş ve parkuru tamamla.",seo:"Vex 8 ücretsiz parkour oyunu."}
-
-,
-{id:"master-2048",title:"2048 Master",category:"Zeka",embed:"https://html5.gamedistribution.com/c51a61ffce8044a6b1333575047534f3/?gd_sdk_referrer_url=https://oyunkafe.com/#master-2048",description:"Sayıları birleştirerek 2048'e ulaş.",seo:"2048 Master ücretsiz zeka oyunu."},
-{id:"highway-racer",title:"Highway Racer",category:"Araba",embed:"https://html5.gamedistribution.com/324dda64aa2f48af9037e2c582bbfa3e/?gd_sdk_referrer_url=https://oyunkafe.com/#highway-racer",description:"Trafikte hız yap ve araçların arasından geç.",seo:"Highway Racer ücretsiz araba yarışı oyunu."}
-
-,
-{id:"head-soccer",title:"Head Soccer",category:"Futbol",embed:"https://html5.gamedistribution.com/4c6790dc7ba5480ba7c1b619bdefdd3f/?gd_sdk_referrer_url=https://oyunkafe.com/#head-soccer",description:"Kafayla gol at ve rakibini yen.",seo:"Head Soccer ücretsiz futbol oyunu."}
-
-,
-{id:"penalty-shooters-2",title:"Penalty Shooters 2",category:"Futbol",embed:"https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://oyunkafe.com/#penalty-shooters-2",description:"Penaltıları gole çevir ve kupayı kazan.",seo:"Penalty Shooters 2 ücretsiz penaltı oyunu."}
-
-,
-{id:"bubble-shooter",title:"Bubble Shooter",category:"Zeka",embed:"https://html5.gamedistribution.com/1561f24d736b4bf292e0ae33059f909f/?gd_sdk_referrer_url=https://oyunkafe.com/#bubble-shooter",description:"Renkli balonları eşleştir ve patlat.",seo:"Bubble Shooter ücretsiz balon patlatma oyunu."}
-
-,
-{id:"chess-3d-master",title:"3D Chess Master",category:"Strateji",embed:"https://html5.gamedistribution.com/d8dea5d83d1c4132a119fabedbc60bd6/?gd_sdk_referrer_url=https://oyunkafe.com/#chess-3d-master",description:"3 boyutlu satranç deneyimi ile stratejini göster.",seo:"3D Chess Master ücretsiz satranç oyunu."},
-{id:"vex-7",title:"Vex 7",category:"Parkour",embed:"https://html5.gamedistribution.com/0c454c9562d249d28ba3a2b50564042c/?gd_sdk_referrer_url=https://oyunkafe.com/#vex-7",description:"Zorlu engelleri aş ve parkurları tamamla.",seo:"Vex 7 ücretsiz parkour oyunu."}
-
-,
-{id:"parkour-block-3d",title:"Parkour Block 3D",category:"Parkour",embed:"https://html5.gamedistribution.com/1461d40bb77f48e6be72489959a1ac04/?gd_sdk_referrer_url=https://oyunkafe.com/#parkour-block-3d",description:"Bloklar üzerinde zıpla ve parkuru bitir.",seo:"Parkour Block 3D ücretsiz parkour oyunu."}
-
-,
-{id:"stickman-parkour",title:"Stickman Parkour",category:"Parkour",embed:"https://html5.gamedistribution.com/d62e52e09f574651b3b0e984846de630/?gd_sdk_referrer_url=https://oyunkafe.com/#stickman-parkour",description:"Stickman ile engelleri aş.",seo:"Stickman Parkour ücretsiz parkour oyunu."}
-
-,
-{id:"moto-x3m",title:"Moto X3M",category:"Motosiklet",embed:"https://html5.gamedistribution.com/8593f8d7add14ad398d9cece72ee7283/?gd_sdk_referrer_url=https://oyunkafe.com/#moto-x3m",description:"Akrobatik hareketlerle bitiş çizgisine ulaş.",seo:"Moto X3M ücretsiz motosiklet oyunu."}
-
-,
-{id:"moto-x3m-pool-party",title:"Moto X3M Pool Party",category:"Motosiklet",embed:"https://html5.gamedistribution.com/f804d079d19f44d3b951ead4588e974a/?gd_sdk_referrer_url=https://oyunkafe.com/#moto-x3m-pool-party",description:"Havuz temalı çılgın motosiklet parkurları.",seo:"Moto X3M Pool Party ücretsiz motosiklet oyunu."}
-
-,
-{id:"zombie-mission",title:"Zombie Mission",category:"Aksiyon",embed:"https://html5.gamedistribution.com/c183eb3362b54a719851c703bb630e48/?gd_sdk_referrer_url=https://oyunkafe.com/#zombie-mission",description:"Zombilere karşı mücadele et.",seo:"Zombie Mission ücretsiz aksiyon oyunu."}
-
-,
-{id:"stickman-fighter",title:"Stickman Fighter",category:"Aksiyon",embed:"https://html5.gamedistribution.com/7046351665d74300a257c6938e77bf36/?gd_sdk_referrer_url=https://oyunkafe.com/#stickman-fighter",description:"Dövüş ve rakiplerini yen.",seo:"Stickman Fighter ücretsiz aksiyon oyunu."}
-
-,
-{id:"mahjong-classic",title:"Mahjong Classic",category:"Zeka",embed:"https://html5.gamedistribution.com/4c4f11af25194527be18ac273ceb08c2/?gd_sdk_referrer_url=https://oyunkafe.com/#mahjong-classic",description:"Taşları eşleştir ve tahtayı temizle.",seo:"Mahjong Classic ücretsiz mahjong oyunu."}
-
-,
-{id:"cut-the-rope",title:"Cut The Rope",category:"Zeka",embed:"https://html5.gamedistribution.com/24becac37a04406c8f6c44c28513c09c/?gd_sdk_referrer_url=https://oyunkafe.com/#cut-the-rope",description:"İpi kes ve şekeri hedefe ulaştır.",seo:"Cut The Rope ücretsiz bulmaca oyunu."},
-{id:"fireboy-watergirl",title:"Fireboy and Watergirl",category:"Macera",embed:"https://html5.gamedistribution.com/d4a3629101574bc39bd8f9d1888ca58e/?gd_sdk_referrer_url=https://oyunkafe.com/#fireboy-watergirl",description:"Ateş ve Su karakterleriyle bulmacaları çöz ve bölümleri tamamla.",seo:"Fireboy and Watergirl ücretsiz macera ve bulmaca oyunu."}
-
-,
-{id:"chess-classic",title:"Chess Classic",category:"Strateji",embed:"https://html5.gamedistribution.com/b80ebde6ee1b4adfaa96398a4261db80/?gd_sdk_referrer_url=https://oyunkafe.com/#chess-classic",description:"Satranç becerilerini geliştir ve rakibini mat et.",seo:"Chess Classic ücretsiz satranç oyunu."}
-
-,
-{id:"backgammon",title:"Backgammon",category:"Masa Oyunları",embed:"https://html5.gamedistribution.com/fa95daec9bea4cfdb5dea1711919947c/?gd_sdk_referrer_url=https://oyunkafe.com/#backgammon",description:"Klasik tavla oyunu ile stratejini göster.",seo:"Backgammon ücretsiz tavla oyunu."}];
+];
 
 let activeCategory="Tümü";
 function categories(){return ["Tümü",...new Set(games.map(g=>g.category))];}
 function renderCategories(){document.getElementById("categories").innerHTML=categories().map(c=>`<button class="cat ${c===activeCategory?"active":""}" onclick="setCategory('${c}')">${c}</button>`).join("");}
 function setCategory(c){activeCategory=c;renderCategories();renderGames();}
-function renderGames(){const filtered=activeCategory==="Tümü"?games:games.filter(g=>g.category===activeCategory);document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`<article class="card"><div class="thumb">${g.title}</div><div class="card-content"><span class="tag">${g.category}</span><h3>${g.title}</h3><p>${g.description}</p><button class="btn" onclick="openGame('${g.id}')">Oyna</button></div></article>`).join("");}
+function renderGames(){const search=document.getElementById("searchInput")?document.getElementById("searchInput").value.toLowerCase():"";let filtered=activeCategory==="Tümü"?games:games.filter(g=>g.category===activeCategory);if(search){filtered=filtered.filter(g=>g.title.toLowerCase().includes(search)||g.category.toLowerCase().includes(search)||g.description.toLowerCase().includes(search));}document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`<article class="card"><div class="thumb">${g.title}</div><div class="card-content"><span class="tag">${g.category}</span><h3>${g.title}</h3><p>${g.description}</p><button class="btn" onclick="openGame('${g.id}')">Oyna</button></div></article>`).join("");}
 function openGame(id){const g=games.find(x=>x.id===id);if(!g)return;document.getElementById("gameTitle").textContent=g.title;document.getElementById("gameDesc").textContent=g.description;document.getElementById("gameSeo").textContent=g.seo;document.getElementById("gameFrame").src=g.embed;document.getElementById("gameSection").classList.add("active");document.getElementById("homeSection").style.display="none";window.scrollTo({top:0,behavior:"smooth"});}
 function closeGame(){document.getElementById("gameFrame").src="";document.getElementById("gameSection").classList.remove("active");document.getElementById("homeSection").style.display="block";}
+function showPage(page){closeGame();document.getElementById("homeSection").style.display=page==="home"?"block":"none";document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));if(page!=="home"){document.getElementById(page+"Page").classList.add("active");}window.scrollTo({top:0,behavior:"smooth"});}
 renderCategories();renderGames();
 </script>
 </body>
