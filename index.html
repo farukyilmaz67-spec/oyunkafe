@@ -489,11 +489,16 @@ function hideInfoPages(){
 }
 
 function showPage(pageId){
-  closeGame();
   document.getElementById("homeSection").style.display="none";
+  document.getElementById("gameSection").classList.remove("active");
+
   hideInfoPages();
 
-  document.getElementById(pageId).style.display="block";
+  const page = document.getElementById(pageId);
+  if(page){
+    page.style.display="block";
+  }
+
   window.scrollTo({top:0,behavior:"smooth"});
 }
 
