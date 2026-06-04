@@ -466,6 +466,15 @@ function hideInfoPages(){
   document.getElementById("cookies").style.display="none";
 }
 
+function showPage(pageId){
+  closeGame();
+  document.getElementById("homeSection").style.display="none";
+  hideInfoPages();
+
+  document.getElementById(pageId).style.display="block";
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
 renderCategories();
 renderGames();
 </script>
