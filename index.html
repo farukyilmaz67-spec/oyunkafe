@@ -466,12 +466,11 @@ function hideInfoPages(){
   document.getElementById("cookies").style.display="none";
 }
 
-function showPage(pageId){
-  closeGame();
-  document.getElementById("homeSection").style.display="none";
-  hideInfoPages();
-  document.getElementById(pageId).style.display="block";
-  window.scrollTo({top:0,behavior:"smooth"});
+function hideInfoPages(){
+  document.getElementById("about").style.display="none";
+  document.getElementById("contact").style.display="none";
+  document.getElementById("privacy").style.display="none";
+  document.getElementById("cookies").style.display="none";
 }
 
 renderCategories();
