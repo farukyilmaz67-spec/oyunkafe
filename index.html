@@ -3,141 +3,327 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="OyunKafe Ücretsiz Online Oyunlar. Araba, Futbol ve Parkour oyunlarını hemen oyna.">
+<title>OyunKafe - Ücretsiz Online Oyunlar</title>
+<meta name="description" content="OyunKafe ücretsiz online oyunlar. Araba, futbol, parkur, strateji, zeka ve macera oyunlarını hemen oyna.">
 <style>
+
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f4f6;color:#111827}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f3f4f6;
+  color:#111827;
+}
 .header{
   background:linear-gradient(135deg,#111827,#1f2937);
   color:white;
   text-align:center;
-  padding:20px 20px 25px;
+  padding:18px 20px 24px;
 }
-.container{width:92%;max-width:1150px;margin:28px auto}
-.info{background:white;padding:18px;border-radius:16px;box-shadow:0 5px 18px rgba(0,0,0,.08);margin-bottom:22px}
-.cats{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
-.cat{border:0;background:#e5e7eb;color:#111827;padding:9px 13px;border-radius:999px;cursor:pointer;font-weight:700}
-.cat.active{background:#2563eb;color:white}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
-.card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.09)}
-.thumb{height:150px;display:flex;align-items:center;justify-content:center;font-size:27px;font-weight:900;color:white;text-align:center;padding:18px;background:linear-gradient(135deg,#2563eb,#7c3aed)}
-.card-content{padding:15px}.card h3{margin:0 0 8px;font-size:19px}.card p{margin:0 0 13px;color:#4b5563;line-height:1.45;font-size:14px}
-.tag{display:inline-block;background:#eff6ff;color:#1d4ed8;padding:5px 9px;border-radius:999px;font-size:12px;font-weight:700;margin-bottom:10px}
-.btn{border:0;background:#2563eb;color:white;padding:10px 15px;border-radius:10px;font-weight:800;cursor:pointer}
-.game{display:none;background:white;padding:18px;border-radius:18px;box-shadow:0 6px 20px rgba(0,0,0,.09);margin-bottom:25px}
-.game.active{display:block}
-.game-top{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:14px}
-.back{border:0;background:#111827;color:white;padding:10px 14px;border-radius:10px;font-weight:800;cursor:pointer}
-.frame{background:#000;border-radius:16px;overflow:hidden}
-iframe{width:100%;height:680px;border:0;display:block}
-.seo{margin-top:15px;color:#374151;line-height:1.6}
-.footer{text-align:center;color:#6b7280;padding:30px;font-size:14px}
+.header img{
+  width:360px;
+  max-width:90%;
+  height:auto;
+  display:block;
+  margin:0 auto 8px;
+}
+.header h2{
+  margin:6px 0 8px;
+  font-size:30px;
+}
+.header p{
+  max-width:760px;
+  margin:8px auto;
+  font-size:18px;
+  color:#d1d5db;
+  line-height:1.5;
+}
+.hero-badges{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:16px;
+}
+.hero-badge{
+  padding:12px 18px;
+  border-radius:12px;
+  font-weight:bold;
+  color:white;
+}
+.container{
+  width:92%;
+  max-width:1150px;
+  margin:28px auto;
+}
+.info{
+  background:white;
+  padding:18px;
+  border-radius:16px;
+  box-shadow:0 5px 18px rgba(0,0,0,.08);
+  margin-bottom:22px;
+}
+.feature-tags{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:15px 0;
+}
+.cats{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:14px;
+}
+.cat{
+  border:0;
+  background:#e5e7eb;
+  color:#111827;
+  padding:9px 13px;
+  border-radius:999px;
+  cursor:pointer;
+  font-weight:700;
+}
+.cat.active{
+  background:#2563eb;
+  color:white;
+}
+.search-box{
+  width:100%;
+  padding:12px 15px;
+  margin:15px 0;
+  border:2px solid #e5e7eb;
+  border-radius:12px;
+  font-size:16px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:20px;
+}
+.card{
+  background:white;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 6px 20px rgba(0,0,0,.09);
+}
+.thumb{
+  height:150px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:27px;
+  font-weight:900;
+  color:white;
+  text-align:center;
+  padding:18px;
+  background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
+.card-content{
+  padding:15px;
+}
+.card h3{
+  margin:0 0 8px;
+  font-size:19px;
+}
+.card p{
+  margin:0 0 13px;
+  color:#4b5563;
+  line-height:1.45;
+  font-size:14px;
+}
+.tag{
+  display:inline-block;
+  background:#eff6ff;
+  color:#1d4ed8;
+  padding:5px 9px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+.btn{
+  border:0;
+  background:#2563eb;
+  color:white;
+  padding:10px 15px;
+  border-radius:10px;
+  font-weight:800;
+  cursor:pointer;
+}
+.game{
+  display:none;
+  background:white;
+  padding:18px;
+  border-radius:18px;
+  box-shadow:0 6px 20px rgba(0,0,0,.09);
+  margin-bottom:25px;
+}
+.game.active{
+  display:block;
+}
+.game-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:15px;
+  flex-wrap:wrap;
+  margin-bottom:14px;
+}
+.back{
+  border:0;
+  background:#111827;
+  color:white;
+  padding:10px 14px;
+  border-radius:10px;
+  font-weight:800;
+  cursor:pointer;
+}
+.frame{
+  background:#000;
+  border-radius:16px;
+  overflow:hidden;
+}
+iframe{
+  width:100%;
+  height:680px;
+  border:0;
+  display:block;
+}
+.seo{
+  margin-top:15px;
+  color:#374151;
+  line-height:1.6;
+}
+.info-page{
+  display:none;
+  background:white;
+  padding:24px;
+  border-radius:16px;
+  box-shadow:0 5px 18px rgba(0,0,0,.08);
+  margin-bottom:24px;
+  line-height:1.7;
+}
+.footer{
+  text-align:center;
+  color:#6b7280;
+  padding:30px;
+  font-size:14px;
+}
+.footer a{
+  color:#2563eb;
+  font-weight:700;
+  text-decoration:none;
+}
 @media(max-width:700px){
+  .header{
+    padding:14px 14px 20px;
+  }
   .header img{
     width:260px;
   }
-
+  .header h2{
+    font-size:23px;
+  }
+  .header p{
+    font-size:15px;
+  }
   iframe{
     height:520px;
   }
-
   .grid{
     grid-template-columns:1fr;
   }
 }
 
-<p style="max-width:700px;margin:8px auto;font-size:18px;color:#d1d5db;line-height:1.5;">
-Araba, futbol, parkur, strateji, zeka ve macera oyunlarını ücretsiz oynayın.
-OyunKafe'de 25'ten fazla oyun sizi bekliyor.
-</p>
+</style>
+</head>
 
-<div style="display:flex;justify-content:center;gap:15px;flex-wrap:wrap;margin-top:20px;">
+<body>
 
-<div style="background:#2563eb;padding:12px 18px;border-radius:12px;font-weight:bold;">
-🎮 25+ Oyun
-</div>
-
-<div style="background:#059669;padding:12px 18px;border-radius:12px;font-weight:bold;">
-📱 Mobil Uyumlu
-</div>
-
-<div style="background:#dc2626;padding:12px 18px;border-radius:12px;font-weight:bold;">
-⚡ Ücretsiz
-</div>
-
-<div style="background:#7c3aed;padding:12px 18px;border-radius:12px;font-weight:bold;">
-⭐ Sürekli Güncelleniyor
-</div>
-
-</div>
-
+<header class="header">
+  <img src="logo.png" alt="OyunKafe Logo">
+  <h2>🎮 Türkiye'nin Ücretsiz Online Oyun Platformu</h2>
+  <p>Araba, futbol, parkur, strateji, zeka ve macera oyunlarını ücretsiz oynayın. OyunKafe'de 25'ten fazla oyun sizi bekliyor.</p>
+  <div class="hero-badges">
+    <div class="hero-badge" style="background:#2563eb;">🎮 25+ Oyun</div>
+    <div class="hero-badge" style="background:#059669;">📱 Mobil Uyumlu</div>
+    <div class="hero-badge" style="background:#dc2626;">⚡ Ücretsiz</div>
+    <div class="hero-badge" style="background:#7c3aed;">⭐ Sürekli Güncelleniyor</div>
+  </div>
 </header>
 
-<section id="privacy" style="display:none;background:white;padding:20px;border-radius:16px;margin-top:20px;">
-<h2>Gizlilik Politikası</h2>
-<p>OyunKafe olarak ziyaretçilerimizin gizliliğine önem veriyoruz.</p>
-<p>Sitemizde üçüncü taraf oyun sağlayıcıları ve reklam hizmetleri kullanılabilir.</p>
-</section>
-
-<section id="cookies" style="display:none;background:white;padding:20px;border-radius:16px;margin-top:20px;">
-<h2>Çerez Politikası</h2>
-<p>OyunKafe, kullanıcı deneyimini geliştirmek ve site performansını ölçmek için çerezlerden yararlanabilir.</p>
-</section>
 <main class="container">
+
 <section id="gameSection" class="game">
-<div class="game-top">
-<div>
-<h2 id="gameTitle"></h2>
-<p id="gameDesc"></p>
-</div>
-<button class="back" onclick="closeGame()">Oyunlara Dön</button>
-</div>
-<div class="frame"><iframe id="gameFrame" src="" allowfullscreen></iframe></div>
-<div class="seo" id="gameSeo"></div>
+  <div class="game-top">
+    <div>
+      <h2 id="gameTitle"></h2>
+      <p id="gameDesc"></p>
+    </div>
+    <button class="back" onclick="closeGame()">Oyunlara Dön</button>
+  </div>
+  <div class="frame">
+    <iframe id="gameFrame" src="" allowfullscreen></iframe>
+  </div>
+  <div class="seo" id="gameSeo"></div>
 </section>
 
 <section id="homeSection">
-<div class="info">
-<h2>Popüler Oyunlar</h2>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:15px;">
-  <span class="tag">🔥 Drift Boss</span>
-  <span class="tag">🔥 Soccer Random</span>
-  <span class="tag">🔥 Moto X3M</span>
-  <span class="tag">🔥 Ateş ve Su</span>
-  <span class="tag">🔥 Chess Master</span>
-</div>
-  <h3 style="margin-top:20px;margin-bottom:10px;">🆕 Yeni Eklenen Oyunlar</h3>
-
-<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:15px;">
-  <span class="tag">🆕 Ateş ve Su</span>
-  <span class="tag">🆕 Tavla</span>
-  <span class="tag">🆕 3D Chess Master</span>
-  <span class="tag">🆕 Vex 8</span>
-  <span class="tag">🆕 Moto X3M</span>
-</div>
-<p>OyunKafe'de mobil ve bilgisayar uyumlu ücretsiz oyunları hemen oynayabilirsin.</p>
-<input
-id="searchInput"
-type="text"
-placeholder="🔍 Oyun ara..."
-onkeyup="renderGames()"
-style="width:100%;padding:12px 15px;margin:15px 0;border:2px solid #e5e7eb;border-radius:12px;font-size:16px;"
->  
-<div id="categories" class="cats"></div>
-</div>
-<div id="gamesGrid" class="grid"></div>
+  <div class="info">
+    <h2>Popüler Oyunlar</h2>
+    <div class="feature-tags">
+      <span class="tag">🔥 Drift Boss</span>
+      <span class="tag">🔥 Soccer Random</span>
+      <span class="tag">🔥 Moto X3M</span>
+      <span class="tag">🔥 Ateş ve Su</span>
+      <span class="tag">🔥 Chess Master</span>
+    </div>
+    <h3 style="margin-top:20px;margin-bottom:10px;">🆕 Yeni Eklenen Oyunlar</h3>
+    <div class="feature-tags">
+      <span class="tag">🆕 Ateş ve Su</span>
+      <span class="tag">🆕 Tavla</span>
+      <span class="tag">🆕 3D Chess Master</span>
+      <span class="tag">🆕 Vex 8</span>
+      <span class="tag">🆕 Moto X3M</span>
+    </div>
+    <p>OyunKafe'de mobil ve bilgisayar uyumlu ücretsiz oyunları hemen oynayabilirsin.</p>
+    <input id="searchInput" class="search-box" type="text" placeholder="🔍 Oyun ara..." onkeyup="renderGames()">
+    <div id="categories" class="cats"></div>
+  </div>
+  <div id="gamesGrid" class="grid"></div>
 </section>
+
+<section id="about" class="info-page">
+  <h2>Hakkımızda</h2>
+  <p>OyunKafe, MaveraGames tarafından geliştirilen ücretsiz online oyun platformudur.</p>
+  <p>Amacımız, kullanıcılarımıza hızlı, güvenli ve eğlenceli bir oyun deneyimi sunmaktır.</p>
+  <p>OyunKafe üzerinde araba, futbol, parkur, strateji, zeka, macera ve aksiyon kategorilerinde birçok oyunu ücretsiz olarak oynayabilirsiniz.</p>
+</section>
+
+<section id="privacy" class="info-page">
+  <h2>Gizlilik Politikası</h2>
+  <p>OyunKafe olarak ziyaretçilerimizin gizliliğine önem veriyoruz.</p>
+  <p>Sitemizi ziyaret ettiğinizde bazı teknik veriler hizmet kalitesini artırmak amacıyla işlenebilir.</p>
+  <p>Sitemizde üçüncü taraf oyun sağlayıcıları ve reklam hizmetleri kullanılabilir. Bu hizmetler kendi çerez ve gizlilik politikalarına sahip olabilir.</p>
+</section>
+
+<section id="cookies" class="info-page">
+  <h2>Çerez Politikası</h2>
+  <p>OyunKafe, kullanıcı deneyimini geliştirmek ve site performansını ölçmek için çerezlerden yararlanabilir.</p>
+  <p>Tarayıcı ayarlarınızdan çerezleri silebilir veya engelleyebilirsiniz.</p>
+</section>
+
 </main>
 
 <footer class="footer">
-<p>© 2026 OyunKafe - Ücretsiz Online Oyunlar</p>
-
-<p>
-<a href="javascript:void(0)" onclick="showPage('about')">Hakkımızda</a> |
-<a href="mailto:farukyilmaz67@gmail.com">İletişim</a> |
-<a href="#" onclick="showPage('privacy')">Gizlilik Politikası</a> |
-<a href="#" onclick="showPage('cookies')">Çerez Politikası</a>
-</p>
+  <p>© 2026 OyunKafe - Ücretsiz Online Oyunlar</p>
+  <p>
+    <a href="javascript:void(0)" onclick="showPage('about')">Hakkımızda</a> |
+    <a href="mailto:farukyilmaz67@gmail.com">İletişim</a> |
+    <a href="javascript:void(0)" onclick="showPage('privacy')">Gizlilik Politikası</a> |
+    <a href="javascript:void(0)" onclick="showPage('cookies')">Çerez Politikası</a>
+  </p>
 </footer>
 
 <script>
@@ -203,58 +389,87 @@ const games=[
 {id:"chess-classic",title:"Chess Classic",category:"Strateji",embed:"https://html5.gamedistribution.com/b80ebde6ee1b4adfaa96398a4261db80/?gd_sdk_referrer_url=https://oyunkafe.com/#chess-classic",description:"Satranç becerilerini geliştir ve rakibini mat et.",seo:"Chess Classic ücretsiz satranç oyunu."}
 
 ,
-{id:"backgammon",title:"Backgammon",category:"Masa Oyunları",embed:"https://html5.gamedistribution.com/fa95daec9bea4cfdb5dea1711919947c/?gd_sdk_referrer_url=https://oyunkafe.com/#backgammon",description:"Klasik tavla oyunu ile stratejini göster.",seo:"Backgammon ücretsiz tavla oyunu."}];
+{id:"backgammon",title:"Backgammon",category:"Masa Oyunları",embed:"https://html5.gamedistribution.com/fa95daec9bea4cfdb5dea1711919947c/?gd_sdk_referrer_url=https://oyunkafe.com/#backgammon",description:"Klasik tavla oyunu ile stratejini göster.",seo:"Backgammon ücretsiz tavla oyunu."}
+];
 
 let activeCategory="Tümü";
-function categories(){return ["Tümü",...new Set(games.map(g=>g.category))];}
-function renderCategories(){document.getElementById("categories").innerHTML=categories().map(c=>`<button class="cat ${c===activeCategory?"active":""}" onclick="setCategory('${c}')">${c}</button>`).join("");}
-function setCategory(c){activeCategory=c;renderCategories();renderGames();}
+
+function categories(){
+  return ["Tümü",...new Set(games.map(g=>g.category))];
+}
+
+function renderCategories(){
+  document.getElementById("categories").innerHTML=categories().map(c=>`<button class="cat ${c===activeCategory?"active":""}" onclick="setCategory('${c}')">${c}</button>`).join("");
+}
+
+function setCategory(c){
+  activeCategory=c;
+  renderCategories();
+  renderGames();
+}
+
 function renderGames(){
+  const search=document.getElementById("searchInput") ? document.getElementById("searchInput").value.toLowerCase() : "";
 
-const search=document.getElementById("searchInput")
-? document.getElementById("searchInput").value.toLowerCase()
-: "";
+  let filtered=activeCategory==="Tümü" ? games : games.filter(g=>g.category===activeCategory);
 
-let filtered=
-activeCategory==="Tümü"
-? games
-: games.filter(g=>g.category===activeCategory);
+  if(search){
+    filtered=filtered.filter(g=>
+      g.title.toLowerCase().includes(search) ||
+      g.category.toLowerCase().includes(search) ||
+      g.description.toLowerCase().includes(search)
+    );
+  }
 
-if(search){
-filtered=filtered.filter(g=>
-g.title.toLowerCase().includes(search) ||
-g.category.toLowerCase().includes(search) ||
-g.description.toLowerCase().includes(search)
-);
+  document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`
+    <article class="card">
+      <div class="thumb">${g.title}</div>
+      <div class="card-content">
+        <span class="tag">${g.category}</span>
+        <h3>${g.title}</h3>
+        <p>${g.description}</p>
+        <button class="btn" onclick="openGame('${g.id}')">Oyna</button>
+      </div>
+    </article>
+  `).join("");
 }
 
-document.getElementById("gamesGrid").innerHTML=
-filtered.map(g=>`
-<article class="card">
-<div class="thumb">${g.title}</div>
-<div class="card-content">
-<span class="tag">${g.category}</span>
-<h3>${g.title}</h3>
-<p>${g.description}</p>
-<button class="btn" onclick="openGame('${g.id}')">Oyna</button>
-</div>
-</article>
-`).join("");
-
-}
-function openGame(id){const g=games.find(x=>x.id===id);if(!g)return;document.getElementById("gameTitle").textContent=g.title;document.getElementById("gameDesc").textContent=g.description;document.getElementById("gameSeo").textContent=g.seo;document.getElementById("gameFrame").src=g.embed;document.getElementById("gameSection").classList.add("active");document.getElementById("homeSection").style.display="none";window.scrollTo({top:0,behavior:"smooth"});}
-function closeGame(){document.getElementById("gameFrame").src="";document.getElementById("gameSection").classList.remove("active");document.getElementById("homeSection").style.display="block";}function showPage(pageId){
+function openGame(id){
+  const g=games.find(x=>x.id===id);
+  if(!g)return;
+  hideInfoPages();
+  document.getElementById("gameTitle").textContent=g.title;
+  document.getElementById("gameDesc").textContent=g.description;
+  document.getElementById("gameSeo").textContent=g.seo;
+  document.getElementById("gameFrame").src=g.embed;
+  document.getElementById("gameSection").classList.add("active");
   document.getElementById("homeSection").style.display="none";
-  document.getElementById("gameSection").classList.remove("active");
+  window.scrollTo({top:0,behavior:"smooth"});
+}
 
+function closeGame(){
+  document.getElementById("gameFrame").src="";
+  document.getElementById("gameSection").classList.remove("active");
+  document.getElementById("homeSection").style.display="block";
+}
+
+function hideInfoPages(){
   document.getElementById("about").style.display="none";
   document.getElementById("privacy").style.display="none";
   document.getElementById("cookies").style.display="none";
+}
 
+function showPage(pageId){
+  closeGame();
+  document.getElementById("homeSection").style.display="none";
+  hideInfoPages();
   document.getElementById(pageId).style.display="block";
   window.scrollTo({top:0,behavior:"smooth"});
 }
-renderCategories();renderGames();
+
+renderCategories();
+renderGames();
 </script>
+
 </body>
 </html>
