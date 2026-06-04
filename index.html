@@ -97,6 +97,13 @@ iframe{width:100%;height:680px;border:0;display:block}
 <div class="info">
 <h2>Popüler Oyunlar</h2>
 <p>OyunKafe'de mobil ve bilgisayar uyumlu ücretsiz oyunları hemen oynayabilirsin.</p>
+<input
+id="searchInput"
+type="text"
+placeholder="🔍 Oyun ara..."
+onkeyup="renderGames()"
+style="width:100%;padding:12px 15px;margin:15px 0;border:2px solid #e5e7eb;border-radius:12px;font-size:16px;"
+>  
 <div id="categories" class="cats"></div>
 </div>
 <div id="gamesGrid" class="grid"></div>
