@@ -329,10 +329,31 @@ function renderCategories(){
   document.getElementById("categories").innerHTML=categories().map(c=>`<button class="cat ${c===activeCategory?"active":""}" onclick="setCategory('${c}')">${c}</button>`).join("");
 }
 
-function setCategory(c){
-  activeCategory=c;
-  renderCategories();
-  renderGames();
+function renderGames(){
+  const search=document.getElementById("searchInput") ? document.getElementById("searchInput").value.toLowerCase() : "";
+  let filtered=activeCategory==="Tümü" ? games : games.filter(g=>g.category===activeCategory);
+
+  if(search){
+    filtered=filtered.filter(g=>
+      g.title.toLowerCase().includes(search) ||
+      g.category.toLowerCase().includes(search) ||
+      g.description.toLowerCase().includes(search)
+    );
+  }
+
+  document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`
+    <article class="card">
+      <div class="thumb" style="${g.thumb ? `background-image:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),url('${g.thumb}')` : ''}">
+        ${g.thumb ? "" : g.title}
+      </div>
+      <div class="card-content">
+        <span class="tag">${g.category}</span>
+        <h3>${g.title}</h3>
+        <p>${g.description}</p>
+        <button class="btn" onclick="openGame('${g.id}')">Oyna</button>
+      </div>
+    </article>
+  `).join("");
 }
 
 function renderGames(){
