@@ -385,7 +385,9 @@ function renderGames(){
 
   document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`
     <article class="card">
-      <div class="thumb">${g.title}</div>
+      <div class="thumb">
+  <img src="${g.thumb}" alt="${g.title}">
+</div>
       <div class="card-content">
         <span class="tag">${g.category}</span>
         <h3>${g.title}</h3>
