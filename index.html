@@ -371,18 +371,6 @@ function renderGames(){
   `).join("");
 }
 
-function renderGames(){
-  const search=document.getElementById("searchInput") ? document.getElementById("searchInput").value.toLowerCase() : "";
-  let filtered=activeCategory==="Tümü" ? games : games.filter(g=>g.category===activeCategory);
-
-  if(search){
-    filtered=filtered.filter(g=>
-      g.title.toLowerCase().includes(search) ||
-      g.category.toLowerCase().includes(search) ||
-      g.description.toLowerCase().includes(search)
-    );
-  }
-
   document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`
     <article class="card">
       <div class="thumb">
