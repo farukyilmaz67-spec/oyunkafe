@@ -5,7 +5,7 @@ return await res.json();
 
 function card(game){
 return `<div class="card">
-<img src="${game.thumb}">
+<img src="${game.thumb}" alt="${game.title}" onerror="this.style.display='none'">
 <div class="card-content">
 <h3>${game.title}</h3>
 <p>${game.description}</p>
