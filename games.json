@@ -13,11 +13,11 @@
     "id":"drift-boss",
     "title":"Drift Boss",
     "category":"Araba",
-    "thumb":"https://placehold.co/600x400?text=Drift+Boss",
+    "thumb":"images/drift-boss.jpg",
     "embed":"https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=drift-boss",
     "description":"Virajlarda düşmeden ilerlemeye çalıştığın bağımlılık yapan refleks ve drift oyunu.",
     "seo":"Drift Boss oyna, ücretsiz araba ve drift oyunu."
-  },
+},
 
   {
     "id":"soccer-random",
