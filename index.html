@@ -359,6 +359,21 @@ function renderGames(){
 
   document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`
     <article class="card">
+      <div class="thumb" style="${g.thumb ? `background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url('${g.thumb}')` : ''}">
+        ${g.thumb ? "" : g.title}
+      </div>
+      <div class="card-content">
+        <span class="tag">${g.category}</span>
+        <h3>${g.title}</h3>
+        <p>${g.description}</p>
+        <button class="btn" onclick="openGame('${g.id}')">Oyna</button>
+      </div>
+    </article>
+  `).join("");
+}
+
+  document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`
+    <article class="card">
       <div class="thumb" style="${g.thumb ? `background-image:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),url('${g.thumb}')` : ''}">
         ${g.thumb ? "" : g.title}
       </div>
