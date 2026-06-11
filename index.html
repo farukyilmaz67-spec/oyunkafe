@@ -183,58 +183,24 @@ iframe{width:100%;height:680px;border:0;display:block}
 const games=[
 {id:"geometry-dash-maze-maps-v2",title:"Geometry Dash Maze Maps V2",category:"Parkour",thumb:"https://www.oyunkafe.com/geometry-dash-maze-v2.jpg",embed:"https://html5.gamedistribution.com/bc4de39b3f9045cd920eb90cf14a8986/?gd_sdk_referrer_url=https://oyunkafe.com/#geometry-dash-maze-maps-v2",description:"Engellerden kaç, reflekslerini test et ve zorlu parkurları tamamla.",seo:"Geometry Dash Maze Maps V2, hızlı refleks isteyen eğlenceli bir parkour oyunudur. Mobilde ve bilgisayarda ücretsiz oynanabilir."},
 {id:"drift-boss",title:"Drift Boss",category:"Araba",thumb:"https://www.oyunkafe.com/drift-boss.jpg",embed:"https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/#drift-boss",description:"Virajlarda düşmeden ilerlemeye çalıştığın bağımlılık yapan drift oyunu.",seo:"Drift Boss, tek dokunuşla oynanan basit ama zorlayıcı bir araba oyunudur. Drift yap, virajları geç ve en yüksek skoru hedefle."},
-{id:"soccer-random",title:"Soccer Random",category:"Futbol",thumb:"https://www.oyunkafe.com/soccer-random.jpg",embed:"https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/#soccer-random",description:"Komik fizik motoruyla arkadaşınla veya bilgisayara karşı futbol maçı yap.",seo:"Soccer Random, eğlenceli ve hızlı oynanan bir futbol oyunudur. Komik hareketler, rastgele sahalar ve kısa maçlarla keyifli vakit geçir."}
-,
-{id:"parking-fury",title:"Parking Fury",category:"Araba",thumb:"https://www.oyunkafe.com/parking-fury.jpg",embed:"https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/#parking-fury",description:"Dar alanlarda park et ve sürüş becerilerini geliştir.",seo:"Parking Fury ücretsiz araba ve park etme oyunu."}
-
-,
-{id:"traffic-tour",title:"Traffic Tour",category:"Araba",thumb:"https://www.oyunkafe.com/traffic-tour.jpg",embed:"https://html5.gamedistribution.com/ce3d2279ff684021a68b534e397f1122/?gd_sdk_referrer_url=https://oyunkafe.com/#traffic-tour",description:"Yoğun trafikte ilerle ve yüksek skor yap.",seo:"Traffic Tour ücretsiz trafik ve araba oyunu."}
-
-,
-{id:"football-legends",title:"Football Legends",category:"Futbol",thumb:"https://www.oyunkafe.com/football-legends.jpg",embed:"https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/?gd_sdk_referrer_url=https://oyunkafe.com/#football-legends",description:"Efsane futbolcularla maç yap ve goller at.",seo:"Football Legends ücretsiz futbol oyunu."}
-
-,
-{id:"vex-8",title:"Vex 8",category:"Parkour",thumb:"https://www.oyunkafe.com/vex8.jpg",embed:"https://html5.gamedistribution.com/949009d40a2846f89f887de2285d6c28/?gd_sdk_referrer_url=https://oyunkafe.com/#vex-8",description:"Engelleri aş ve parkuru tamamla.",seo:"Vex 8 ücretsiz parkour oyunu."}
-
-,
+{id:"soccer-random",title:"Soccer Random",category:"Futbol",thumb:"https://www.oyunkafe.com/soccer-random.jpg",embed:"https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/#soccer-random",description:"Komik fizik motoruyla arkadaşınla veya bilgisayara karşı futbol maçı yap.",seo:"Soccer Random, eğlenceli ve hızlı oynanan bir futbol oyunudur. Komik hareketler, rastgele sahalar ve kısa maçlarla keyifli vakit geçir."},
+{id:"parking-fury",title:"Parking Fury",category:"Araba",thumb:"https://www.oyunkafe.com/parking-fury.jpg",embed:"https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/#parking-fury",description:"Dar alanlarda park et ve sürüş becerilerini geliştir.",seo:"Parking Fury ücretsiz araba ve park etme oyunu."},
+{id:"traffic-tour",title:"Traffic Tour",category:"Araba",thumb:"https://www.oyunkafe.com/traffic-tour.jpg",embed:"https://html5.gamedistribution.com/ce3d2279ff684021a68b534e397f1122/?gd_sdk_referrer_url=https://oyunkafe.com/#traffic-tour",description:"Yoğun trafikte ilerle ve yüksek skor yap.",seo:"Traffic Tour ücretsiz trafik ve araba oyunu."},
+{id:"football-legends",title:"Football Legends",category:"Futbol",thumb:"https://www.oyunkafe.com/football-legends.jpg",embed:"https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/?gd_sdk_referrer_url=https://oyunkafe.com/#football-legends",description:"Efsane futbolcularla maç yap ve goller at.",seo:"Football Legends ücretsiz futbol oyunu."},
+{id:"vex-8",title:"Vex 8",category:"Parkour",thumb:"https://www.oyunkafe.com/vex8.jpg",embed:"https://html5.gamedistribution.com/949009d40a2846f89f887de2285d6c28/?gd_sdk_referrer_url=https://oyunkafe.com/#vex-8",description:"Engelleri aş ve parkuru tamamla.",seo:"Vex 8 ücretsiz parkour oyunu."},
 {id:"master-2048",title:"2048 Master",category:"Zeka",thumb:"https://www.oyunkafe.com/master-2048.jpg",embed:"https://html5.gamedistribution.com/c51a61ffce8044a6b1333575047534f3/?gd_sdk_referrer_url=https://oyunkafe.com/#master-2048",description:"Sayıları birleştirerek 2048'e ulaş.",seo:"2048 Master ücretsiz zeka oyunu."},
-{id:"highway-racer",title:"Highway Racer",category:"Araba",thumb:"https://www.oyunkafe.com/highway-racer.jpg",embed:"https://html5.gamedistribution.com/324dda64aa2f48af9037e2c582bbfa3e/?gd_sdk_referrer_url=https://oyunkafe.com/#highway-racer",description:"Trafikte hız yap ve araçların arasından geç.",seo:"Highway Racer ücretsiz araba yarışı oyunu."}
-
-,
-{id:"head-soccer",title:"Head Soccer",category:"Futbol",thumb:"https://www.oyunkafe.com/head-soccer.jpg",embed:"https://html5.gamedistribution.com/4c6790dc7ba5480ba7c1b619bdefdd3f/?gd_sdk_referrer_url=https://oyunkafe.com/#head-soccer",description:"Kafayla gol at ve rakibini yen.",seo:"Head Soccer ücretsiz futbol oyunu."}
-
-,
-{id:"penalty-shooters-2",title:"Penalty Shooters 2",category:"Futbol",thumb:"https://www.oyunkafe.com/penalty-shooters-2.jpg",embed:"https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://oyunkafe.com/#penalty-shooters-2",description:"Penaltıları gole çevir ve kupayı kazan.",seo:"Penalty Shooters 2 ücretsiz penaltı oyunu."}
-
-,
-{id:"bubble-shooter",title:"Bubble Shooter",category:"Zeka",thumb:"https://www.oyunkafe.com/bubble-shooter.jpg",embed:"https://html5.gamedistribution.com/1561f24d736b4bf292e0ae33059f909f/?gd_sdk_referrer_url=https://oyunkafe.com/#bubble-shooter",description:"Renkli balonları eşleştir ve patlat.",seo:"Bubble Shooter ücretsiz balon patlatma oyunu."}
-
-,
+{id:"highway-racer",title:"Highway Racer",category:"Araba",thumb:"https://www.oyunkafe.com/highway-racer.jpg",embed:"https://html5.gamedistribution.com/324dda64aa2f48af9037e2c582bbfa3e/?gd_sdk_referrer_url=https://oyunkafe.com/#highway-racer",description:"Trafikte hız yap ve araçların arasından geç.",seo:"Highway Racer ücretsiz araba yarışı oyunu."},
+{id:"head-soccer",title:"Head Soccer",category:"Futbol",thumb:"https://www.oyunkafe.com/head-soccer.jpg",embed:"https://html5.gamedistribution.com/4c6790dc7ba5480ba7c1b619bdefdd3f/?gd_sdk_referrer_url=https://oyunkafe.com/#head-soccer",description:"Kafayla gol at ve rakibini yen.",seo:"Head Soccer ücretsiz futbol oyunu."},
+{id:"penalty-shooters-2",title:"Penalty Shooters 2",category:"Futbol",thumb:"https://www.oyunkafe.com/penalty-shooters-2.jpg",embed:"https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://oyunkafe.com/#penalty-shooters-2",description:"Penaltıları gole çevir ve kupayı kazan.",seo:"Penalty Shooters 2 ücretsiz penaltı oyunu."},
+{id:"bubble-shooter",title:"Bubble Shooter",category:"Zeka",thumb:"https://www.oyunkafe.com/bubble-shooter.jpg",embed:"https://html5.gamedistribution.com/1561f24d736b4bf292e0ae33059f909f/?gd_sdk_referrer_url=https://oyunkafe.com/#bubble-shooter",description:"Renkli balonları eşleştir ve patlat.",seo:"Bubble Shooter ücretsiz balon patlatma oyunu."},
 {id:"chess-3d-master",title:"3D Chess Master",category:"Strateji",thumb:"https://www.oyunkafe.com/chess-3d-master.jpg",embed:"https://html5.gamedistribution.com/d8dea5d83d1c4132a119fabedbc60bd6/?gd_sdk_referrer_url=https://oyunkafe.com/#chess-3d-master",description:"3 boyutlu satranç deneyimi ile stratejini göster.",seo:"3D Chess Master ücretsiz satranç oyunu."},
-{id:"vex-7",title:"Vex 7",category:"Parkour",thumb:"https://www.oyunkafe.com/vex7.jpg",embed:"https://html5.gamedistribution.com/0c454c9562d249d28ba3a2b50564042c/?gd_sdk_referrer_url=https://oyunkafe.com/#vex-7",description:"Zorlu engelleri aş ve parkurları tamamla.",seo:"Vex 7 ücretsiz parkour oyunu."}
-
-,
-{id:"parkour-block-3d",title:"Parkour Block 3D",category:"Parkour",thumb:"https://www.oyunkafe.com/parkour-block-3d.jpg",embed:"https://html5.gamedistribution.com/1461d40bb77f48e6be72489959a1ac04/?gd_sdk_referrer_url=https://oyunkafe.com/#parkour-block-3d",description:"Bloklar üzerinde zıpla ve parkuru bitir.",seo:"Parkour Block 3D ücretsiz parkour oyunu."}
-
-,
-{id:"stickman-parkour",title:"Stickman Parkour",category:"Parkour",thumb:"https://www.oyunkafe.com/stickman-parkour.jpg",embed:"https://html5.gamedistribution.com/d62e52e09f574651b3b0e984846de630/?gd_sdk_referrer_url=https://oyunkafe.com/#stickman-parkour",description:"Stickman ile engelleri aş.",seo:"Stickman Parkour ücretsiz parkour oyunu."}
-
-,
-{id:"moto-x3m",title:"Moto X3M",category:"Motosiklet",thumb:"https://www.oyunkafe.com/moto-x3m.jpg",embed:"https://html5.gamedistribution.com/8593f8d7add14ad398d9cece72ee7283/?gd_sdk_referrer_url=https://oyunkafe.com/#moto-x3m",description:"Akrobatik hareketlerle bitiş çizgisine ulaş.",seo:"Moto X3M ücretsiz motosiklet oyunu."}
-id:"backgammon",title:"Backgammon",category:"Strateji",thumb:"https://www.oyunkafe.com/backgammon.jpg",embed:"...",description:"...",seo:"..."}
-,
+{id:"vex-7",title:"Vex 7",category:"Parkour",thumb:"https://www.oyunkafe.com/vex7.jpg",embed:"https://html5.gamedistribution.com/0c454c9562d249d28ba3a2b50564042c/?gd_sdk_referrer_url=https://oyunkafe.com/#vex-7",description:"Zorlu engelleri aş ve parkurları tamamla.",seo:"Vex 7 ücretsiz parkour oyunu."},
+{id:"parkour-block-3d",title:"Parkour Block 3D",category:"Parkour",thumb:"https://www.oyunkafe.com/parkour-block-3d.jpg",embed:"https://html5.gamedistribution.com/1461d40bb77f48e6be72489959a1ac04/?gd_sdk_referrer_url=https://oyunkafe.com/#parkour-block-3d",description:"Bloklar üzerinde zıpla ve parkuru bitir.",seo:"Parkour Block 3D ücretsiz parkour oyunu."},
+{id:"stickman-parkour",title:"Stickman Parkour",category:"Parkour",thumb:"https://www.oyunkafe.com/stickman-parkour.jpg",embed:"https://html5.gamedistribution.com/d62e52e09f574651b3b0e984846de630/?gd_sdk_referrer_url=https://oyunkafe.com/#stickman-parkour",description:"Stickman ile engelleri aş.",seo:"Stickman Parkour ücretsiz parkour oyunu."},
+{id:"moto-x3m",title:"Moto X3M",category:"Motosiklet",thumb:"https://www.oyunkafe.com/moto-x3m.jpg",embed:"https://html5.gamedistribution.com/8593f8d7add14ad398d9cece72ee7283/?gd_sdk_referrer_url=https://oyunkafe.com/#moto-x3m",description:"Akrobatik hareketlerle bitiş çizgisine ulaş.",seo:"Moto X3M ücretsiz motosiklet oyunu."},
 {id:"game27",title:"Stickman Hook",category:"Parkour",thumb:"https://www.oyunkafe.com/stickman-hook.jpg",embed:"https://html5.gamedistribution.com/599e07f9ed074845aa099aed24b9006c/",description:"İplerle sallanarak engelleri aş.",seo:"Stickman Hook oyununu ücretsiz oyna."},
-
-,
-
-{
-id:"game34",
-title:"Subway Runner",
-category:"Macera",
-description:"Koş, altınları topla ve engelleri aş.",
-seo:"Subway Runner oyununu ücretsiz oyna.",
-embed:"https://html5.gamedistribution.com/2ccf176ff7c34c93951cf4995589f787/"
-}];
+{id:"game34",title:"Subway Runner",category:"Macera",thumb:"https://www.oyunkafe.com/subway-runner.jpg",embed:"https://html5.gamedistribution.com/2ccf176ff7c34c93951cf4995589f787/",description:"Koş, altınları topla ve engelleri aş.",seo:"Subway Runner oyununu ücretsiz oyna."}
+];
 
 let activeCategory="Tümü";
 
