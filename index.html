@@ -281,6 +281,11 @@ function showPage(pageId){
 }
 
 renderCategories();
+  function setCategory(cat){
+  activeCategory=cat;
+  renderCategories();
+  renderGames();
+}
 renderGames();
 </script>
 
