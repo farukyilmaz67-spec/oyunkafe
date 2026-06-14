@@ -37,3 +37,12 @@
   "description":"Dar alanlara aracını çarpmadan park etmeye çalıştığın eğlenceli araba oyunu.",
   "seo":"Parking Fury oyna, ücretsiz araba ve park etme oyunu."
 }
+{
+ id:"car-factory-for-kids",
+ title:"Car Factory For Kids",
+ category:"Araba",
+ thumb:"https://www.oyunkafe.com/car-factory-for-kids.jpg",
+ embed:"https://html5.gamedistribution.com/e35a1c652fcb47ec9b331a97d4704c33/",
+ description:"Kendi araba fabrikanı yönet, araçları üret ve eğlenceli görevleri tamamla.",
+ seo:"Car Factory For Kids, çocuklar için eğlenceli bir araba üretim oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
+},
