@@ -921,3 +921,71 @@ grid-template-columns:1fr;
 }
 
 }
+/* Ana sayfa öne çıkan oyun kartları */
+
+.featured-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:18px;
+}
+
+
+.feature-card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+cursor:pointer;
+box-shadow:0 4px 15px rgba(0,0,0,.12);
+transition:.25s;
+}
+
+
+.feature-card:hover{
+transform:translateY(-5px);
+}
+
+
+.feature-card img{
+
+width:100%;
+height:140px;
+object-fit:cover;
+display:block;
+
+}
+
+
+.feature-card h3{
+
+font-size:16px;
+padding:12px;
+margin:0;
+text-align:center;
+
+}
+
+
+/* Tablet */
+
+@media(max-width:900px){
+
+.featured-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+/* Telefon */
+
+@media(max-width:500px){
+
+.featured-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
