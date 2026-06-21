@@ -651,3 +651,19 @@ grid-template-columns:1fr;
 }
 
 }
+.feature-card{
+width:250px !important;
+height:230px !important;
+}
+
+.feature-card img{
+width:250px !important;
+height:130px !important;
+object-fit:cover !important;
+}
+
+.featured-grid{
+display:flex !important;
+flex-wrap:wrap !important;
+gap:20px !important;
+}
