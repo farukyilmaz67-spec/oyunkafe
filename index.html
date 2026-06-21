@@ -228,133 +228,183 @@ iframe{width:100%;height:680px;border:0;display:block}
 </section>
 
 <section id="homeSection">
-  <div class="info">
-   <h2>🎮 Ücretsiz Online Oyunlar</h2>
+
+<div class="info">
+
+<h2>🎮 Ücretsiz Online Oyunlar</h2>
 
 <p>
-  Araba, futbol, parkour, motosiklet, zeka ve strateji oyunlarını ücretsiz oynayın.
-  OyunKafe'de bilgisayar ve mobil uyumlu eğlenceli oyunları hemen keşfedin.
+Araba, futbol, parkour, motosiklet, zeka ve strateji oyunlarını ücretsiz oynayın.
+OyunKafe'de bilgisayar ve mobil uyumlu eğlenceli oyunları hemen keşfedin.
 </p>
-    <input id="searchInput" class="search-box" type="text" placeholder="🔍 Oyun ara..." onkeyup="renderGames()">
+
+
+<input 
+id="searchInput" 
+class="search-box" 
+type="text" 
+placeholder="🔍 Oyun ara..." 
+onkeyup="renderGames()">
+
+
+<!-- İSTATİSTİK -->
 
 <div class="stats">
 
-  <div class="stat-box">
-    <h3>🎮 45+</h3>
-    <p>Ücretsiz Oyun</p>
-  </div>
 
-  <div class="stat-box">
-    <h3>📂 8</h3>
-    <p>Oyun Kategorisi</p>
-  </div>
+<div class="stat-box">
+<h3>🎮 45+</h3>
+<p>Ücretsiz Oyun</p>
+</div>
 
-  <div class="stat-box">
-    <h3>📱 %100</h3>
-    <p>Mobil Uyumlu</p>
-  </div>
 
-  <div class="stat-box">
-    <h3>⚡ Hızlı</h3>
-    <p>Kurulum Gerektirmez</p>
-  </div>
+<div class="stat-box">
+<h3>📂 8</h3>
+<p>Oyun Kategorisi</p>
+</div>
+
+
+<div class="stat-box">
+<h3>📱 %100</h3>
+<p>Mobil Uyumlu</p>
+</div>
+
+
+<div class="stat-box">
+<h3>⚡ Hızlı</h3>
+<p>Kurulum Gerektirmez</p>
+</div>
+
 
 </div>
+
+
+
+<!-- KATEGORİLER -->
+
+<h2>📂 Kategoriler</h2>
 
 <div id="categories" class="cats"></div>
 
-<div class="highlights">
 
-  <div class="highlight-box">
-    <h3>🔥 Popüler Oyunlar</h3>
-    <p>
-      <a href="javascript:void(0)" onclick="openGame('drift-boss')">Drift Boss</a> •
-      <a href="javascript:void(0)" onclick="openGame('soccer-random')">Soccer Random</a> •
-      <a href="javascript:void(0)" onclick="openGame('moto-x3m')">Moto X3M</a> •
-      <a href="javascript:void(0)" onclick="openGame('geometry-dash-maze-maps-v2')">Geometry Dash</a>
-    </p>
-  </div>
 
-  <div class="highlight-box">
-    <h3>⭐ En Çok Oynananlar</h3>
-    <p>
-      <a href="javascript:void(0)" onclick="openGame('parking-fury')">Parking Fury</a> •
-      <a href="javascript:void(0)" onclick="openGame('highway-racer')">Highway Racer</a> •
-      <a href="javascript:void(0)" onclick="openGame('vex-8')">Vex 8</a> •
-      <a href="javascript:void(0)" onclick="openGame('football-legends')">Football Legends</a>
-    </p>
-  </div>
+<!-- ÖNE ÇIKAN -->
 
-  <div class="highlight-box">
-    <h3>🏆 Editörün Seçimi</h3>
-    <p>
-      <a href="javascript:void(0)" onclick="openGame('geometry-dash-maze-maps-v2')">Geometry Dash Maze Maps V2</a>
-    </p>
-  </div>
+<div class="featured">
 
-</div>
-<section class="featured">
 
 <h2>🔥 Son Eklenen Oyunlar</h2>
 
+
 <div class="featured-grid">
 
+
 <div class="feature-card" onclick="openGame('extreme-car-driving-simulator')">
+
 <img src="https://www.oyunkafe.com/extreme-car-driving-simulator.jpg">
+
 <h3>Extreme Car Driving Simulator</h3>
+
 </div>
+
 
 
 <div class="feature-card" onclick="openGame('football-masters')">
+
 <img src="https://www.oyunkafe.com/football-masters.jpg">
+
 <h3>Football Masters</h3>
+
 </div>
+
 
 
 <div class="feature-card" onclick="openGame('ovo')">
+
 <img src="https://www.oyunkafe.com/ovo.jpg">
+
 <h3>OvO</h3>
-</div>
-
-
-<div class="feature-card" onclick="openGame('fireboy-and-watergirl-5-elements')">
-<img src="https://www.oyunkafe.com/fireboy-and-watergirl-5-elements.jpg">
-<h3>Fireboy & Watergirl</h3>
-</div>
-
 
 </div>
 
 
-<h2>⭐ En Popüler Oyunlar</h2>
+
+<div class="feature-card" onclick="openGame('moto-road-rash-3d')">
+
+<img src="https://www.oyunkafe.com/moto-road-rash-3d.jpg">
+
+<h3>Moto Road Rash 3D</h3>
+
+</div>
+
+
+</div>
+
+
+
+<h2>⭐ Popüler Oyunlar</h2>
+
 
 <div class="featured-grid">
 
+
 <div class="feature-card" onclick="openGame('drift-boss')">
+
 <img src="https://www.oyunkafe.com/drift-boss.jpg">
+
 <h3>Drift Boss</h3>
+
 </div>
 
 
 <div class="feature-card" onclick="openGame('soccer-random')">
+
 <img src="https://placehold.co/600x400?text=Soccer+Random">
+
 <h3>Soccer Random</h3>
+
 </div>
+
 
 
 <div class="feature-card" onclick="openGame('vex-7')">
+
 <img src="https://www.oyunkafe.com/vex7.jpg">
+
 <h3>Vex 7</h3>
+
 </div>
+
 
 
 <div class="feature-card" onclick="openGame('moto-x3m')">
+
 <img src="https://www.oyunkafe.com/moto-x3m.jpg">
+
 <h3>Moto X3M</h3>
+
+</div>
+
+
+
 </div>
 
 
 </div>
+
+
+
+
+<!-- TÜM OYUNLAR -->
+
+<h2 style="margin-top:40px;">🎮 Tüm Oyunlar</h2>
+
+<div id="gamesGrid" class="grid"></div>
+
+
+</div>
+
+</section>
 
 </section>
 <div id="gamesGrid" class="grid"></div>
