@@ -1,83 +1,109 @@
-/* GENEL */
+/* ==========================
+   GENEL
+========================== */
+
 *{
-  box-sizing:border-box;
+box-sizing:border-box;
 }
 
 body{
-  margin:0;
-  font-family:Arial, Helvetica, sans-serif;
-  background:#f3f4f6;
-  color:#111827;
+
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f3f4f6;
+color:#111827;
+
 }
 
 
-/* HEADER */
+/* ==========================
+ HEADER
+========================== */
+
 
 .header{
-  background:#111827;
-  padding:20px;
-  text-align:center;
+
+background:#111827;
+padding:20px;
+text-align:center;
+
 }
+
 
 .header img{
-  max-width:220px;
+
+max-width:220px;
+
 }
 
 
-/* ANA KONTEYNER */
+
+/* ==========================
+ KONTEYNER
+========================== */
+
 
 .container{
-  width:92%;
-  max-width:1200px;
-  margin:30px auto;
+
+width:92%;
+max-width:1200px;
+margin:30px auto;
+
 }
 
 
 
-/* BİLGİ ALANI */
+/* ==========================
+ BİLGİ ALANI
+========================== */
+
 
 .info{
-  background:white;
-  padding:25px;
-  border-radius:18px;
-  box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
 }
 
 
 .info h2{
-  margin-top:0;
+
+margin-top:0;
+
 }
 
 
-/* ARAMA */
+
+/* ==========================
+ ARAMA
+========================== */
+
 
 .search-box{
 
 width:100%;
 padding:14px;
-
 border-radius:12px;
 border:1px solid #ddd;
-
 font-size:16px;
-
 margin:20px 0;
 
 }
 
 
 
-/* İSTATİSTİK KUTULARI */
+/* ==========================
+ İSTATİSTİK
+========================== */
 
 
 .stats{
 
 display:grid;
-
 grid-template-columns:repeat(4,1fr);
-
 gap:15px;
-
 margin-bottom:25px;
 
 }
@@ -86,14 +112,10 @@ margin-bottom:25px;
 
 .stat-box{
 
-background:#fff;
-
-padding:15px;
-
+background:white;
+padding:20px;
 text-align:center;
-
 border-radius:15px;
-
 box-shadow:0 4px 12px rgba(0,0,0,.08);
 
 }
@@ -102,51 +124,42 @@ box-shadow:0 4px 12px rgba(0,0,0,.08);
 .stat-box h3{
 
 margin:0;
-
 font-size:22px;
 
 }
 
 
-/* KATEGORİLER */
+
+/* ==========================
+ KATEGORİ
+========================== */
 
 
 .cats{
 
 display:flex;
-
 gap:10px;
-
 flex-wrap:wrap;
-
 margin-bottom:25px;
 
 }
 
 
-
 .cats button{
 
 border:none;
-
 background:#e5e7eb;
-
-padding:10px 18px;
-
+padding:9px 18px;
 border-radius:30px;
-
+font-weight:bold;
 cursor:pointer;
 
-font-weight:bold;
-
 }
-
 
 
 .cats button:hover{
 
 background:#2563eb;
-
 color:white;
 
 }
@@ -154,90 +167,150 @@ color:white;
 
 
 
-/* ÜST KUTULAR */
+/* ==========================
+ ÖNE ÇIKAN KUTULAR
+========================== */
 
 
 .highlights{
 
 display:grid;
-
 grid-template-columns:repeat(3,1fr);
-
 gap:20px;
-
-margin-bottom:35px;
+margin:25px 0;
 
 }
-
 
 
 .highlight-box{
 
 background:white;
-
-padding:20px;
-
+padding:18px;
 border-radius:16px;
-
 box-shadow:0 4px 15px rgba(0,0,0,.08);
 
 }
-
 
 
 .highlight-box h3{
 
 margin-top:0;
 
-font-size:18px;
-
 }
-
 
 
 .highlight-box a{
 
 color:#2563eb;
-
-text-decoration:none;
-
 font-weight:bold;
+text-decoration:none;
 
 }
 
 
 
+/* ==========================
+ SON EKLENEN KARTLAR
+========================== */
 
-/* OYUNLAR */
+
+.featured{
+
+margin-top:35px;
+
+}
 
 
-.grid{
+
+.featured h2{
+
+font-size:24px;
+margin-bottom:15px;
+
+}
+
+
+
+.featured-grid{
 
 display:grid;
-
 grid-template-columns:repeat(4,1fr);
-
 gap:20px;
 
 }
 
 
 
+.feature-card{
+
+background:white;
+border-radius:15px;
+overflow:hidden;
+cursor:pointer;
+box-shadow:0 4px 15px rgba(0,0,0,.10);
+transition:.25s;
+
+}
+
+
+
+.feature-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+
+
+.feature-card img{
+
+width:100%;
+height:150px;
+object-fit:cover;
+display:block;
+
+}
+
+
+
+.feature-card h3{
+
+font-size:16px;
+padding:12px;
+margin:0;
+text-align:center;
+
+}
+
+
+
+
+
+/* ==========================
+ OYUN GRID
+========================== */
+
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+margin-top:30px;
+
+}
+
+
 
 .card{
 
 background:white;
-
 border-radius:16px;
-
 overflow:hidden;
-
 box-shadow:0 4px 15px rgba(0,0,0,.10);
-
 transition:.2s;
 
 }
-
 
 
 .card:hover{
@@ -252,174 +325,16 @@ transform:translateY(-5px);
 
 height:180px;
 
-overflow:hidden;
-
 }
-
 
 
 .thumb img{
 
 width:100%;
-
 height:100%;
-
 object-fit:cover;
 
 }
-
-
-
-.card-content{
-
-padding:15px;
-
-}
-
-
-
-.card-content h3{
-
-font-size:18px;
-
-margin:0 0 10px;
-
-}
-
-
-
-.btn{
-
-display:block;
-
-background:#2563eb;
-
-color:white;
-
-text-align:center;
-
-padding:10px;
-
-border-radius:10px;
-
-text-decoration:none;
-
-}
-
-
-
-/* OYUN SAYFASI */
-
-
-.game{
-
-display:none;
-
-background:white;
-
-padding:20px;
-
-border-radius:18px;
-
-}
-
-
-
-.frame iframe{
-
-width:100%;
-
-height:700px;
-
-border:none;
-
-border-radius:15px;
-
-}
-
-
-
-/* MOBİL */
-
-
-@media(max-width:900px){
-
-
-.stats{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-
-.highlights{
-
-grid-template-columns:1fr;
-
-}
-
-
-.grid{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-
-}
-
-
-
-@media(max-width:600px){
-
-
-.grid{
-
-grid-template-columns:1fr;
-
-}
-
-
-.container{
-
-width:95%;
-
-}
-
-
-.frame iframe{
-
-height:500px;
-
-}
-  /* ===== ANA SAYFA HIZLI DÜZELTME ===== */
-
-
-#gamesGrid{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:20px;
-margin-top:30px;
-}
-
-
-.card{
-background:#fff;
-border-radius:14px;
-overflow:hidden;
-box-shadow:0 4px 12px rgba(0,0,0,.10);
-}
-
-
-.card img,
-.thumb img{
-
-width:100%;
-height:180px;
-object-fit:cover;
-
-}
-
 
 
 .card-content{
@@ -433,66 +348,67 @@ padding:15px;
 .card-content h3{
 
 font-size:17px;
-margin-bottom:10px;
+margin:0 0 10px;
 
 }
 
 
 
-/* ÜST 3 KUTU */
+.btn{
 
-.highlights{
-
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px;
-margin:25px 0;
+display:block;
+background:#2563eb;
+color:white;
+padding:10px;
+border-radius:10px;
+text-align:center;
+text-decoration:none;
 
 }
 
 
 
-.highlight-box{
+/* ==========================
+ OYUN SAYFASI
+========================== */
 
-min-height:120px;
-padding:20px;
+
+.game{
+
+display:none;
 background:white;
+padding:20px;
+border-radius:18px;
+
+}
+
+
+
+.frame iframe{
+
+width:100%;
+height:700px;
+border:none;
 border-radius:15px;
 
 }
 
 
 
-/* KATEGORİLER */
+/* ==========================
+ TABLET
+========================== */
 
-.cats{
-
-display:flex;
-gap:10px;
-flex-wrap:wrap;
-
-}
-
-
-
-.cats button{
-
-padding:8px 18px;
-border-radius:20px;
-
-}
-
-
-
-/* MOBİL */
 
 @media(max-width:900px){
 
-#gamesGrid{
+
+.stats{
 
 grid-template-columns:repeat(2,1fr);
 
 }
+
 
 
 .highlights{
@@ -501,72 +417,50 @@ grid-template-columns:1fr;
 
 }
 
+
+
+.featured-grid{
+
+grid-template-columns:repeat(2,1fr);
+
 }
 
+
+
+.grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+
+}
+
+
+
+/* ==========================
+ MOBİL
+========================== */
 
 
 @media(max-width:600px){
 
-#gamesGrid{
+
+.container{
+
+width:95%;
+
+}
+
+
+
+.stats{
 
 grid-template-columns:1fr;
 
 }
 
-}
 
-.featured-grid{
-
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:18px;
-
-}
-
-
-.feature-card{
-
-background:white;
-border-radius:15px;
-overflow:hidden;
-cursor:pointer;
-box-shadow:0 4px 15px rgba(0,0,0,.10);
-
-}
-
-
-.feature-card img{
-
-width:100%;
-height:150px;
-object-fit:cover;
-
-}
-
-
-.feature-card h3{
-
-padding:12px;
-margin:0;
-font-size:16px;
-text-align:center;
-
-}
-
-
-
-@media(max-width:900px){
-
-.featured-grid{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-}
-
-
-@media(max-width:500px){
 
 .featured-grid{
 
@@ -574,143 +468,22 @@ grid-template-columns:1fr;
 
 }
 
-}
-.featured{
-margin-top:35px;
-
-}
 
 
-
-.feature-card{
-
-background:white;
-border-radius:14px;
-overflow:hidden;
-cursor:pointer;
-box-shadow:0 3px 12px rgba(0,0,0,.10);
-
-}
-
-
-
-.feature-card img{
-
-width:100%;
-height:130px;
-object-fit:cover;
-display:block;
-
-}
-
-
-
-.feature-card div{
-
-padding:10px;
-
-}
-
-
-.feature-card h3{
-
-font-size:15px;
-margin:0;
-text-align:center;
-
-}
-
-@media(max-width:900px){
-
-}
-
-
-
-@media(max-width:500px){
-
-/* YENİ ANA SAYFA KART TASARIMI */
-
-.featured{
-margin-top:35px;
-}
-
-.featured h2{
-font-size:24px;
-margin:25px 0 15px;
-}
-
-
-.featured-grid{
-
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:20px;
-
-}
-
-
-.feature-card{
-
-background:#fff;
-border-radius:16px;
-overflow:hidden;
-cursor:pointer;
-box-shadow:0 4px 15px rgba(0,0,0,.10);
-transition:.25s;
-
-}
-
-
-.feature-card:hover{
-
-transform:translateY(-5px);
-
-}
-
-
-.feature-card img{
-
-width:100%;
-height:160px;
-object-fit:cover;
-display:block;
-
-}
-
-
-.feature-card h3{
-
-font-size:16px;
-padding:12px;
-margin:0;
-text-align:center;
-
-}
-
-
-
-/* TABLET */
-
-@media(max-width:900px){
-
-.featured-grid{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-}
-
-
-
-/* TELEFON */
-
-@media(max-width:500px){
-
-.featured-grid{
+.grid{
 
 grid-template-columns:1fr;
 
 }
+
+
+
+.frame iframe{
+
+height:500px;
+
+}
+
+
 
 }
