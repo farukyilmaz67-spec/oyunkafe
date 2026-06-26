@@ -348,14 +348,6 @@ grid-template-columns:1fr;
 
 
 
-.featured-grid{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-
-
 .grid{
 
 grid-template-columns:repeat(2,1fr);
@@ -384,14 +376,6 @@ width:95%;
 
 
 .stats{
-
-grid-template-columns:1fr;
-
-}
-
-
-
-.featured-grid{
 
 grid-template-columns:1fr;
 
