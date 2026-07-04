@@ -1,1 +1,0 @@
-VS Code ile aç ve Live Server çalıştır.

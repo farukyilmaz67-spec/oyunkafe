@@ -1,798 +1,862 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OyunKafe | Ücretsiz Araba, Futbol, Parkour ve Zeka Oyunları</title>
-<meta name="description" content="OyunKafe'de araba, futbol, parkour, motosiklet, strateji ve zeka oyunlarını ücretsiz oynayın. Mobil ve bilgisayarda çalışan eğlenceli online oyunlar sizi bekliyor.">
-<link rel="canonical" href="https://www.oyunkafe.com/">
-<style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f4f6;color:#111827}
-.header{
-  background:#111827;
-  color:white;
-  padding:10px 20px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  min-height:140px;
-}
 
-.header img{
-  width:500px;
-  max-width:90%;
-  height:auto;
-  display:block;
-  margin:0 auto;
-}
-.hero-badges{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:16px}
-.hero-badge{padding:12px 18px;border-radius:12px;font-weight:bold;color:white}
-.container{
-  width:92%;
-  max-width:1150px;
-  margin:0 auto;
-}
-.info{background:white;padding:18px;border-radius:16px;box-shadow:0 5px 18px rgba(0,0,0,.08);margin-bottom:22px}
-.feature-tags{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}
-.cats{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
-.cat{border:0;background:#e5e7eb;color:#111827;padding:9px 13px;border-radius:999px;cursor:pointer;font-weight:700}
-.cat.active{background:#2563eb;color:white}
-.search-box{width:100%;padding:12px 15px;margin:15px 0;border:2px solid #e5e7eb;border-radius:12px;font-size:16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
-.card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.09)}
-.thumb{
-  height:190px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:27px;
-  font-weight:900;
-  color:white;
-  text-align:center;
-  background:linear-gradient(135deg,#2563eb,#7c3aed);
-  background-size:cover;
-  background-position:center top;
-  background-repeat:no-repeat;
-  overflow:hidden;
-}
-.card-content{padding:15px}
-.card h3{margin:0 0 8px;font-size:19px}
-.card p{margin:0 0 13px;color:#4b5563;line-height:1.45;font-size:14px}
-.tag{display:inline-block;background:#eff6ff;color:#1d4ed8;padding:5px 9px;border-radius:999px;font-size:12px;font-weight:700;margin-bottom:10px}
-.btn{border:0;background:#2563eb;color:white;padding:10px 15px;border-radius:10px;font-weight:800;cursor:pointer}
-.game{display:none;background:white;padding:18px;border-radius:18px;box-shadow:0 6px 20px rgba(0,0,0,.09);margin-bottom:25px}
-.game.active{display:block}
-.game-top{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:14px}
-.back{border:0;background:#111827;color:white;padding:10px 14px;border-radius:10px;font-weight:800;cursor:pointer}
-.frame{background:#000;border-radius:16px;overflow:hidden}
-iframe{width:100%;height:680px;border:0;display:block}
-.seo{margin-top:15px;color:#374151;line-height:1.6}
-.info-page{display:none;background:white;padding:24px;border-radius:16px;box-shadow:0 5px 18px rgba(0,0,0,.08);margin-bottom:24px;line-height:1.7}
-.footer{
-  background:#111827;
-  color:#d1d5db;
-  margin-top:40px;
-  padding:35px 20px;
-  text-align:center;
-  font-size:14px;
-}
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-.footer-inner{
-  max-width:900px;
-  margin:0 auto;
-}
+<title>
+OyunKafe | Ücretsiz Online Oyunlar
+</title>
 
-.footer h3{
-  color:white;
-  margin:0 0 10px;
-  font-size:24px;
-}
+<meta
+name="description"
+content="Araba, Futbol, Parkour, Motor, Beceri ve Zeka oyunlarını ücretsiz oynayın.">
 
-.footer p{
-  margin:8px 0;
-  line-height:1.6;
-}
+<meta
+name="keywords"
+content="oyun, ücretsiz oyun, araba oyunları, futbol oyunları, parkour oyunları">
 
-.footer-links{
-  display:flex;
-  justify-content:center;
-  gap:16px;
-  flex-wrap:wrap;
-  margin:18px 0;
-}
+<meta
+name="author"
+content="OyunKafe">
 
-.footer-links a{
-  color:#93c5fd;
-  font-weight:700;
-  text-decoration:none;
-}
-  .footer-mail{
-  color:#ffffff !important;
-  text-decoration:none;
-  font-weight:600;
-}
+<meta
+name="robots"
+content="index,follow">
 
-.footer-mail:hover{
-  text-decoration:underline;
-}
-  .stats{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-  gap:12px;
-  margin:20px 0;
-}
+<link
+rel="canonical"
+href="https://www.oyunkafe.com">
 
-.stat-box{
-  background:#ffffff;
-  border:1px solid #e5e7eb;
-  border-radius:12px;
-  padding:15px;
-  text-align:center;
-  box-shadow:0 4px 10px rgba(0,0,0,.06);
-}
+<link
+rel="icon"
+href="favicon.ico">
 
-.stat-box h3{
-  margin:0;
-  font-size:24px;
-}
+<link
+rel="stylesheet"
+href="style.css">
 
-.stat-box p{
-  margin:8px 0 0;
-  color:#6b7280;
-  font-size:14px;
-}
-
-.footer-links a:hover{
-  text-decoration:underline;
-}
-
-.footer-copy{
-  color:#9ca3af;
-  font-size:13px;
-}
-@media(max-width:700px){
-  .header{padding:14px 14px 20px}
-  .header img{width:260px}
-  iframe{height:520px}
-  .grid{grid-template-columns:1fr}
-}
-  .highlights{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:15px;
-  margin-top:15px;
-}
-
-.highlight-box{
-  background:#ffffff;
-  border-radius:14px;
-  padding:16px;
-  box-shadow:0 4px 12px rgba(0,0,0,.08);
-  border:1px solid #e5e7eb;
-}
-  .highlight-box:nth-child(1){
-  border-left:5px solid #ef4444;
-}
-
-.highlight-box:nth-child(2){
-  border-left:5px solid #f59e0b;
-}
-
-.highlight-box:nth-child(3){
-  border-left:5px solid #22c55e;
-}
-
-.highlight-box h3{
-  margin:0 0 10px;
-  font-size:18px;
-}
-
-.highlight-box p{
-  margin:0;
-  color:#4b5563;
-  line-height:1.5;
-}
-  .highlight-box a{
-  color:#2563eb;
-  text-decoration:none;
-  font-weight:600;
-}
-
-.highlight-box a:hover{
-  text-decoration:underline;
-}
-</style>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5425356098468229"
-     crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+
 <header class="header">
-  <img src="logo.png" alt="OyunKafe Logo">
+
+<div class="container header-inner">
+
+<a
+href="index.html"
+class="logo">
+
+<img
+src="logo.png"
+alt="OyunKafe">
+
+</a>
+
+
+<nav class="nav">
+
+<a href="#" onclick="goHome()">
+
+🏠 Ana Sayfa
+
+</a>
+
+<a href="#" onclick="showPage('about')">
+
+📖 Hakkımızda
+
+</a>
+
+<a href="#" onclick="showPage('privacy')">
+
+🔒 Gizlilik
+
+</a>
+
+<a href="#" onclick="showPage('contact')">
+
+📞 İletişim
+
+</a>
+
+</nav>
+
+</div>
+
 </header>
 
-<main class="container">
 
-<section id="gameSection" class="game">
-  <div class="game-top">
-    <div>
-      <h2 id="gameTitle"></h2>
-      <p id="gameDesc"></p>
-    </div>
-    <button class="back" onclick="closeGame()">Oyunlara Dön</button>
-  </div>
-  <div class="frame"><iframe id="gameFrame" src="" allowfullscreen></iframe></div>
-  <div class="seo" id="gameSeo"></div>
-</section>
 
-<section id="homeSection">
-  <div class="info">
-   <h2>🎮 Ücretsiz Online Oyunlar</h2>
+<main
+id="homeSection">
+
+<div class="container">
+
+
+
+<section class="hero">
+
+<span class="hero-label">
+
+🎮 TÜRKİYE'NİN ÜCRETSİZ ONLINE OYUN PLATFORMU
+
+</span>
+
+<h1>
+
+Ücretsiz Online Oyun Oyna
+
+</h1>
 
 <p>
-  Araba, futbol, parkour, motosiklet, zeka ve strateji oyunlarını ücretsiz oynayın.
-  OyunKafe'de bilgisayar ve mobil uyumlu eğlenceli oyunları hemen keşfedin.
+
+Araba, Futbol, Parkour, Motor,
+Beceri, Macera ve Zeka oyunlarını
+ücretsiz oynayın.
+
+Kurulum yok.
+
+Üyelik yok.
+
+Anında oynamaya başlayın.
+
 </p>
-    <input id="searchInput" class="search-box" type="text" placeholder="🔍 Oyun ara..." onkeyup="renderGames()">
-
-<div class="stats">
-
-  <div class="stat-box">
-    <h3>🎮 40+</h3>
-    <p>Ücretsiz Oyun</p>
-  </div>
-
-  <div class="stat-box">
-    <h3>📂 8</h3>
-    <p>Oyun Kategorisi</p>
-  </div>
-
-  <div class="stat-box">
-    <h3>📱 %100</h3>
-    <p>Mobil Uyumlu</p>
-  </div>
-
-  <div class="stat-box">
-    <h3>⚡ Hızlı</h3>
-    <p>Kurulum Gerektirmez</p>
-  </div>
-
-</div>
-
-<!-- KATEGORİLER -->
-
-<h2>📂 Kategoriler</h2>
-
-<div id="categories" class="cats"></div>
 
 
-<!-- ÖZEL LİSTELER -->
+<div class="hero-buttons">
 
-<div class="home-sections">
+<button
+
+class="hero-btn"
+
+onclick="document.getElementById('gamesGrid').scrollIntoView({behavior:'smooth'})">
+
+🎮 Hemen Oyna
+
+</button>
 
 
-<div class="home-box">
+<button
 
-<h3>🔥 Popüler Oyunlar</h3>
+class="hero-btn secondary"
 
-<a onclick="openGame('drift-boss')">Drift Boss</a>
-<a onclick="openGame('soccer-random')">Soccer Random</a>
-<a onclick="openGame('moto-x3m')">Moto X3M</a>
+onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">
+
+📂 Kategoriler
+
+</button>
 
 </div>
 
 
-<div class="home-box">
+<input
 
-<h3>⭐ En Çok Oynananlar</h3>
+id="searchInput"
 
-<a onclick="openGame('parking-fury')">Parking Fury</a>
-<a onclick="openGame('geometry-dash-maze-maps-v2')">Geometry Dash</a>
-<a onclick="openGame('vex-7')">Vex 7</a>
+class="search-box"
+
+type="text"
+
+placeholder="🔍 Oyun ara...">
+
+</section>
+
+
+
+<section class="stats">
+
+<div class="stat-box">
+
+<h3 id="gameCount">
+
+40+
+
+</h3>
+
+<p>
+
+Ücretsiz Oyun
+
+</p>
 
 </div>
 
 
-<div class="home-box">
+<div class="stat-box">
 
-<h3>🏆 Editörün Seçimi</h3>
+<h3 id="categoryCount">
 
-<a onclick="openGame('geometry-dash-maze-maps-v2')">
-Geometry Dash Maze Maps V2
-</a>
+8
+
+</h3>
+
+<p>
+
+Kategori
+
+</p>
 
 </div>
 
 
+<div class="stat-box">
+
+<h3>
+
+%100
+
+</h3>
+
+<p>
+
+Mobil Uyumlu
+
+</p>
+
 </div>
 
-<div id="gamesGrid" class="grid"></div>
+
+<div class="stat-box">
+
+<h3>
+
+⚡
+
+</h3>
+
+<p>
+
+Kurulum Gerektirmez
+
+</p>
+
+</div>
+
 </section>
 
-<section id="about" class="info-page">
-  <h2>Hakkımızda</h2>
-  <p>OyunKafe, MaveraGames tarafından geliştirilen ücretsiz online oyun platformudur. Kullanıcılarımıza hızlı, güvenli ve eğlenceli bir oyun deneyimi sunmayı amaçlıyoruz.</p>
-  <p>Platformumuzda araba, futbol, parkour, motosiklet, zeka ve strateji kategorilerinde mobil ve bilgisayar uyumlu birçok oyunu ücretsiz olarak oynayabilirsiniz. OyunKafe, herhangi bir indirme veya kurulum gerektirmeden tarayıcı üzerinden kolay erişim sağlayan bir oyun platformu olarak hizmet vermektedir.</p>
-  <p>Amacımız, her yaştan oyuncunun güvenli ve keyifli vakit geçirebileceği bir ortam oluşturmaktır. Bu doğrultuda kullanıcı deneyimini sürekli geliştirmeye, yeni oyunlar eklemeye ve platformumuzu güncel tutmaya özen gösteriyoruz.</p>
-  <p>OyunKafe ekibi olarak ziyaretçilerimize kaliteli içerik sunmayı ve online oyun dünyasını herkes için daha erişilebilir hale getirmeyi hedefliyoruz.</p>
+
+
+<section>
+
+<div
+
+id="categories"
+
+class="cats">
+
+</div>
+
 </section>
 
-<section id="contact" class="info-page">
-  <h2>İletişim</h2>
-  <p>OyunKafe ile ilgili görüş, öneri, iş birliği talepleri veya teknik sorun bildirimleri için bizimle iletişime geçebilirsiniz.</p>
-  <p><strong>Şirket:</strong> MaveraGames</p>
-  <p><strong>E-posta:</strong> <a href="mailto:oyunkafeiletisim@gmail.com">oyunkafeiletisim@gmail.com</a></p>
-  <p>Ziyaretçilerimizden gelen geri bildirimleri önemsiyor ve tüm mesajları mümkün olan en kısa sürede değerlendirmeye çalışıyoruz.</p>
-  <p>Teşekkür ederiz.</p>
+
+
+<section class="ad-banner">
+
+<div class="ad-placeholder">
+
+728 × 90 Reklam Alanı
+
+</div>
+
 </section>
+<!-- ===========================
+     ANA SAYFA BÖLÜMLERİ
+=========================== -->
 
-<section id="privacy" class="info-page">
-  <h2>Gizlilik Politikası</h2>
-  <p>OyunKafe olarak ziyaretçilerimizin gizliliğine önem veriyoruz. Bu gizlilik politikası, sitemizi ziyaret ettiğinizde hangi bilgilerin toplanabileceğini ve bu bilgilerin nasıl kullanılabileceğini açıklamaktadır.</p>
-  <p>Sitemizi ziyaret ettiğinizde IP adresi, tarayıcı türü, cihaz bilgileri ve ziyaret istatistikleri gibi bazı teknik veriler hizmet kalitesini artırmak, güvenliği sağlamak ve kullanıcı deneyimini geliştirmek amacıyla işlenebilir.</p>
-  <p>OyunKafe üzerinde üçüncü taraf oyun sağlayıcıları ve reklam hizmetleri kullanılmaktadır. Bu hizmetler kendi çerezlerini kullanabilir ve kendi gizlilik politikalarına tabi olabilir. Kullanıcılar, ilgili üçüncü taraf hizmet sağlayıcılarının gizlilik politikalarını inceleyebilirler.</p>
-  <p>Sitemizde gelecekte Google AdSense gibi reklam hizmetleri kullanılabilir. Bu hizmetler, kullanıcılara ilgi alanlarına uygun reklamlar gösterebilmek amacıyla çerezlerden yararlanabilir.</p>
-  <p>OyunKafe, kullanıcılarına ait kişisel bilgileri satmaz, kiralamaz veya izinsiz olarak üçüncü kişilerle paylaşmaz. Ancak yasal yükümlülüklerin gerektirdiği durumlarda ilgili makamlarla bilgi paylaşımı yapılabilir.</p>
-  <p>Bu gizlilik politikası zaman zaman güncellenebilir. Güncel sürüm her zaman bu sayfa üzerinden yayınlanacaktır.</p>
-</section>
+<section class="home-sections">
 
-<section id="cookies" class="info-page">
-  <h2>Çerez Politikası</h2>
-  <p>OyunKafe, kullanıcı deneyimini geliştirmek, site performansını analiz etmek ve hizmet kalitesini artırmak amacıyla çerezlerden yararlanabilir.</p>
-  <p>Çerezler, ziyaret ettiğiniz web siteleri tarafından tarayıcınızda saklanan küçük veri dosyalarıdır. Bu dosyalar sayesinde site tercihleri hatırlanabilir ve kullanıcı deneyimi geliştirilebilir.</p>
-  <p>Sitemizde kullanılan çerezler; site trafiğini analiz etmek, teknik sorunları tespit etmek ve kullanıcıların siteden daha verimli şekilde yararlanmasını sağlamak amacıyla kullanılabilir.</p>
-  <p>Ayrıca, üçüncü taraf oyun sağlayıcıları ve reklam hizmetleri de kendi çerezlerini kullanabilir. Bu hizmetlerin kullanımı ilgili sağlayıcıların kendi gizlilik ve çerez politikalarına tabidir.</p>
-  <p>Tarayıcı ayarlarınızı kullanarak çerezleri silebilir, engelleyebilir veya çerez kullanımı hakkında bildirim alabilirsiniz. Ancak bazı çerezlerin devre dışı bırakılması durumunda sitenin bazı bölümleri beklenildiği gibi çalışmayabilir.</p>
-  <p>OyunKafe'yi kullanmaya devam ederek, bu Çerez Politikası kapsamında çerez kullanımını kabul etmiş sayılırsınız.</p>
-</section>
+    <div class="home-box">
 
-</main>
-<footer class="footer">
+        <h3>🔥 Popüler Oyunlar</h3>
 
-  <div class="footer-inner">
-    <h3>OyunKafe</h3>
+        <div id="popularGames"></div>
 
-    <p>
-      Ücretsiz online oyunlar, araba oyunları, futbol oyunları, parkour oyunları,
-      zeka oyunları ve strateji oyunları OyunKafe'de seni bekliyor.
-    </p>
-
-    <div class="footer-links">
-      <a href="javascript:void(0)" onclick="showPage('about')">Hakkımızda</a>
-      <a href="javascript:void(0)" onclick="showPage('privacy')">Gizlilik Politikası</a>
-      <a href="javascript:void(0)" onclick="showPage('cookies')">Çerez Politikası</a>
-      <a href="javascript:void(0)" onclick="showPage('contact')">İletişim</a>
     </div>
 
-   <p class="footer-copy">
-İletişim:
-<a class="footer-mail" href="mailto:oyunkafeiletisim@gmail.com">
-oyunkafeiletisim@gmail.com
+    <div class="home-box">
+
+        <h3>⭐ Editörün Seçimi</h3>
+
+        <div id="featuredGames"></div>
+
+    </div>
+
+    <div class="home-box">
+
+        <h3>🆕 Son Eklenenler</h3>
+
+        <div id="latestGames"></div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===========================
+     TÜM OYUNLAR
+=========================== -->
+
+<section class="games-section">
+
+    <div class="section-title">
+
+        <div>
+
+            <h2>
+
+                🎮 Tüm Oyunlar
+
+            </h2>
+
+            <span>
+
+                Kategorilere göre filtreleyin veya arama yapın.
+
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div
+
+        id="gamesGrid"
+
+        class="grid">
+
+    </div>
+
+</section>
+
+
+
+<!-- ===========================
+     ALT REKLAM
+=========================== -->
+
+<section class="ad-banner">
+
+    <div class="ad-placeholder">
+
+        336 × 280 Reklam Alanı
+
+    </div>
+
+</section>
+
+</div>
+
+</main>
+
+
+
+<!-- ===========================
+     OYUN SAYFASI
+=========================== -->
+
+<main
+
+id="gameSection"
+
+class="game-page"
+
+style="display:none;">
+
+<div class="container">
+
+
+<button
+
+class="back-btn"
+
+onclick="goHome()">
+
+← Ana Sayfaya Dön
+
+</button>
+
+
+<h1 id="gameTitle">
+
+</h1>
+
+
+<div class="game-meta">
+
+<span id="gameCategory">
+
+</span>
+
+</div>
+
+
+<div class="game-frame">
+
+<iframe
+
+id="gameFrame"
+
+loading="lazy"
+
+allowfullscreen>
+
+</iframe>
+
+</div>
+
+
+<div class="game-description">
+
+<p id="gameDescription">
+
+</p>
+
+</div>
+
+
+
+<h2>
+
+🎮 Benzer Oyunlar
+
+</h2>
+
+
+<div
+
+id="relatedGames"
+
+class="grid">
+
+</div>
+
+</div>
+
+</main>
+<!-- ===========================
+     HAKKIMIZDA
+=========================== -->
+
+<section
+id="about"
+class="page-section"
+style="display:none;">
+
+<div class="container">
+
+<h1>
+
+📖 Hakkımızda
+
+</h1>
+
+<p>
+
+OyunKafe, tarayıcı üzerinden ücretsiz oynanabilen
+HTML5 oyunlarını tek bir platformda buluşturan
+online oyun sitesidir.
+
+</p>
+
+<p>
+
+Sitemizde araba, futbol, motosiklet,
+parkour, beceri, zeka, strateji ve macera
+oyunlarını bilgisayar, tablet ve mobil
+cihazlardan ücretsiz oynayabilirsiniz.
+
+</p>
+
+<p>
+
+Herhangi bir kurulum veya üyelik gerektirmez.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ===========================
+     GİZLİLİK
+=========================== -->
+
+<section
+id="privacy"
+class="page-section"
+style="display:none;">
+
+<div class="container">
+
+<h1>
+
+🔒 Gizlilik Politikası
+
+</h1>
+
+<p>
+
+OyunKafe kullanıcılarından kişisel bilgi talep etmez.
+
+</p>
+
+<p>
+
+Sitemizde Google AdSense ve üçüncü taraf hizmetler
+çerez (cookie) kullanabilir.
+
+</p>
+
+<p>
+
+Sitemizi kullanmaya devam ederek çerez kullanımını
+kabul etmiş sayılırsınız.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ===========================
+     ÇEREZLER
+=========================== -->
+
+<section
+id="cookies"
+class="page-section"
+style="display:none;">
+
+<div class="container">
+
+<h1>
+
+🍪 Çerez Politikası
+
+</h1>
+
+<p>
+
+Kullanıcı deneyimini geliştirmek amacıyla
+çerezlerden yararlanıyoruz.
+
+</p>
+
+<p>
+
+Google ve iş ortakları ilgi alanına dayalı
+reklamlar göstermek için çerez kullanabilir.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ===========================
+     KULLANIM ŞARTLARI
+=========================== -->
+
+<section
+id="terms"
+class="page-section"
+style="display:none;">
+
+<div class="container">
+
+<h1>
+
+📄 Kullanım Şartları
+
+</h1>
+
+<p>
+
+Sitemizi kullanan tüm ziyaretçiler kullanım
+şartlarını kabul etmiş sayılır.
+
+</p>
+
+<p>
+
+Oyunların telif hakları ilgili yayıncı firmalara
+aittir.
+
+</p>
+
+<p>
+
+OyunKafe yalnızca oyunlara erişim sağlayan
+bir platformdur.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ===========================
+     İLETİŞİM
+=========================== -->
+
+<section
+id="contact"
+class="page-section"
+style="display:none;">
+
+<div class="container">
+
+<h1>
+
+📞 İletişim
+
+</h1>
+
+<p>
+
+Bizimle aşağıdaki e-posta adresinden
+iletişime geçebilirsiniz.
+
+</p>
+
+<p>
+
+<strong>
+
+iletisim@oyunkafe.com
+
+</strong>
+
+</p>
+
+<p>
+
+Görüş, öneri ve telif bildirimleri için
+bize yazabilirsiniz.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ===========================
+     COOKIE BANNER
+=========================== -->
+
+<div
+id="cookieBanner"
+class="cookie-banner">
+
+<div class="cookie-text">
+
+🍪 Daha iyi bir deneyim sunabilmek için çerezleri
+kullanıyoruz.
+
+<a
+
+href="#"
+
+onclick="showPage('cookies')">
+
+Detaylar
+
 </a>
+
+</div>
+
+<button
+
+id="acceptCookieBtn"
+
+class="cookie-btn">
+
+Kabul Et
+
+</button>
+
+</div>
+
+
+
+<!-- ===========================
+     LOADING
+=========================== -->
+
+<div
+
+id="loading"
+
+class="loading"
+
+style="display:none;">
+
+<div class="loader">
+
+<div class="spinner"></div>
+
+<p>
+
+Oyun yükleniyor...
+
 </p>
-<p class="footer-copy">
-© 2026 OyunKafe - MaveraGames. Tüm hakları saklıdır.
-</p>
-  </div>
-
-</footer>
-<script>
-const games=[
-{id:"geometry-dash-maze-maps-v2",title:"Geometry Dash Maze Maps V2",category:"Parkour",thumb:"https://www.oyunkafe.com/geometry-dash-maze-v2.jpg",embed:"https://html5.gamedistribution.com/bc4de39b3f9045cd920eb90cf14a8986/?gd_sdk_referrer_url=https://oyunkafe.com/#geometry-dash-maze-maps-v2",description:"Geometry Dash Maze Maps V2, refleks ve zamanlama becerilerinizi test eden heyecan verici bir parkour oyunudur. Engellerden kaçının, zorlu parkurları tamamlayın ve en yüksek skora ulaşmaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Geometry Dash Maze Maps V2, engellerle dolu parkurlarda reflekslerinizi test eden ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir."},
-{id:"drift-boss",title:"Drift Boss",category:"Araba",thumb:"https://www.oyunkafe.com/drift-boss.jpg",embed:"https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/#drift-boss",description:"Drift Boss, reflekslerinizi ve zamanlamanızı test eden popüler bir araba oyunudur. Virajlarda düşmeden ilerleyerek mümkün olduğunca uzun süre yolda kalmaya çalışın. Basit kontrolleri ve eğlenceli oynanışıyla mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Drift Boss, virajlarda düşmeden ilerlemeye çalıştığınız eğlenceli bir drift ve araba oyunudur. Ücretsiz olarak mobil ve bilgisayarda oynanabilir."},
-{id:"soccer-random",title:"Soccer Random",category:"Futbol",thumb:"https://www.oyunkafe.com/soccer-random.jpg",embed:"https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/#soccer-random",description:"Soccer Random, eğlenceli fizik mekanikleriyle oynanan sıra dışı bir futbol oyunudur. Arkadaşınıza veya bilgisayara karşı mücadele ederek komik ve heyecan dolu maçlar yapabilirsiniz. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Soccer Random, komik fizik kurallarıyla oynanan eğlenceli bir futbol oyunudur. Arkadaşınızla veya bilgisayara karşı ücretsiz oynayabilirsiniz."},
-{id:"parking-fury",title:"Parking Fury",category:"Araba",thumb:"https://www.oyunkafe.com/parking-fury.jpg",embed:"https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/#parking-fury",description:"Parking Fury, sürüş becerilerinizi test eden eğlenceli bir park etme oyunudur. Dar alanlarda aracınızı dikkatlice yönlendirerek park yerlerine ulaşmaya çalışın. Farklı araçlar ve zorlu bölümlerle mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Parking Fury, aracınızı çarpmadan park etmeye çalıştığınız eğlenceli bir araba ve park etme oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."},
-{id:"traffic-tour",title:"Traffic Tour",category:"Araba",thumb:"https://www.oyunkafe.com/traffic-tour.jpg",embed:"https://html5.gamedistribution.com/ce3d2279ff684021a68b534e397f1122/?gd_sdk_referrer_url=https://oyunkafe.com/#traffic-tour",description:"Traffic Tour, yoğun trafikte hız yaparak araçların arasından geçmeye çalıştığınız heyecan verici bir araba oyunudur. Reflekslerinizi kullanarak yüksek hızlarda ilerleyin ve en yüksek puanı elde etmeye çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Traffic Tour, yoğun trafikte hız yaparak ilerlediğiniz eğlenceli bir araba yarışı oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."},
-{id:"football-legends",title:"Football Legends",category:"Futbol",thumb:"https://www.oyunkafe.com/football-legends.jpg",embed:"https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/?gd_sdk_referrer_url=https://oyunkafe.com/#football-legends",description:"Football Legends, ünlü futbol karakterleriyle heyecan dolu maçlar yapabileceğiniz eğlenceli bir futbol oyunudur. Rakibinizi mağlup ederek goller atın ve turnuvalarda başarı elde edin. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-seo:"Football Legends, efsane futbol karakterleriyle oynanan eğlenceli bir futbol oyunudur. Ücretsiz olarak mobil ve bilgisayarda oynanabilir."},
-{id:"vex-8",title:"Vex 8",category:"Parkour",thumb:"https://www.oyunkafe.com/vex8.jpg",embed:"https://html5.gamedistribution.com/949009d40a2846f89f887de2285d6c28/?gd_sdk_referrer_url=https://oyunkafe.com/#vex-8",description:"Vex 8, reflekslerinizi test eden zorlu parkurlarla dolu bir parkour oyunudur. Engellerden kaçın, tuzakları aşın ve bölümleri başarıyla tamamlayın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Vex 8, zorlu parkurlar ve hızlı refleksler gerektiren ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir."},
-{id:"master-2048",title:"2048 Master",category:"Zeka",thumb:"https://www.oyunkafe.com/master-2048.jpg",embed:"https://html5.gamedistribution.com/c51a61ffce8044a6b1333575047534f3/?gd_sdk_referrer_url=https://oyunkafe.com/#master-2048",description:"2048 Master, aynı sayıları birleştirerek 2048 hedefine ulaşmaya çalıştığınız bağımlılık yapan bir zeka oyunudur. Mantığınızı kullanarak en yüksek puanı elde edin.",
-
-seo:"2048 Master, sayı birleştirmeye dayalı eğlenceli bir zeka oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."},
-{id:"highway-racer",title:"Highway Racer",category:"Araba",thumb:"https://www.oyunkafe.com/highway-racer.jpg",embed:"https://html5.gamedistribution.com/324dda64aa2f48af9037e2c582bbfa3e/?gd_sdk_referrer_url=https://oyunkafe.com/#highway-racer",description:"Highway Racer, yoğun trafikte hız yaparak araçların arasından geçmeye çalıştığınız heyecan verici bir araba oyunudur. Reflekslerinizi kullanarak en yüksek puanı elde etmeye çalışın.",
-
-seo:"Highway Racer, yoğun trafikte hız yaparak ilerlediğiniz eğlenceli bir araba yarışı oyunudur. Ücretsiz oynanabilir."},
-{id:"head-soccer",title:"Head Soccer",category:"Futbol",thumb:"https://www.oyunkafe.com/head-soccer.jpg",embed:"https://html5.gamedistribution.com/4c6790dc7ba5480ba7c1b619bdefdd3f/?gd_sdk_referrer_url=https://oyunkafe.com/#head-soccer",description:"Head Soccer, büyük kafalı karakterlerle oynanan eğlenceli ve hızlı tempolu bir futbol oyunudur. Rakibinize karşı goller atın, doğru zamanda şut çekin ve maçı kazanmaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",seo:"Head Soccer, komik karakterlerle oynanan eğlenceli bir futbol oyunudur. Mobil ve bilgisayarda ücretsiz olarak oynanabilir."},
-
-{id:"penalty-shooters-2",title:"Penalty Shooters 2",category:"Futbol",thumb:"https://www.oyunkafe.com/penalty-shooters-2.jpg",embed:"https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://oyunkafe.com/#penalty-shooters-2",description:"Penalty Shooters 2, penaltı atışlarıyla heyecan dolu maçlar yapabileceğiniz popüler bir futbol oyunudur. Kaleciyi yanıltarak goller atın, rakibin şutlarını kurtarın ve turnuvada ilerleyin. Mobil ve bilgisayarda ücretsiz oynanabilir.",seo:"Penalty Shooters 2, penaltı atışları ve kalecilik becerileriyle oynanan ücretsiz bir futbol oyunudur. Mobil ve bilgisayarda oynanabilir."},
-
-{id:"bubble-shooter",title:"Bubble Shooter",category:"Zeka",thumb:"https://www.oyunkafe.com/bubble-shooter.jpg",embed:"https://html5.gamedistribution.com/1561f24d736b4bf292e0ae33059f909f/?gd_sdk_referrer_url=https://oyunkafe.com/#bubble-shooter",description:"Bubble Shooter, aynı renkteki balonları eşleştirip patlatmaya çalıştığınız klasik ve eğlenceli bir zeka oyunudur. Doğru hedef alarak zincirleme patlamalar yapın ve bölümleri temizleyin. Mobil ve bilgisayarda ücretsiz oynanabilir.",seo:"Bubble Shooter, renkli balonları eşleştirip patlatmaya dayalı klasik bir zeka oyunudur. Ücretsiz olarak mobil ve bilgisayarda oynanabilir."},
-
-{id:"chess-3d-master",title:"3D Chess Master",category:"Strateji",thumb:"https://www.oyunkafe.com/chess-3d-master.jpg",embed:"https://html5.gamedistribution.com/d8dea5d83d1c4132a119fabedbc60bd6/?gd_sdk_referrer_url=https://oyunkafe.com/#chess-3d-master",description:"3D Chess Master, satranç sevenler için hazırlanmış üç boyutlu bir strateji oyunudur. Hamlelerinizi dikkatlice planlayın, rakibinizin taşlarını analiz edin ve şah mat yapmaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",seo:"3D Chess Master, üç boyutlu satranç deneyimi sunan ücretsiz bir strateji oyunudur. Mobil ve bilgisayarda oynanabilir."},
-
-{id:"vex-7",title:"Vex 7",category:"Parkour",thumb:"https://www.oyunkafe.com/vex7.jpg",embed:"https://html5.gamedistribution.com/0c454c9562d249d28ba3a2b50564042c/?gd_sdk_referrer_url=https://oyunkafe.com/#vex-7",description:"Vex 7, reflekslerinizi test eden zorlu engellerle dolu bir parkour oyunudur. Tuzaklardan kaçın, platformlarda ilerleyin ve bölümleri başarıyla tamamlamaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",seo:"Vex 7, zorlu parkurlar ve engellerle dolu ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir."},
-
-{id:"parkour-block-3d",title:"Parkour Block 3D",category:"Parkour",thumb:"https://www.oyunkafe.com/parkour-block-3d.jpg",embed:"https://html5.gamedistribution.com/1461d40bb77f48e6be72489959a1ac04/?gd_sdk_referrer_url=https://oyunkafe.com/#parkour-block-3d",description:"Parkour Block 3D, bloklar üzerinde zıplayarak ilerlediğiniz eğlenceli bir parkour oyunudur. Dengenizi koruyun, boşluklara düşmeden parkuru tamamlayın ve reflekslerinizi geliştirin. Mobil ve bilgisayarda ücretsiz oynanabilir.",seo:"Parkour Block 3D, bloklar üzerinde zıplayarak oynanan ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir."},
-
-{id:"stickman-parkour",title:"Stickman Parkour",category:"Parkour",thumb:"https://www.oyunkafe.com/stickman-parkour.jpg",embed:"https://html5.gamedistribution.com/d62e52e09f574651b3b0e984846de630/?gd_sdk_referrer_url=https://oyunkafe.com/#stickman-parkour",description:"Stickman Parkour, stickman karakteriyle engelleri aşarak ilerlediğiniz hızlı ve eğlenceli bir parkour oyunudur. Zıplayın, koşun, tuzaklardan kaçının ve zorlu bölümleri tamamlayarak becerilerinizi gösterin. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Stickman Parkour, stickman karakteriyle oynanan zorlu parkurlar ve engeller içeren ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir."},
-{id:"moto-x3m",title:"Moto X3M",category:"Motosiklet",thumb:"https://www.oyunkafe.com/moto-x3m.jpg",embed:"https://html5.gamedistribution.com/8593f8d7add14ad398d9cece72ee7283/?gd_sdk_referrer_url=https://oyunkafe.com/#moto-x3m",description:"Moto X3M, akrobatik hareketler yaparak engellerle dolu parkurları tamamlamaya çalıştığınız heyecan verici bir motosiklet oyunudur. Rampalardan atlayın, tuzakları aşın ve en kısa sürede bitiş çizgisine ulaşarak yüksek puan elde edin. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Moto X3M, akrobatik hareketler ve zorlu parkurlar içeren popüler bir motosiklet oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."},
-{id:"game27",title:"Stickman Hook",category:"Parkour",thumb:"https://www.oyunkafe.com/stickman-hook.jpg",embed:"https://html5.gamedistribution.com/599e07f9ed074845aa099aed24b9006c/",description:"Stickman Hook, kancalara tutunarak havada sallandığınız ve parkurları tamamlamaya çalıştığınız eğlenceli bir beceri oyunudur. Doğru zamanda ipi bırakın, engelleri aşın ve bitiş çizgisine ulaşmak için reflekslerinizi kullanın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Stickman Hook, kancalara tutunup sallanarak ilerlediğiniz eğlenceli bir beceri ve refleks oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."},
-  {
- id:"car-factory-for-kids",
- title:"Car Factory For Kids",
- category:"Araba",
- thumb:"https://www.oyunkafe.com/car-factory-for-kids.jpg",
- embed:"https://html5.gamedistribution.com/e35a1c652fcb47ec9b331a97d4704c33/",
- description:"Car Factory For Kids, çocuklar için hazırlanmış eğlenceli bir araba üretim oyunudur. Araçları monte edin, üretim aşamalarını tamamlayın ve kendi fabrikanızı yöneterek görevleri başarıyla bitirin. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Car Factory For Kids, araba üretimi ve fabrika yönetimi temalı eğlenceli bir çocuk oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-  {
- id:"cubika",
- title:"Cubika",
- category:"Zeka",
- thumb:"https://www.oyunkafe.com/cubika.jpg",
- embed:"https://html5.gamedistribution.com/f21bb49bbea446af8dbbfc3d61d2ee14/",
- description:"Cubika, renkli küpleri doğru şekilde eşleştirerek bölümleri tamamlamaya çalıştığınız eğlenceli bir zeka oyunudur. Mantığınızı kullanın, dikkatli hamleler yapın ve giderek zorlaşan bulmacaları çözün.",
-
-seo:"Cubika, renk eşleştirme ve mantık becerilerini geliştiren ücretsiz bir zeka oyunudur. Mobil ve bilgisayarda oynanabilir."
-},
-  {
- id:"burger-here",
- title:"Burger Here",
- category:"Zeka",
- thumb:"https://www.oyunkafe.com/burger-here.jpg",
- embed:"https://html5.gamedistribution.com/b9ad7cca160e4be386d5f62da00ada7e/",
- description:"Burger Here, müşterilerin siparişlerini hazırlayarak restoranınızı yönetmeye çalıştığınız eğlenceli bir yemek oyunudur. Hızlı olun, doğru malzemeleri kullanın ve müşterilerinizi memnun edin.",
-
-seo:"Burger Here, burger hazırlama ve restoran yönetimi temalı ücretsiz bir beceri oyunudur. Mobil ve bilgisayarda oynanabilir."
-},
-  {
- id:"top-arrow-away",
- title:"Top Arrow Away",
- category:"Zeka",
- thumb:"https://www.oyunkafe.com/top-arrow-away.jpg",
- embed:"https://html5.gamedistribution.com/07393e2820d1486ca209959528869a5f/",
- description:"Top Arrow Away, dikkat ve mantık becerilerinizi kullanarak okları doğru yönde hareket ettirmeniz gereken eğlenceli bir zeka oyunudur. Bulmacaları çözün, bölümleri tamamlayın ve giderek zorlaşan görevlerin üstesinden gelin.",
-
-seo:"Top Arrow Away, dikkat ve mantık gerektiren eğlenceli bir zeka oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"meme-myth-wukong",
- title:"Meme Myth: Wukong",
- category:"Macera",
- thumb:"https://www.oyunkafe.com/meme-myth-wukong.jpg",
- embed:"https://html5.gamedistribution.com/e4af90c070cf499da371b44232a6aaca/",
- description:"Meme Myth: Wukong, efsanevi Wukong karakteriyle macera dolu bölümlerde ilerlediğiniz eğlenceli bir aksiyon oyunudur. Engelleri aşın, görevleri tamamlayın ve yeni bölümlerin kilidini açın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Meme Myth: Wukong, Wukong karakteriyle macera dolu görevler sunan ücretsiz bir aksiyon oyunudur. Mobil ve bilgisayarda oynanabilir."
-},
-
-{
- id:"single-line-drawing-puzzle",
- title:"Single Line: Drawing Puzzle",
- category:"Zeka",
- thumb:"https://www.oyunkafe.com/single-line-drawing-puzzle.jpg",
- embed:"https://html5.gamedistribution.com/7f393790f966411cb3ef2270130b033c/",
- description:"Single Line: Drawing Puzzle, tek bir çizgi kullanarak şekilleri tamamlamaya çalıştığınız eğlenceli bir zeka oyunudur. Mantığınızı kullanın, dikkatlice plan yapın ve giderek zorlaşan bulmacaları çözün. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Single Line: Drawing Puzzle, tek çizgiyle şekilleri tamamlamaya dayalı eğlenceli bir zeka ve bulmaca oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"solitaire-daily",
- title:"Solitaire Daily",
- category:"Strateji",
- thumb:"https://www.oyunkafe.com/solitaire-daily.jpg",
- embed:"https://html5.gamedistribution.com/cacae8dbfe0f4ec598f8f7c29f7e0992/",
- description:"Solitaire Daily, klasik kart oyununun günlük görevlerle zenginleştirilmiş sürümüdür. Kartları doğru sırayla dizin, stratejinizi kullanın ve her gün yeni meydan okumaları tamamlayın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Solitaire Daily, günlük görevler ve klasik kart oyununu bir araya getiren ücretsiz bir strateji oyunudur. Mobil ve bilgisayarda oynanabilir."
-},
-
-{
- id:"sudoku-classic",
- title:"Sudoku Classic",
- category:"Zeka",
- thumb:"https://www.oyunkafe.com/sudoku-classic.jpg",
- embed:"https://html5.gamedistribution.com/31390f3577c14938be382b5f08b2228e/",
- description:"Sudoku Classic, mantık ve dikkat becerilerinizi geliştiren klasik bir sayı bulmaca oyunudur. Sayıları doğru yerlere yerleştirerek tüm satır, sütun ve kutuları eksiksiz tamamlamaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Sudoku Classic, sayı yerleştirmeye dayalı klasik bir zeka oyunudur. Mantık becerilerini geliştirmek isteyenler için ücretsiz oynanabilir."
-},
-
-{
- id:"kick-lucky-boxes-online",
- title:"Kick Lucky Boxes Online",
- category:"Beceri",
- thumb:"https://www.oyunkafe.com/kick-lucky-boxes-online.jpg",
- embed:"https://html5.gamedistribution.com/381bb01b67a14e7ea30b5623eb36855e/",
- description:"Kick Lucky Boxes Online, kutuları parçalayarak ödüller kazanmaya çalıştığınız eğlenceli bir beceri oyunudur. Doğru hedef alın, kutulara güçlü vuruşlar yapın ve içlerindeki sürprizleri keşfedin. Reflekslerinizi kullanarak bölümleri tamamlayın ve giderek zorlaşan görevlerde başarı elde edin. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Kick Lucky Boxes Online, kutuları parçalayarak ödüller topladığınız eğlenceli bir beceri ve refleks oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"cat-vs-granny-cat-simulator",
- title:"Cat vs Granny: Cat Simulator",
- category:"Macera",
- thumb:"https://www.oyunkafe.com/cat-vs-granny-cat-simulator.jpg",
- embed:"https://html5.gamedistribution.com/15fe7ee1b55749d19d346f52df450388/",
- description:"Cat vs Granny: Cat Simulator, yaramaz bir kedi olarak evde maceraya atıldığınız eğlenceli bir simülasyon oyunudur. Evi keşfedin, görevleri tamamlayın ve birbirinden komik anlar yaşayın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Cat vs Granny: Cat Simulator, eğlenceli görevler ve komik anlarla dolu ücretsiz bir kedi simülasyonu oyunudur."
-},
-
-{
- id:"real-motorbike-simulator-race-3d",
- title:"Real Motorbike Simulator Race 3D",
- category:"Motosiklet",
- thumb:"https://www.oyunkafe.com/real-motorbike-simulator-race-3d.jpg",
- embed:"https://html5.gamedistribution.com/5c39b3ef7a4b4ac58f0e504f41654a62/",
- description:"Real Motorbike Simulator Race 3D, gerçekçi sürüş deneyimi sunan heyecan verici bir motosiklet yarış oyunudur. Farklı parkurlarda yarışlara katılın, hızınızı kontrol edin ve sürüş becerilerinizi göstererek rakiplerinizi geride bırakın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Real Motorbike Simulator Race 3D, gerçekçi sürüş mekanikleri ve heyecan dolu yarışlar sunan ücretsiz bir motosiklet oyunudur. Mobil ve bilgisayarda oynanabilir."
-},
-
-{
- id:"police-traffic-racer",
- title:"Police Traffic Racer",
- category:"Araba",
- thumb:"https://www.oyunkafe.com/police-traffic-racer.jpg",
- embed:"https://html5.gamedistribution.com/8748f54767044b99bc5373fc61596123/",
- description:"Police Traffic Racer, polis aracıyla yoğun trafikte ilerlediğiniz heyecan dolu bir araba oyunudur. Araçların arasından dikkatlice geçin, hızınızı kontrol edin ve yüksek skor elde etmeye çalışın.",
-
-seo:"Police Traffic Racer, polis aracıyla trafikte ilerlediğiniz ücretsiz bir araba yarışı oyunudur. Mobil ve bilgisayarda oynanabilir."
-},
-
-{
- id:"asylum-baldi-granny-slender",
- title:"Asylum: Baldi Granny Slender",
- category:"Macera",
- thumb:"https://www.oyunkafe.com/asylum-baldi-granny-slender.jpg",
- embed:"https://html5.gamedistribution.com/7d506f1931fc46c59714305fbd9ae056/",
- description:"Asylum: Baldi Granny Slender, gizemli ve ürkütücü bir ortamda hayatta kalmaya çalıştığınız macera oyunudur. İpuçlarını takip edin, görevleri tamamlayın ve çıkış yolunu bulmaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Asylum: Baldi Granny Slender, gizem ve macera unsurlarını bir araya getiren ücretsiz bir korku temalı oyundur. Mobil ve bilgisayarda oynanabilir."
-},
-
-{
- id:"arrowtix-train-your-brain",
- title:"Arrowtix - Train Your Brain",
- category:"Zeka",
- thumb:"https://www.oyunkafe.com/arrowtix-train-your-brain.jpg",
- embed:"https://html5.gamedistribution.com/9afeb29876304d269c28d8ca7869b714/",
- description:"Arrowtix - Train Your Brain, yön bulma ve mantık becerilerinizi geliştiren eğlenceli bir zeka oyunudur. Okları doğru şekilde yönlendirerek bulmacaları çözün ve beyninizi çalıştırın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-
-seo:"Arrowtix - Train Your Brain, dikkat ve mantık becerilerini geliştiren ücretsiz bir zeka oyunudur. Mobil ve bilgisayarda oynanabilir."
-},
-  {
- id:"extreme-car-driving-simulator",
- title:"Extreme Car Driving Simulator",
- category:"Araba",
- thumb:"https://www.oyunkafe.com/extreme-car-driving-simulator.jpg",
- embed:"https://html5.gamedistribution.com/284c892b05af4b10a9ff225fb64b6490/",
- description:"Extreme Car Driving Simulator, gerçekçi sürüş deneyimi sunan popüler bir araba simülasyon oyunudur. Şehir sokaklarında özgürce dolaşabilir, hız yapabilir, keskin virajları deneyebilir ve sürüş becerilerinizi geliştirebilirsiniz. Farklı araçlarla heyecan verici sürüş deneyimleri yaşayarak açık dünyayı keşfedin. Mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Extreme Car Driving Simulator, gerçekçi fizik motoru ve açık dünya sürüş deneyimi sunan popüler bir araba simülasyon oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"football-masters",
- title:"Football Masters",
- category:"Futbol",
- thumb:"https://www.oyunkafe.com/football-masters.jpg",
- embed:"https://html5.gamedistribution.com/38396a4cf1064adc961e704c9893a494/",
- description:"Football Masters, eğlenceli futbol karakterleriyle oynanan aksiyon dolu bir futbol oyunudur. Rakibinize karşı mücadele edin, özel yeteneklerinizi kullanın ve birbirinden heyecanlı maçlarda galibiyet elde etmeye çalışın. Tek başınıza veya arkadaşınıza karşı oynayarak futbol keyfini doyasıya yaşayabilirsiniz. Mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Football Masters, özel yeteneklere sahip futbol karakterleriyle oynanan eğlenceli bir futbol oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"soccer-skills-runner",
- title:"Soccer Skills Runner",
- category:"Futbol",
- thumb:"https://www.oyunkafe.com/soccer-skills-runner.jpg",
- embed:"https://html5.gamedistribution.com/54df6d78ccde4de1b41acadb002f1722/",
- description:"Soccer Skills Runner, futbol temalı koşu ve beceri oyunudur. Top sürerek engellerden kaçın, bonusları toplayın ve mümkün olduğunca uzun mesafe kat ederek yüksek skor elde etmeye çalışın. Hızlı refleksler ve dikkat gerektiren eğlenceli oynanışıyla mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Soccer Skills Runner, futbol ve koşu mekaniklerini bir araya getiren eğlenceli bir beceri oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"ovo",
- title:"OvO",
- category:"Parkour",
- thumb:"https://www.oyunkafe.com/ovo.jpg",
- embed:"https://html5.gamedistribution.com/1377b99c10284c229423118a941af3b1/",
- description:"OvO, hızlı refleksler ve kusursuz zamanlama gerektiren popüler bir parkour oyunudur. Duvarlardan sekilin, engelleri aşın, yüksek platformlara ulaşın ve her bölümü mümkün olan en kısa sürede tamamlamaya çalışın. Akıcı oynanışı ve zorlu parkurlarıyla parkour severler için mükemmel bir deneyim sunar.",
- seo:"OvO, refleks ve beceri gerektiren popüler bir parkour oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"parkour-race",
- title:"Parkour Race",
- category:"Parkour",
- thumb:"https://www.oyunkafe.com/parkour-race.jpg",
- embed:"https://html5.gamedistribution.com/09efae2b2ec346bab60b393e6a78fe6e/",
- description:"Parkour Race, rakiplerinize karşı yarışırken binaların ve engellerin üzerinden atladığınız heyecan verici bir parkour oyunudur. Hızınızı koruyun, doğru zamanda zıplayın ve parkuru ilk sırada tamamlayarak zafer kazanın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Parkour Race, rakiplere karşı yarışarak oynanan eğlenceli ve hızlı tempolu bir parkour oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"rope-master",
- title:"Rope Master",
- category:"Zeka",
- thumb:"https://www.oyunkafe.com/rope-master.jpg",
- embed:"https://html5.gamedistribution.com/e056b3404eab4515a1ccaea4597f6489/",
- description:"Rope Master, ipleri doğru şekilde kullanarak bulmacaları çözmeye çalıştığınız eğlenceli bir zeka oyunudur. Mantığınızı kullanın, en doğru hamleleri yapın ve giderek zorlaşan bölümlerde başarı elde edin. Mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Rope Master, mantık ve dikkat becerilerini geliştiren eğlenceli bir zeka ve bulmaca oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"moto-road-rash-3d",
- title:"Moto Road Rash 3D",
- category:"Motosiklet",
- thumb:"https://www.oyunkafe.com/moto-road-rash-3d.jpg",
- embed:"https://html5.gamedistribution.com/e3c282ba53744a0f9ab4c51215c13ef2/",
- description:"Moto Road Rash 3D, yüksek hızlarda motosiklet kullanarak trafikte ilerlediğiniz heyecan dolu bir yarış oyunudur. Araçların arasından geçin, reflekslerinizi kullanın ve en yüksek puanı elde etmek için mümkün olduğunca uzun süre yolda kalın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Moto Road Rash 3D, trafikte yüksek hızlarda motosiklet sürdüğünüz aksiyon dolu bir yarış oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-  {
- id:"helix-jump-piano",
- title:"Helix Jump Piano",
- category:"Beceri",
- thumb:"https://www.oyunkafe.com/helix-jump-piano.jpg",
- embed:"https://html5.gamedistribution.com/5ceab1b0d4e54246b793705ee7e00bbf/",
- description:"Helix Jump Piano, klasik helix oynanışını müzik ve refleks mekanikleriyle birleştiren eğlenceli bir beceri oyunudur. Topu dönen platformlardan aşağı indirirken engellerden kaçının, doğru zamanlamayla ilerleyin ve yüksek skor elde etmeye çalışın. Hızlı refleksler ve dikkat gerektiren bu oyun mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Helix Jump Piano, refleks ve zamanlama becerilerini test eden eğlenceli bir beceri oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"stack-ball",
- title:"Stack Ball",
- category:"Beceri",
- thumb:"https://www.oyunkafe.com/stack-ball.jpg",
- embed:"https://html5.gamedistribution.com/a81fd206711b48489fddfa7fd4aab621/",
- description:"Stack Ball, zıplayan topu kullanarak kuleleri parçalamaya çalıştığınız bağımlılık yapıcı bir beceri oyunudur. Doğru zamanlamayla platformları kırın, siyah engellerden kaçının ve mümkün olduğunca hızlı ilerleyerek yeni seviyelerin kilidini açın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Stack Ball, kuleleri parçalayarak ilerlediğiniz eğlenceli bir refleks ve beceri oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"fireboy-and-watergirl-5-elements",
- title:"Fireboy and Watergirl 5 Elements",
- category:"Macera",
- thumb:"https://www.oyunkafe.com/fireboy-and-watergirl-5-elements.jpg",
- embed:"https://html5.gamedistribution.com/03f124074b0049f89fdace0cacf8ead5/",
- description:"Fireboy and Watergirl 5 Elements, popüler serinin en sevilen bölümlerinden biridir. Ateş Çocuk ve Su Kız karakterlerini kontrol ederek bulmacaları çözün, elmasları toplayın ve bölümleri başarıyla tamamlayın. Tek başınıza veya arkadaşınızla oynayabileceğiniz bu eğlenceli macera oyunu mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Fireboy and Watergirl 5 Elements, bulmaca ve macera unsurlarını bir araya getiren popüler bir oyundur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"bob-the-robber-5",
- title:"Bob the Robber 5",
- category:"Macera",
- thumb:"https://www.oyunkafe.com/bob-the-robber-5.jpg",
- embed:"https://html5.gamedistribution.com/2b89b70d201b443991360f2ba5622c17/",
- description:"Bob the Robber 5, gizlilik ve strateji gerektiren eğlenceli bir macera oyunudur. Güvenlik kameralarından kaçın, tuzakları etkisiz hale getirin ve görevleri tamamlayarak ilerleyin. Dikkat ve planlama gerektiren oynanışıyla mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Bob the Robber 5, gizlilik ve strateji odaklı eğlenceli bir macera oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-},
-
-{
- id:"master-checkers",
- title:"Master Checkers",
- category:"Strateji",
- thumb:"https://www.oyunkafe.com/master-checkers.jpg",
- embed:"https://html5.gamedistribution.com/99c1e54e4bb14c88ab77ec6a35f93b05/",
- description:"Master Checkers, klasik dama oyununu modern bir tasarımla sunan strateji oyunudur. Hamlelerinizi dikkatlice planlayın, rakibinizin taşlarını ele geçirin ve oyunu kazanmak için en doğru stratejiyi uygulayın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Master Checkers, klasik dama deneyimini sunan ücretsiz bir strateji oyunudur. Mobil ve bilgisayarda oynanabilir."
-},
-
-{
- id:"classic-backgammon",
- title:"Classic Backgammon",
- category:"Strateji",
- thumb:"https://www.oyunkafe.com/classic-backgammon.jpg",
- embed:"https://html5.gamedistribution.com/d96dc07738f248c49ae51c61facd4286/",
- description:"Classic Backgammon, dünyanın en popüler masa oyunlarından biri olan tavlayı dijital ortamda oynayabileceğiniz strateji oyunudur. Zarlarınızı doğru kullanın, taşlarınızı güvenli şekilde ilerletin ve rakibinizden önce oyunu tamamlamaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
- seo:"Classic Backgammon, klasik tavla deneyimini sunan ücretsiz bir strateji oyunudur. Mobil ve bilgisayarda oynanabilir."
-}
-];
-
-let activeCategory="Tümü";
-
-function categories(){
-  return ["Tümü",...new Set(games.map(g=>g.category))];
-}
-
-function renderCategories(){
-  document.getElementById("categories").innerHTML=categories().map(c=>`<button class="cat ${c===activeCategory?"active":""}" onclick="setCategory('${c}')">${c}</button>`).join("");
-}
-
-function renderGames(){
-  const search=document.getElementById("searchInput") ? document.getElementById("searchInput").value.toLowerCase() : "";
-  let filtered=activeCategory==="Tümü" ? games : games.filter(g=>g.category===activeCategory);
-
-  if(search){
-    filtered=filtered.filter(g=>
-      g.title.toLowerCase().includes(search) ||
-      g.category.toLowerCase().includes(search) ||
-      g.description.toLowerCase().includes(search)
-    );
-  }
-
-  document.getElementById("gamesGrid").innerHTML=filtered.map(g=>`
-    <article class="card">
-      <div class="thumb" style="${g.thumb ? `background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url('${g.thumb}')` : ''}">
-        ${g.thumb ? "" : g.title}
-      </div>
-      <div class="card-content">
-        <span class="tag">${g.category}</span>
-        <h3>${g.title}</h3>
-        <p>${g.description}</p>
-        <button class="btn" onclick="openGame('${g.id}')">Oyna</button>
-      </div>
-    </article>
-  `).join("");
-}
-
-function openGame(id){
-  const g=games.find(x=>x.id===id);
-  if(!g)return;
-
-  hideInfoPages();
-
-  document.getElementById("gameTitle").textContent=g.title;
-  document.getElementById("gameDesc").textContent=g.description;
-  document.getElementById("gameSeo").textContent=g.seo;
-  document.getElementById("gameFrame").src=g.embed;
-  document.getElementById("gameSection").classList.add("active");
-  document.getElementById("homeSection").style.display="none";
-  window.scrollTo({top:0,behavior:"smooth"});
-}
-
-function closeGame(){
-  document.getElementById("gameFrame").src="";
-  document.getElementById("gameSection").classList.remove("active");
-  document.getElementById("homeSection").style.display="block";
-}
-
-function hideInfoPages(){
-  document.getElementById("about").style.display="none";
-  document.getElementById("contact").style.display="none";
-  document.getElementById("privacy").style.display="none";
-  document.getElementById("cookies").style.display="none";
-}
-
-function showPage(pageId){
-  closeGame();
-  document.getElementById("homeSection").style.display="none";
-  hideInfoPages();
-
-  const page=document.getElementById(pageId);
-  if(page){
-    page.style.display="block";
-  }
-
-  window.scrollTo({top:0,behavior:"smooth"});
-}
-
-renderCategories();
-  function setCategory(cat){
-  activeCategory=cat;
-  renderCategories();
-  renderGames();
-}
-renderGames();
+
+</div>
+
+</div>
+
+
+
+<!-- ===========================
+     BACK TO TOP
+=========================== -->
+
+<button
+
+id="backToTop"
+
+class="back-top"
+
+title="Yukarı Çık">
+
+⬆
+
+</button>
+
+
+
+<!-- ===========================
+     HOME.JS
+=========================== -->
+
+<script src="home.js"></script>
+
+
+
+<!-- ===========================
+     ADSENSE
+=========================== -->
+
+<!--
+
+<script async
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+crossorigin="anonymous">
 </script>
 
+-->
+
+
+
+<!-- ===========================
+     GOOGLE ANALYTICS
+=========================== -->
+
+<!--
+
+<script async
+src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX">
+</script>
+
+<script>
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){
+
+dataLayer.push(arguments);
+
+}
+
+gtag("js", new Date());
+
+gtag("config","G-XXXXXXXXXX");
+
+</script>
+
+-->
+<footer class="footer">
+
+<div class="container">
+
+<div class="footer-logo">
+
+<img src="logo.png" alt="OyunKafe">
+
+<p>
+
+Türkiye'nin ücretsiz online oyun platformu.
+
+</p>
+
+</div>
+
+<div class="footer-links">
+
+<h3>Kurumsal</h3>
+
+<a href="#about">Hakkımızda</a>
+
+<a href="#privacy">Gizlilik Politikası</a>
+
+<a href="#contact">İletişim</a>
+
+</div>
+
+<div class="footer-links">
+
+<h3>Oyunlar</h3>
+
+<a href="#">Araba Oyunları</a>
+
+<a href="#">Futbol Oyunları</a>
+
+<a href="#">Motor Oyunları</a>
+
+<a href="#">Zeka Oyunları</a>
+
+</div>
+
+<div class="footer-links">
+
+<h3>Yasal</h3>
+
+<a href="#">Kullanım Şartları</a>
+
+<a href="#">DMCA</a>
+
+<a href="#">Çerez Politikası</a>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 OyunKafe.com | Tüm Hakları Saklıdır.
+
+</div>
+
+</footer>
 </body>
+
 </html>

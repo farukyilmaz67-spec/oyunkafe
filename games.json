@@ -3,37 +3,387 @@
     "id": "geometry-dash-maze-maps-v2",
     "title": "Geometry Dash Maze Maps V2",
     "category": "Parkour",
-    "thumb": "https://www.oyunkafe.com/geometry-dash-maze-v2.jpg",
+    "thumb": "images/games/geometry-dash-maze-maps-v2.jpg",
     "embed": "https://html5.gamedistribution.com/bc4de39b3f9045cd920eb90cf14a8986/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=geometry-dash-maze-maps-v2",
-    "description":"Geometry Dash Maze Maps V2, refleks ve zamanlama becerilerinizi test eden heyecan verici bir parkour oyunudur. Engellerden kaçın, zorlu parkurları tamamlayın ve en yüksek skora ulaşmaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo":"Geometry Dash Maze Maps V2, engellerle dolu parkurlarda reflekslerinizi test eden ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir."
+    "description": "Geometry Dash Maze Maps V2, refleks ve zamanlama becerilerinizi test eden heyecan verici bir parkour oyunudur. Engellerden kaçın, zorlu parkurları tamamlayın ve en yüksek skora ulaşmaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
+    "seo": "Geometry Dash Maze Maps V2, engellerle dolu parkurlarda reflekslerinizi test eden ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir."
   },
-
- {
-  "id":"drift-boss",
-  "title":"Drift Boss",
-  "category":"Araba",
-  "thumb":"https://www.oyunkafe.com/drift-boss.jpg",
-  "embed":"https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=drift-boss",
-  "description":"Drift Boss, reflekslerinizi ve zamanlamanızı test eden popüler bir araba oyunudur. Virajlarda düşmeden ilerleyerek mümkün olduğunca uzun süre yolda kalmaya çalışın. Basit kontrolleri ve eğlenceli oynanışıyla mobil ve bilgisayarda ücretsiz oynanabilir.",
-"seo":"Drift Boss, virajlarda düşmeden ilerlemeye çalıştığınız eğlenceli bir drift ve araba oyunudur. Ücretsiz olarak mobil ve bilgisayarda oynanabilir."
-},
-
   {
-    "id":"soccer-random",
-    "title":"Soccer Random",
-    "category":"Futbol",
-    "thumb":"https://placehold.co/600x400?text=Soccer+Random",
-    "embed":"https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=soccer-random",
-    "description":"Soccer Random, eğlenceli fizik mekanikleriyle oynanan sıra dışı bir futbol oyunudur. Arkadaşınıza veya bilgisayara karşı mücadele ederek komik ve heyecan dolu maçlar yapabilirsiniz. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo":"Soccer Random, komik fizik kurallarıyla oynanan eğlenceli bir futbol oyunudur. Arkadaşınızla veya bilgisayara karşı ücretsiz oynayabilirsiniz."
+    "id": "drift-boss",
+    "title": "Drift Boss",
+    "category": "Araba",
+    "thumb": "images/games/drift-boss.jpg",
+    "embed": "https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=drift-boss",
+    "description": "Drift Boss, reflekslerinizi ve zamanlamanızı test eden popüler bir araba oyunudur. Virajlarda düşmeden ilerleyerek mümkün olduğunca uzun süre yolda kalmaya çalışın. Basit kontrolleri ve eğlenceli oynanışıyla mobil ve bilgisayarda ücretsiz oynanabilir.",
+    "seo": "Drift Boss, virajlarda düşmeden ilerlemeye çalıştığınız eğlenceli bir drift ve araba oyunudur. Ücretsiz olarak mobil ve bilgisayarda oynanabilir."
   },
-{
-  "id":"parking-fury",
-  "title":"Parking Fury",
-  "category":"Araba",
-  "thumb":"https://placehold.co/600x400?text=Parking+Fury",
-  "embed":"https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=parking-fury",
-  "description":"Parking Fury, sürüş becerilerinizi test eden eğlenceli bir park etme oyunudur. Dar alanlarda aracınızı dikkatlice yönlendirerek park yerlerine ulaşmaya çalışın. Farklı araçlar ve zorlu bölümlerle mobil ve bilgisayarda ücretsiz oynanabilir.",
-"seo":"Parking Fury, aracınızı çarpmadan park etmeye çalıştığınız eğlenceli bir araba ve park etme oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
-}
+  {
+    "id": "soccer-random",
+    "title": "Soccer Random",
+    "category": "Futbol",
+    "thumb": "images/games/soccer-random.jpg",
+    "embed": "https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=soccer-random",
+    "description": "Soccer Random, eğlenceli fizik mekanikleriyle oynanan sıra dışı bir futbol oyunudur. Arkadaşınıza veya bilgisayara karşı mücadele ederek komik ve heyecan dolu maçlar yapabilirsiniz. Mobil ve bilgisayarda ücretsiz oynanabilir.",
+    "seo": "Soccer Random, komik fizik kurallarıyla oynanan eğlenceli bir futbol oyunudur. Arkadaşınızla veya bilgisayara karşı ücretsiz oynayabilirsiniz."
+  },
+  {
+    "id": "parking-fury",
+    "title": "Parking Fury",
+    "category": "Araba",
+    "thumb": "images/games/parking-fury.jpg",
+    "embed": "https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=parking-fury",
+    "description": "Parking Fury, sürüş becerilerinizi test eden eğlenceli bir park etme oyunudur. Dar alanlarda aracınızı dikkatlice yönlendirerek park yerlerine ulaşmaya çalışın. Farklı araçlar ve zorlu bölümlerle mobil ve bilgisayarda ücretsiz oynanabilir.",
+    "seo": "Parking Fury, aracınızı çarpmadan park etmeye çalıştığınız eğlenceli bir araba ve park etme oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
+  },
+  {
+    "id": "football-legends-2026",
+    "title": "Football Legends 2026",
+    "category": "Futbol",
+    "thumb": "images/games/football-legends.jpg",
+    "embed": "https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=football-legends-2026",
+    "description": "Football Legends 2026, tek kişilik veya iki kişilik oynanabilen eğlenceli futbol oyunudur. Dünyaca ünlü futbolcularla maç yapabilir, turnuvalara katılabilirsiniz.",
+    "seo": "Football Legends 2026 ücretsiz futbol oyunu. Mobil ve bilgisayarda hemen oynayın."
+  },
+  {
+    "id": "vex-x3m-3",
+    "title": "Vex X3M 3",
+    "category": "Parkour",
+    "thumb": "images/games/vex-x3m-3.jpg",
+    "embed": "https://html5.gamedistribution.com/ce1b2e5eabe44debb11bf77cd04c0f85/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=vex-x3m-3",
+    "description": "Vex X3M 3, motosiklet ve parkur becerilerini birleştiren zorlu engel parkurlarında reflekslerinizi test eden eğlenceli oyundur.",
+    "seo": "Vex X3M 3 ücretsiz parkour ve motor oyunu."
+  },
+  {
+    "id": "fireboy-watergirl-7-friends",
+    "title": "Fireboy & Watergirl 7: Friends",
+    "category": "Macera",
+    "thumb": "images/games/fireboy-and-watergirl-5-elements.jpg",
+    "embed": "https://html5.gamedistribution.com/d4a3629101574bc39bd8f9d1888ca58e/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=fireboy-watergirl-7-friends",
+    "description": "Fireboy ve Watergirl'in yeni macerasında arkadaşlarınızla bulmacaları çözün ve bölümleri tamamlayın.",
+    "seo": "Fireboy Watergirl 7 ücretsiz macera oyunu."
+  },
+  {
+    "id": "traffic-racing",
+    "title": "Traffic Racing",
+    "category": "Araba",
+    "thumb": "images/games/traffic-racing.jpg",
+    "embed": "https://html5.gamedistribution.com/f3ee6674b4ea4579aeefd54d7bf388f0/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=traffic-racing",
+    "description": "Yoğun trafikte aracınızı kontrol ederek en uzun mesafeyi kat etmeye çalışın.",
+    "seo": "Traffic Racing ücretsiz araba oyunu."
+  },
+  {
+    "id": "battle-racing-stars",
+    "title": "Battle Racing Stars",
+    "category": "Araba",
+    "thumb": "images/games/battle-racing-stars.jpg",
+    "embed": "https://html5.gamedistribution.com/b8cf1cc516e14f4b8e7cb3119cdfcec6/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=battle-racing-stars",
+    "description": "Rakiplerinizi geride bırakıp yarışları kazanmaya çalıştığınız aksiyon dolu araba oyunu.",
+    "seo": "Battle Racing Stars ücretsiz yarış oyunu."
+  },
+  {
+    "id": "world-cup-soccer-caps",
+    "title": "World Cup Soccer Caps",
+    "category": "Futbol",
+    "thumb": "images/games/world-cup-soccer-caps.jpg",
+    "embed": "https://html5.gamedistribution.com/040ff13a2a9f44b98009750960a523ae/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=world-cup-soccer-caps",
+    "description": "Kapak futbolu tarzında Dünya Kupası heyecanını yaşayın.",
+    "seo": "World Cup Soccer Caps ücretsiz futbol oyunu."
+  },
+  {
+    "id": "stickman-adventure",
+    "title": "Stickman Adventure",
+    "category": "Macera",
+    "thumb": "images/games/stickman-adventure.jpg",
+    "embed": "https://html5.gamedistribution.com/fd5ae555f42e4dac872819ed9125616c/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=stickman-adventure",
+    "description": "Stickman karakteriyle engelleri aşarak maceraya atılın.",
+    "seo": "Stickman Adventure ücretsiz macera oyunu."
+  },
+  {
+    "id": "block-escape",
+    "title": "Block Escape",
+    "category": "Zeka",
+    "thumb": "images/games/block-escape.jpg",
+    "embed": "https://html5.gamedistribution.com/9ffaf2fb134844958788642d2f76c6cd/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=block-escape",
+    "description": "Blokları doğru şekilde hareket ettirerek çıkış yolunu bulun.",
+    "seo": "Block Escape ücretsiz zeka oyunu."
+  },
+  {
+    "id": "grand-mahjong-connect",
+    "title": "Grand Mahjong Connect",
+    "category": "Zeka",
+    "thumb": "images/games/grand-mahjong-connect.jpg",
+    "embed": "https://html5.gamedistribution.com/92211d47448849d189bbc32d0d4d8f6f/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=grand-mahjong-connect",
+    "description": "Aynı taşları eşleştirerek tüm bölümleri tamamlayın.",
+    "seo": "Grand Mahjong Connect ücretsiz mahjong oyunu."
+  },
+  {
+    "id": "pogo-masters",
+    "title": "Pogo Masters",
+    "category": "Arcade",
+    "thumb": "images/games/pogo-masters.jpg",
+    "embed": "https://html5.gamedistribution.com/f000cd0f0a0444aa82a1b937828a9954/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=pogo-masters",
+    "description": "Pogo çubuğu ile zıplayarak engelleri aşın ve en yüksek puanı toplayın.",
+    "seo": "Pogo Masters ücretsiz arcade oyunu."
+  },
+  {
+    "id": "basketball-stars",
+    "title": "Basketball Stars",
+    "category": "Spor",
+    "thumb": "images/games/basketball-stars.jpg",
+    "embed": "https://html5.gamedistribution.com/516d6908fbc848bdb89e65a58a43a7dc/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=basketball-stars",
+    "description": "Basketball Stars, hızlı tempolu maçları ve akıcı oynanışıyla öne çıkan eğlenceli bir basketbol oyunudur. Tek başınıza bilgisayara karşı veya arkadaşınızla rekabet ederek heyecan dolu karşılaşmalar yapabilirsiniz. Farklı karakterler, etkileyici smaçlar ve hızlı refleks gerektiren mücadeleler sayesinde her maç ayrı bir heyecan sunar. Kolay kontrolleri sayesinde hem bilgisayar hem de mobil cihazlarda rahatlıkla oynanabilir.",
+    "seo": "Basketball Stars ücretsiz basketbol oyunu. Mobil ve bilgisayarda çevrimiçi basketbol heyecanını yaşayın."
+  },
+  {
+    "id": "basketball-kings-2024",
+    "title": "Basketball Kings 2024",
+    "category": "Spor",
+    "thumb": "images/games/basketball-kings-2024.jpg",
+    "embed": "https://html5.gamedistribution.com/c4d58e2313c945aa8541e445b3040d92/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=basketball-kings-2024",
+    "description": "Basketball Kings 2024, basket atış becerilerinizi geliştirebileceğiniz eğlenceli ve bağımlılık yapan bir spor oyunudur. Farklı seviyelerde isabetli atışlar yaparak en yüksek puanı toplamaya çalışın. Gerçekçi fizik motoru sayesinde her atış farklı bir deneyim sunar.",
+    "seo": "Basketball Kings 2024 ücretsiz basketbol atış oyunu."
+  },
+  {
+    "id": "football-masters",
+    "title": "Football Masters",
+    "category": "Futbol",
+    "thumb": "images/games/football-masters.jpg",
+    "embed": "https://html5.gamedistribution.com/38396a4cf1064adc961e704c9893a494/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=football-masters",
+    "description": "Football Masters, tek kişilik veya iki kişilik oynanabilen eğlenceli bir futbol oyunudur. Güçlü şutlar, özel yetenekler ve hızlı maçlar sayesinde futbol keyfini doyasıya yaşayabilirsiniz. Arkadaşınıza karşı oynayabilir veya bilgisayara meydan okuyabilirsiniz.",
+    "seo": "Football Masters ücretsiz futbol oyunu."
+  },
+  {
+    "id": "penalty-shooters-2",
+    "title": "Penalty Shooters 2",
+    "category": "Futbol",
+    "thumb": "images/games/penalty-shooters-2.jpg",
+    "embed": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=penalty-shooters-2",
+    "description": "Penalty Shooters 2, penaltı atışları ve kaleci kurtarışları üzerine kurulu heyecan verici bir futbol oyunudur. Turnuvalarda ilerleyerek kupaları kazanın ve reflekslerinizi test edin.",
+    "seo": "Penalty Shooters 2 ücretsiz penaltı oyunu."
+  },
+  {
+    "id": "moto-x3m-4-winter",
+    "title": "Moto X3M 4 Winter",
+    "category": "Motor",
+    "thumb": "images/games/moto-x3m.jpg",
+    "embed": "https://html5.gamedistribution.com/bcacf81441bd4c7799a622171116ea9d/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-x3m-4-winter",
+    "description": "Moto X3M 4 Winter, karla kaplı parkurlarda reflekslerinizi test eden eğlenceli bir motosiklet oyunudur. Taklalar atın, engelleri aşın ve en kısa sürede bitiş çizgisine ulaşın.",
+    "seo": "Moto X3M 4 Winter ücretsiz motor oyunu."
+  },
+  {
+    "id": "moto-x3m-pool-party",
+    "title": "Moto X3M Pool Party",
+    "category": "Motor",
+    "thumb": "images/games/moto-x3m.jpg",
+    "embed": "https://html5.gamedistribution.com/f804d079d19f44d3b951ead4588e974a/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-x3m-pool-party",
+    "description": "Moto X3M Pool Party, yaz temalı parkurlarda motosiklet becerilerinizi sergileyebileceğiniz aksiyon dolu bir motor oyunudur. Zorlu engelleri aşarak en iyi süreyi yapmaya çalışın.",
+    "seo": "Moto X3M Pool Party ücretsiz motor oyunu."
+  },
+  {
+    "id": "grand-cyber-city",
+    "title": "Grand Cyber City",
+    "category": "Araba",
+    "thumb": "images/games/grand-cyber-city.jpg",
+    "embed": "https://html5.gamedistribution.com/ee16b36ecfa44b1b87e35788ac641733/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=grand-cyber-city",
+    "description": "Grand Cyber City, futuristik bir şehirde özgürce araç kullanabileceğiniz ve çeşitli görevleri tamamlayabileceğiniz açık dünya araba oyunudur. Yarışlar, akrobasi hareketleri ve keşif dolu büyük bir şehir sizi bekliyor.",
+    "seo": "Grand Cyber City ücretsiz açık dünya araba oyunu."
+  },
+  {
+    "id": "rally-point-4",
+    "title": "Rally Point 4",
+    "category": "Araba",
+    "thumb": "images/games/rally-point-4.jpg",
+    "embed": "https://html5.gamedistribution.com/e4247763a4f9428699a327caf2b0d684/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=rally-point-4",
+    "description": "Rally Point 4, yüksek hızlarda ralli yarışları yapabileceğiniz heyecan dolu bir yarış oyunudur. Nitro kullanarak rakiplerinizi geride bırakın ve zamana karşı mücadele edin.",
+    "seo": "Rally Point 4 ücretsiz ralli yarışı oyunu."
+  },
+  {
+    "id": "monster-truck-destroyer",
+    "title": "Monster Truck Destroyer",
+    "category": "Araba",
+    "thumb": "images/games/monster-truck-destroyer.jpg",
+    "embed": "https://html5.gamedistribution.com/801744b9b14a4b12a971782243e5145e/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=monster-truck-destroyer",
+    "description": "Dev tekerlekli canavar kamyonlarla engelleri ezerek ilerleyin. Monster Truck Destroyer, eğlenceli fizik sistemi ve zorlu parkurlarıyla her yaştan oyuncuya hitap eden bir araba oyunudur.",
+    "seo": "Monster Truck Destroyer ücretsiz monster truck oyunu."
+  },
+  {
+    "id": "max-speed",
+    "title": "Max Speed",
+    "category": "Araba",
+    "thumb": "images/games/max-speed.jpg",
+    "embed": "https://html5.gamedistribution.com/48f3d14ced3646b781e256ca7f9bfa30/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=max-speed",
+    "description": "Max Speed, yüksek hızlarda yarışarak reflekslerinizi test edeceğiniz aksiyon dolu bir araba oyunudur. Trafikte ustaca ilerleyin, hızınızı artırın ve en yüksek skoru elde edin.",
+    "seo": "Max Speed ücretsiz araba yarışı oyunu."
+  },
+  {
+    "id": "bob-the-robber",
+    "title": "Bob The Robber",
+    "category": "Macera",
+    "thumb": "images/games/bob-the-robber-5.jpg",
+    "embed": "https://html5.gamedistribution.com/18d28481ea514f3c838f9a5a355fb0f7/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=bob-the-robber",
+    "description": "Bob The Robber, gizlilik, strateji ve dikkat gerektiren eğlenceli bir hırsızlık oyunudur. Güvenlik kameralarından kaçınarak, lazer sistemlerini etkisiz hale getirerek ve kilitleri açarak değerli eşyaları toplamaya çalışın. Her bölümde zorluk seviyesi artarken refleksleriniz ve zekânız test edilir. Mobil ve bilgisayarda ücretsiz olarak oynayabilirsiniz.",
+    "seo": "Bob The Robber ücretsiz macera ve gizlilik oyunu. Güvenlik sistemlerini aşarak görevleri tamamlayın."
+  },
+  {
+    "id": "red-ball-forever",
+    "title": "Red Ball Forever",
+    "category": "Macera",
+    "thumb": "images/games/red-ball-forever.jpg",
+    "embed": "https://html5.gamedistribution.com/dc7eea27033344bcb0dd85686e16bc86/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=red-ball-forever",
+    "description": "Red Ball Forever, sevimli kırmızı topu kontrol ederek engelleri aşmanız gereken eğlenceli bir platform oyunudur. Bölümlerde ilerledikçe engeller zorlaşır, düşmanlar çoğalır ve refleksleriniz sınanır. Eğlenceli grafikleri ve akıcı oynanışı sayesinde her yaştan oyuncu için keyifli bir deneyim sunar.",
+    "seo": "Red Ball Forever ücretsiz platform ve macera oyunu. Kırmızı top ile tüm engelleri aşın."
+  },
+  {
+    "id": "ninja-wars-battle-simulator",
+    "title": "Ninja Wars: Battle Simulator",
+    "category": "Aksiyon",
+    "thumb": "images/games/ninja-wars-battle-simulator.jpg",
+    "embed": "https://html5.gamedistribution.com/16d4b103ede245a0af3eda7193f33e41/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=ninja-wars-battle-simulator",
+    "description": "Ninja Wars: Battle Simulator, güçlü ninja ordularını yöneterek rakiplerinizi alt etmeye çalıştığınız strateji ve aksiyon oyunudur. Farklı savaşçılar seçebilir, ordunuzu güçlendirebilir ve birbirinden zorlu savaşlara katılabilirsiniz. Doğru taktikler geliştirerek zafer kazanmak tamamen sizin elinizde.",
+    "seo": "Ninja Wars Battle Simulator ücretsiz strateji ve aksiyon oyunu."
+  },
+  {
+    "id": "temple-quest",
+    "title": "Temple Quest",
+    "category": "Macera",
+    "thumb": "images/games/temple-quest.jpg",
+    "embed": "https://html5.gamedistribution.com/138a14d646474409b0504f4609bf6581/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=temple-quest",
+    "description": "Temple Quest, antik tapınaklarda koşarak engellerden kaçmanız ve hazineleri toplamanız gereken heyecan dolu bir macera oyunudur. Reflekslerinizi kullanarak tuzaklardan kurtulun ve mümkün olduğunca uzun süre hayatta kalın.",
+    "seo": "Temple Quest ücretsiz sonsuz koşu ve macera oyunu."
+  },
+  {
+    "id": "tiny-fishing",
+    "title": "Tiny Fishing",
+    "category": "Simülasyon",
+    "thumb": "images/games/tiny-fishing.jpg",
+    "embed": "https://html5.gamedistribution.com/5ee4b0222a474e44880b6c6d9f96754d/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=tiny-fishing",
+    "description": "Tiny Fishing, oltanızı göle bırakarak farklı balıkları yakaladığınız rahatlatıcı ve eğlenceli bir balık tutma oyunudur. Kazandığınız paralarla oltanızı geliştirebilir ve daha nadir balıkları yakalayabilirsiniz.",
+    "seo": "Tiny Fishing ücretsiz balık tutma simülasyonu."
+  },
+  {
+    "id": "bubble-shooter-pro-4",
+    "title": "Bubble Shooter Pro 4",
+    "category": "Arcade",
+    "thumb": "images/games/bubble-shooter.jpg",
+    "embed": "https://html5.gamedistribution.com/a2cd0ba0848b49b98ade7d2b8553f09d/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=bubble-shooter-pro-4",
+    "description": "Bubble Shooter Pro 4, aynı renkteki balonları eşleştirerek patlatmanız gereken klasik balon patlatma oyunudur. Yüzlerce bölüm ve artan zorluk seviyesiyle uzun süre keyifli vakit geçirebilirsiniz.",
+    "seo": "Bubble Shooter Pro 4 ücretsiz balon patlatma oyunu."
+  },
+  {
+    "id": "color-block-blast-3",
+    "title": "Color Block Blast 3",
+    "category": "Zeka",
+    "thumb": "images/games/color-block-blast-3.jpg",
+    "embed": "https://html5.gamedistribution.com/003becedcaf14456879312d685937e17/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=color-block-blast-3",
+    "description": "Color Block Blast 3, renkli blokları doğru şekilde yerleştirerek yüksek puan yapmaya çalıştığınız bağımlılık yapan bir bulmaca oyunudur. Planlama yeteneğinizi geliştirirken eğlenceli vakit geçirebilirsiniz.",
+    "seo": "Color Block Blast 3 ücretsiz blok bulmaca oyunu."
+  },
+  {
+    "id": "3d-chess-master",
+    "title": "3D Chess Master",
+    "category": "Zeka",
+    "thumb": "images/games/chess-3d-master.jpg",
+    "embed": "https://html5.gamedistribution.com/d8dea5d83d1c4132a119fabedbc60bd6/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=3d-chess-master",
+    "description": "3D Chess Master, gelişmiş yapay zekâya karşı satranç oynayabileceğiniz kaliteli bir masa oyunudur. Başlangıç seviyesinden uzman seviyesine kadar farklı zorluk seçenekleri sunar.",
+    "seo": "3D Chess Master ücretsiz satranç oyunu."
+  },
+  {
+    "id": "sudoku-master",
+    "title": "Sudoku Master",
+    "category": "Zeka",
+    "thumb": "images/games/sudoku-master.jpg",
+    "embed": "https://html5.gamedistribution.com/e7bf98a6a5924866a8b103a67fb651b3/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=sudoku-master",
+    "description": "Sudoku Master, farklı zorluk seviyelerinde sayı bulmacaları çözerek mantık becerilerinizi geliştirebileceğiniz klasik sudoku oyunudur. Günlük zihinsel egzersiz yapmak isteyen oyuncular için ideal bir seçimdir.",
+    "seo": "Sudoku Master ücretsiz sudoku oyunu."
+  },
+  {
+    "id": "helix-jump",
+    "title": "Helix Jump",
+    "category": "Arcade",
+    "thumb": "images/games/helix-jump-piano.jpg",
+    "embed": "https://html5.gamedistribution.com/544cf55c6ad44a3299099e813f7f5a9d/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=helix-jump",
+    "description": "Helix Jump, dönen kuleler arasında topu aşağıya doğru indirerek en yüksek puanı elde etmeye çalıştığınız bağımlılık yapan bir arcade oyunudur. Reflekslerinizi kullanarak kırmızı platformlardan kaçının ve kesintisiz bir şekilde ilerleyin. Basit kontrolleri sayesinde her yaştan oyuncu tarafından kolayca oynanabilir.",
+    "seo": "Helix Jump ücretsiz arcade oyunu. Mobil ve bilgisayarda reflekslerini test et."
+  },
+  {
+    "id": "stack-ball",
+    "title": "Stack Ball",
+    "category": "Arcade",
+    "thumb": "images/games/stack-ball.jpg",
+    "embed": "https://html5.gamedistribution.com/a81fd206711b48489fddfa7fd4aab621/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=stack-ball",
+    "description": "Stack Ball, topu dönen platformlardan geçirerek aşağıya ulaştırmaya çalıştığınız hızlı tempolu bir arcade oyunudur. Doğru zamanda dokunarak platformları parçalayın ve engellerden kaçının.",
+    "seo": "Stack Ball ücretsiz arcade ve refleks oyunu."
+  },
+  {
+    "id": "golf-orbit",
+    "title": "Golf Orbit",
+    "category": "Spor",
+    "thumb": "images/games/golf-orbit.jpg",
+    "embed": "https://html5.gamedistribution.com/02ff01e6e9f7451ba28d889a2a55eec9/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=golf-orbit",
+    "description": "Golf Orbit, topunuzu mümkün olduğunca uzağa göndermeye çalıştığınız eğlenceli bir golf oyunudur. Güçlendirmeler kazanarak daha uzun mesafeler kat edebilir ve yeni rekorlar kırabilirsiniz.",
+    "seo": "Golf Orbit ücretsiz golf oyunu."
+  },
+  {
+    "id": "tennis-masters",
+    "title": "Tennis Masters",
+    "category": "Spor",
+    "thumb": "images/games/tennis-masters.jpg",
+    "embed": "https://html5.gamedistribution.com/cfd23874aad14e9daa2228891622d579/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=tennis-masters",
+    "description": "Tennis Masters, tek kişilik veya iki kişilik oynanabilen eğlenceli bir tenis oyunudur. Güçlü servisler yapın, özel yeteneklerinizi kullanın ve rakiplerinizi mağlup ederek turnuvayı kazanın.",
+    "seo": "Tennis Masters ücretsiz tenis oyunu."
+  },
+  {
+    "id": "8-ball-billiards-snooker",
+    "title": "8 Ball Billiards Snooker",
+    "category": "Spor",
+    "thumb": "images/games/8-ball-billiards-snooker.jpg",
+    "embed": "https://html5.gamedistribution.com/63b796a4fa5c4e4398fabb69383e6de1/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=8-ball-billiards-snooker",
+    "description": "8 Ball Billiards Snooker, gerçekçi fizik motoruna sahip bilardo oyunudur. Topları doğru açıyla vurarak masayı temizleyin ve profesyonel bilardo deneyimi yaşayın.",
+    "seo": "8 Ball Billiards Snooker ücretsiz bilardo oyunu."
+  },
+  {
+    "id": "stick-duel-battle",
+    "title": "Stick Duel Battle",
+    "category": "Aksiyon",
+    "thumb": "images/games/stick-duel-battle.jpg",
+    "embed": "https://html5.gamedistribution.com/1d7959f081b4453498ee9916b693988c/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=stick-duel-battle",
+    "description": "Stick Duel Battle, arkadaşınıza veya bilgisayara karşı mücadele edebileceğiniz eğlenceli bir stickman savaş oyunudur. Farklı silahlar ve haritalarla her maç farklı bir heyecan sunar.",
+    "seo": "Stick Duel Battle ücretsiz stickman aksiyon oyunu."
+  },
+  {
+    "id": "number-merge-master",
+    "title": "Number Merge Master",
+    "category": "Zeka",
+    "thumb": "images/games/number-merge-master.jpg",
+    "embed": "https://html5.gamedistribution.com/da08647291804de7bf5932ed58b89382/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=number-merge-master",
+    "description": "Number Merge Master, aynı sayıları birleştirerek daha büyük sayılar elde etmeye çalıştığınız bağımlılık yapan bir bulmaca oyunudur. Planlama ve dikkat gerektiren yapısıyla uzun süre keyifli vakit geçirmenizi sağlar.",
+    "seo": "Number Merge Master ücretsiz sayı birleştirme oyunu."
+  },
+  {
+    "id": "mahjong-classic",
+    "title": "Mahjong Classic",
+    "category": "Zeka",
+    "thumb": "images/games/mahjong-classic.jpg",
+    "embed": "https://html5.gamedistribution.com/59339ed7844e46649d4f5a5bc8214dc1/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-classic",
+    "description": "Mahjong Classic, aynı taşları eşleştirerek tüm tahtayı temizlemeye çalıştığınız klasik mahjong oyunudur. Farklı zorluk seviyeleriyle hem yeni başlayanlar hem de deneyimli oyuncular için uygundur.",
+    "seo": "Mahjong Classic ücretsiz mahjong oyunu."
+  },
+  {
+    "id": "solitaire-classic",
+    "title": "Solitaire Classic",
+    "category": "Kart",
+    "thumb": "images/games/solitaire-classic.jpg",
+    "embed": "https://html5.gamedistribution.com/6972e9b65057498899dea0491f410d57/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=solitaire-classic",
+    "description": "Solitaire Classic, dünyanın en popüler kart oyunlarından biridir. Kartları doğru sıraya dizerek oyunu tamamlamaya çalışın. Rahatlatıcı yapısıyla boş zamanlarınızı keyifli hale getirir.",
+    "seo": "Solitaire Classic ücretsiz kart oyunu."
+  },
+  {
+    "id": "seat-puzzle-cut-the-rope",
+    "title": "Seat Puzzle Cut The Rope",
+    "category": "Bulmaca",
+    "thumb": "images/games/seat-puzzle-cut-the-rope.jpg",
+    "embed": "https://html5.gamedistribution.com/24becac37a04406c8f6c44c28513c09c/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=seat-puzzle-cut-the-rope",
+    "description": "Seat Puzzle Cut The Rope, ipleri doğru sırayla keserek bulmacaları çözmeniz gereken eğlenceli bir mantık oyunudur. Her bölümde farklı zorluklarla karşılaşacak ve stratejik düşünme becerilerinizi geliştireceksiniz.",
+    "seo": "Seat Puzzle Cut The Rope ücretsiz bulmaca oyunu."
+  }
+]
