@@ -384,63 +384,7 @@ onclick="openGame('${game.id}')">
 
 function openGame(id){
 
-    const game = games.find(g => g.id === id);
-
-    if(!game) return;
-
-    currentGame = game;
-
-    document.getElementById("homeSection").style.display = "none";
-
-    document.getElementById("gameSection").style.display = "block";
-
-    document.getElementById("gameSection").classList.add("active");
-
-    document.getElementById("gameTitle").textContent =
-        game.title;
-
-    document.getElementById("gameCategory").textContent =
-        game.category;
-
-    document.getElementById("gameDescription").textContent =
-        game.description;
-
-    const frame =
-        document.getElementById("gameFrame");
-
-    const loading =
-        document.getElementById("loading");
-
-    if(loading){
-
-        loading.style.display = "flex";
-
-    }
-
-    frame.onload = () => {
-
-        if(loading){
-
-            loading.style.display = "none";
-
-        }
-
-    };
-
-    frame.src = game.embed;
-
-    document.title =
-        game.title + " | OyunKafe";
-
-    renderRelated(game);
-
-    window.scrollTo({
-
-        top:0,
-
-        behavior:"smooth"
-
-    });
+    window.location.href = "oyun.html?id=" + id;
 
 }
 
