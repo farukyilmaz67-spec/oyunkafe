@@ -471,18 +471,13 @@ function renderRelated(game){
 function hidePages(){
 
     [
-
-        "about",
-
-        "privacy",
-
-        "cookies",
-
-        "terms",
-
-        "contact"
-
-    ]
+    "about",
+    "privacy",
+    "cookies",
+    "terms",
+    "contact",
+    "dmca"
+]
 
     .forEach(id=>{
 
