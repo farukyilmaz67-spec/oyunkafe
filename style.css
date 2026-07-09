@@ -135,9 +135,9 @@ background:#fff;
 
 border-radius:20px;
 
-padding:30px 25px;
+padding:28px 30px;
 
-margin:20px 0;
+margin:18px 0;
 
 text-align:center;
 
@@ -167,9 +167,9 @@ margin-bottom:18px;
 
 .hero h1{
 
-font-size:36px;
+font-size:34px;
 
-margin-bottom:12px;
+margin-bottom:10px;
 
 line-height:1.2;
 
@@ -183,9 +183,9 @@ margin:auto;
 
 font-size:16px;
 
-color:#6b7280;
-
 line-height:1.5;
+
+color:#6b7280;
 
 margin-bottom:15px;
 
@@ -203,9 +203,9 @@ display:flex;
 
 justify-content:center;
 
-gap:15px;
+gap:12px;
 
-margin:18px 0;
+margin:15px 0;
 
 flex-wrap:wrap;
 
@@ -1311,5 +1311,64 @@ color:#ffffff;
     .footer-logo p{
         margin:0 auto;
     }
+
+}
+/* ========= Yeni Arama Alanı ========= */
+
+.search-row{
+
+display:flex;
+
+gap:15px;
+
+align-items:center;
+
+margin-top:20px;
+
+}
+
+.search-row .search-box{
+
+flex:2;
+
+margin:0;
+
+}
+
+.cats.compact{
+
+flex:3;
+
+display:flex;
+
+justify-content:flex-start;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+margin:0;
+
+}
+
+@media(max-width:900px){
+
+.search-row{
+
+flex-direction:column;
+
+}
+
+.search-row .search-box{
+
+width:100%;
+
+}
+
+.cats.compact{
+
+justify-content:center;
+
+}
 
 }
