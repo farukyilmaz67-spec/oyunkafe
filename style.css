@@ -130,19 +130,13 @@ HERO
 ============================ */
 
 .hero{
-
-background:#fff;
-
-border-radius:20px;
-
-padding:28px 30px;
-
-margin:18px 0;
-
-text-align:center;
-
-box-shadow:0 8px 18px rgba(0,0,0,.08);
-
+    max-width:1200px;
+    margin:20px auto;
+    padding:35px 25px;
+    background:#fff;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
 .hero-label{
@@ -1316,39 +1310,29 @@ color:#ffffff;
 /* ========= Yeni Arama Alanı ========= */
 
 .search-row{
-
-display:flex;
-
-gap:15px;
-
-align-items:center;
-
-margin-top:20px;
-
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    margin:25px auto 15px;
+    max-width:900px;
 }
 
-.search-row .search-box{
-
-flex:2;
-
-margin:0;
-
+.search-box{
+    flex:1;
+    height:56px;
+    border:1px solid #ddd;
+    border-radius:14px;
+    padding:0 20px;
+    font-size:18px;
 }
 
-.cats.compact{
-
-flex:3;
-
-display:flex;
-
-justify-content:flex-start;
-
-flex-wrap:wrap;
-
-gap:10px;
-
-margin:0;
-
+.cats{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
 }
 
 @media(max-width:900px){
