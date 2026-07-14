@@ -14,11 +14,11 @@ OyunKafe | Ücretsiz Online Oyunlar
 
 <meta
 name="description"
-content="Araba, Futbol, Parkour, Motor, Beceri ve Zeka oyunlarını ücretsiz oynayın.">
+content="OyunKafe'de araba, futbol, parkour, motor, beceri, bulmaca ve zeka oyunlarını ücretsiz oynayın. Kurulum gerektirmeyen HTML5 oyunlarını mobil ve bilgisayarda hemen keşfedin.">
 
 <meta
 name="keywords"
-content="oyun, ücretsiz oyun, araba oyunları, futbol oyunları, parkour oyunları">
+content="ücretsiz oyun, html5 oyun, online oyun, araba oyunları, futbol oyunları, parkour oyunları, motor oyunları, bulmaca oyunları, beceri oyunları, OyunKafe">
 
 <meta
 name="author"
@@ -110,8 +110,8 @@ id="homeSection">
     <h1>Ücretsiz Online Oyun Oyna</h1>
 
     <p>
-        Araba, Futbol, Parkour, Motor, Beceri, Macera, Spor ve Zeka oyunlarını
-        ücretsiz oynayın. Kurulum gerekmez, üyelik istemez.
+        Araba, Futbol, Parkour, Motor, Beceri, Macera ve Zeka oyunlarını ücretsiz oynayın.
+        Kurulum gerekmez, üyelik istemez.
     </p>
 
     <div class="search-row">
@@ -122,6 +122,12 @@ id="homeSection">
             type="text"
             placeholder="🔍 Oyun ara...">
 
+        <button
+            class="hero-btn secondary"
+            onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">
+            📂 Kategoriler
+        </button>
+
     </div>
 
     <div
@@ -129,76 +135,12 @@ id="homeSection">
         class="cats">
     </div>
 
-</section> style="display:none;">
-
-<div class="stat-box">
-
-<h3 id="gameCount">
-
-40+
-
-</h3>
-
-<p>
-
-Ücretsiz Oyun
-
-</p>
-
-</div>
-
-
-<div class="stat-box">
-
-<h3 id="categoryCount">
-
-8
-
-</h3>
-
-<p>
-
-Kategori
-
-</p>
-
-</div>
-
-
-<div class="stat-box">
-
-<h3>
-
-%100
-
-</h3>
-
-<p>
-
-Mobil Uyumlu
-
-</p>
-
-</div>
-
-
-<div class="stat-box">
-
-<h3>
-
-⚡
-
-</h3>
-
-<p>
-
-Kurulum Gerektirmez
-
-</p>
-
-</div>
-
 </section>
+
+
+
+
+
 
 
 
@@ -206,6 +148,15 @@ Kurulum Gerektirmez
      ANA SAYFA BÖLÜMLERİ
 =========================== -->
 
+<section class="ad-banner">
+
+    <div class="ad-placeholder">
+
+        728 × 90 Reklam Alanı
+
+    </div>
+
+</section>
 <section class="home-sections">
 
     <div class="home-box">
@@ -248,13 +199,21 @@ Kurulum Gerektirmez
 
             <h2>
 
-                🎮 Tüm Oyunlar
+                <h2>
+
+🎮 Tüm Oyunlar (43)
+
+</h2>
 
             </h2>
 
             <span>
 
-                Kategorilere göre filtreleyin veya arama yapın.
+                <span>
+
+43 ücretsiz HTML5 oyun arasından dilediğinizi seçin ve hemen oynamaya başlayın.
+
+</span>
 
             </span>
 
@@ -596,29 +555,22 @@ bir platformdur.
 </section>
 
 
+
 <!-- ===========================
      İLETİŞİM
 =========================== -->
 
 <section
-id="contact"
-class="page-section"
-style="display:none;">
+<div class="footer-links">
 
-<div class="container">
+<h3>İletişim</h3>
 
-<h1>📞 İletişim</h1>
+<p>E-posta:</p>
 
-<p>
-Bizimle iletişime geçmek için aşağıdaki e-posta adresini kullanabilirsiniz.
-</p>
+<p><strong>iletisim@oyunkafe.com</strong></p>
 
-<p>
-<strong>iletisim@oyunkafe.com</strong>
-</p>
-
-<p>
-Önerileriniz, telif bildirimleriniz ve iş birlikleri için bizimle iletişime geçebilirsiniz.
+<p style="margin-top:15px;">
+Sorularınız, önerileriniz veya telif bildirimleriniz için bize e-posta gönderebilirsiniz.
 </p>
 
 </div>
@@ -798,19 +750,24 @@ Türkiye'nin ücretsiz online oyun platformu.
 
 <div class="footer-links">
 
-<h3>Oyunlar</h3>
+<h3>Kategoriler</h3>
 
-<a href="#">Araba Oyunları</a>
+<a href="#" onclick="changeCategory('Tümü')">🎮 Tüm Oyunlar</a>
 
-<a href="#">Futbol Oyunları</a>
+<a href="#" onclick="changeCategory('Parkour')">🏃 Parkour</a>
 
-<a href="#">Motor Oyunları</a>
+<a href="#" onclick="changeCategory('Araba')">🚗 Araba</a>
 
-<a href="#">Zeka Oyunları</a>
+<a href="#" onclick="changeCategory('Motor')">🏍️ Motor</a>
+
+<a href="#" onclick="changeCategory('Futbol')">⚽ Futbol</a>
+
+<a href="#" onclick="changeCategory('Bulmaca')">🧩 Bulmaca</a>
 
 </div>
 
 <div class="footer-links">
+
 
 <h3>Yasal</h3>
 
@@ -828,10 +785,17 @@ Türkiye'nin ücretsiz online oyun platformu.
 
 <div class="copyright">
 
-© 2026 OyunKafe.com | Tüm Hakları Saklıdır.
+<p>
+© 2026 <strong>OyunKafe.com</strong> | Tüm Hakları Saklıdır.
+</p>
 
-<br>
-
-Türkiye'nin ücretsiz HTML5 oyun platformu.
+<p>
+OyunKafe; ücretsiz HTML5 oyunlarını güvenli, hızlı ve mobil uyumlu şekilde oynayabileceğiniz bağımsız bir oyun platformudur.
+</p>
 
 </div>
+
+</footer>
+</body>
+
+</html>
