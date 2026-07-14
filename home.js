@@ -475,8 +475,8 @@ function hidePages(){
     "privacy",
     "cookies",
     "terms",
-    "contact",
-    "dmca"
+    "dmca",
+    "contact"
 ]
 
     .forEach(id=>{
