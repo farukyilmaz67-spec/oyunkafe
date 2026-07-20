@@ -5,17 +5,102 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Oyun | OyunKafe</title>
+<title id="pageTitle">Oyun | OyunKafe</title>
 
-<link rel="stylesheet"
-href="style.css">
+<meta
+name="description"
+id="pageDescription"
+content="OyunKafe'de ücretsiz HTML5 oyunlarını bilgisayar ve mobil cihazlarda oynayın.">
+
+<meta
+name="keywords"
+content="ücretsiz oyun, html5 oyun, online oyun, araba oyunları, futbol oyunları, parkour oyunları">
+
+<meta
+name="robots"
+content="index,follow">
+
+<link
+rel="canonical"
+id="canonicalLink"
+href="https://oyunkafe.com/">
+
+<meta property="og:type" content="website">
+
+<meta
+property="og:title"
+id="ogTitle"
+content="Oyun | OyunKafe">
+
+<meta
+property="og:description"
+id="ogDescription"
+content="OyunKafe ücretsiz online oyun platformu">
+
+<meta
+property="og:image"
+id="ogImage"
+content="https://oyunkafe.com/logo.png">
+
+<meta
+property="og:url"
+id="ogUrl"
+content="https://oyunkafe.com/">
+
+<link rel="icon" href="favicon.ico">
+
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+<header class="site-header">
+
+<div class="container">
+
+<a href="index.html" class="logo">
+
+<img src="logo.png" alt="OyunKafe">
+
+</a>
+
+<nav>
+
+<a href="index.html">🏠 Ana Sayfa</a>
+
+<a href="index.html#about">📖 Hakkımızda</a>
+
+<a href="index.html#privacy">🔒 Gizlilik</a>
+
+<a href="index.html#contact">📞 İletişim</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<section class="breadcrumb">
+
+<div class="container">
+
+<a href="index.html">Ana Sayfa</a>
+
+<span>›</span>
+
+<span id="breadcrumbGame">
+
+Oyun
+
+</span>
+
+</div>
+
+</section>
 <main
 
 id="gameSection"
@@ -52,6 +137,8 @@ onclick="goHome()">
 </div>
 
 
+<div class="game-wrapper">
+
 <div class="game-frame">
 
 <iframe
@@ -66,12 +153,70 @@ allowfullscreen>
 
 </div>
 
+<div class="game-actions">
+
+<button
+class="hero-btn"
+onclick="document.getElementById('gameFrame').requestFullscreen()">
+
+⛶ Tam Ekran
+
+</button>
+
+<button
+class="hero-btn secondary"
+onclick="navigator.share ? navigator.share({title:document.title,url:window.location.href}) : alert('Paylaşım bu tarayıcıda desteklenmiyor.')">
+
+📤 Paylaş
+
+</button>
+
+</div>
+
+</div>
+
 
 <div class="game-description">
 
-<p id="gameDescription">
+<h2>📝 Oyun Hakkında</h2>
 
-</p>
+<p id="gameDescription"></p>
+
+<div class="game-info">
+
+<div>
+
+<strong>🎮 Platform</strong>
+
+<p>HTML5</p>
+
+</div>
+
+<div>
+
+<strong>📱 Uyum</strong>
+
+<p>Mobil + Bilgisayar</p>
+
+</div>
+
+<div>
+
+<strong>💰 Ücret</strong>
+
+<p>Tamamen Ücretsiz</p>
+
+</div>
+
+<div>
+
+<strong>⚡ Kurulum</strong>
+
+<p>Gerekmez</p>
+
+</div>
+
+</div>
 
 </div>
 
