@@ -6,9 +6,30 @@ async function loadGame() {
     const id = params.get("id");
 
     if (!id) {
-        document.body.innerHTML = "<h1>Oyun ID bulunamadı.</h1>";
-        return;
-    }
+
+    document.body.innerHTML = `
+
+    <div class="container" style="padding:80px 20px;text-align:center;">
+
+        <h1>🎮 Oyun Bulunamadı</h1>
+
+        <p>Aradığınız oyun mevcut değil veya bağlantı hatalı.</p>
+
+        <br>
+
+        <a href="index.html" class="btn">
+
+            Ana Sayfaya Dön
+
+        </a>
+
+    </div>
+
+    `;
+
+    return;
+
+}
 
     const response = await fetch("games.json");
     games = await response.json();
@@ -16,11 +37,58 @@ async function loadGame() {
     const game = games.find(g => g.id === id);
 
     if (!game) {
-        document.body.innerHTML = "<h1>Oyun bulunamadı.</h1>";
-        return;
-    }
+
+    document.body.innerHTML = `
+
+    <div class="container" style="padding:80px 20px;text-align:center;">
+
+        <h1>❌ Oyun Bulunamadı</h1>
+
+        <p>Bu oyun kaldırılmış olabilir.</p>
+
+        <br>
+
+        <a href="index.html" class="btn">
+
+            Ana Sayfaya Dön
+
+        </a>
+
+    </div>
+
+    `;
+
+    return;
+
+}
 
     document.title = game.title + " | OyunKafe";
+
+document.getElementById("pageDescription").setAttribute(
+"content",
+game.description
+);
+
+document.getElementById("canonicalLink").href =
+window.location.href;
+
+document.getElementById("ogTitle").setAttribute(
+"content",
+game.title + " | OyunKafe"
+);
+
+document.getElementById("ogDescription").setAttribute(
+"content",
+game.description
+);
+
+document.getElementById("ogUrl").setAttribute(
+"content",
+window.location.href
+);
+
+document.getElementById("breadcrumbGame").textContent =
+game.title;
 
     document.getElementById("gameTitle").textContent = game.title;
     document.getElementById("gameCategory").textContent = game.category;
