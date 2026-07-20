@@ -260,52 +260,38 @@ function renderGames(){
 function createCard(game){
 
     return `
+    <article class="card">
 
-<article class="card">
+        <img
+            src="${game.thumb}"
+            alt="${game.title}"
+            loading="lazy"
+            decoding="async"
+            width="400"
+            height="225">
 
-<div
+        <div class="card-content">
 
-class="thumb"
+            <span class="tag">
+                ${game.category}
+            </span>
 
-style="background-image:url('${game.thumb}')">
+            <h3>${game.title}</h3>
 
-</div>
+            <p>${game.description}</p>
 
-<div class="card-content">
+            <button
+                class="btn"
+                onclick="openGame('${game.id}')">
 
-<span class="tag">
+                🎮 Hemen Oyna
 
-${game.category}
+            </button>
 
-</span>
+        </div>
 
-<h3>
-
-${game.title}
-
-</h3>
-
-<p>
-
-${game.description}
-
-</p>
-
-<button
-
-class="btn"
-
-onclick="openGame('${game.id}')">
-
-🎮 Hemen Oyna
-
-</button>
-
-</div>
-
-</article>
-
-`;
+    </article>
+    `;
 
 }
 
@@ -317,37 +303,25 @@ onclick="openGame('${game.id}')">
 
 function renderHomeLists(){
 
-    renderSimpleList(
+    // Son eklenenler
+    const latestGames = [...games]
+        .slice(-5)
+        .reverse();
 
-        "popularGames",
+    // Önerilen oyunlar (rastgele)
+    const featuredGames = [...games]
+        .sort(() => Math.random() - 0.5)
+        .slice(0,5);
 
-        games.slice(0,5)
+    // Popüler oyunlar
+    // Şimdilik ilk 5 oyun gösteriliyor.
+    // İleride games.json dosyasına "popular:true"
+    // alanı ekleyerek bunu otomatik yapacağız.
+    const popularGames = games.slice(0,5);
 
-    );
-
-    renderSimpleList(
-
-        "featuredGames",
-
-        [...games]
-
-        .sort(()=>Math.random()-0.5)
-
-        .slice(0,5)
-
-    );
-
-    renderSimpleList(
-
-        "latestGames",
-
-        [...games]
-
-        .reverse()
-
-        .slice(0,5)
-
-    );
+    renderSimpleList("popularGames", popularGames);
+    renderSimpleList("featuredGames", featuredGames);
+    renderSimpleList("latestGames", latestGames);
 
 }
 
@@ -683,3 +657,11 @@ window.addEventListener("load",()=>{
     );
 
 });
+
+.card img{
+    width:100%;
+    aspect-ratio:16/9;
+    object-fit:cover;
+    display:block;
+    background:#f3f4f6;
+}

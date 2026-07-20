@@ -1444,3 +1444,178 @@ justify-content:center;
     max-width:336px;
     height:280px;
 }
+/* =====================================
+   OYUNKAFE V5 - HOMEPAGE TOP
+===================================== */
+
+.homepage-top{
+    display:grid;
+    grid-template-columns:260px 1fr 260px;
+    gap:25px;
+    margin:30px 0;
+    align-items:start;
+}
+
+.side-panel{
+    background:#ffffff;
+    border-radius:18px;
+    padding:22px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.side-panel h3{
+    font-size:20px;
+    margin-bottom:18px;
+    color:#1d4ed8;
+}
+
+.side-panel a{
+    display:block;
+    padding:12px 0;
+    border-bottom:1px solid #ececec;
+    font-weight:600;
+    color:#374151;
+    transition:.25s;
+}
+
+.side-panel a:last-child{
+    border:none;
+}
+
+.side-panel a:hover{
+    color:#2563eb;
+    padding-left:8px;
+}
+
+.center-panel{
+    background:#ffffff;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.center-panel h1{
+    font-size:42px;
+    margin-bottom:12px;
+}
+
+.center-panel p{
+    color:#6b7280;
+    margin-bottom:25px;
+    font-size:17px;
+}
+
+.center-panel .search-box{
+    margin-bottom:25px;
+}
+
+.center-panel .cats{
+    margin-top:10px;
+}
+
+@media(max-width:1100px){
+
+.homepage-top{
+
+grid-template-columns:1fr;
+
+}
+
+.side-panel{
+
+order:2;
+
+}
+
+.center-panel{
+
+order:1;
+
+}
+
+}
+/* =====================================
+   OYUNKAFE V5 - GAME CARDS
+===================================== */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    gap:28px;
+}
+
+.card{
+    background:#fff;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.35s;
+    display:flex;
+    flex-direction:column;
+    border:1px solid #edf0f5;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.16);
+}
+
+.card img{
+    width:100%;
+    height:210px;
+    object-fit:cover;
+    display:block;
+}
+
+.card-content{
+    padding:22px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.tag{
+    display:inline-block;
+    width:max-content;
+    padding:6px 14px;
+    border-radius:999px;
+    background:#2563eb;
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:14px;
+}
+
+.card-content h3{
+    font-size:22px;
+    line-height:1.35;
+    margin-bottom:10px;
+    color:#111827;
+}
+
+.card-content p{
+    flex:1;
+    color:#6b7280;
+    font-size:15px;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:14px;
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.30s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+    background:linear-gradient(135deg,#1d4ed8,#1e40af);
+}
