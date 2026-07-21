@@ -145,17 +145,18 @@ function renderRelated(game) {
 window.addEventListener("DOMContentLoaded", loadGame);
 function renderHowToPlay(game){
 
-    const area=document.getElementById("howToPlay");
+    const area = document.getElementById("howToPlay");
+
+    if (!area) return;
 
     if(!game.howToPlay || game.howToPlay.length===0){
         area.parentElement.style.display="none";
         return;
     }
 
-    area.innerHTML=game.howToPlay
-        .map(item=>`<li>${item}</li>`)
+    area.innerHTML = game.howToPlay
+        .map(item => `<li>${item}</li>`)
         .join("");
-
 }
 
 function renderFeatures(game){
