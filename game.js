@@ -96,7 +96,12 @@ game.title;
 
     document.getElementById("gameFrame").src = game.embed;
 
-    renderRelated(game);
+renderHowToPlay(game);
+renderFeatures(game);
+renderTips(game);
+renderFAQ(game);
+
+renderRelated(game);
 }
 
 function renderRelated(game) {
@@ -138,3 +143,89 @@ function renderRelated(game) {
 }
 
 window.addEventListener("DOMContentLoaded", loadGame);
+function renderHowToPlay(game){
+
+    const area=document.getElementById("howToPlay");
+
+    if(!game.howToPlay || game.howToPlay.length===0){
+        area.parentElement.style.display="none";
+        return;
+    }
+
+    area.innerHTML=game.howToPlay
+        .map(item=>`<li>${item}</li>`)
+        .join("");
+
+}
+
+function renderFeatures(game){
+
+    const area=document.getElementById("gameFeatures");
+
+    if(!game.features || game.features.length===0){
+        area.parentElement.style.display="none";
+        return;
+    }
+
+    area.innerHTML=game.features
+        .map(item=>`<div class="feature-item">${item}</div>`)
+        .join("");
+
+}
+
+function renderTips(game){
+
+    const area=document.getElementById("gameTips");
+
+    if(!game.tips || game.tips.length===0){
+        area.parentElement.style.display="none";
+        return;
+    }
+
+    area.innerHTML=game.tips
+        .map(item=>`<li>${item}</li>`)
+        .join("");
+
+}
+
+function renderFAQ(game){
+
+    const area=document.getElementById("faqArea");
+
+    if(!game.faq || game.faq.length===0){
+        area.parentElement.style.display="none";
+        return;
+    }
+
+    area.innerHTML=game.faq.map(item=>`
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+                ${item.q}
+            </button>
+
+            <div class="faq-answer">
+                ${item.a}
+            </div>
+
+        </div>
+
+    `).join("");
+
+    area.querySelectorAll(".faq-question").forEach(btn=>{
+
+        btn.addEventListener("click",()=>{
+
+            const answer=btn.nextElementSibling;
+
+            answer.style.display=
+                answer.style.display==="block"
+                ? "none"
+                : "block";
+
+        });
+
+    });
+
+}
