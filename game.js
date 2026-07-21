@@ -202,11 +202,17 @@ function renderFAQ(game){
         <div class="faq-item">
 
             <button class="faq-question">
-                ${item.q}
+
+                <span>${item.q}</span>
+
+                <span>+</span>
+
             </button>
 
             <div class="faq-answer">
+
                 ${item.a}
+
             </div>
 
         </div>
@@ -217,12 +223,9 @@ function renderFAQ(game){
 
         btn.addEventListener("click",()=>{
 
-            const answer=btn.nextElementSibling;
+            const item=btn.parentElement;
 
-            answer.style.display=
-                answer.style.display==="block"
-                ? "none"
-                : "block";
+            item.classList.toggle("active");
 
         });
 
