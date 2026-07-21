@@ -386,4 +386,22 @@
     "description": "Seat Puzzle Cut The Rope, ipleri doğru sırayla keserek bulmacaları çözmeniz gereken eğlenceli bir mantık oyunudur. Her bölümde farklı zorluklarla karşılaşacak ve stratejik düşünme becerilerinizi geliştireceksiniz. Bulmaca kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
     "seo": "Seat Puzzle Cut The Rope ücretsiz bulmaca oyunu."
   }
+{
+  "id": "train-surfers",
+  "title": "Train Surfers",
+  "category": "Parkour",
+  "thumb": "images/games/train-surfers.jpg",
+  "embed": "https://html5.gamedistribution.com/6920e96cea7a4aea956c7410de649a98/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=train-surfers",
+  "description": "Train Surfers, tren raylarında koşarak engellerden kaçmanız, altınları toplamanız ve reflekslerinizi kullanarak en uzun mesafeye ulaşmanız gereken heyecan dolu bir sonsuz koşu oyunudur. Hareket halindeki trenlerin üzerinden atlayın, bariyerlerin altından kayın ve yüksek puanlar elde ederek kendi rekorunuzu kırın. Akıcı oynanışı sayesinde hem mobil cihazlarda hem de bilgisayarda ücretsiz olarak oynanabilir.",
+  "seo": "Train Surfers ücretsiz sonsuz koşu ve parkour oyunu. Tren raylarında koş, engellerden kaç ve en yüksek puanı elde et."
+}
+{
+  "id": "idle-lumber-hero",
+  "title": "Idle Lumber Hero",
+  "category": "Simülasyon",
+  "thumb": "images/games/idle-lumber-hero.jpg",
+  "embed": "https://html5.gamedistribution.com/86dfb922b8eb4afe97b0bc2096c42b29/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=idle-lumber-hero",
+  "description": "Idle Lumber Hero, küçük bir oduncu olarak başladığınız macerada kendi kereste imparatorluğunuzu kurmaya çalıştığınız eğlenceli bir simülasyon oyunudur. Ağaçları kesin, odunları pazarda satarak gelir elde edin, baltanızı ve taşıma kapasitenizi geliştirin, yeni alanların kilidini açın ve üretiminizi sürekli büyütün. Stratejik yükseltmeler yaparak en başarılı kereste ustası olun. Mobil cihazlarda ve bilgisayarda tamamen ücretsiz oynanabilir.",
+  "seo": "Idle Lumber Hero ücretsiz kereste simülasyonu ve idle yönetim oyunu. Ağaç kes, işletmeni büyüt ve kereste imparatorluğunu kur."
+}
 ]
