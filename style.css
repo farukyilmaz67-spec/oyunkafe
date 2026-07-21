@@ -1705,3 +1705,66 @@ window.addEventListener("load",()=>{
     display:block;
     background:#f3f4f6;
 }
+.game-section-box{
+    background:#fff;
+    border-radius:18px;
+    padding:30px;
+    margin:30px 0;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.game-section-box h2{
+    margin-bottom:20px;
+}
+
+.game-section-box ul{
+    padding-left:20px;
+}
+
+.game-section-box li{
+    margin-bottom:12px;
+    line-height:1.8;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+}
+
+.feature-item{
+    background:#f5f7fb;
+    border-radius:14px;
+    padding:18px;
+    text-align:center;
+    font-weight:600;
+}
+
+.tips-box{
+    border-left:5px solid #f59e0b;
+}
+
+.faq-item{
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    margin-bottom:15px;
+    overflow:hidden;
+}
+
+.faq-question{
+    width:100%;
+    padding:18px;
+    background:#fff;
+    border:none;
+    text-align:left;
+    font-size:16px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.faq-answer{
+    display:none;
+    padding:18px;
+    background:#fafafa;
+    border-top:1px solid #eee;
+}
