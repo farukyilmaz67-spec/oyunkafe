@@ -642,26 +642,3 @@ function randomGame(){
 
 
 
-// ================================
-// SAYFA HAZIR
-// ================================
-
-window.addEventListener("load",()=>{
-
-    console.log(
-
-        "%c🎮 OyunKafe Hazır",
-
-        "color:#2563eb;font-size:18px;font-weight:bold"
-
-    );
-
-});
-
-.card img{
-    width:100%;
-    aspect-ratio:16/9;
-    object-fit:cover;
-    display:block;
-    background:#f3f4f6;
-}
