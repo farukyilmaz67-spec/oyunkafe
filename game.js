@@ -101,6 +101,9 @@ renderFeatures(game);
 renderTips(game);
 renderFAQ(game);
 
+createBreadcrumbSchema(game);
+createGameSchema(game);
+
 renderRelated(game);
 }
 
@@ -231,5 +234,95 @@ function renderFAQ(game){
         });
 
     });
+
+}
+function createBreadcrumbSchema(game){
+
+    const schema = {
+
+        "@context":"https://schema.org",
+
+        "@type":"BreadcrumbList",
+
+        "itemListElement":[
+
+            {
+                "@type":"ListItem",
+                "position":1,
+                "name":"Ana Sayfa",
+                "item":"https://oyunkafe.com/"
+            },
+
+            {
+                "@type":"ListItem",
+                "position":2,
+                "name":game.category
+            },
+
+            {
+                "@type":"ListItem",
+                "position":3,
+                "name":game.title,
+                "item":window.location.href
+            }
+
+        ]
+
+    };
+
+    document.getElementById("breadcrumbSchema").textContent =
+        JSON.stringify(schema);
+
+}
+function createGameSchema(game){
+
+    const schema={
+
+        "@context":"https://schema.org",
+
+        "@type":"VideoGame",
+
+        "name":game.title,
+
+        "description":game.seo || game.description,
+
+        "genre":game.category,
+
+        "applicationCategory":"Game",
+
+        "operatingSystem":"Web Browser",
+
+        "url":window.location.href,
+
+        "image":"https://oyunkafe.com/" + game.thumb,
+
+        "author":{
+            "@type":"Organization",
+            "name":"OyunKafe"
+        },
+
+        "publisher":{
+            "@type":"Organization",
+            "name":"OyunKafe"
+        }
+
+    };
+
+    if(game.rating){
+
+        schema.aggregateRating={
+
+            "@type":"AggregateRating",
+
+            "ratingValue":game.rating,
+
+            "ratingCount":game.ratingCount || 1
+
+        };
+
+    }
+
+    document.getElementById("gameSchema").textContent=
+        JSON.stringify(schema);
 
 }

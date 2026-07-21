@@ -264,4 +264,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+<url>
+    <loc>https://oyunkafe.com/oyun.html?id=train-surfers</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://oyunkafe.com/oyun.html?id=idle-lumber-hero</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+</url>
 </urlset>
