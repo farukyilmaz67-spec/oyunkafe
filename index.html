@@ -89,48 +89,56 @@ href="style.css">
 
 <header class="header">
 
-<div class="container header-inner">
+    <div class="container">
 
-<a
-href="index.html"
-class="logo">
+        <div class="header-top">
 
-<img
-src="logo.png"
-alt="OyunKafe">
+            <a href="index.html" class="logo">
 
-</a>
+                <img src="logo.png" alt="OyunKafe">
 
+                <span>OyunKafe</span>
 
-<nav class="nav">
+            </a>
 
-<a href="#" onclick="goHome()">
+            <div class="header-search">
 
-🏠 Ana Sayfa
+                <input
+                    id="headerSearch"
+                    type="text"
+                    placeholder="🔍 Oyun ara...">
 
-</a>
+            </div>
 
-<a href="#" onclick="showPage('about')">
+            <div class="header-actions">
 
-📖 Hakkımızda
+                <button title="Favoriler">⭐</button>
 
-</a>
+                <button title="Son Oynanan">🕘</button>
 
-<a href="#" onclick="showPage('privacy')">
+                <button id="themeBtn" title="Tema">🌙</button>
 
-🔒 Gizlilik
+            </div>
 
-</a>
+        </div>
 
-<a href="#" onclick="showPage('contact')">
+        <nav class="premium-nav">
 
-📞 İletişim
+            <a href="#" onclick="goHome()">🏠 Ana Sayfa</a>
 
-</a>
+            <a href="#" onclick="changeCategory('Araba')">🚗 Araba</a>
 
-</nav>
+            <a href="#" onclick="changeCategory('Motor')">🏍️ Motor</a>
 
-</div>
+            <a href="#" onclick="changeCategory('Futbol')">⚽ Futbol</a>
+
+            <a href="#" onclick="changeCategory('Parkour')">🏃 Parkour</a>
+
+            <a href="#" onclick="changeCategory('Bulmaca')">🧩 Bulmaca</a>
+
+        </nav>
+
+    </div>
 
 </header>
 
