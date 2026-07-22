@@ -284,14 +284,12 @@ function createCard(game){
 </div>
 
 <img
-
-        <img
-            src="${game.thumb}"
-            alt="${game.title}"
-            loading="lazy"
-            decoding="async"
-            width="400"
-            height="225">
+    src="${game.thumb}"
+    alt="${game.title}"
+    loading="lazy"
+    decoding="async"
+    width="400"
+    height="225">
 
         <div class="card-content">
 
