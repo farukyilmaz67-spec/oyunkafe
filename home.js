@@ -267,13 +267,23 @@ function createCard(game){
     return `
     <article class="card">
 
-        <button
-            class="favorite-btn ${isFavorite ? "active" : ""}"
-            onclick="toggleFavorite(event,'${game.id}')">
+        <div class="card-badges">
 
-            ${isFavorite ? "★" : "☆"}
+    <span class="badge badge-new">
+        🆕 Yeni
+    </span>
 
-        </button>
+    <button
+        class="favorite-btn ${isFavorite ? "active" : ""}"
+        onclick="toggleFavorite(event,'${game.id}')">
+
+        ${isFavorite ? "★" : "☆"}
+
+    </button>
+
+</div>
+
+<img
 
         <img
             src="${game.thumb}"

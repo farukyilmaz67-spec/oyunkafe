@@ -1853,3 +1853,88 @@ window.addEventListener("load",()=>{
     color:#f59e0b;
 
 }
+/* =====================================
+   V6.1 CARD BADGES
+===================================== */
+
+.card{
+    position:relative;
+}
+
+.card-badges{
+
+    position:absolute;
+
+    top:12px;
+
+    left:12px;
+
+    right:12px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    z-index:10;
+
+}
+
+.badge{
+
+    background:#2563eb;
+
+    color:#fff;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+
+}
+
+.badge-new{
+
+    background:#10b981;
+
+}
+
+.favorite-btn{
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+
+    transition:.25s;
+
+}
+
+.favorite-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+.favorite-btn.active{
+
+    color:#f59e0b;
+
+}
