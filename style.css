@@ -1802,3 +1802,54 @@ window.addEventListener("load",()=>{
     padding:20px;
 
 }
+/* ===========================
+   FAVORITE BUTTON
+=========================== */
+
+.card{
+
+    position:relative;
+
+}
+
+.favorite-btn{
+
+    position:absolute;
+
+    top:12px;
+
+    right:12px;
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.95);
+
+    cursor:pointer;
+
+    font-size:26px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition:.25s;
+
+    z-index:20;
+
+}
+
+.favorite-btn:hover{
+
+    transform:scale(1.12);
+
+}
+
+.favorite-btn.active{
+
+    color:#f59e0b;
+
+}

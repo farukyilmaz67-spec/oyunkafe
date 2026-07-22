@@ -7,6 +7,13 @@ let games = [];
 let activeCategory = "Tümü";
 
 let currentGame = null;
+let games = [];
+
+let activeCategory = "Tümü";
+
+let currentGame = null;
+
+let favoritesOnly = false;
 
 
 // ================================
@@ -259,8 +266,19 @@ function renderGames(){
 
 function createCard(game){
 
+    const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+    const isFavorite = favorites.includes(game.id);
+
     return `
     <article class="card">
+
+        <button
+            class="favorite-btn ${isFavorite ? "active" : ""}"
+            onclick="toggleFavorite(event,'${game.id}')">
+
+            ${isFavorite ? "★" : "☆"}
+
+        </button>
 
         <img
             src="${game.thumb}"
@@ -637,6 +655,38 @@ function randomGame(){
         ];
 
     openGame(game.id);
+
+}
+// ================================
+// FAVORİLER
+// ================================
+
+function toggleFavorite(event,id){
+
+    event.stopPropagation();
+
+    let favorites =
+        JSON.parse(
+            localStorage.getItem("favorites") || "[]"
+        );
+
+    if(favorites.includes(id)){
+
+        favorites =
+            favorites.filter(x=>x!==id);
+
+    }else{
+
+        favorites.push(id);
+
+    }
+
+    localStorage.setItem(
+        "favorites",
+        JSON.stringify(favorites)
+    );
+
+    renderGames();
 
 }
 
