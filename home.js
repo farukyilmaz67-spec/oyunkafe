@@ -7,11 +7,6 @@ let games = [];
 let activeCategory = "Tümü";
 
 let currentGame = null;
-let games = [];
-
-let activeCategory = "Tümü";
-
-let currentGame = null;
 
 let favoritesOnly = false;
 
