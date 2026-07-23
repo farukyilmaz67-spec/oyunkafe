@@ -1952,9 +1952,16 @@ window.addEventListener("load",()=>{
 
     backdrop-filter:blur(14px);
 
-    background:rgba(20,20,25,.90);
+    background:linear-gradient(
+        135deg,
+        #06142f 0%,
+        #0b1f4d 55%,
+        #081833 100%
+    );
 
     border-bottom:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 8px 30px rgba(0,0,0,.35);
 
 }
 
@@ -1991,15 +1998,21 @@ window.addEventListener("load",()=>{
 }
 
 .logo img{
-    width:220px;
+
+    width:280px;
+
     height:auto;
+
+    filter:
+        drop-shadow(0 6px 18px rgba(0,255,150,.15));
+
 }
 
 .header-search{
 
     flex:1;
 
-    max-width:520px;
+    max-width:640px;
 
 }
 
