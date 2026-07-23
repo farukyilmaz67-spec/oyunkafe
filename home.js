@@ -340,7 +340,7 @@ function renderHomeLists(){
     // Şimdilik ilk 5 oyun gösteriliyor.
     // İleride games.json dosyasına "popular:true"
     // alanı ekleyerek bunu otomatik yapacağız.
-    const popularGames = games.slice(0,5);
+    const popularGames = games.slice(0,4);
 
     renderSimpleList("popularGames", popularGames);
     renderSimpleList("featuredGames", featuredGames);
