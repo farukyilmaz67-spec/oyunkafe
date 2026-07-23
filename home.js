@@ -362,13 +362,23 @@ function renderSimpleList(id,list){
 
         area.innerHTML += `
 
-<a
+<div class="side-game"
+     onclick="openGame('${game.id}')">
 
-onclick="openGame('${game.id}')">
+    <img
+        src="${game.thumb}"
+        alt="${game.title}"
+        loading="lazy">
 
-🎮 ${game.title}
+    <div class="side-game-info">
 
-</a>
+        <strong>${game.title}</strong>
+
+        <span>${game.category}</span>
+
+    </div>
+
+</div>
 
 `;
 
@@ -387,14 +397,12 @@ function renderFeaturedGames(){
 
     const featuredIds = [
 
-        "geometry-dash-maze-maps-v2",
-        "drift-boss",
-        "soccer-random",
-        "parking-fury",
-        "football-legends-2026",
-        "moto-x3m-4-winter"
+    "geometry-dash-maze-maps-v2",
+    "drift-boss",
+    "soccer-random",
+    "parking-fury"
 
-    ];
+];
 
     const list = featuredIds
         .map(id => games.find(game => game.id === id))
