@@ -27,6 +27,8 @@ async function init(){
 
     renderHomeLists();
 
+    renderFeaturedGames();
+
     updateStats();
 
     initSearch();
@@ -374,6 +376,64 @@ onclick="openGame('${game.id}')">
 
 }
 // ================================
+// EN ÇOK OYNANAN OYUNLAR
+// ================================
+
+function renderFeaturedGames(){
+
+    const area = document.getElementById("featuredGamesGrid");
+
+    if(!area) return;
+
+    const featuredIds = [
+
+        "geometry-dash-maze-maps-v2",
+        "drift-boss",
+        "soccer-random",
+        "parking-fury",
+        "football-legends-2026",
+        "moto-x3m-4-winter"
+
+    ];
+
+    const list = featuredIds
+        .map(id => games.find(game => game.id === id))
+        .filter(Boolean);
+
+    area.innerHTML = "";
+
+    list.forEach(game => {
+
+        area.innerHTML += `
+
+        <article class="featured-card"
+            onclick="openGame('${game.id}')">
+
+            <img
+                src="${game.thumb}"
+                alt="${game.title}"
+                loading="lazy">
+
+            <div class="featured-content">
+
+                <span>${game.category}</span>
+
+                <h3>${game.title}</h3>
+
+                <button class="btn">
+                    🎮 Hemen Oyna
+                </button>
+
+            </div>
+
+        </article>
+
+        `;
+
+    });
+
+}
+// ================================
 // OYUNU AÇ
 // ================================
 
@@ -690,6 +750,109 @@ function toggleFavorite(event,id){
     );
 
     renderGames();
+
+}
+/* ===========================
+   EN ÇOK OYNANAN OYUNLAR
+=========================== */
+
+.featured-games{
+
+    margin:40px 0;
+
+}
+
+.section-header{
+
+    margin-bottom:25px;
+
+}
+
+.section-header h2{
+
+    font-size:32px;
+
+    margin-bottom:8px;
+
+}
+
+.section-header span{
+
+    color:#777;
+
+}
+
+.featured-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+.featured-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    transition:.30s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.featured-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.featured-card img{
+
+    width:100%;
+
+    height:180px;
+
+    object-fit:cover;
+
+}
+
+.featured-content{
+
+    padding:18px;
+
+}
+
+.featured-content span{
+
+    display:inline-block;
+
+    background:#eef4ff;
+
+    color:#2f6df6;
+
+    padding:5px 10px;
+
+    border-radius:50px;
+
+    font-size:13px;
+
+    margin-bottom:10px;
+
+}
+
+.featured-content h3{
+
+    margin:10px 0 18px;
+
+    font-size:22px;
 
 }
 
