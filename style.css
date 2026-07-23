@@ -1991,9 +1991,8 @@ window.addEventListener("load",()=>{
 }
 
 .logo img{
-
-    width:52px;
-
+    width:220px;
+    height:auto;
 }
 
 .header-search{
@@ -2062,11 +2061,15 @@ window.addEventListener("load",()=>{
 
     display:flex;
 
-    gap:12px;
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
 
     flex-wrap:wrap;
 
-    padding-bottom:16px;
+    padding:0 0 18px;
 
 }
 
