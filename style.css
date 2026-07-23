@@ -1450,7 +1450,7 @@ justify-content:center;
 
 .homepage-top{
     display:grid;
-    grid-template-columns:260px 1fr 260px;
+    grid-template-columns:240px minmax(0,1fr) 240px;
     gap:25px;
     margin:30px 0;
     align-items:start;
@@ -1491,6 +1491,9 @@ justify-content:center;
     background:#ffffff;
     border-radius:20px;
     padding:28px 30px;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+    border:1px solid #edf2f7;
 }
 
 .center-panel h1{
@@ -2235,42 +2238,94 @@ justify-content:center;
 
 }
 /* =====================================================
-   PREMIUM FEATURED HERO
+   PREMIUM FEATURED GAMES
 ===================================================== */
 
-.featured-hero{
+.featured-grid{
 
-    text-align:center;
+    display:grid;
 
-    margin-bottom:35px;
+    grid-template-columns:repeat(4,1fr);
+
+    gap:22px;
+
+    align-items:stretch;
 
 }
 
-.hero-badge{
+.featured-card{
 
-    display:inline-block;
+    background:#fff;
 
-    padding:8px 18px;
+    border-radius:22px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    flex-direction:column;
+
+    border:1px solid #edf2f7;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.featured-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 22px 45px rgba(0,0,0,.16);
+
+}
+
+.featured-card img{
+
+    width:100%;
+
+    aspect-ratio:16/9;
+
+    object-fit:cover;
+
+}
+
+.featured-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    flex:1;
+
+    padding:18px;
+
+}
+
+.featured-content span{
+
+    width:max-content;
+
+    padding:6px 12px;
 
     border-radius:999px;
 
-    background:linear-gradient(135deg,#3b82f6,#2563eb);
+    background:#eef4ff;
 
-    color:#fff;
+    color:#2563eb;
+
+    font-size:12px;
 
     font-weight:700;
 
-    font-size:14px;
-
-    margin-bottom:18px;
-
-    box-shadow:0 8px 25px rgba(37,99,235,.25);
+    margin-bottom:14px;
 
 }
 
-.featured-hero h2{
+.featured-content h3{
 
-    font-size:40px;
+    font-size:21px;
 
     margin-bottom:12px;
 
@@ -2278,18 +2333,63 @@ justify-content:center;
 
 }
 
-.featured-hero p{
+.featured-content p{
 
-    max-width:620px;
-
-    margin:auto;
+    flex:1;
 
     color:#6b7280;
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.7;
+    line-height:1.6;
 
 }
 
+.featured-content button{
+
+    margin-top:18px;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:14px;
+
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+
+    color:#fff;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.featured-content button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+@media(max-width:1200px){
+
+    .featured-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:700px){
+
+    .featured-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
 
