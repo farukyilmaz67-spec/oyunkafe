@@ -2483,4 +2483,92 @@ justify-content:center;
     font-weight:600;
 
 }
+.side-box{
 
+    margin-top:25px;
+
+    padding-top:20px;
+
+    border-top:1px solid #ececec;
+
+}
+
+.random-btn{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.random-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.stat-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin:12px 0;
+
+}
+
+.ad-placeholder{
+
+    height:250px;
+
+    border:2px dashed #d4d4d4;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    color:#777;
+
+    font-weight:700;
+
+}
+
+.social-btn{
+
+    display:block;
+
+    text-align:center;
+
+    background:#E1306C;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
