@@ -2208,6 +2208,14 @@ justify-content:center;
 
 .featured-content{
 
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    flex:1;
+
     padding:18px;
 
 }
@@ -2232,9 +2240,17 @@ justify-content:center;
 
 .featured-content h3{
 
-    margin:10px 0 18px;
-
     font-size:22px;
+
+    line-height:1.35;
+
+    min-height:60px;
+
+    display:flex;
+
+    align-items:flex-start;
+
+    margin:12px 0 18px;
 
 }
 /* =====================================================
