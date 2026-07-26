@@ -214,10 +214,13 @@ function renderGames(){
     }
 
     const text =
-        document.getElementById("searchInput")
-        ?.value
-        .toLowerCase()
-        .trim() || "";
+(
+    document.getElementById("headerSearch") ||
+    document.getElementById("searchInput")
+)
+?.value
+.toLowerCase()
+.trim() || "";
 
     if(text){
 
@@ -494,7 +497,13 @@ function goHome(){
     document.title =
         "OyunKafe | Ücretsiz Online Oyunlar";
 
-    window.scrollTo({
+activeCategory = "Tümü";
+
+renderCategories();
+
+renderGames();
+    
+window.scrollTo({
 
         top:0,
 
