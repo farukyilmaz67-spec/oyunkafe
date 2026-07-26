@@ -414,18 +414,18 @@ function renderSimpleList(id,list){
 
 function renderFeaturedGames(){
 
-    const area = document.getElementById("featuredGamesGrid");
+    const area = document.getElementById("featuredGames");
 
     if(!area) return;
 
     const featuredIds = [
 
-    "geometry-dash-maze-maps-v2",
-    "drift-boss",
-    "soccer-random",
-    "parking-fury"
+        "geometry-dash-maze-maps-v2",
+        "drift-boss",
+        "soccer-random",
+        "parking-fury"
 
-];
+    ];
 
     const list = featuredIds
         .map(id => games.find(game => game.id === id))
@@ -433,7 +433,7 @@ function renderFeaturedGames(){
 
     area.innerHTML = "";
 
-    list.forEach(game => {
+    list.forEach(game=>{
 
         area.innerHTML += `
 
@@ -451,8 +451,10 @@ function renderFeaturedGames(){
 
                 <h3>${game.title}</h3>
 
-                <button class="btn">
+                <button>
+
                     🎮 Hemen Oyna
+
                 </button>
 
             </div>
