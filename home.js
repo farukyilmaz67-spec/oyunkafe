@@ -75,11 +75,17 @@ async function loadGames(){
 
 function initSearch(){
 
-    const input = document.getElementById("searchInput");
+    const input =
+        document.getElementById("headerSearch") ||
+        document.getElementById("searchInput");
 
     if(!input) return;
 
-    input.addEventListener("keyup",renderGames);
+    input.addEventListener("input",()=>{
+
+        renderGames();
+
+    });
 
 }
 
@@ -144,6 +150,20 @@ function changeCategory(category){
     renderCategories();
 
     renderGames();
+
+    const gamesSection = document.querySelector(".games-section");
+
+    if(gamesSection){
+
+        gamesSection.scrollIntoView({
+
+            behavior:"smooth",
+
+            block:"start"
+
+        });
+
+    }
 
 }
 
