@@ -2080,18 +2080,22 @@ window.addEventListener("load",()=>{
 .premium-nav{
 
     display:flex;
-
+    align-items:center;
     justify-content:center;
 
-    align-items:center;
+    gap:10px;
 
-    gap:12px;
+    flex-wrap:nowrap;
 
-    flex-wrap:wrap;
+    overflow-x:auto;
 
-    margin-top:18px;
+    scrollbar-width:none;
 
-    padding-bottom:20px;
+}
+
+.premium-nav::-webkit-scrollbar{
+
+    display:none;
 
 }
 
@@ -2221,11 +2225,9 @@ window.addEventListener("load",()=>{
 
     display:grid;
 
-    grid-template-columns:repeat(4,minmax(280px,1fr));
+    grid-template-columns:repeat(4,1fr);
 
-    justify-content:center;
-
-    gap:22px;
+    gap:18px;
 
 }
 
@@ -2261,7 +2263,7 @@ window.addEventListener("load",()=>{
 
     width:100%;
 
-    height:220px;
+    height:170px;
 
     object-fit:cover;
 
@@ -2301,15 +2303,11 @@ window.addEventListener("load",()=>{
 
 .featured-content h3{
 
-    font-size:20px;
+    font-size:18px;
+
+    min-height:52px;
 
     line-height:1.4;
-
-    min-height:56px;
-
-    margin-bottom:14px;
-
-    color:#111827;
 
 }
 
