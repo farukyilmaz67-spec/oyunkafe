@@ -354,11 +354,6 @@ function renderHomeLists(){
         .slice(-5)
         .reverse();
 
-    // Önerilen oyunlar (rastgele)
-    const featuredGames = [...games]
-        .sort(() => Math.random() - 0.5)
-        .slice(0,5);
-
     // Popüler oyunlar
     // Şimdilik ilk 5 oyun gösteriliyor.
     // İleride games.json dosyasına "popular:true"
@@ -366,7 +361,6 @@ function renderHomeLists(){
     const popularGames = games.slice(0,4);
 
     renderSimpleList("popularGames", popularGames);
-    renderSimpleList("featuredGames", featuredGames);
     renderSimpleList("latestGames", latestGames);
 
 }
