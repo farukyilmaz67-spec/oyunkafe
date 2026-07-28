@@ -38,6 +38,66 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Araba</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Motor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Futbol</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Parkour</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Zeka</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Aksiyon</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Spor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Kart</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Sim%C3%BClasyon</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Bulmaca</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Macera</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/kategori.html?category=Arcade</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.oyunkafe.com/oyun.html?id=geometry-dash-maze-maps-v2</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

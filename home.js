@@ -21,9 +21,18 @@ async function init(){
 
     await loadGames();
 
+    const requestedCategory = new URLSearchParams(window.location.search)
+        .get("category");
+
+    if(requestedCategory && games.some(game => game.category === requestedCategory)){
+        activeCategory = requestedCategory;
+    }
+
     renderCategories();
 
     renderGames();
+
+    updateCategoryPage();
 
     renderHomeLists();
 
@@ -37,6 +46,30 @@ async function init(){
 
     initBackTop();
 
+}
+
+function updateCategoryPage(){
+
+    const title = document.getElementById("categoryTitle");
+    const intro = document.getElementById("categoryIntro");
+
+    if(!title || !intro || activeCategory === "Tümü") return;
+
+    const total = games.filter(game => game.category === activeCategory).length;
+
+    document.title = activeCategory + " Oyunları | OyunKafe";
+    title.textContent = activeCategory + " Oyunları";
+    intro.textContent = `${total} ücretsiz ${activeCategory.toLowerCase()} oyununu hemen keşfedin.`;
+
+    const canonical = document.getElementById("canonicalLink");
+
+    if(canonical){
+        canonical.href = "https://www.oyunkafe.com/kategori.html?category=" + encodeURIComponent(activeCategory);
+    }
+
+    document.querySelectorAll(".premium-nav a").forEach(link => {
+        if(link.href === window.location.href) link.setAttribute("aria-current", "page");
+    });
 }
 
 
