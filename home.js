@@ -42,10 +42,65 @@ async function init(){
 
     initSearch();
 
+    initHeaderActions();
+
     initCookie();
 
     initBackTop();
 
+}
+
+function initHeaderActions(){
+
+    const themeBtn = document.getElementById("themeBtn");
+    const favoritesBtn = document.getElementById("favoritesBtn");
+    const savedTheme = localStorage.getItem("theme");
+
+    applyTheme(savedTheme === "dark");
+    updateFavoritesButton();
+
+    if(themeBtn){
+        themeBtn.addEventListener("click", () => {
+            const isDark = !document.body.classList.contains("dark-theme");
+            localStorage.setItem("theme", isDark ? "dark" : "light");
+            applyTheme(isDark);
+        });
+    }
+
+    if(favoritesBtn){
+        favoritesBtn.addEventListener("click", () => {
+            favoritesOnly = !favoritesOnly;
+            updateFavoritesButton();
+            renderGames();
+            document.querySelector(".games-section")?.scrollIntoView({behavior:"smooth", block:"start"});
+        });
+    }
+}
+
+function applyTheme(isDark){
+
+    document.body.classList.toggle("dark-theme", isDark);
+
+    const button = document.getElementById("themeBtn");
+
+    if(button){
+        button.textContent = isDark ? "☀️" : "🌙";
+        button.title = isDark ? "Açık temayı aç" : "Koyu temayı aç";
+        button.setAttribute("aria-label", button.title);
+        button.setAttribute("aria-pressed", String(isDark));
+    }
+}
+
+function updateFavoritesButton(){
+
+    const button = document.getElementById("favoritesBtn");
+
+    if(!button) return;
+
+    button.classList.toggle("is-active", favoritesOnly);
+    button.setAttribute("aria-pressed", String(favoritesOnly));
+    button.title = favoritesOnly ? "Tüm oyunları göster" : "Favori oyunları göster";
+    button.setAttribute("aria-label", button.title);
 }
 
 function updateCategoryPage(){
@@ -244,6 +299,11 @@ function renderGames(){
 
         );
 
+    }
+
+    if(favoritesOnly){
+        const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+        list = list.filter(game => favorites.includes(game.id));
     }
 
     const text =
@@ -814,6 +874,8 @@ function toggleFavorite(event,id){
         "favorites",
         JSON.stringify(favorites)
     );
+
+    updateFavoritesButton();
 
     renderGames();
 

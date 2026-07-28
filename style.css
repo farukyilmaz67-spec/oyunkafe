@@ -2136,6 +2136,66 @@ window.addEventListener("load",()=>{
 
 }
 
+.header-actions button.is-active{
+    background:#f59e0b;
+    color:#1f2937;
+}
+
+/* Koyu tema */
+body.dark-theme{
+    background:#0f172a;
+    color:#e5e7eb;
+}
+
+.dark-theme .center-panel,
+.dark-theme .side-panel,
+.dark-theme .card,
+.dark-theme .category-hero,
+.dark-theme .page-section .container,
+.dark-theme .game-description,
+.dark-theme .game-section-box,
+.dark-theme .game-frame,
+.dark-theme .no-result{
+    background:#18243a;
+    border-color:#2d3d58;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.dark-theme .center-panel h1,
+.dark-theme .center-panel h2,
+.dark-theme .side-panel h3,
+.dark-theme .card-content h3,
+.dark-theme .featured-content h3,
+.dark-theme .category-hero h1,
+.dark-theme .games-section h2,
+.dark-theme .page-section h1,
+.dark-theme .page-section h2{
+    color:#f8fafc;
+}
+
+.dark-theme .center-panel p,
+.dark-theme .card-content p,
+.dark-theme .featured-content p,
+.dark-theme .category-hero p,
+.dark-theme .page-section p,
+.dark-theme .side-game-info strong,
+.dark-theme .side-panel a,
+.dark-theme .section-desc{
+    color:#cbd5e1;
+}
+
+.dark-theme .side-game,
+.dark-theme .side-box{
+    border-color:#2d3d58;
+}
+
+.dark-theme .ad-placeholder,
+.dark-theme .ad-vertical{
+    background:#111c2e;
+    border-color:#40516e;
+    color:#cbd5e1;
+}
+
 /* ===========================
    PREMIUM HEADER MENU
 =========================== */
