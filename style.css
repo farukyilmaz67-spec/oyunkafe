@@ -874,6 +874,32 @@ color:#4b5563;
 
 }
 
+/* Bağımsız kurumsal sayfalar */
+.legal-page{
+display:block;
+min-height:55vh;
+}
+
+.legal-page h2{
+margin:32px 0 12px;
+font-size:24px;
+}
+
+.legal-page ul{
+margin:0 0 18px 22px;
+line-height:1.8;
+color:#4b5563;
+}
+
+.legal-page a{
+color:#2563eb;
+}
+
+.contact-email a{
+font-size:20px;
+font-weight:700;
+}
+
 
 /* =====================================
    COOKIE BANNER

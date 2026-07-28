@@ -250,7 +250,7 @@ function createBreadcrumbSchema(game){
                 "@type":"ListItem",
                 "position":1,
                 "name":"Ana Sayfa",
-                "item":"https://oyunkafe.com/"
+                "item":"https://www.oyunkafe.com/"
             },
 
             {
@@ -294,7 +294,7 @@ function createGameSchema(game){
 
         "url":window.location.href,
 
-        "image":"https://oyunkafe.com/" + game.thumb,
+        "image":"https://www.oyunkafe.com/" + game.thumb,
 
         "author":{
             "@type":"Organization",
