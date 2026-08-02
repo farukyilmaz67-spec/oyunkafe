@@ -928,6 +928,175 @@ font-size:32px;
 color:#64748b;
 }
 
+/* Rehberler */
+.guide-page{
+padding:42px 0 70px;
+min-height:65vh;
+}
+
+.guide-hero,
+.article-guide{
+background:#fff;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.guide-hero{
+padding:38px;
+}
+
+.guide-hero h1{
+margin-bottom:12px;
+font-size:34px;
+}
+
+.guide-hero p:last-child{
+max-width:720px;
+color:#64748b;
+}
+
+.guide-grid{
+display:grid;
+grid-template-columns:repeat(2,minmax(0,1fr));
+gap:22px;
+margin-top:26px;
+}
+
+.guide-card{
+display:flex;
+flex-direction:column;
+min-height:230px;
+padding:28px;
+border:1px solid #e5e7eb;
+border-radius:18px;
+background:#fff;
+box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+
+.guide-card h2{
+font-size:22px;
+line-height:1.35;
+margin-bottom:12px;
+}
+
+.guide-card p{
+color:#64748b;
+line-height:1.7;
+}
+
+.guide-card .btn{
+width:auto;
+align-self:flex-start;
+margin-top:auto;
+padding:12px 18px;
+}
+
+.article-guide{
+max-width:860px;
+padding:42px;
+}
+
+.article-guide h1{
+font-size:38px;
+line-height:1.2;
+margin:10px 0 18px;
+}
+
+.article-guide h2{
+margin:32px 0 10px;
+font-size:25px;
+}
+
+.article-guide p{
+color:#475569;
+line-height:1.85;
+margin-bottom:14px;
+}
+
+.article-guide .article-lead{
+font-size:19px;
+color:#334155;
+}
+
+.article-back{
+display:inline-block;
+color:#2563eb;
+font-weight:700;
+}
+
+.guide-promo{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:24px;
+margin:30px 0;
+padding:28px 32px;
+border-radius:18px;
+background:linear-gradient(135deg,#eaf2ff,#f5f9ff);
+}
+
+.guide-promo h2{
+margin-bottom:8px;
+}
+
+.guide-promo p:last-child{
+color:#475569;
+}
+
+.guide-promo-link{
+width:auto;
+margin:0;
+white-space:nowrap;
+}
+
+.recent-section{
+margin:34px 0;
+}
+
+.recent-section h2{
+margin-bottom:4px;
+}
+
+.recent-grid{
+display:grid;
+grid-template-columns:repeat(4,minmax(0,1fr));
+gap:18px;
+margin-top:18px;
+}
+
+.dark-theme .guide-hero,
+.dark-theme .article-guide,
+.dark-theme .guide-card{
+background:#18243a;
+border-color:#2d3d58;
+}
+
+.dark-theme .guide-hero h1,
+.dark-theme .article-guide h1,
+.dark-theme .article-guide h2,
+.dark-theme .guide-card h2{
+color:#f8fafc;
+}
+
+.dark-theme .guide-hero p,
+.dark-theme .article-guide p,
+.dark-theme .guide-card p,
+.dark-theme .guide-promo p:last-child{
+color:#cbd5e1;
+}
+
+.dark-theme .guide-promo{
+background:#182d4d;
+}
+
+@media(max-width:700px){
+.guide-grid{grid-template-columns:1fr;}
+.recent-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+.guide-hero,.article-guide{padding:26px 20px;}
+.guide-hero h1,.article-guide h1{font-size:30px;}
+.guide-promo{align-items:flex-start;flex-direction:column;padding:24px;}
+}
+
 
 /* =====================================
    COOKIE BANNER

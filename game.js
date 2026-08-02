@@ -62,6 +62,11 @@ async function loadGame() {
 
 }
 
+    const recent = JSON.parse(localStorage.getItem("recentGames") || "[]")
+        .filter(gameId => gameId !== game.id);
+    recent.unshift(game.id);
+    localStorage.setItem("recentGames", JSON.stringify(recent.slice(0, 4)));
+
     document.title = game.title + " | OyunKafe";
 
 document.getElementById("pageDescription").setAttribute(
@@ -146,18 +151,49 @@ function renderRelated(game) {
 }
 
 window.addEventListener("DOMContentLoaded", loadGame);
+
+function getGameContent(game){
+
+    const categoryTips = {
+        "Araba": "Virajlara girmeden önce hızınızı ayarlayın; kısa ve kontrollü hareketler daha güvenlidir.",
+        "Motor": "Dengeyi korumak için engelleri önceden okuyun ve ani hareketlerden kaçının.",
+        "Parkour": "Bölümün ritmini ilk denemelerde gözlemleyin; her engeli aynı hızla geçmeye çalışmayın.",
+        "Futbol": "Rakibin hamlesini izleyin ve doğru anda pas ya da şut seçeneğini deneyin.",
+        "Zeka": "Hızlı karar vermeden önce olası hamleleri karşılaştırın; küçük adımlar daha az hata getirir.",
+        "Bulmaca": "Kolay görünen parçaları önce yerleştirin ve çözümü aşamalara bölün.",
+        "Kart": "Elinizdeki seçenekleri acele etmeden değerlendirin ve bir sonraki turu da düşünün."
+    };
+
+    return {
+        howToPlay: game.howToPlay?.length ? game.howToPlay : [
+            `${game.title} açıldığında ekrandaki kısa yönlendirmeyi inceleyin.`,
+            "Kontrolleri ilk bölümde deneyerek oyunun temposuna alışın.",
+            "Hedefi tamamlayın, skorunuzu geliştirin ve isterseniz yeniden oynayın."
+        ],
+        features: game.features?.length ? game.features : [
+            "Tarayıcıdan anında oynanabilir", "Mobil ve bilgisayar uyumlu", `${game.category} türünde ücretsiz oyun`
+        ],
+        tips: game.tips?.length ? game.tips : [
+            categoryTips[game.category] || "İlk denemeyi oyunun kurallarını ve kontrollerini anlamak için kullanın.",
+            "Kısa molalar vererek daha dikkatli ve keyifli oynayın.",
+            "Zorlandığınızda benzer oyunları deneyerek farklı bir oyun tarzı keşfedin."
+        ],
+        faq: game.faq?.length ? game.faq : [
+            { q: `${game.title} ücretsiz mi?`, a: "Evet. OyunKafe'de bu oyunu tarayıcınızdan ücretsiz oynayabilirsiniz." },
+            { q: `${game.title} mobilde oynanır mı?`, a: "Oyun, uyumlu mobil tarayıcılarda ve bilgisayarda çalışacak şekilde sunulur." }
+        ]
+    };
+}
+
 function renderHowToPlay(game){
 
     const area = document.getElementById("howToPlay");
 
     if (!area) return;
 
-    if(!game.howToPlay || game.howToPlay.length===0){
-        area.parentElement.style.display="none";
-        return;
-    }
+    const content = getGameContent(game);
 
-    area.innerHTML = game.howToPlay
+    area.innerHTML = content.howToPlay
         .map(item => `<li>${item}</li>`)
         .join("");
 }
@@ -166,12 +202,9 @@ function renderFeatures(game){
 
     const area=document.getElementById("gameFeatures");
 
-    if(!game.features || game.features.length===0){
-        area.parentElement.style.display="none";
-        return;
-    }
+    const content = getGameContent(game);
 
-    area.innerHTML=game.features
+    area.innerHTML=content.features
         .map(item=>`<div class="feature-item">${item}</div>`)
         .join("");
 
@@ -181,12 +214,9 @@ function renderTips(game){
 
     const area=document.getElementById("gameTips");
 
-    if(!game.tips || game.tips.length===0){
-        area.parentElement.style.display="none";
-        return;
-    }
+    const content = getGameContent(game);
 
-    area.innerHTML=game.tips
+    area.innerHTML=content.tips
         .map(item=>`<li>${item}</li>`)
         .join("");
 
@@ -196,12 +226,9 @@ function renderFAQ(game){
 
     const area=document.getElementById("faqArea");
 
-    if(!game.faq || game.faq.length===0){
-        area.parentElement.style.display="none";
-        return;
-    }
+    const content = getGameContent(game);
 
-    area.innerHTML=game.faq.map(item=>`
+    area.innerHTML=content.faq.map(item=>`
 
         <div class="faq-item">
 

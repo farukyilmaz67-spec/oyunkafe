@@ -38,6 +38,8 @@ async function init(){
 
     renderFeaturedGames();
 
+    renderRecentGames();
+
     updateStats();
 
     initSearch();
@@ -553,11 +555,33 @@ function renderFeaturedGames(){
     });
 
 }
+
+function renderRecentGames(){
+
+    const section = document.getElementById("recentSection");
+    const area = document.getElementById("recentGames");
+
+    if(!section || !area) return;
+
+    const ids = JSON.parse(localStorage.getItem("recentGames") || "[]");
+    const recent = ids.map(id => games.find(game => game.id === id)).filter(Boolean);
+
+    if(!recent.length) return;
+
+    area.innerHTML = recent.map(createCard).join("");
+    section.hidden = false;
+}
 // ================================
 // OYUNU AÇ
 // ================================
 
 function openGame(id){
+
+    const recent = JSON.parse(localStorage.getItem("recentGames") || "[]")
+        .filter(gameId => gameId !== id);
+
+    recent.unshift(id);
+    localStorage.setItem("recentGames", JSON.stringify(recent.slice(0, 4)));
 
     window.location.href = "oyun.html?id=" + id;
 

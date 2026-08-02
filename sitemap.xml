@@ -38,6 +38,31 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://www.oyunkafe.com/rehberler.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/en-iyi-araba-oyunlari.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/parkour-oyunlari-rehberi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/iki-kisilik-oyunlar.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.oyunkafe.com/guvenli-oyun-rehberi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.oyunkafe.com/kategori.html?category=Araba</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
