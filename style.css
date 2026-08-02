@@ -1128,6 +1128,30 @@ background:#182d4d;
   .section-intro{align-items:flex-start;flex-direction:column;}
 }
 
+/* Logo vurgusu */
+.header .logo{
+    gap:0;
+    padding:7px 14px;
+    border:1px solid rgba(134,239,172,.48);
+    border-radius:16px;
+    background:linear-gradient(135deg,#effff6 0%,#c8f7df 100%);
+    box-shadow:0 10px 24px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.7);
+}
+
+.header .logo span{
+    display:none;
+}
+
+.header .logo img{
+    width:320px;
+    filter:drop-shadow(0 3px 5px rgba(15,84,47,.18));
+}
+
+@media(max-width:900px){
+    .header .logo{padding:6px 10px;border-radius:13px;}
+    .header .logo img{width:230px;}
+}
+
 
 /* =====================================
    COOKIE BANNER
