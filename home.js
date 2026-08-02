@@ -294,15 +294,29 @@ function updateStats(){
 
     const categoryCount = document.getElementById("categoryCount");
 
+    const gameCountSide = document.getElementById("gameCountSide");
+
+    const categoryCountSide = document.getElementById("categoryCountSide");
+
+    const totalCategories = new Set(games.map(game => game.category)).size;
+
     if(gameCount)
 
         gameCount.textContent = games.length + "+";
+
+    if(gameCountSide)
+
+        gameCountSide.textContent = games.length;
 
     if(categoryCount)
 
         categoryCount.textContent =
 
-        getCategories().length-1;
+        totalCategories;
+
+    if(categoryCountSide)
+
+        categoryCountSide.textContent = totalCategories;
 
 }
 // ================================
