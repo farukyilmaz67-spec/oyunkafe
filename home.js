@@ -10,6 +10,16 @@ let currentGame = null;
 
 let favoritesOnly = false;
 
+const multiplayerGameIds = [
+    "soccer-random",
+    "football-legends-2026",
+    "football-masters",
+    "tennis-masters",
+    "stick-duel-battle"
+];
+
+let multiplayerOnly = false;
+
 
 // ================================
 // SAYFA YÜKLENİNCE
@@ -24,6 +34,9 @@ async function init(){
     const requestedCategory = new URLSearchParams(window.location.search)
         .get("category");
 
+    multiplayerOnly = new URLSearchParams(window.location.search)
+        .get("mode") === "multiplayer";
+
     if(requestedCategory && games.some(game => game.category === requestedCategory)){
         activeCategory = requestedCategory;
     }
@@ -37,6 +50,8 @@ async function init(){
     renderHomeLists();
 
     renderFeaturedGames();
+
+    renderMultiplayerGames();
 
     renderRecentGames();
 
@@ -110,7 +125,17 @@ function updateCategoryPage(){
     const title = document.getElementById("categoryTitle");
     const intro = document.getElementById("categoryIntro");
 
-    if(!title || !intro || activeCategory === "Tümü") return;
+    if(!title || !intro) return;
+
+    if(multiplayerOnly){
+        const total = games.filter(game => multiplayerGameIds.includes(game.id)).length;
+        document.title = "2 Kişilik ve Çok Oyunculu Oyunlar | OyunKafe";
+        title.textContent = "2 Kişilik ve Çok Oyunculu Oyunlar";
+        intro.textContent = `${total} oyunluk seçkide arkadaşınla oynamaya uygun seçenekleri keşfet.`;
+        return;
+    }
+
+    if(activeCategory === "Tümü") return;
 
     const total = games.filter(game => game.category === activeCategory).length;
 
@@ -301,6 +326,10 @@ function renderGames(){
 
         );
 
+    }
+
+    if(multiplayerOnly){
+        list = list.filter(game => multiplayerGameIds.includes(game.id));
     }
 
     if(favoritesOnly){
@@ -570,6 +599,25 @@ function renderRecentGames(){
 
     area.innerHTML = recent.map(createCard).join("");
     section.hidden = false;
+}
+
+function renderMultiplayerGames(){
+
+    const area = document.getElementById("multiplayerGames");
+
+    if(!area) return;
+
+    const selected = multiplayerGameIds
+        .map(id => games.find(game => game.id === id))
+        .filter(Boolean)
+        .slice(0, 4);
+
+    area.innerHTML = selected.map(game => `
+        <article class="multiplayer-card" onclick="openGame('${game.id}')">
+            <img src="${game.thumb}" alt="${game.title}" loading="lazy">
+            <div><span>2 Kişilik</span><h3>${game.title}</h3><p>${game.category}</p></div>
+        </article>
+    `).join("");
 }
 // ================================
 // OYUNU AÇ
