@@ -3203,3 +3203,7 @@ body.dark-theme{
     }
 
 }
+/* Bilgi sayfaları başlangıçta gizli */
+.info-page{
+    display:none;
+}
