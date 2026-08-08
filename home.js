@@ -565,25 +565,43 @@ function renderFeaturedGames(){
 
     area.innerHTML = "";
 
-    list.forEach(game=>{
+    list.forEach(game => {
 
         area.innerHTML += `
 
-        <article class="featured-card"
+        <article
+            class="featured-card"
             onclick="openGame('${game.id}')">
 
-            <img
-                src="${game.thumb}"
-                alt="${game.title}"
-                loading="lazy">
+            <div class="featured-image">
+
+                <img
+                    src="${game.thumb}"
+                    alt="${game.title}"
+                    loading="lazy"
+                    decoding="async">
+
+                <div class="featured-favorite-badge">
+
+                    ⭐ Bugünün Favorileri
+
+                </div>
+
+            </div>
 
             <div class="featured-content">
 
-                <span>${game.category}</span>
+                <span class="featured-category">
+                    ${game.category}
+                </span>
 
-                <h3>${game.title}</h3>
+                <h3>
+                    ${game.title}
+                </h3>
 
-                <button>
+                <button
+                    type="button"
+                    onclick="event.stopPropagation(); openGame('${game.id}')">
 
                     🎮 Hemen Oyna
 
