@@ -670,6 +670,14 @@ function openGame(id){
 
 
 // ================================
+// 2 KİŞİLİK OYUNLAR
+// ================================
+
+function goMultiplayer(){
+    window.location.href = "cok-oyunculu.html";
+}
+
+// ================================
 // ANA SAYFA
 // ================================
 

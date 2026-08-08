@@ -3099,15 +3099,13 @@ body.dark-theme{
 
 }
 /* =========================================
-   ANA SAYFA YATAY REKLAM
+   ANA SAYFA SPONSOR ALANI
 ========================================= */
 
 .home-ad-banner{
     width:100%;
-    max-width:970px;
-    margin:22px 0 5px;
-    padding:0 12px;
-    box-sizing:border-box;
+    margin:22px 0 8px;
+    padding:0;
 }
 
 .home-ad-label{
@@ -3117,89 +3115,6 @@ body.dark-theme{
     margin-bottom:7px;
 }
 
-.home-ad-placeholder{
-    width:100%;
-    min-height:90px;
-
-    border:1px dashed #cfd5df;
-    border-radius:12px;
-
-    background:#f8fafc;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-align:center;
-
-    color:#8b93a1;
-    font-size:12px;
-    line-height:1.5;
-}
-
-/* Mobil */
-
-@media(max-width:700px){
-
-    .home-ad-banner{
-        margin:20px auto 25px;
-        padding:0 8px;
-    }
-
-    .home-ad-placeholder{
-        min-height:100px;
-    }
-
-}
-/* ANA SAYFA YATAY REKLAM */
-
-.home-ad-banner{
-    width:100%;
-    max-width:970px;
-    margin:28px auto 32px;
-    padding:0 12px;
-    box-sizing:border-box;
-}
-
-.home-ad-label{
-    text-align:center;
-    font-size:11px;
-    color:#8b93a1;
-    margin-bottom:7px;
-}
-
-.home-ad-placeholder{
-    width:100%;
-    min-height:90px;
-
-    border:1px dashed #cfd5df;
-    border-radius:12px;
-
-    background:#f8fafc;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-align:center;
-
-    color:#8b93a1;
-    font-size:12px;
-    line-height:1.5;
-}
-
-@media(max-width:700px){
-
-    .home-ad-banner{
-        margin:20px auto 25px;
-        padding:0 8px;
-    }
-
-    .home-ad-placeholder{
-        min-height:100px;
-    }
-
-}
 /* =========================================
    OYUNKAFE SPONSOR REKLAM ALANI
 ========================================= */
@@ -3285,67 +3200,6 @@ body.dark-theme{
 
     .sponsor-button{
         margin-left:0;
-    }
-
-}
-/* =========================================
-   OYUNKAFE DİKEY REKLAM ALANLARI
-========================================= */
-
-.vertical-ad{
-    position:absolute;
-
-    top:360px;
-
-    width:160px;
-    height:600px;
-
-    border:1px dashed #cfd5df;
-    border-radius:10px;
-
-    background:#fafbfc;
-
-    display:flex;
-    flex-direction:column;
-
-    align-items:center;
-    justify-content:center;
-
-    text-align:center;
-
-    color:#8b93a1;
-
-    font-size:11px;
-
-    box-sizing:border-box;
-}
-
-.vertical-ad span{
-    position:absolute;
-
-    top:-20px;
-
-    font-size:10px;
-
-    color:#8b93a1;
-}
-
-.vertical-ad-left{
-    left:-185px;
-}
-
-.vertical-ad-right{
-    right:-185px;
-}
-
-/* =========================================
-   DİKEY REKLAMLARI DAR EKRANLARDA GİZLE
-========================================= */
-
-@media(max-width:1400px){
-
-    .vertical-ad{
-        display:none;
     }
 
 }
