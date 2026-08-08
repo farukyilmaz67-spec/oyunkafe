@@ -6,7 +6,39 @@
     "thumb": "images/games/geometry-dash-maze-maps-v2.jpg",
     "embed": "https://html5.gamedistribution.com/bc4de39b3f9045cd920eb90cf14a8986/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=geometry-dash-maze-maps-v2",
     "description": "Geometry Dash Maze Maps V2, refleks ve zamanlama becerilerinizi test eden heyecan verici bir parkour oyunudur. Engellerden kaçın, zorlu parkurları tamamlayın ve en yüksek skora ulaşmaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Geometry Dash Maze Maps V2, engellerle dolu parkurlarda reflekslerinizi test eden ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir."
+    "seo": "Geometry Dash Maze Maps V2, engellerle dolu parkurlarda reflekslerinizi test eden ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir.",
+    "longDescription": "Geometry Dash Maze Maps V2, hızlı refleks ve doğru zamanlama gerektiren bir parkur oyunudur. Oyunda amaç, karakterinizi engellerin arasından geçirerek bölümü mümkün olduğunca hatasız tamamlamaktır. Labirent yapısındaki parkurlar, yalnızca zıplama zamanlamasına değil, önünüzdeki yolu dikkatli takip etmeye de önem verir. Her denemede parkurun ritmini daha iyi anlamaya çalışabilir ve önceki hatalarınızı düzelterek ilerleyebilirsiniz. Kısa sürede öğrenilebilen oynanış yapısı sayesinde oyuna başlamak kolaydır; yüksek başarı için ise dikkat, sabır ve tekrar gerekir. OyunKafe üzerinden tarayıcıda oynayarak farklı bölümlerde reflekslerinizi test edebilirsiniz.",
+    "howToPlay": [
+      "Karakterin hareketini takip edin.",
+      "Engellere yaklaşmadan önce doğru zamanlamayı belirleyin.",
+      "Zıplayarak veya gerekli hareketi yaparak engelleri aşın.",
+      "Bölümün sonuna ulaşmaya çalışın."
+    ],
+    "tips": [
+      "İlk denemelerde parkurun ritmini öğrenmeye odaklanın.",
+      "Acele hareketler yerine kontrollü zamanlama kullanın.",
+      "Tekrarlanan bölümlerde önceki hatalarınızı hatırlayın."
+    ],
+    "features": [
+      "Refleks ve zamanlama odaklı parkurlar",
+      "Labirent temalı haritalar",
+      "Tarayıcı üzerinden oynanış",
+      "Mobil ve bilgisayarda oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Geometry Dash Maze Maps V2 nedir?",
+        "a": "Refleks ve zamanlama gerektiren, labirent temalı parkurlardan oluşan bir beceri oyunudur."
+      },
+      {
+        "q": "Oyun nasıl oynanır?",
+        "a": "Karakteri engellerden geçirerek bölümü tamamlamaya çalışırsınız."
+      },
+      {
+        "q": "Oyunda önemli olan nedir?",
+        "a": "Doğru zamanlama, dikkat ve sabır önemlidir."
+      }
+    ]
   },
   {
     "id": "drift-boss",
@@ -15,7 +47,39 @@
     "thumb": "images/games/drift-boss.jpg",
     "embed": "https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=drift-boss",
     "description": "Drift Boss, reflekslerinizi ve zamanlamanızı test eden popüler bir araba oyunudur. Virajlarda düşmeden ilerleyerek mümkün olduğunca uzun süre yolda kalmaya çalışın. Basit kontrolleri ve eğlenceli oynanışıyla mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Drift Boss, virajlarda düşmeden ilerlemeye çalıştığınız eğlenceli bir drift ve araba oyunudur. Ücretsiz olarak mobil ve bilgisayarda oynanabilir."
+    "seo": "Drift Boss, virajlarda düşmeden ilerlemeye çalıştığınız eğlenceli bir drift ve araba oyunudur. Ücretsiz olarak mobil ve bilgisayarda oynanabilir.",
+    "longDescription": "Drift Boss, aracınızı dar ve virajlı bir platform üzerinde kontrol ettiğiniz refleks odaklı bir araba oyunudur. Araç sürekli ilerlerken temel göreviniz dönüşleri doğru zamanda yaparak yoldan düşmemektir. Parkur uzadıkça daha dikkatli olmanız gerekir ve küçük bir zamanlama hatası bile turun sona ermesine neden olabilir. Oyunun sade kontrol sistemi sayesinde kısa sürede temel mekanikleri öğrenebilirsiniz. Asıl mücadele ise kendi skorunuzu geliştirmek ve daha uzun süre hatasız ilerlemektir. OyunKafe'de Drift Boss'u tarayıcı üzerinden açarak hızlı bir oyun deneyimi yaşayabilir, farklı denemelerde dönüş noktalarını öğrenerek performansınızı artırabilirsiniz.",
+    "howToPlay": [
+      "Araç otomatik olarak ilerler.",
+      "Dönüşleri doğru zamanda yapmak için kontrolü kullanın.",
+      "Virajlarda aracın platform dışına çıkmasını önleyin.",
+      "Mümkün olduğunca uzun süre ilerleyin."
+    ],
+    "tips": [
+      "Virajlara yaklaşırken erken tepki vermemeye çalışın.",
+      "Önce güvenli ve kontrollü sürüşe odaklanın.",
+      "Yüksek skor için parkurun ritmini öğrenin."
+    ],
+    "features": [
+      "Teknik refleks ve zamanlama oynanışı",
+      "Virajlı parkurlar",
+      "Basit kontrol sistemi",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Drift Boss'un amacı nedir?",
+        "a": "Aracı yoldan düşürmeden mümkün olduğunca uzun süre ilerletmektir."
+      },
+      {
+        "q": "Drift Boss zor mu?",
+        "a": "Kontrolleri basittir; ancak yüksek skor için iyi zamanlama gerekir."
+      },
+      {
+        "q": "Drift Boss'ta ne geliştirilir?",
+        "a": "Dikkat, refleks ve zamanlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
   },
   {
     "id": "soccer-random",
@@ -24,7 +88,39 @@
     "thumb": "images/games/soccer-random.jpg",
     "embed": "https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=soccer-random",
     "description": "Soccer Random, eğlenceli fizik mekanikleriyle oynanan sıra dışı bir futbol oyunudur. Arkadaşınıza veya bilgisayara karşı mücadele ederek komik ve heyecan dolu maçlar yapabilirsiniz. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Soccer Random, komik fizik kurallarıyla oynanan eğlenceli bir futbol oyunudur. Arkadaşınızla veya bilgisayara karşı ücretsiz oynayabilirsiniz."
+    "seo": "Soccer Random, komik fizik kurallarıyla oynanan eğlenceli bir futbol oyunudur. Arkadaşınızla veya bilgisayara karşı ücretsiz oynayabilirsiniz.",
+    "longDescription": "Soccer Random, klasik futbol karşılaşmasını rastgele gelişen fizik hareketleriyle eğlenceli hale getiren bir futbol oyunudur. Oyuncuların hareketleri ve topun yönü her pozisyonda farklı sonuçlar doğurabilir. Bu nedenle maç sırasında yalnızca hücum etmeyi değil, topun gelişini ve rakibin pozisyonunu da takip etmek gerekir. Basit kontrol yapısı sayesinde hızlıca oyuna başlayabilir ve kısa maçlarla eğlenceli vakit geçirebilirsiniz. İki kişilik oynanış seçeneği destekleniyorsa aynı cihazda arkadaşınızla rekabet etmek de mümkündür. OyunKafe üzerinden Soccer Random'ı tarayıcıda açarak gol atmaya ve maçın sonucunu kendi lehinize çevirmeye çalışabilirsiniz.",
+    "howToPlay": [
+      "Oyuncunuzu kontrol ederek topa müdahale edin.",
+      "Topu rakip kaleye göndermeye çalışın.",
+      "Savunmada rakibin hamlesini takip edin.",
+      "Maç sonunda daha fazla gol atan tarafı hedefleyin."
+    ],
+    "tips": [
+      "Topun geliş yönünü sürekli takip edin.",
+      "Rastgele hareketlere karşı hazırlıklı olun.",
+      "Gol fırsatı bulduğunuzda hızlı karar verin."
+    ],
+    "features": [
+      "Fizik tabanlı futbol oynanışı",
+      "Hızlı maç yapısı",
+      "Basit kontroller",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Soccer Random nasıl bir oyun?",
+        "a": "Fizik tabanlı ve rastgele gelişen pozisyonlara sahip eğlenceli bir futbol oyunudur."
+      },
+      {
+        "q": "Soccer Random'da amaç nedir?",
+        "a": "Rakipten daha fazla gol atmaya çalışırsınız."
+      },
+      {
+        "q": "Oyun hızlı öğrenilir mi?",
+        "a": "Basit kontrol yapısı sayesinde temel oynanış kısa sürede öğrenilebilir."
+      }
+    ]
   },
   {
     "id": "parking-fury",
@@ -33,7 +129,39 @@
     "thumb": "images/games/parking-fury.jpg",
     "embed": "https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=parking-fury",
     "description": "Parking Fury, sürüş becerilerinizi test eden eğlenceli bir park etme oyunudur. Dar alanlarda aracınızı dikkatlice yönlendirerek park yerlerine ulaşmaya çalışın. Farklı araçlar ve zorlu bölümlerle mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Parking Fury, aracınızı çarpmadan park etmeye çalıştığınız eğlenceli bir araba ve park etme oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir."
+    "seo": "Parking Fury, aracınızı çarpmadan park etmeye çalıştığınız eğlenceli bir araba ve park etme oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir.",
+    "longDescription": "Parking Fury, farklı araçları belirlenen alanlara dikkatli şekilde park etmeye çalıştığınız bir sürüş ve beceri oyunudur. Park alanına ulaşırken duvarlar, diğer araçlar ve dar geçişler gibi engellerle karşılaşabilirsiniz. Başarılı olmak için yalnızca hedefe ulaşmak değil, aracı kontrollü biçimde konumlandırmak gerekir. Hızınızı düşürmek, dönüşleri önceden planlamak ve çevredeki alanı takip etmek daha güvenli manevralar yapmanıza yardımcı olur. Bölümler ilerledikçe park görevlerinin daha fazla dikkat ve hassasiyet gerektirmesi oyuna ek bir meydan okuma getirir. OyunKafe'de Parking Fury'yi tarayıcı üzerinden oynayarak sürüş ve park etme becerilerinizi test edebilirsiniz.",
+    "howToPlay": [
+      "Aracı kontrol ederek hedef park alanına ilerleyin.",
+      "Engellere ve diğer araçlara dikkat edin.",
+      "Aracı belirtilen alana doğru konumlandırın.",
+      "Görevi tamamlamak için kontrollü manevralar yapın."
+    ],
+    "tips": [
+      "Dar alanlarda hızınızı azaltın.",
+      "Dönüş yapmadan önce çevrenizi kontrol edin.",
+      "Park alanına yaklaşırken küçük ve kontrollü hareketler yapın."
+    ],
+    "features": [
+      "Park etme görevleri",
+      "Sürüş ve hassasiyet odaklı oynanış",
+      "Farklı park alanları",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Parking Fury'nin amacı nedir?",
+        "a": "Aracı engellere dikkat ederek hedef park alanına yerleştirmektir."
+      },
+      {
+        "q": "Parking Fury neyi test eder?",
+        "a": "Dikkat, yön kontrolü ve hassas manevra becerilerini test eder."
+      },
+      {
+        "q": "Park ederken en önemli şey nedir?",
+        "a": "Hızınızı kontrol etmek ve manevraları önceden planlamak önemlidir."
+      }
+    ]
   },
   {
     "id": "football-legends-2026",
@@ -42,7 +170,39 @@
     "thumb": "images/games/football-legends.jpg",
     "embed": "https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=football-legends-2026",
     "description": "Football Legends 2026, tek kişilik veya iki kişilik oynanabilen eğlenceli futbol oyunudur. Dünyaca ünlü futbolcularla maç yapabilir, turnuvalara katılabilirsiniz. Futbol kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Football Legends 2026 ücretsiz futbol oyunu. Mobil ve bilgisayarda hemen oynayın."
+    "seo": "Football Legends 2026 ücretsiz futbol oyunu. Mobil ve bilgisayarda hemen oynayın.",
+    "longDescription": "Football Legends 2026, hızlı tempolu futbol karşılaşmalarıyla öne çıkan bir spor oyunudur. Takımınızı seçerek rakip kaleye gol atmaya ve maçın kontrolünü ele almaya çalışırsınız. Futbol oyunlarında yalnızca şut çekmek değil, savunma pozisyonunu korumak ve doğru anda hücuma çıkmak da önemlidir. Basit kontroller sayesinde kısa sürede maça başlayabilir, farklı karşılaşmalarda kendi oyun tarzınızı geliştirebilirsiniz. OyunKafe üzerinden tarayıcıda oynayarak futbol becerilerinizi test edebilir ve daha iyi sonuç almak için maçları tekrar deneyebilirsiniz.",
+    "howToPlay": [
+      "Takımınızı ve oyuncularınızı seçin.",
+      "Sahada hareket ederek topun kontrolünü almaya çalışın.",
+      "Pas ve şut fırsatlarını değerlendirin.",
+      "Rakibin gol atmasını engelleyin."
+    ],
+    "tips": [
+      "Hücum kadar savunmaya da dikkat edin.",
+      "Rakibin boş bıraktığı alanları değerlendirin.",
+      "Şut için uygun pozisyonu bekleyin."
+    ],
+    "features": [
+      "Futbol temalı oynanış",
+      "Hızlı maçlar",
+      "Takım seçimi",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Football Legends 2026'nın amacı nedir?",
+        "a": "Rakipten daha fazla gol atarak karşılaşmayı kazanmaktır."
+      },
+      {
+        "q": "Oyunda hangi beceriler önemlidir?",
+        "a": "Pozisyon alma, zamanlama, hücum ve savunma dengesi önemlidir."
+      },
+      {
+        "q": "Oyun tarayıcıdan oynanabilir mi?",
+        "a": "Evet, OyunKafe üzerinden tarayıcıda oynanabilir."
+      }
+    ]
   },
   {
     "id": "vex-x3m-3",
@@ -51,7 +211,39 @@
     "thumb": "images/games/vex-x3m-3.jpg",
     "embed": "https://html5.gamedistribution.com/ce1b2e5eabe44debb11bf77cd04c0f85/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=vex-x3m-3",
     "description": "Vex X3M 3, motosiklet ve parkur becerilerini birleştiren zorlu engel parkurlarında reflekslerinizi test eden eğlenceli oyundur. Parkour kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Vex X3M 3 ücretsiz parkour ve motor oyunu."
+    "seo": "Vex X3M 3 ücretsiz parkour ve motor oyunu.",
+    "longDescription": "Vex X3M 3, hızlı hareketler, engeller ve hassas zamanlama gerektiren bir parkur oyunudur. Karakterinizi tehlikeli bölümlerden geçirirken engellerin hareketlerini gözlemlemeniz ve doğru anda ilerlemeniz gerekir. Bazı bölümlerde hız avantaj sağlarken bazı durumlarda kontrollü hareket etmek daha güvenli olabilir. Oyunun temel eğlencesi, zor bir parkuru tekrar deneyerek daha iyi bir rota ve zamanlama bulmaktan gelir. OyunKafe'de Vex X3M 3'ü tarayıcı üzerinden oynayarak reflekslerinizi test edebilir ve tamamladığınız bölümlerde daha iyi performans göstermeye çalışabilirsiniz.",
+    "howToPlay": [
+      "Karakteri parkur boyunca hareket ettirin.",
+      "Engelleri ve tuzakları zamanında fark edin.",
+      "Gerekli noktalarda zıplayın veya yön değiştirin.",
+      "Bölümün bitiş noktasına ulaşın."
+    ],
+    "tips": [
+      "Engellerin hareket düzenini gözlemleyin.",
+      "Zor bölümleri birkaç kez deneyerek öğrenin.",
+      "Hız ile kontrol arasında denge kurun."
+    ],
+    "features": [
+      "Parkur ve refleks odaklı oynanış",
+      "Engelli bölümler",
+      "Zamanlama gerektiren görevler",
+      "Tarayıcı uyumlu oyun deneyimi"
+    ],
+    "faq": [
+      {
+        "q": "Vex X3M 3'te amaç nedir?",
+        "a": "Engelleri aşarak parkurun sonuna ulaşmaktır."
+      },
+      {
+        "q": "Oyun neden zorlaşır?",
+        "a": "İlerleyen bölümlerde daha dikkatli zamanlama gerektiren engellerle karşılaşabilirsiniz."
+      },
+      {
+        "q": "Başarılı olmak için ne gerekir?",
+        "a": "Refleks, dikkat ve tekrar ederek öğrenme önemlidir."
+      }
+    ]
   },
   {
     "id": "fireboy-watergirl-7-friends",
@@ -60,7 +252,39 @@
     "thumb": "images/games/fireboy-and-watergirl-5-elements.jpg",
     "embed": "https://html5.gamedistribution.com/d4a3629101574bc39bd8f9d1888ca58e/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=fireboy-watergirl-7-friends",
     "description": "Fireboy ve Watergirl'in yeni macerasında arkadaşlarınızla bulmacaları çözün ve bölümleri tamamlayın. Macera kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Fireboy Watergirl 7 ücretsiz macera oyunu."
+    "seo": "Fireboy Watergirl 7 ücretsiz macera oyunu.",
+    "longDescription": "Fireboy & Watergirl 7: Friends, iki farklı karakterin özelliklerini birlikte kullanarak bölümleri tamamlamaya dayanan bir macera ve bulmaca oyunudur. Karakterlerin farklı ortamlarda hareket edebilmesi, bazı engellerin tek başına geçilememesi ve düğmeler ile yolların birlikte kullanılması oyuna iş birliği hissi katar. Bölümlerde ilerlerken çevredeki mekanizmaları incelemek ve hangi karakterin hangi görevi yapacağını planlamak gerekir. Bu nedenle oyun yalnızca hızlı hareket etmeyi değil, problem çözmeyi ve doğru sırayı bulmayı da teşvik eder. OyunKafe'de oyunu tarayıcı üzerinden oynayarak bölümleri keşfedebilir ve iki karakterin hareketlerini uyumlu şekilde yönetmeye çalışabilirsiniz.",
+    "howToPlay": [
+      "Karakterlerin hareketlerini ayrı ayrı kontrol edin.",
+      "Her karakterin geçebileceği alanları gözlemleyin.",
+      "Düğmeleri, platformları ve geçişleri birlikte kullanın.",
+      "Bölümün çıkışına ulaşın."
+    ],
+    "tips": [
+      "Her iki karakterin konumunu sürekli kontrol edin.",
+      "Bir mekanizmayı çalıştırmadan önce sonucunu düşünün.",
+      "Zor bölümlerde adımları sırayla planlayın."
+    ],
+    "features": [
+      "İki karakterli macera yapısı",
+      "Bulmaca ve platform bölümleri",
+      "İş birliği gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Fireboy & Watergirl 7 ne tür bir oyun?",
+        "a": "Macera, platform ve bulmaca unsurlarını bir araya getiren bir oyundur."
+      },
+      {
+        "q": "Oyunda neden iki karakter var?",
+        "a": "Bölümleri tamamlamak için karakterlerin farklı özelliklerinden birlikte yararlanmanız gerekir."
+      },
+      {
+        "q": "Oyunda önemli olan nedir?",
+        "a": "Planlama, dikkat ve karakterlerin hareketlerini uyumlu kullanmak önemlidir."
+      }
+    ]
   },
   {
     "id": "traffic-racing",
@@ -69,7 +293,39 @@
     "thumb": "images/games/traffic-racing.jpg",
     "embed": "https://html5.gamedistribution.com/f3ee6674b4ea4579aeefd54d7bf388f0/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=traffic-racing",
     "description": "Yoğun trafikte aracınızı kontrol ederek en uzun mesafeyi kat etmeye çalışın. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Traffic Racing ücretsiz araba oyunu."
+    "seo": "Traffic Racing ücretsiz araba oyunu.",
+    "longDescription": "Traffic Racing, yoğun trafikte ilerlerken aracınızı kontrollü şekilde kullanmaya odaklanan bir araba oyunudur. Yoldaki diğer araçların konumunu takip ederek çarpışmadan ilerlemeye ve mümkün olduğunca uzun süre sürüş yapmaya çalışırsınız. Hız arttıkça karar vermek için daha az zamanınız kalacağından dikkat ve hızlı tepki verme becerisi önem kazanır. Güvenli bir sürüş ile yüksek hız arasında doğru dengeyi kurmak oyunun temel mücadelelerinden biridir. OyunKafe üzerinden Traffic Racing'i tarayıcıda oynayarak trafik içindeki sürüş performansınızı test edebilir ve her yeni denemede daha iyi bir sonuç elde etmeye çalışabilirsiniz.",
+    "howToPlay": [
+      "Aracınızı yol üzerinde kontrol edin.",
+      "Diğer araçların hareketlerini takip edin.",
+      "Çarpışmalardan kaçının.",
+      "Mümkün olduğunca uzun süre ilerleyin."
+    ],
+    "tips": [
+      "Öndeki araçların boşluklarını önceden değerlendirin.",
+      "Aşırı hızda ani manevralardan kaçının.",
+      "Trafiğin ritmini takip edin."
+    ],
+    "features": [
+      "Trafik içinde sürüş",
+      "Refleks odaklı oynanış",
+      "Hız ve dikkat dengesi",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Traffic Racing'in amacı nedir?",
+        "a": "Trafiğe çarpmadan mümkün olduğunca uzun süre ilerlemektir."
+      },
+      {
+        "q": "Oyunda ne önemlidir?",
+        "a": "Dikkat, hızlı karar verme ve kontrollü sürüş önemlidir."
+      },
+      {
+        "q": "Oyun zorlaşır mı?",
+        "a": "Hız ve trafik yoğunluğu arttıkça daha hızlı tepki vermeniz gerekebilir."
+      }
+    ]
   },
   {
     "id": "battle-racing-stars",
@@ -78,7 +334,39 @@
     "thumb": "images/games/battle-racing-stars.jpg",
     "embed": "https://html5.gamedistribution.com/b8cf1cc516e14f4b8e7cb3119cdfcec6/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=battle-racing-stars",
     "description": "Rakiplerinizi geride bırakıp yarışları kazanmaya çalıştığınız aksiyon dolu araba oyunu. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Battle Racing Stars ücretsiz yarış oyunu."
+    "seo": "Battle Racing Stars ücretsiz yarış oyunu.",
+    "longDescription": "Battle Racing Stars, yarış heyecanını rekabetçi ve eğlenceli oyun mekanikleriyle birleştiren bir araba oyunudur. Parkur boyunca rakiplerinizi geride bırakırken yol üzerindeki fırsatları değerlendirmeye ve kontrolü kaybetmeden ilerlemeye çalışırsınız. Yarışlarda yalnızca hız değil, doğru zamanda yapılan hamleler ve parkuru tanımak da önemlidir. Kısa yarış yapısı sayesinde hızlı bir karşılaşmaya başlayabilir, farklı denemelerde daha iyi sonuç almak için sürüş tarzınızı geliştirebilirsiniz. OyunKafe üzerinden Battle Racing Stars'ı tarayıcıda açarak yarış becerilerinizi test edebilirsiniz.",
+    "howToPlay": [
+      "Yarışa başlayın ve aracınızı parkurda kontrol edin.",
+      "Rakipleri takip ederek uygun fırsatlarda öne geçin.",
+      "Engellerden kaçının.",
+      "Yarışı mümkün olan en iyi sırada tamamlayın."
+    ],
+    "tips": [
+      "Parkurun virajlarını önceden öğrenin.",
+      "Sadece hıza değil kontrolünüze de odaklanın.",
+      "Rakiplerin hareketlerini takip edin."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Rekabetçi parkurlar",
+      "Hızlı maç yapısı",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Battle Racing Stars nasıl oynanır?",
+        "a": "Aracınızı kontrol ederek rakiplerle yarışır ve parkuru tamamlamaya çalışırsınız."
+      },
+      {
+        "q": "Oyunda önemli olan nedir?",
+        "a": "Hız, kontrol ve doğru zamanda yapılan hamleler önemlidir."
+      },
+      {
+        "q": "Kısa yarışlar yapılabilir mi?",
+        "a": "Oyunun yarış yapısı hızlı karşılaşmalar için uygundur."
+      }
+    ]
   },
   {
     "id": "world-cup-soccer-caps",
@@ -87,7 +375,39 @@
     "thumb": "images/games/world-cup-soccer-caps.jpg",
     "embed": "https://html5.gamedistribution.com/040ff13a2a9f44b98009750960a523ae/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=world-cup-soccer-caps",
     "description": "Kapak futbolu tarzında Dünya Kupası heyecanını yaşayın. Futbol kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "World Cup Soccer Caps ücretsiz futbol oyunu."
+    "seo": "World Cup Soccer Caps ücretsiz futbol oyunu.",
+    "longDescription": "World Cup Soccer Caps, futbol temasını masa üstü oyun tarzı bir oynanışla birleştiren eğlenceli bir spor oyunudur. Takımınızı rakip kaleye karşı konumlandırırken topun yönünü ve vuruş gücünü doğru ayarlamaya çalışırsınız. Her hamle, topun sonraki hareketini etkileyebileceği için doğrudan gol aramak kadar pozisyon hazırlamak da önemlidir. Basit görünen kontroller, isabetli vuruşlar için dikkatli planlama gerektirir. OyunKafe'de World Cup Soccer Caps'i tarayıcı üzerinden oynayarak farklı karşılaşmalarda hedefinizi ve zamanlamanızı test edebilirsiniz.",
+    "howToPlay": [
+      "Oyuncunuzu topa göre konumlandırın.",
+      "Vuruş yönünü ve gücünü ayarlayın.",
+      "Topu rakip kaleye göndermeye çalışın.",
+      "Rakibin hamlesine göre savunma yapın."
+    ],
+    "tips": [
+      "Vuruş yönünü önceden planlayın.",
+      "Topun sekme ihtimalini hesaba katın.",
+      "Güçlü vuruş yerine isabetli vuruşu tercih edin."
+    ],
+    "features": [
+      "Futbol temalı masa oyunu tarzı",
+      "Stratejik vuruşlar",
+      "Kolay öğrenilen temel mekanikler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "World Cup Soccer Caps ne tür bir oyun?",
+        "a": "Futbol temasını stratejik vuruşlarla birleştiren bir spor oyunudur."
+      },
+      {
+        "q": "Oyunda amaç nedir?",
+        "a": "Rakipten daha fazla gol atmaya çalışırsınız."
+      },
+      {
+        "q": "Başarılı olmak için ne gerekir?",
+        "a": "Yön, güç ve zamanlamayı doğru ayarlamak gerekir."
+      }
+    ]
   },
   {
     "id": "stickman-adventure",
@@ -96,7 +416,12 @@
     "thumb": "images/games/stickman-adventure.jpg",
     "embed": "https://html5.gamedistribution.com/fd5ae555f42e4dac872819ed9125616c/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=stickman-adventure",
     "description": "Stickman karakteriyle engelleri aşarak maceraya atılın. Macera kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Stickman Adventure ücretsiz macera oyunu."
+    "seo": "Stickman Adventure ücretsiz macera oyunu.",
+    "longDescription": "Stickman karakteriyle engelleri aşarak maceraya atılın. Macera kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
+    "howToPlay": [],
+    "tips": [],
+    "features": [],
+    "faq": []
   },
   {
     "id": "block-escape",
@@ -105,7 +430,12 @@
     "thumb": "images/games/block-escape.jpg",
     "embed": "https://html5.gamedistribution.com/9ffaf2fb134844958788642d2f76c6cd/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=block-escape",
     "description": "Blokları doğru şekilde hareket ettirerek çıkış yolunu bulun. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Block Escape ücretsiz zeka oyunu."
+    "seo": "Block Escape ücretsiz zeka oyunu.",
+    "longDescription": "Blokları doğru şekilde hareket ettirerek çıkış yolunu bulun. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
+    "howToPlay": [],
+    "tips": [],
+    "features": [],
+    "faq": []
   },
   {
     "id": "grand-mahjong-connect",
@@ -114,7 +444,35 @@
     "thumb": "images/games/grand-mahjong-connect.jpg",
     "embed": "https://html5.gamedistribution.com/92211d47448849d189bbc32d0d4d8f6f/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=grand-mahjong-connect",
     "description": "Grand Mahjong Connect, klasik Mahjong deneyimini bağlantı bulmacalarıyla birleştiren eğlenceli bir zekâ oyunudur. Aynı sembollere sahip taşları doğru sırayla eşleştirerek tüm bölümü tamamlamaya çalışın. Dikkat, hız ve strateji gerektiren bu oyun mobil ve bilgisayarda tamamen ücretsiz oynanabilir.",
-    "seo": "Grand Mahjong Connect ücretsiz mahjong oyunu."
+    "seo": "Grand Mahjong Connect ücretsiz mahjong oyunu.",
+    "longDescription": "Grand Mahjong Connect, zeka oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Grand Mahjong Connect, klasik Mahjong deneyimini bağlantı bulmacalarıyla birleştiren eğlenceli bir zekâ oyunudur. Aynı sembollere sahip taşları doğru sırayla eşleştirerek tüm bölümü tamamlamaya çalışın. Dikkat, hız ve strateji gerektiren bu oyun mobil ve bilgisayarda tamamen ücretsiz oynanabilir. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Grand Mahjong Connect oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden tüm seçenekleri inceleyin.",
+      "Önce kolay eşleşmeleri değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Stratejik düşünme gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
   },
   {
     "id": "pogo-masters",
@@ -123,7 +481,35 @@
     "thumb": "images/games/pogo-masters.jpg",
     "embed": "https://html5.gamedistribution.com/f000cd0f0a0444aa82a1b937828a9954/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=pogo-masters",
     "description": "Pogo Masters, tek zıplayan çubuğunuzu ustalıkla kontrol ederek engelleri aşmaya çalıştığınız eğlenceli ve beceri odaklı bir platform oyunudur. Dengenizi koruyun, doğru zamanda zıplayın ve en yüksek puanı elde etmek için reflekslerinizi kullanın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Pogo Masters ücretsiz arcade oyunu."
+    "seo": "Pogo Masters ücretsiz arcade oyunu.",
+    "longDescription": "Pogo Masters, arcade oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Pogo Masters, tek zıplayan çubuğunuzu ustalıkla kontrol ederek engelleri aşmaya çalıştığınız eğlenceli ve beceri odaklı bir platform oyunudur. Dengenizi koruyun, doğru zamanda zıplayın ve en yüksek puanı elde etmek için reflekslerinizi kullanın. Mobil ve bilgisayarda ücretsiz oynanabilir. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Pogo Masters oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en yüksek skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Hızlı değil kontrollü kararlar verin.",
+      "Tekrar oynayarak hareket düzenini öğrenin."
+    ],
+    "features": [
+      "Arcade tarzı hızlı oynanış",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Engelleri aşarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel kontrolleri genellikle kolay öğrenilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "basketball-stars",
@@ -132,7 +518,35 @@
     "thumb": "images/games/basketball-stars.jpg",
     "embed": "https://html5.gamedistribution.com/516d6908fbc848bdb89e65a58a43a7dc/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=basketball-stars",
     "description": "Basketball Stars, hızlı tempolu maçları ve akıcı oynanışıyla öne çıkan eğlenceli bir basketbol oyunudur. Tek başınıza bilgisayara karşı veya arkadaşınızla rekabet ederek heyecan dolu karşılaşmalar yapabilirsiniz. Farklı karakterler, etkileyici smaçlar ve hızlı refleks gerektiren mücadeleler sayesinde her maç ayrı bir heyecan sunar. Kolay kontrolleri sayesinde hem bilgisayar hem de mobil cihazlarda rahatlıkla oynanabilir.",
-    "seo": "Basketball Stars ücretsiz basketbol oyunu. Mobil ve bilgisayarda çevrimiçi basketbol heyecanını yaşayın."
+    "seo": "Basketball Stars ücretsiz basketbol oyunu. Mobil ve bilgisayarda çevrimiçi basketbol heyecanını yaşayın.",
+    "longDescription": "Basketball Stars, spor oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Basketball Stars, hızlı tempolu maçları ve akıcı oynanışıyla öne çıkan eğlenceli bir basketbol oyunudur. Tek başınıza bilgisayara karşı veya arkadaşınızla rekabet ederek heyecan dolu karşılaşmalar yapabilirsiniz. Farklı karakterler, etkileyici smaçlar ve hızlı refleks gerektiren mücadeleler sayesinde her maç ayrı bir heyecan sunar. Kolay kontrolleri sayesinde hem bilgisayar hem de mobil cihazlarda rahatlıkla oynanabilir. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Basketball Stars oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Oyunun temel kontrolünü kullanarak karakterinizi veya topu yönlendirin.",
+      "Rakibin hamlelerini takip edin.",
+      "Fırsat bulduğunuzda skor üretmeye çalışın.",
+      "Karşılaşmayı avantajlı tamamlayın."
+    ],
+    "tips": [
+      "Zamanlamanızı koruyun.",
+      "Rakibin hareketlerini önceden okumaya çalışın.",
+      "Hızlı karar verirken kontrolü kaybetmeyin."
+    ],
+    "features": [
+      "Spor temalı oynanış",
+      "Kolay öğrenilen kontroller",
+      "Kısa karşılaşmalar",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Karşılaşmada rakibinizden daha iyi bir sonuç elde etmektir."
+      },
+      {
+        "q": "Oyunda ne önemlidir?",
+        "a": "Zamanlama, dikkat ve doğru hamle seçimi önemlidir."
+      }
+    ]
   },
   {
     "id": "basketball-kings-2024",
@@ -141,7 +555,35 @@
     "thumb": "images/games/basketball-kings-2024.jpg",
     "embed": "https://html5.gamedistribution.com/c4d58e2313c945aa8541e445b3040d92/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=basketball-kings-2024",
     "description": "Basketball Kings 2024, basket atış becerilerinizi geliştirebileceğiniz eğlenceli ve bağımlılık yapan bir spor oyunudur. Farklı seviyelerde isabetli atışlar yaparak en yüksek puanı toplamaya çalışın. Gerçekçi fizik motoru sayesinde her atış farklı bir deneyim sunar.",
-    "seo": "Basketball Kings 2024 ücretsiz basketbol atış oyunu."
+    "seo": "Basketball Kings 2024 ücretsiz basketbol atış oyunu.",
+    "longDescription": "Basketball Kings 2024, spor oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Basketball Kings 2024, basket atış becerilerinizi geliştirebileceğiniz eğlenceli ve bağımlılık yapan bir spor oyunudur. Farklı seviyelerde isabetli atışlar yaparak en yüksek puanı toplamaya çalışın. Gerçekçi fizik motoru sayesinde her atış farklı bir deneyim sunar. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Basketball Kings 2024 oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Oyunun temel kontrolünü kullanarak karakterinizi veya topu yönlendirin.",
+      "Rakibin hamlelerini takip edin.",
+      "Fırsat bulduğunuzda skor üretmeye çalışın.",
+      "Karşılaşmayı avantajlı tamamlayın."
+    ],
+    "tips": [
+      "Zamanlamanızı koruyun.",
+      "Rakibin hareketlerini önceden okumaya çalışın.",
+      "Hızlı karar verirken kontrolü kaybetmeyin."
+    ],
+    "features": [
+      "Spor temalı oynanış",
+      "Kolay öğrenilen kontroller",
+      "Kısa karşılaşmalar",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Karşılaşmada rakibinizden daha iyi bir sonuç elde etmektir."
+      },
+      {
+        "q": "Oyunda ne önemlidir?",
+        "a": "Zamanlama, dikkat ve doğru hamle seçimi önemlidir."
+      }
+    ]
   },
   {
     "id": "football-masters",
@@ -150,7 +592,35 @@
     "thumb": "images/games/football-masters.jpg",
     "embed": "https://html5.gamedistribution.com/38396a4cf1064adc961e704c9893a494/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=football-masters",
     "description": "Football Masters, tek kişilik veya iki kişilik oynanabilen eğlenceli bir futbol oyunudur. Güçlü şutlar, özel yetenekler ve hızlı maçlar sayesinde futbol keyfini doyasıya yaşayabilirsiniz. Arkadaşınıza karşı oynayabilir veya bilgisayara meydan okuyabilirsiniz.",
-    "seo": "Football Masters ücretsiz futbol oyunu."
+    "seo": "Football Masters ücretsiz futbol oyunu.",
+    "longDescription": "Football Masters, futbol oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Football Masters, tek kişilik veya iki kişilik oynanabilen eğlenceli bir futbol oyunudur. Güçlü şutlar, özel yetenekler ve hızlı maçlar sayesinde futbol keyfini doyasıya yaşayabilirsiniz. Arkadaşınıza karşı oynayabilir veya bilgisayara meydan okuyabilirsiniz. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Football Masters oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Oyunun temel kontrolünü kullanarak karakterinizi veya topu yönlendirin.",
+      "Rakibin hamlelerini takip edin.",
+      "Fırsat bulduğunuzda skor üretmeye çalışın.",
+      "Karşılaşmayı avantajlı tamamlayın."
+    ],
+    "tips": [
+      "Zamanlamanızı koruyun.",
+      "Rakibin hareketlerini önceden okumaya çalışın.",
+      "Hızlı karar verirken kontrolü kaybetmeyin."
+    ],
+    "features": [
+      "Spor temalı oynanış",
+      "Kolay öğrenilen kontroller",
+      "Kısa karşılaşmalar",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Karşılaşmada rakibinizden daha iyi bir sonuç elde etmektir."
+      },
+      {
+        "q": "Oyunda ne önemlidir?",
+        "a": "Zamanlama, dikkat ve doğru hamle seçimi önemlidir."
+      }
+    ]
   },
   {
     "id": "penalty-shooters-2",
@@ -159,7 +629,35 @@
     "thumb": "images/games/penalty-shooters-2.jpg",
     "embed": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=penalty-shooters-2",
     "description": "Penalty Shooters 2, penaltı atışları ve kaleci kurtarışları üzerine kurulu heyecan verici bir futbol oyunudur. Turnuvalarda ilerleyerek kupaları kazanın ve reflekslerinizi test edin. Futbol kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Penalty Shooters 2 ücretsiz penaltı oyunu."
+    "seo": "Penalty Shooters 2 ücretsiz penaltı oyunu.",
+    "longDescription": "Penalty Shooters 2, futbol oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Penalty Shooters 2, penaltı atışları ve kaleci kurtarışları üzerine kurulu heyecan verici bir futbol oyunudur. Turnuvalarda ilerleyerek kupaları kazanın ve reflekslerinizi test edin. Futbol kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Penalty Shooters 2 oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Oyunun temel kontrolünü kullanarak karakterinizi veya topu yönlendirin.",
+      "Rakibin hamlelerini takip edin.",
+      "Fırsat bulduğunuzda skor üretmeye çalışın.",
+      "Karşılaşmayı avantajlı tamamlayın."
+    ],
+    "tips": [
+      "Zamanlamanızı koruyun.",
+      "Rakibin hareketlerini önceden okumaya çalışın.",
+      "Hızlı karar verirken kontrolü kaybetmeyin."
+    ],
+    "features": [
+      "Spor temalı oynanış",
+      "Kolay öğrenilen kontroller",
+      "Kısa karşılaşmalar",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Karşılaşmada rakibinizden daha iyi bir sonuç elde etmektir."
+      },
+      {
+        "q": "Oyunda ne önemlidir?",
+        "a": "Zamanlama, dikkat ve doğru hamle seçimi önemlidir."
+      }
+    ]
   },
   {
     "id": "moto-x3m-4-winter",
@@ -168,7 +666,34 @@
     "thumb": "images/games/moto-x3m.jpg",
     "embed": "https://html5.gamedistribution.com/bcacf81441bd4c7799a622171116ea9d/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-x3m-4-winter",
     "description": "Moto X3M 4 Winter, karla kaplı parkurlarda reflekslerinizi test eden eğlenceli bir motosiklet oyunudur. Taklalar atın, engelleri aşın ve en kısa sürede bitiş çizgisine ulaşın. Motor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Moto X3M 4 Winter ücretsiz motor oyunu."
+    "seo": "Moto X3M 4 Winter ücretsiz motor oyunu.",
+    "longDescription": "Moto X3M 4 Winter, motor oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Moto X3M 4 Winter, karla kaplı parkurlarda reflekslerinizi test eden eğlenceli bir motosiklet oyunudur. Taklalar atın, engelleri aşın ve en kısa sürede bitiş çizgisine ulaşın. Motor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Moto X3M 4 Winter oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Virajlarda hızınızı ayarlayın.",
+      "Engellerden kaçının.",
+      "Yarışı mümkün olan en iyi dereceyle tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Kontrolü kaybettirecek ani hareketlerden kaçının."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile kontrol arasında doğru dengeyi kurmaktır."
+      }
+    ]
   },
   {
     "id": "moto-x3m-pool-party",
@@ -177,7 +702,34 @@
     "thumb": "images/games/moto-x3m.jpg",
     "embed": "https://html5.gamedistribution.com/f804d079d19f44d3b951ead4588e974a/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-x3m-pool-party",
     "description": "Moto X3M Pool Party, yaz temalı parkurlarda motosiklet becerilerinizi sergileyebileceğiniz aksiyon dolu bir motor oyunudur. Zorlu engelleri aşarak en iyi süreyi yapmaya çalışın. Motor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Moto X3M Pool Party ücretsiz motor oyunu."
+    "seo": "Moto X3M Pool Party ücretsiz motor oyunu.",
+    "longDescription": "Moto X3M Pool Party, motor oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Moto X3M Pool Party, yaz temalı parkurlarda motosiklet becerilerinizi sergileyebileceğiniz aksiyon dolu bir motor oyunudur. Zorlu engelleri aşarak en iyi süreyi yapmaya çalışın. Motor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Moto X3M Pool Party oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Virajlarda hızınızı ayarlayın.",
+      "Engellerden kaçının.",
+      "Yarışı mümkün olan en iyi dereceyle tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Kontrolü kaybettirecek ani hareketlerden kaçının."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile kontrol arasında doğru dengeyi kurmaktır."
+      }
+    ]
   },
   {
     "id": "grand-cyber-city",
@@ -186,7 +738,34 @@
     "thumb": "images/games/grand-cyber-city.jpg",
     "embed": "https://html5.gamedistribution.com/ee16b36ecfa44b1b87e35788ac641733/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=grand-cyber-city",
     "description": "Grand Cyber City, futuristik bir şehirde özgürce araç kullanabileceğiniz ve çeşitli görevleri tamamlayabileceğiniz açık dünya araba oyunudur. Yarışlar, akrobasi hareketleri ve keşif dolu büyük bir şehir sizi bekliyor. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Grand Cyber City ücretsiz açık dünya araba oyunu."
+    "seo": "Grand Cyber City ücretsiz açık dünya araba oyunu.",
+    "longDescription": "Grand Cyber City, araba oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Grand Cyber City, futuristik bir şehirde özgürce araç kullanabileceğiniz ve çeşitli görevleri tamamlayabileceğiniz açık dünya araba oyunudur. Yarışlar, akrobasi hareketleri ve keşif dolu büyük bir şehir sizi bekliyor. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Grand Cyber City oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Virajlarda hızınızı ayarlayın.",
+      "Engellerden kaçının.",
+      "Yarışı mümkün olan en iyi dereceyle tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Kontrolü kaybettirecek ani hareketlerden kaçının."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile kontrol arasında doğru dengeyi kurmaktır."
+      }
+    ]
   },
   {
     "id": "rally-point-4",
@@ -195,7 +774,34 @@
     "thumb": "images/games/rally-point-4.jpg",
     "embed": "https://html5.gamedistribution.com/e4247763a4f9428699a327caf2b0d684/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=rally-point-4",
     "description": "Rally Point 4, yüksek hızlarda ralli yarışları yapabileceğiniz heyecan dolu bir yarış oyunudur. Nitro kullanarak rakiplerinizi geride bırakın ve zamana karşı mücadele edin. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Rally Point 4 ücretsiz ralli yarışı oyunu."
+    "seo": "Rally Point 4 ücretsiz ralli yarışı oyunu.",
+    "longDescription": "Rally Point 4, araba oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Rally Point 4, yüksek hızlarda ralli yarışları yapabileceğiniz heyecan dolu bir yarış oyunudur. Nitro kullanarak rakiplerinizi geride bırakın ve zamana karşı mücadele edin. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Rally Point 4 oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Virajlarda hızınızı ayarlayın.",
+      "Engellerden kaçının.",
+      "Yarışı mümkün olan en iyi dereceyle tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Kontrolü kaybettirecek ani hareketlerden kaçının."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile kontrol arasında doğru dengeyi kurmaktır."
+      }
+    ]
   },
   {
     "id": "monster-truck-destroyer",
@@ -204,7 +810,34 @@
     "thumb": "images/games/monster-truck-destroyer.jpg",
     "embed": "https://html5.gamedistribution.com/801744b9b14a4b12a971782243e5145e/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=monster-truck-destroyer",
     "description": "Dev tekerlekli canavar kamyonlarla engelleri ezerek ilerleyin. Monster Truck Destroyer, eğlenceli fizik sistemi ve zorlu parkurlarıyla her yaştan oyuncuya hitap eden bir araba oyunudur. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Monster Truck Destroyer ücretsiz monster truck oyunu."
+    "seo": "Monster Truck Destroyer ücretsiz monster truck oyunu.",
+    "longDescription": "Monster Truck Destroyer, araba oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Dev tekerlekli canavar kamyonlarla engelleri ezerek ilerleyin. Monster Truck Destroyer, eğlenceli fizik sistemi ve zorlu parkurlarıyla her yaştan oyuncuya hitap eden bir araba oyunudur. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Monster Truck Destroyer oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Virajlarda hızınızı ayarlayın.",
+      "Engellerden kaçının.",
+      "Yarışı mümkün olan en iyi dereceyle tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Kontrolü kaybettirecek ani hareketlerden kaçının."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile kontrol arasında doğru dengeyi kurmaktır."
+      }
+    ]
   },
   {
     "id": "max-speed",
@@ -213,7 +846,34 @@
     "thumb": "images/games/max-speed.jpg",
     "embed": "https://html5.gamedistribution.com/48f3d14ced3646b781e256ca7f9bfa30/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=max-speed",
     "description": "Max Speed, yüksek hızlarda yarışarak reflekslerinizi test edeceğiniz aksiyon dolu bir araba oyunudur. Trafikte ustaca ilerleyin, hızınızı artırın ve en yüksek skoru elde edin. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Max Speed ücretsiz araba yarışı oyunu."
+    "seo": "Max Speed ücretsiz araba yarışı oyunu.",
+    "longDescription": "Max Speed, araba oyun deneyimini öne çıkaran bir tarayıcı oyunudur. Max Speed, yüksek hızlarda yarışarak reflekslerinizi test edeceğiniz aksiyon dolu bir araba oyunudur. Trafikte ustaca ilerleyin, hızınızı artırın ve en yüksek skoru elde edin. Araba kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel eğlencesi, kolay öğrenilen mekanikleri kullanarak her yeni denemede daha iyi sonuç almaya çalışmaktır. Bölümleri ve görevleri dikkatli şekilde takip etmek, doğru zamanda karar vermek ve oyunun kendi ritmini öğrenmek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Max Speed oyununu tarayıcıda açarak kısa bir oyun deneyimi yaşayabilir ve kendi performansınızı geliştirmeyi deneyebilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Virajlarda hızınızı ayarlayın.",
+      "Engellerden kaçının.",
+      "Yarışı mümkün olan en iyi dereceyle tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Kontrolü kaybettirecek ani hareketlerden kaçının."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile kontrol arasında doğru dengeyi kurmaktır."
+      }
+    ]
   },
   {
     "id": "bob-the-robber",
@@ -222,7 +882,35 @@
     "thumb": "images/games/bob-the-robber-5.jpg",
     "embed": "https://html5.gamedistribution.com/18d28481ea514f3c838f9a5a355fb0f7/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=bob-the-robber",
     "description": "Bob The Robber, gizlilik, strateji ve dikkat gerektiren eğlenceli bir hırsızlık oyunudur. Güvenlik kameralarından kaçınarak, lazer sistemlerini etkisiz hale getirerek ve kilitleri açarak değerli eşyaları toplamaya çalışın. Her bölümde zorluk seviyesi artarken refleksleriniz ve zekânız test edilir. Mobil ve bilgisayarda ücretsiz olarak oynayabilirsiniz.",
-    "seo": "Bob The Robber ücretsiz macera ve gizlilik oyunu. Güvenlik sistemlerini aşarak görevleri tamamlayın."
+    "seo": "Bob The Robber ücretsiz macera ve gizlilik oyunu. Güvenlik sistemlerini aşarak görevleri tamamlayın.",
+    "longDescription": "Bob The Robber, macera oyun deneyimi sunan bir tarayıcı oyunudur. Bob The Robber, gizlilik, strateji ve dikkat gerektiren eğlenceli bir hırsızlık oyunudur. Güvenlik kameralarından kaçınarak, lazer sistemlerini etkisiz hale getirerek ve kilitleri açarak değerli eşyaları toplamaya çalışın. Her bölümde zorluk seviyesi artarken refleksleriniz ve zekânız test edilir. Mobil ve bilgisayarda ücretsiz olarak oynayabilirsiniz. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Bob The Robber oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "red-ball-forever",
@@ -231,7 +919,35 @@
     "thumb": "images/games/red-ball-forever.jpg",
     "embed": "https://html5.gamedistribution.com/dc7eea27033344bcb0dd85686e16bc86/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=red-ball-forever",
     "description": "Red Ball Forever, sevimli kırmızı topu kontrol ederek engelleri aşmanız gereken eğlenceli bir platform oyunudur. Bölümlerde ilerledikçe engeller zorlaşır, düşmanlar çoğalır ve refleksleriniz sınanır. Eğlenceli grafikleri ve akıcı oynanışı sayesinde her yaştan oyuncu için keyifli bir deneyim sunar.",
-    "seo": "Red Ball Forever ücretsiz platform ve macera oyunu. Kırmızı top ile tüm engelleri aşın."
+    "seo": "Red Ball Forever ücretsiz platform ve macera oyunu. Kırmızı top ile tüm engelleri aşın.",
+    "longDescription": "Red Ball Forever, macera oyun deneyimi sunan bir tarayıcı oyunudur. Red Ball Forever, sevimli kırmızı topu kontrol ederek engelleri aşmanız gereken eğlenceli bir platform oyunudur. Bölümlerde ilerledikçe engeller zorlaşır, düşmanlar çoğalır ve refleksleriniz sınanır. Eğlenceli grafikleri ve akıcı oynanışı sayesinde her yaştan oyuncu için keyifli bir deneyim sunar. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Red Ball Forever oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "ninja-wars-battle-simulator",
@@ -240,7 +956,35 @@
     "thumb": "images/games/ninja-wars-battle-simulator.jpg",
     "embed": "https://html5.gamedistribution.com/16d4b103ede245a0af3eda7193f33e41/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=ninja-wars-battle-simulator",
     "description": "Ninja Wars: Battle Simulator, güçlü ninja ordularını yöneterek rakiplerinizi alt etmeye çalıştığınız strateji ve aksiyon oyunudur. Farklı savaşçılar seçebilir, ordunuzu güçlendirebilir ve birbirinden zorlu savaşlara katılabilirsiniz. Doğru taktikler geliştirerek zafer kazanmak tamamen sizin elinizde.",
-    "seo": "Ninja Wars Battle Simulator ücretsiz strateji ve aksiyon oyunu."
+    "seo": "Ninja Wars Battle Simulator ücretsiz strateji ve aksiyon oyunu.",
+    "longDescription": "Ninja Wars: Battle Simulator, aksiyon oyun deneyimi sunan bir tarayıcı oyunudur. Ninja Wars: Battle Simulator, güçlü ninja ordularını yöneterek rakiplerinizi alt etmeye çalıştığınız strateji ve aksiyon oyunudur. Farklı savaşçılar seçebilir, ordunuzu güçlendirebilir ve birbirinden zorlu savaşlara katılabilirsiniz. Doğru taktikler geliştirerek zafer kazanmak tamamen sizin elinizde. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Ninja Wars: Battle Simulator oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "temple-quest",
@@ -249,7 +993,35 @@
     "thumb": "images/games/temple-quest.jpg",
     "embed": "https://html5.gamedistribution.com/138a14d646474409b0504f4609bf6581/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=temple-quest",
     "description": "Temple Quest, antik tapınaklarda koşarak engellerden kaçmanız ve hazineleri toplamanız gereken heyecan dolu bir macera oyunudur. Reflekslerinizi kullanarak tuzaklardan kurtulun ve mümkün olduğunca uzun süre hayatta kalın.",
-    "seo": "Temple Quest ücretsiz sonsuz koşu ve macera oyunu."
+    "seo": "Temple Quest ücretsiz sonsuz koşu ve macera oyunu.",
+    "longDescription": "Temple Quest, macera oyun deneyimi sunan bir tarayıcı oyunudur. Temple Quest, antik tapınaklarda koşarak engellerden kaçmanız ve hazineleri toplamanız gereken heyecan dolu bir macera oyunudur. Reflekslerinizi kullanarak tuzaklardan kurtulun ve mümkün olduğunca uzun süre hayatta kalın. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Temple Quest oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "tiny-fishing",
@@ -258,7 +1030,35 @@
     "thumb": "images/games/tiny-fishing.jpg",
     "embed": "https://html5.gamedistribution.com/5ee4b0222a474e44880b6c6d9f96754d/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=tiny-fishing",
     "description": "Tiny Fishing, oltanızı göle bırakarak farklı balıkları yakaladığınız rahatlatıcı ve eğlenceli bir balık tutma oyunudur. Kazandığınız paralarla oltanızı geliştirebilir ve daha nadir balıkları yakalayabilirsiniz. Simülasyon kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Tiny Fishing ücretsiz balık tutma simülasyonu."
+    "seo": "Tiny Fishing ücretsiz balık tutma simülasyonu.",
+    "longDescription": "Tiny Fishing, simülasyon oyun deneyimi sunan bir tarayıcı oyunudur. Tiny Fishing, oltanızı göle bırakarak farklı balıkları yakaladığınız rahatlatıcı ve eğlenceli bir balık tutma oyunudur. Kazandığınız paralarla oltanızı geliştirebilir ve daha nadir balıkları yakalayabilirsiniz. Simülasyon kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Tiny Fishing oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "bubble-shooter-pro-4",
@@ -267,7 +1067,35 @@
     "thumb": "images/games/bubble-shooter.jpg",
     "embed": "https://html5.gamedistribution.com/a2cd0ba0848b49b98ade7d2b8553f09d/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=bubble-shooter-pro-4",
     "description": "Bubble Shooter Pro 4, aynı renkteki balonları eşleştirerek patlatmanız gereken klasik balon patlatma oyunudur. Yüzlerce bölüm ve artan zorluk seviyesiyle uzun süre keyifli vakit geçirebilirsiniz. Arcade kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Bubble Shooter Pro 4 ücretsiz balon patlatma oyunu."
+    "seo": "Bubble Shooter Pro 4 ücretsiz balon patlatma oyunu.",
+    "longDescription": "Bubble Shooter Pro 4, arcade oyun deneyimi sunan bir tarayıcı oyunudur. Bubble Shooter Pro 4, aynı renkteki balonları eşleştirerek patlatmanız gereken klasik balon patlatma oyunudur. Yüzlerce bölüm ve artan zorluk seviyesiyle uzun süre keyifli vakit geçirebilirsiniz. Arcade kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Bubble Shooter Pro 4 oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "color-block-blast-3",
@@ -276,7 +1104,35 @@
     "thumb": "images/games/color-block-blast-3.jpg",
     "embed": "https://html5.gamedistribution.com/003becedcaf14456879312d685937e17/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=color-block-blast-3",
     "description": "Color Block Blast 3, renkli blokları doğru şekilde yerleştirerek yüksek puan yapmaya çalıştığınız bağımlılık yapan bir bulmaca oyunudur. Planlama yeteneğinizi geliştirirken eğlenceli vakit geçirebilirsiniz. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Color Block Blast 3 ücretsiz blok bulmaca oyunu."
+    "seo": "Color Block Blast 3 ücretsiz blok bulmaca oyunu.",
+    "longDescription": "Color Block Blast 3, zeka oyun deneyimi sunan bir tarayıcı oyunudur. Color Block Blast 3, renkli blokları doğru şekilde yerleştirerek yüksek puan yapmaya çalıştığınız bağımlılık yapan bir bulmaca oyunudur. Planlama yeteneğinizi geliştirirken eğlenceli vakit geçirebilirsiniz. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Color Block Blast 3 oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
   },
   {
     "id": "3d-chess-master",
@@ -285,7 +1141,35 @@
     "thumb": "images/games/chess-3d-master.jpg",
     "embed": "https://html5.gamedistribution.com/d8dea5d83d1c4132a119fabedbc60bd6/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=3d-chess-master",
     "description": "3D Chess Master, gelişmiş yapay zekâya karşı satranç oynayabileceğiniz kaliteli bir masa oyunudur. Başlangıç seviyesinden uzman seviyesine kadar farklı zorluk seçenekleri sunar. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "3D Chess Master ücretsiz satranç oyunu."
+    "seo": "3D Chess Master ücretsiz satranç oyunu.",
+    "longDescription": "3D Chess Master, zeka oyun deneyimi sunan bir tarayıcı oyunudur. 3D Chess Master, gelişmiş yapay zekâya karşı satranç oynayabileceğiniz kaliteli bir masa oyunudur. Başlangıç seviyesinden uzman seviyesine kadar farklı zorluk seçenekleri sunar. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden 3D Chess Master oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
   },
   {
     "id": "sudoku-master",
@@ -294,7 +1178,35 @@
     "thumb": "images/games/sudoku-master.jpg",
     "embed": "https://html5.gamedistribution.com/e7bf98a6a5924866a8b103a67fb651b3/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=sudoku-master",
     "description": "Sudoku Master, farklı zorluk seviyelerinde sayı bulmacaları çözerek mantık becerilerinizi geliştirebileceğiniz klasik sudoku oyunudur. Günlük zihinsel egzersiz yapmak isteyen oyuncular için ideal bir seçimdir. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Sudoku Master ücretsiz sudoku oyunu."
+    "seo": "Sudoku Master ücretsiz sudoku oyunu.",
+    "longDescription": "Sudoku Master, zeka oyun deneyimi sunan bir tarayıcı oyunudur. Sudoku Master, farklı zorluk seviyelerinde sayı bulmacaları çözerek mantık becerilerinizi geliştirebileceğiniz klasik sudoku oyunudur. Günlük zihinsel egzersiz yapmak isteyen oyuncular için ideal bir seçimdir. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Sudoku Master oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
   },
   {
     "id": "helix-jump",
@@ -303,7 +1215,35 @@
     "thumb": "images/games/helix-jump-piano.jpg",
     "embed": "https://html5.gamedistribution.com/544cf55c6ad44a3299099e813f7f5a9d/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=helix-jump",
     "description": "Helix Jump, dönen kuleler arasında topu aşağıya doğru indirerek en yüksek puanı elde etmeye çalıştığınız bağımlılık yapan bir arcade oyunudur. Reflekslerinizi kullanarak kırmızı platformlardan kaçının ve kesintisiz bir şekilde ilerleyin. Basit kontrolleri sayesinde her yaştan oyuncu tarafından kolayca oynanabilir.",
-    "seo": "Helix Jump ücretsiz arcade oyunu. Mobil ve bilgisayarda reflekslerini test et."
+    "seo": "Helix Jump ücretsiz arcade oyunu. Mobil ve bilgisayarda reflekslerini test et.",
+    "longDescription": "Helix Jump, arcade oyun deneyimi sunan bir tarayıcı oyunudur. Helix Jump, dönen kuleler arasında topu aşağıya doğru indirerek en yüksek puanı elde etmeye çalıştığınız bağımlılık yapan bir arcade oyunudur. Reflekslerinizi kullanarak kırmızı platformlardan kaçının ve kesintisiz bir şekilde ilerleyin. Basit kontrolleri sayesinde her yaştan oyuncu tarafından kolayca oynanabilir. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Helix Jump oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "stack-ball",
@@ -312,7 +1252,35 @@
     "thumb": "images/games/stack-ball.jpg",
     "embed": "https://html5.gamedistribution.com/a81fd206711b48489fddfa7fd4aab621/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=stack-ball",
     "description": "Stack Ball, topu dönen platformlardan geçirerek aşağıya ulaştırmaya çalıştığınız hızlı tempolu bir arcade oyunudur. Doğru zamanda dokunarak platformları parçalayın ve engellerden kaçının. Arcade kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Stack Ball ücretsiz arcade ve refleks oyunu."
+    "seo": "Stack Ball ücretsiz arcade ve refleks oyunu.",
+    "longDescription": "Stack Ball, arcade oyun deneyimi sunan bir tarayıcı oyunudur. Stack Ball, topu dönen platformlardan geçirerek aşağıya ulaştırmaya çalıştığınız hızlı tempolu bir arcade oyunudur. Doğru zamanda dokunarak platformları parçalayın ve engellerden kaçının. Arcade kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Stack Ball oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "golf-orbit",
@@ -321,7 +1289,35 @@
     "thumb": "images/games/golf-orbit.jpg",
     "embed": "https://html5.gamedistribution.com/02ff01e6e9f7451ba28d889a2a55eec9/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=golf-orbit",
     "description": "Golf Orbit, topunuzu mümkün olduğunca uzağa göndermeye çalıştığınız eğlenceli bir golf oyunudur. Güçlendirmeler kazanarak daha uzun mesafeler kat edebilir ve yeni rekorlar kırabilirsiniz. Spor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Golf Orbit ücretsiz golf oyunu."
+    "seo": "Golf Orbit ücretsiz golf oyunu.",
+    "longDescription": "Golf Orbit, spor oyun deneyimi sunan bir tarayıcı oyunudur. Golf Orbit, topunuzu mümkün olduğunca uzağa göndermeye çalıştığınız eğlenceli bir golf oyunudur. Güçlendirmeler kazanarak daha uzun mesafeler kat edebilir ve yeni rekorlar kırabilirsiniz. Spor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı, mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Başarılı olmak için oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek önemlidir. OyunKafe üzerinden Golf Orbit oyununu tarayıcıda açarak oyunu deneyebilir, kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Oyuncunuzu veya topu kontrol edin.",
+      "Rakibin hareketlerini takip edin.",
+      "Doğru anda hücum veya savunma yapın.",
+      "Karşılaşmayı daha iyi skorla tamamlamaya çalışın."
+    ],
+    "tips": [
+      "Zamanlamanızı koruyun.",
+      "Rakibin hareketlerini önceden okumaya çalışın.",
+      "Hücum ve savunma arasında denge kurun."
+    ],
+    "features": [
+      "Spor temalı oynanış",
+      "Kolay öğrenilen kontroller",
+      "Rekabetçi karşılaşmalar",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Karşılaşmada rakibinizden daha iyi bir sonuç elde etmektir."
+      },
+      {
+        "q": "Başarılı olmak için ne gerekir?",
+        "a": "Zamanlama, dikkat ve doğru hamle seçimi önemlidir."
+      }
+    ]
   },
   {
     "id": "tennis-masters",
@@ -330,7 +1326,35 @@
     "thumb": "images/games/tennis-masters.jpg",
     "embed": "https://html5.gamedistribution.com/cfd23874aad14e9daa2228891622d579/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=tennis-masters",
     "description": "Tennis Masters, tek kişilik veya iki kişilik oynanabilen eğlenceli bir tenis oyunudur. Güçlü servisler yapın, özel yeteneklerinizi kullanın ve rakiplerinizi mağlup ederek turnuvayı kazanın. Spor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Tennis Masters ücretsiz tenis oyunu."
+    "seo": "Tennis Masters ücretsiz tenis oyunu.",
+    "longDescription": "Tennis Masters, spor oyun deneyimi sunan bir tarayıcı oyunudur. Tennis Masters, tek kişilik veya iki kişilik oynanabilen eğlenceli bir tenis oyunudur. Güçlü servisler yapın, özel yeteneklerinizi kullanın ve rakiplerinizi mağlup ederek turnuvayı kazanın. Spor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Tennis Masters oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Oyuncunuzu veya topu kontrol edin.",
+      "Rakibin hareketlerini takip edin.",
+      "Doğru anda hücum veya savunma yapın.",
+      "Karşılaşmayı avantajlı bir sonuçla tamamlamaya çalışın."
+    ],
+    "tips": [
+      "Zamanlamanızı koruyun.",
+      "Rakibin hamlelerini önceden okumaya çalışın.",
+      "Hücum ve savunma arasında denge kurun."
+    ],
+    "features": [
+      "Spor temalı oynanış",
+      "Kolay öğrenilen kontroller",
+      "Rekabetçi karşılaşmalar",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Karşılaşmada rakibinizden daha iyi bir sonuç elde etmektir."
+      },
+      {
+        "q": "Başarılı olmak için ne gerekir?",
+        "a": "Zamanlama, dikkat ve doğru hamle seçimi önemlidir."
+      }
+    ]
   },
   {
     "id": "8-ball-billiards-snooker",
@@ -339,7 +1363,35 @@
     "thumb": "images/games/8-ball-billiards-snooker.jpg",
     "embed": "https://html5.gamedistribution.com/63b796a4fa5c4e4398fabb69383e6de1/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=8-ball-billiards-snooker",
     "description": "8 Ball Billiards Snooker, gerçekçi fizik motoruna sahip bilardo oyunudur. Topları doğru açıyla vurarak masayı temizleyin ve profesyonel bilardo deneyimi yaşayın. Spor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "8 Ball Billiards Snooker ücretsiz bilardo oyunu."
+    "seo": "8 Ball Billiards Snooker ücretsiz bilardo oyunu.",
+    "longDescription": "8 Ball Billiards Snooker, spor oyun deneyimi sunan bir tarayıcı oyunudur. 8 Ball Billiards Snooker, gerçekçi fizik motoruna sahip bilardo oyunudur. Topları doğru açıyla vurarak masayı temizleyin ve profesyonel bilardo deneyimi yaşayın. Spor kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden 8 Ball Billiards Snooker oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Oyuncunuzu veya topu kontrol edin.",
+      "Rakibin hareketlerini takip edin.",
+      "Doğru anda hücum veya savunma yapın.",
+      "Karşılaşmayı avantajlı bir sonuçla tamamlamaya çalışın."
+    ],
+    "tips": [
+      "Zamanlamanızı koruyun.",
+      "Rakibin hamlelerini önceden okumaya çalışın.",
+      "Hücum ve savunma arasında denge kurun."
+    ],
+    "features": [
+      "Spor temalı oynanış",
+      "Kolay öğrenilen kontroller",
+      "Rekabetçi karşılaşmalar",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Karşılaşmada rakibinizden daha iyi bir sonuç elde etmektir."
+      },
+      {
+        "q": "Başarılı olmak için ne gerekir?",
+        "a": "Zamanlama, dikkat ve doğru hamle seçimi önemlidir."
+      }
+    ]
   },
   {
     "id": "stick-duel-battle",
@@ -348,7 +1400,35 @@
     "thumb": "images/games/stick-duel-battle.jpg",
     "embed": "https://html5.gamedistribution.com/1d7959f081b4453498ee9916b693988c/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=stick-duel-battle",
     "description": "Stick Duel Battle, arkadaşınıza veya bilgisayara karşı mücadele edebileceğiniz eğlenceli bir stickman savaş oyunudur. Farklı silahlar ve haritalarla her maç farklı bir heyecan sunar. Aksiyon kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Stick Duel Battle ücretsiz stickman aksiyon oyunu."
+    "seo": "Stick Duel Battle ücretsiz stickman aksiyon oyunu.",
+    "longDescription": "Stick Duel Battle, aksiyon oyun deneyimi sunan bir tarayıcı oyunudur. Stick Duel Battle, arkadaşınıza veya bilgisayara karşı mücadele edebileceğiniz eğlenceli bir stickman savaş oyunudur. Farklı silahlar ve haritalarla her maç farklı bir heyecan sunar. Aksiyon kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Stick Duel Battle oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "number-merge-master",
@@ -357,7 +1437,35 @@
     "thumb": "images/games/number-merge-master.jpg",
     "embed": "https://html5.gamedistribution.com/da08647291804de7bf5932ed58b89382/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=number-merge-master",
     "description": "Number Merge Master, aynı sayıları birleştirerek daha büyük sayılar elde etmeye çalıştığınız bağımlılık yapan bir bulmaca oyunudur. Planlama ve dikkat gerektiren yapısıyla uzun süre keyifli vakit geçirmenizi sağlar. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Number Merge Master ücretsiz sayı birleştirme oyunu."
+    "seo": "Number Merge Master ücretsiz sayı birleştirme oyunu.",
+    "longDescription": "Number Merge Master, zeka oyun deneyimi sunan bir tarayıcı oyunudur. Number Merge Master, aynı sayıları birleştirerek daha büyük sayılar elde etmeye çalıştığınız bağımlılık yapan bir bulmaca oyunudur. Planlama ve dikkat gerektiren yapısıyla uzun süre keyifli vakit geçirmenizi sağlar. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Number Merge Master oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
   },
   {
     "id": "mahjong-classic",
@@ -366,7 +1474,35 @@
     "thumb": "images/games/mahjong-classic.jpg",
     "embed": "https://html5.gamedistribution.com/59339ed7844e46649d4f5a5bc8214dc1/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-classic",
     "description": "Mahjong Classic, aynı taşları eşleştirerek tüm tahtayı temizlemeye çalıştığınız klasik mahjong oyunudur. Farklı zorluk seviyeleriyle hem yeni başlayanlar hem de deneyimli oyuncular için uygundur. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Mahjong Classic ücretsiz mahjong oyunu."
+    "seo": "Mahjong Classic ücretsiz mahjong oyunu.",
+    "longDescription": "Mahjong Classic, zeka oyun deneyimi sunan bir tarayıcı oyunudur. Mahjong Classic, aynı taşları eşleştirerek tüm tahtayı temizlemeye çalıştığınız klasik mahjong oyunudur. Farklı zorluk seviyeleriyle hem yeni başlayanlar hem de deneyimli oyuncular için uygundur. Zeka kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Mahjong Classic oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
   },
   {
     "id": "solitaire-classic",
@@ -375,7 +1511,35 @@
     "thumb": "images/games/solitaire-classic.jpg",
     "embed": "https://html5.gamedistribution.com/6972e9b65057498899dea0491f410d57/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=solitaire-classic",
     "description": "Solitaire Classic, dünyanın en popüler kart oyunlarından biridir. Kartları doğru sıraya dizerek oyunu tamamlamaya çalışın. Rahatlatıcı yapısıyla boş zamanlarınızı keyifli hale getirir. Kart kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Solitaire Classic ücretsiz kart oyunu."
+    "seo": "Solitaire Classic ücretsiz kart oyunu.",
+    "longDescription": "Solitaire Classic, kart oyun deneyimi sunan bir tarayıcı oyunudur. Solitaire Classic, dünyanın en popüler kart oyunlarından biridir. Kartları doğru sıraya dizerek oyunu tamamlamaya çalışın. Rahatlatıcı yapısıyla boş zamanlarınızı keyifli hale getirir. Kart kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Solitaire Classic oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
   },
   {
     "id": "seat-puzzle-cut-the-rope",
@@ -384,69 +1548,663 @@
     "thumb": "images/games/seat-puzzle-cut-the-rope.jpg",
     "embed": "https://html5.gamedistribution.com/24becac37a04406c8f6c44c28513c09c/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=seat-puzzle-cut-the-rope",
     "description": "Seat Puzzle Cut The Rope, ipleri doğru sırayla keserek bulmacaları çözmeniz gereken eğlenceli bir mantık oyunudur. Her bölümde farklı zorluklarla karşılaşacak ve stratejik düşünme becerilerinizi geliştireceksiniz. Bulmaca kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Seat Puzzle Cut The Rope ücretsiz bulmaca oyunu."
+    "seo": "Seat Puzzle Cut The Rope ücretsiz bulmaca oyunu.",
+    "longDescription": "Seat Puzzle Cut The Rope, bulmaca oyun deneyimi sunan bir tarayıcı oyunudur. Seat Puzzle Cut The Rope, ipleri doğru sırayla keserek bulmacaları çözmeniz gereken eğlenceli bir mantık oyunudur. Her bölümde farklı zorluklarla karşılaşacak ve stratejik düşünme becerilerinizi geliştireceksiniz. Bulmaca kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Seat Puzzle Cut The Rope oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
   },
-{
-  "id": "train-surfers",
-  "title": "Train Surfers",
-  "category": "Parkour",
-  "thumb": "images/games/train-surfers.jpg",
-  "embed": "https://html5.gamedistribution.com/6920e96cea7a4aea956c7410de649a98/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=train-surfers",
-  "description": "Train Surfers, tren raylarında koşarak engellerden kaçmanız, altınları toplamanız ve reflekslerinizi kullanarak en uzun mesafeye ulaşmanız gereken heyecan dolu bir sonsuz koşu oyunudur. Hareket halindeki trenlerin üzerinden atlayın, bariyerlerin altından kayın ve yüksek puanlar elde ederek kendi rekorunuzu kırın. Akıcı oynanışı sayesinde hem mobil cihazlarda hem de bilgisayarda ücretsiz olarak oynanabilir.",
-  "seo": "Train Surfers ücretsiz sonsuz koşu ve parkour oyunu. Tren raylarında koş, engellerden kaç ve en yüksek puanı elde et."
-},
-{
-  "id": "idle-lumber-hero",
-  "title": "Idle Lumber Hero",
-  "category": "Simülasyon",
-  "thumb": "images/games/idle-lumber-hero.jpg",
-  "embed": "https://html5.gamedistribution.com/86dfb922b8eb4afe97b0bc2096c42b29/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=idle-lumber-hero",
-  "description": "Idle Lumber Hero, küçük bir oduncu olarak başladığınız macerada kendi kereste imparatorluğunuzu kurmaya çalıştığınız eğlenceli bir simülasyon oyunudur. Ağaçları kesin, odunları pazarda satarak gelir elde edin, baltanızı ve taşıma kapasitenizi geliştirin, yeni alanların kilidini açın ve üretiminizi sürekli büyütün. Stratejik yükseltmeler yaparak en başarılı kereste ustası olun. Mobil cihazlarda ve bilgisayarda tamamen ücretsiz oynanabilir.",
-  "seo": "Idle Lumber Hero ücretsiz kereste simülasyonu ve idle yönetim oyunu. Ağaç kes, işletmeni büyüt ve kereste imparatorluğunu kur."
-},
-{
-  "id":"crazy-motorcycle","title":"Crazy Motorcycle","category":"Motor","thumb":"images/games/crazy-motorcycle.jpg","embed":"https://html5.gamedistribution.com/30637801603e46ec82b342b77f539cf3/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=crazy-motorcycle","description":"Crazy Motorcycle, engellerle dolu parkurlarda motosikletinizi bitişe ulaştırmaya çalıştığınız hızlı bir motor oyunudur. Boşluklardan atlayın, hızınızı koruyun ve farklı bölümlerde denge becerinizi test edin.","seo":"Crazy Motorcycle ücretsiz motor ve parkur oyunu."
-},
-{
-  "id":"moto-road-rash-3d-2","title":"Moto Road Rash 3D 2","category":"Motor","thumb":"images/games/moto-road-rash-3d-2.jpg","embed":"https://html5.gamedistribution.com/0d6c422de82f4f6b832697ed1da3c0b7/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-road-rash-3d-2","description":"Moto Road Rash 3D 2, şehir trafiğinde motosiklet sürerek araçların arasından geçtiğiniz tempolu bir yarış oyunudur. Şerit değiştirin, çarpışmalardan kaçının ve en uzun sürüş mesafesine ulaşmaya çalışın.","seo":"Moto Road Rash 3D 2 ücretsiz motosiklet yarışı oyunu."
-},
-{
-  "id":"mega-ramp-bike-racing-tracks","title":"Mega Ramp Bike Racing Tracks","category":"Motor","thumb":"images/games/mega-ramp-bike-racing-tracks.jpg","embed":"https://html5.gamedistribution.com/726c74267da445daa18e9ad111a332c4/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mega-ramp-bike-racing-tracks","description":"Mega Ramp Bike Racing Tracks, yüksek rampalarda sürüş ve akrobasi yapabileceğiniz zorlu bir motor oyunudur. Keskin virajları geçin, hava hareketlerini deneyin ve pistin sonuna ulaşın.","seo":"Mega Ramp Bike Racing Tracks ücretsiz motor akrobasi oyunu."
-},
-{
-  "id":"moto-traffic-rider","title":"Moto Traffic Rider","category":"Motor","thumb":"images/games/moto-traffic-rider.jpg","embed":"https://html5.gamedistribution.com/9bde41f232834eff9ea81554ecee8279/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-traffic-rider","description":"Moto Traffic Rider, yoğun otoyol trafiğinde yüksek hızla ilerlediğiniz bir motosiklet oyunudur. Yakın geçişlerle puan kazanın, nitroyu doğru kullanın ve yeni motorların kilidini açın.","seo":"Moto Traffic Rider ücretsiz trafik motosikleti oyunu."
-},
-{
-  "id":"moto-fury","title":"Moto Fury","category":"Motor","thumb":"images/games/moto-fury.jpg","embed":"https://html5.gamedistribution.com/490c05645cb84bf28b967db5a389442f/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-fury","description":"Moto Fury, trafikte hız yapıp araçları dikkatle solladığınız klasik bir motor yarış oyunudur. Riskli yakın geçişlerle daha çok puan toplayın ve daha güçlü motosikletlere ulaşın.","seo":"Moto Fury ücretsiz motosiklet ve trafik yarışı oyunu."
-},
-{
-  "id":"solitaire-spider-and-klondike","title":"Solitaire Spider and Klondike","category":"Kart","thumb":"images/games/solitaire-spider-and-klondike.jpg","embed":"https://html5.gamedistribution.com/ab4953be8c1e43dca3373929027d08ca/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=solitaire-spider-and-klondike","description":"Solitaire Spider and Klondike, iki sevilen solitaire türünü bir araya getiren sakin bir kart oyunudur. Hamlelerinizi planlayın, ipuçlarından yararlanın ve desteyi doğru sırayla tamamlayın.","seo":"Solitaire Spider and Klondike ücretsiz kart oyunu."
-},
-{
-  "id":"arkadium-classic-solitaire","title":"Arkadium's Classic Solitaire","category":"Kart","thumb":"images/games/arkadium-classic-solitaire.jpg","embed":"https://html5.gamedistribution.com/242bd2752ee64a3a897f3785355ea350/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=arkadium-classic-solitaire","description":"Arkadium's Classic Solitaire, kartları renk sırasına göre düzenleyip desteyi tamamlamaya çalıştığınız klasik solitaire deneyimidir. Sakin tempolu oyunuyla kısa bir mola için ideal bir seçimdir.","seo":"Arkadium Classic Solitaire ücretsiz klasik kart oyunu."
-},
-{
-  "id":"solitaire-emperor-secrets-of-fate","title":"Solitaire Emperor: Secrets of Fate","category":"Kart","thumb":"images/games/solitaire-emperor-secrets-of-fate.jpg","embed":"https://html5.gamedistribution.com/9df2c6b01b01490da455b82d9bfb52f0/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=solitaire-emperor-secrets-of-fate","description":"Solitaire Emperor: Secrets of Fate, tarot temalı bir macera içinde kart zincirleri kurduğunuz hikâyeli bir solitaire oyunudur. Doğru kartları seçerek bölümleri tamamlayın ve yeni görevleri açın.","seo":"Solitaire Emperor ücretsiz hikâyeli solitaire kart oyunu."
-},
-{
-  "id":"solitaire-story-tripeaks-4","title":"Solitaire Story TriPeaks 4","category":"Kart","thumb":"images/games/solitaire-story-tripeaks-4.jpg","embed":"https://html5.gamedistribution.com/c29c2272352e44e69f027e54866800b4/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=solitaire-story-tripeaks-4","description":"Solitaire Story TriPeaks 4, farklı rotalarda ilerlerken kartları bir üst veya bir alt değerle eşleştirdiğiniz zengin içerikli bir solitaire oyunudur. Uzun seviye yapısı strateji sevenler için uygundur.","seo":"Solitaire Story TriPeaks 4 ücretsiz TriPeaks kart oyunu."
-},
-{
-  "id":"palm-island-solitaire","title":"Palm Island Solitaire","category":"Kart","thumb":"images/games/palm-island-solitaire.jpg","embed":"https://html5.gamedistribution.com/03091e0b83dd4efb826dc65d73393e9e/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=palm-island-solitaire","description":"Palm Island Solitaire, tropik bir atmosferde kartları doğru sırayla eşleştirdiğiniz rahatlatıcı bir golf solitaire oyunudur. Her hamleyi düşünerek destenizi mümkün olduğunca verimli kullanın.","seo":"Palm Island Solitaire ücretsiz kart ve golf solitaire oyunu."
-},
-{
-  "id":"jixora-jigsaw-solitaire-puzzle","title":"Jixora: Jigsaw Solitaire Puzzle","category":"Bulmaca","thumb":"images/games/jixora-jigsaw-solitaire-puzzle.jpg","embed":"https://html5.gamedistribution.com/c22dd33f66654986bf42e494c5934308/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=jixora-jigsaw-solitaire-puzzle","description":"Jixora, yapboz parçalarını doğru konumlarına sürükleyerek görselleri tamamladığınız huzurlu bir bulmaca oyunudur. İpuçlarını kullanın, süreyi yönetin ve giderek zorlaşan seviyeleri çözün.","seo":"Jixora ücretsiz yapboz ve mantık bulmaca oyunu."
-},
-{
-  "id":"mahjong-lines","title":"Mahjong Lines","category":"Bulmaca","thumb":"images/games/mahjong-lines.jpg","embed":"https://html5.gamedistribution.com/8625ea2a8244492980f16e192880f934/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-lines","description":"Mahjong Lines, aynı taş çiftlerini geçerli bir yol ile bağlayarak tahtayı temizlediğiniz bir mantık oyunudur. İpuçlarını akıllıca kullanın ve hamle kalmadığında karıştırma seçeneğini değerlendirin.","seo":"Mahjong Lines ücretsiz eşleştirme ve mahjong bulmaca oyunu."
-},
-{
-  "id":"mahjong-riddles-egypt","title":"Mahjong Riddles: Egypt","category":"Bulmaca","thumb":"images/games/mahjong-riddles-egypt.jpg","embed":"https://html5.gamedistribution.com/818098f929e24bcbb73348bd15b01a62/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-riddles-egypt","description":"Mahjong Riddles: Egypt, Antik Mısır temalı seviyelerde eş taşları bularak gizemleri çözdüğünüz bir mahjong oyunudur. Farklı bölgeleri keşfedin, kilitleri açın ve bölümleri tamamlayın.","seo":"Mahjong Riddles Egypt ücretsiz Mısır temalı mahjong oyunu."
-},
-{
-  "id":"mahjong-connect-hd","title":"Mahjong Connect HD","category":"Bulmaca","thumb":"images/games/mahjong-connect-hd.jpg","embed":"https://html5.gamedistribution.com/1d8bd690253c483b82ffa647380dc76e/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-connect-hd","description":"Mahjong Connect HD, aynı sembollü taşları iki dönüşten fazla yapmayan çizgilerle birleştirdiğiniz klasik bir eşleştirme oyunudur. Tahtayı dikkatle okuyun ve tüm çiftleri kaldırın.","seo":"Mahjong Connect HD ücretsiz mahjong eşleştirme oyunu."
-},
-{
-  "id":"mahjong-slide-puzzle","title":"Mahjong Slide Puzzle","category":"Bulmaca","thumb":"images/games/mahjong-slide-puzzle.jpg","embed":"https://html5.gamedistribution.com/10d9f5e5cec04793806e91e5d58db9da/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-slide-puzzle","description":"Mahjong Slide Puzzle, taşları kaydırarak eşleştirme yolları oluşturduğunuz modern bir mahjong bulmacasıdır. Her hamleyi planlayın, blokları doğru konuma taşıyın ve seviyeleri tamamlayın.","seo":"Mahjong Slide Puzzle ücretsiz kaydırmalı mahjong bulmacası."
-}
+  {
+    "id": "train-surfers",
+    "title": "Train Surfers",
+    "category": "Parkour",
+    "thumb": "images/games/train-surfers.jpg",
+    "embed": "https://html5.gamedistribution.com/6920e96cea7a4aea956c7410de649a98/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=train-surfers",
+    "description": "Train Surfers, tren raylarında koşarak engellerden kaçmanız, altınları toplamanız ve reflekslerinizi kullanarak en uzun mesafeye ulaşmanız gereken heyecan dolu bir sonsuz koşu oyunudur. Hareket halindeki trenlerin üzerinden atlayın, bariyerlerin altından kayın ve yüksek puanlar elde ederek kendi rekorunuzu kırın. Akıcı oynanışı sayesinde hem mobil cihazlarda hem de bilgisayarda ücretsiz olarak oynanabilir.",
+    "seo": "Train Surfers ücretsiz sonsuz koşu ve parkour oyunu. Tren raylarında koş, engellerden kaç ve en yüksek puanı elde et.",
+    "longDescription": "Train Surfers, parkour oyun deneyimi sunan bir tarayıcı oyunudur. Train Surfers, tren raylarında koşarak engellerden kaçmanız, altınları toplamanız ve reflekslerinizi kullanarak en uzun mesafeye ulaşmanız gereken heyecan dolu bir sonsuz koşu oyunudur. Hareket halindeki trenlerin üzerinden atlayın, bariyerlerin altından kayın ve yüksek puanlar elde ederek kendi rekorunuzu kırın. Akıcı oynanışı sayesinde hem mobil cihazlarda hem de bilgisayarda ücretsiz olarak oynanabilir. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Train Surfers oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
+  },
+  {
+    "id": "idle-lumber-hero",
+    "title": "Idle Lumber Hero",
+    "category": "Simülasyon",
+    "thumb": "images/games/idle-lumber-hero.jpg",
+    "embed": "https://html5.gamedistribution.com/86dfb922b8eb4afe97b0bc2096c42b29/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=idle-lumber-hero",
+    "description": "Idle Lumber Hero, küçük bir oduncu olarak başladığınız macerada kendi kereste imparatorluğunuzu kurmaya çalıştığınız eğlenceli bir simülasyon oyunudur. Ağaçları kesin, odunları pazarda satarak gelir elde edin, baltanızı ve taşıma kapasitenizi geliştirin, yeni alanların kilidini açın ve üretiminizi sürekli büyütün. Stratejik yükseltmeler yaparak en başarılı kereste ustası olun. Mobil cihazlarda ve bilgisayarda tamamen ücretsiz oynanabilir.",
+    "seo": "Idle Lumber Hero ücretsiz kereste simülasyonu ve idle yönetim oyunu. Ağaç kes, işletmeni büyüt ve kereste imparatorluğunu kur.",
+    "longDescription": "Idle Lumber Hero, simülasyon oyun deneyimi sunan bir tarayıcı oyunudur. Idle Lumber Hero, küçük bir oduncu olarak başladığınız macerada kendi kereste imparatorluğunuzu kurmaya çalıştığınız eğlenceli bir simülasyon oyunudur. Ağaçları kesin, odunları pazarda satarak gelir elde edin, baltanızı ve taşıma kapasitenizi geliştirin, yeni alanların kilidini açın ve üretiminizi sürekli büyütün. Stratejik yükseltmeler yaparak en başarılı kereste ustası olun. Mobil cihazlarda ve bilgisayarda tamamen ücretsiz oynanabilir. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Idle Lumber Hero oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
+  },
+  {
+    "id": "crazy-motorcycle",
+    "title": "Crazy Motorcycle",
+    "category": "Motor",
+    "thumb": "images/games/crazy-motorcycle.jpg",
+    "embed": "https://html5.gamedistribution.com/30637801603e46ec82b342b77f539cf3/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=crazy-motorcycle",
+    "description": "Crazy Motorcycle, engellerle dolu parkurlarda motosikletinizi bitişe ulaştırmaya çalıştığınız hızlı bir motor oyunudur. Boşluklardan atlayın, hızınızı koruyun ve farklı bölümlerde denge becerinizi test edin.",
+    "seo": "Crazy Motorcycle ücretsiz motor ve parkur oyunu.",
+    "longDescription": "Crazy Motorcycle, motor oyun deneyimi sunan bir tarayıcı oyunudur. Crazy Motorcycle, engellerle dolu parkurlarda motosikletinizi bitişe ulaştırmaya çalıştığınız hızlı bir motor oyunudur. Boşluklardan atlayın, hızınızı koruyun ve farklı bölümlerde denge becerinizi test edin. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Crazy Motorcycle oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Hızınızı yolun durumuna göre ayarlayın.",
+      "Engellerden ve rakiplerden kaçının.",
+      "Yarışı mümkün olan en iyi sonuçla tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Ani manevralarla kontrolü kaybetmemeye çalışın."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Farklı parkur görevleri",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile araç kontrolü arasında denge kurmaktır."
+      }
+    ]
+  },
+  {
+    "id": "moto-road-rash-3d-2",
+    "title": "Moto Road Rash 3D 2",
+    "category": "Motor",
+    "thumb": "images/games/moto-road-rash-3d-2.jpg",
+    "embed": "https://html5.gamedistribution.com/0d6c422de82f4f6b832697ed1da3c0b7/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-road-rash-3d-2",
+    "description": "Moto Road Rash 3D 2, şehir trafiğinde motosiklet sürerek araçların arasından geçtiğiniz tempolu bir yarış oyunudur. Şerit değiştirin, çarpışmalardan kaçının ve en uzun sürüş mesafesine ulaşmaya çalışın.",
+    "seo": "Moto Road Rash 3D 2 ücretsiz motosiklet yarışı oyunu.",
+    "longDescription": "Moto Road Rash 3D 2, motor oyun deneyimi sunan bir tarayıcı oyunudur. Moto Road Rash 3D 2, şehir trafiğinde motosiklet sürerek araçların arasından geçtiğiniz tempolu bir yarış oyunudur. Şerit değiştirin, çarpışmalardan kaçının ve en uzun sürüş mesafesine ulaşmaya çalışın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Moto Road Rash 3D 2 oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Hızınızı yolun durumuna göre ayarlayın.",
+      "Engellerden ve rakiplerden kaçının.",
+      "Yarışı mümkün olan en iyi sonuçla tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Ani manevralarla kontrolü kaybetmemeye çalışın."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Farklı parkur görevleri",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile araç kontrolü arasında denge kurmaktır."
+      }
+    ]
+  },
+  {
+    "id": "mega-ramp-bike-racing-tracks",
+    "title": "Mega Ramp Bike Racing Tracks",
+    "category": "Motor",
+    "thumb": "images/games/mega-ramp-bike-racing-tracks.jpg",
+    "embed": "https://html5.gamedistribution.com/726c74267da445daa18e9ad111a332c4/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mega-ramp-bike-racing-tracks",
+    "description": "Mega Ramp Bike Racing Tracks, yüksek rampalarda sürüş ve akrobasi yapabileceğiniz zorlu bir motor oyunudur. Keskin virajları geçin, hava hareketlerini deneyin ve pistin sonuna ulaşın.",
+    "seo": "Mega Ramp Bike Racing Tracks ücretsiz motor akrobasi oyunu.",
+    "longDescription": "Mega Ramp Bike Racing Tracks, motor oyun deneyimi sunan bir tarayıcı oyunudur. Mega Ramp Bike Racing Tracks, yüksek rampalarda sürüş ve akrobasi yapabileceğiniz zorlu bir motor oyunudur. Keskin virajları geçin, hava hareketlerini deneyin ve pistin sonuna ulaşın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Mega Ramp Bike Racing Tracks oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Hızınızı yolun durumuna göre ayarlayın.",
+      "Engellerden ve rakiplerden kaçının.",
+      "Yarışı mümkün olan en iyi sonuçla tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Ani manevralarla kontrolü kaybetmemeye çalışın."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Farklı parkur görevleri",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile araç kontrolü arasında denge kurmaktır."
+      }
+    ]
+  },
+  {
+    "id": "moto-traffic-rider",
+    "title": "Moto Traffic Rider",
+    "category": "Motor",
+    "thumb": "images/games/moto-traffic-rider.jpg",
+    "embed": "https://html5.gamedistribution.com/9bde41f232834eff9ea81554ecee8279/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-traffic-rider",
+    "description": "Moto Traffic Rider, yoğun otoyol trafiğinde yüksek hızla ilerlediğiniz bir motosiklet oyunudur. Yakın geçişlerle puan kazanın, nitroyu doğru kullanın ve yeni motorların kilidini açın.",
+    "seo": "Moto Traffic Rider ücretsiz trafik motosikleti oyunu.",
+    "longDescription": "Moto Traffic Rider, motor oyun deneyimi sunan bir tarayıcı oyunudur. Moto Traffic Rider, yoğun otoyol trafiğinde yüksek hızla ilerlediğiniz bir motosiklet oyunudur. Yakın geçişlerle puan kazanın, nitroyu doğru kullanın ve yeni motorların kilidini açın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Moto Traffic Rider oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Hızınızı yolun durumuna göre ayarlayın.",
+      "Engellerden ve rakiplerden kaçının.",
+      "Yarışı mümkün olan en iyi sonuçla tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Ani manevralarla kontrolü kaybetmemeye çalışın."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Farklı parkur görevleri",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile araç kontrolü arasında denge kurmaktır."
+      }
+    ]
+  },
+  {
+    "id": "moto-fury",
+    "title": "Moto Fury",
+    "category": "Motor",
+    "thumb": "images/games/moto-fury.jpg",
+    "embed": "https://html5.gamedistribution.com/490c05645cb84bf28b967db5a389442f/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=moto-fury",
+    "description": "Moto Fury, trafikte hız yapıp araçları dikkatle solladığınız klasik bir motor yarış oyunudur. Riskli yakın geçişlerle daha çok puan toplayın ve daha güçlü motosikletlere ulaşın.",
+    "seo": "Moto Fury ücretsiz motosiklet ve trafik yarışı oyunu.",
+    "longDescription": "Moto Fury, motor oyun deneyimi sunan bir tarayıcı oyunudur. Moto Fury, trafikte hız yapıp araçları dikkatle solladığınız klasik bir motor yarış oyunudur. Riskli yakın geçişlerle daha çok puan toplayın ve daha güçlü motosikletlere ulaşın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Moto Fury oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Aracınızı parkurda kontrol edin.",
+      "Hızınızı yolun durumuna göre ayarlayın.",
+      "Engellerden ve rakiplerden kaçının.",
+      "Yarışı mümkün olan en iyi sonuçla tamamlayın."
+    ],
+    "tips": [
+      "Virajlardan önce hızınızı kontrol edin.",
+      "Parkurun yapısını öğrenin.",
+      "Ani manevralarla kontrolü kaybetmemeye çalışın."
+    ],
+    "features": [
+      "Yarış odaklı oynanış",
+      "Hız ve kontrol dengesi",
+      "Farklı parkur görevleri",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Parkuru başarılı şekilde tamamlayarak mümkün olan en iyi sonucu elde etmektir."
+      },
+      {
+        "q": "En önemli beceri nedir?",
+        "a": "Hız ile araç kontrolü arasında denge kurmaktır."
+      }
+    ]
+  },
+  {
+    "id": "solitaire-spider-and-klondike",
+    "title": "Solitaire Spider and Klondike",
+    "category": "Kart",
+    "thumb": "images/games/solitaire-spider-and-klondike.jpg",
+    "embed": "https://html5.gamedistribution.com/ab4953be8c1e43dca3373929027d08ca/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=solitaire-spider-and-klondike",
+    "description": "Solitaire Spider and Klondike, iki sevilen solitaire türünü bir araya getiren sakin bir kart oyunudur. Hamlelerinizi planlayın, ipuçlarından yararlanın ve desteyi doğru sırayla tamamlayın.",
+    "seo": "Solitaire Spider and Klondike ücretsiz kart oyunu.",
+    "longDescription": "Solitaire Spider and Klondike, kart oyun deneyimi sunan bir tarayıcı oyunudur. Solitaire Spider and Klondike, iki sevilen solitaire türünü bir araya getiren sakin bir kart oyunudur. Hamlelerinizi planlayın, ipuçlarından yararlanın ve desteyi doğru sırayla tamamlayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Solitaire Spider and Klondike oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
+  },
+  {
+    "id": "arkadium-classic-solitaire",
+    "title": "Arkadium's Classic Solitaire",
+    "category": "Kart",
+    "thumb": "images/games/arkadium-classic-solitaire.jpg",
+    "embed": "https://html5.gamedistribution.com/242bd2752ee64a3a897f3785355ea350/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=arkadium-classic-solitaire",
+    "description": "Arkadium's Classic Solitaire, kartları renk sırasına göre düzenleyip desteyi tamamlamaya çalıştığınız klasik solitaire deneyimidir. Sakin tempolu oyunuyla kısa bir mola için ideal bir seçimdir.",
+    "seo": "Arkadium Classic Solitaire ücretsiz klasik kart oyunu.",
+    "longDescription": "Arkadium's Classic Solitaire, kart oyun deneyimi sunan bir tarayıcı oyunudur. Arkadium's Classic Solitaire, kartları renk sırasına göre düzenleyip desteyi tamamlamaya çalıştığınız klasik solitaire deneyimidir. Sakin tempolu oyunuyla kısa bir mola için ideal bir seçimdir. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Arkadium's Classic Solitaire oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
+  },
+  {
+    "id": "solitaire-emperor-secrets-of-fate",
+    "title": "Solitaire Emperor: Secrets of Fate",
+    "category": "Kart",
+    "thumb": "images/games/solitaire-emperor-secrets-of-fate.jpg",
+    "embed": "https://html5.gamedistribution.com/9df2c6b01b01490da455b82d9bfb52f0/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=solitaire-emperor-secrets-of-fate",
+    "description": "Solitaire Emperor: Secrets of Fate, tarot temalı bir macera içinde kart zincirleri kurduğunuz hikâyeli bir solitaire oyunudur. Doğru kartları seçerek bölümleri tamamlayın ve yeni görevleri açın.",
+    "seo": "Solitaire Emperor ücretsiz hikâyeli solitaire kart oyunu.",
+    "longDescription": "Solitaire Emperor: Secrets of Fate, kart oyun deneyimi sunan bir tarayıcı oyunudur. Solitaire Emperor: Secrets of Fate, tarot temalı bir macera içinde kart zincirleri kurduğunuz hikâyeli bir solitaire oyunudur. Doğru kartları seçerek bölümleri tamamlayın ve yeni görevleri açın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Solitaire Emperor: Secrets of Fate oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
+  },
+  {
+    "id": "solitaire-story-tripeaks-4",
+    "title": "Solitaire Story TriPeaks 4",
+    "category": "Kart",
+    "thumb": "images/games/solitaire-story-tripeaks-4.jpg",
+    "embed": "https://html5.gamedistribution.com/c29c2272352e44e69f027e54866800b4/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=solitaire-story-tripeaks-4",
+    "description": "Solitaire Story TriPeaks 4, farklı rotalarda ilerlerken kartları bir üst veya bir alt değerle eşleştirdiğiniz zengin içerikli bir solitaire oyunudur. Uzun seviye yapısı strateji sevenler için uygundur.",
+    "seo": "Solitaire Story TriPeaks 4 ücretsiz TriPeaks kart oyunu.",
+    "longDescription": "Solitaire Story TriPeaks 4, kart oyun deneyimi sunan bir tarayıcı oyunudur. Solitaire Story TriPeaks 4, farklı rotalarda ilerlerken kartları bir üst veya bir alt değerle eşleştirdiğiniz zengin içerikli bir solitaire oyunudur. Uzun seviye yapısı strateji sevenler için uygundur. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Solitaire Story TriPeaks 4 oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
+  },
+  {
+    "id": "palm-island-solitaire",
+    "title": "Palm Island Solitaire",
+    "category": "Kart",
+    "thumb": "images/games/palm-island-solitaire.jpg",
+    "embed": "https://html5.gamedistribution.com/03091e0b83dd4efb826dc65d73393e9e/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=palm-island-solitaire",
+    "description": "Palm Island Solitaire, tropik bir atmosferde kartları doğru sırayla eşleştirdiğiniz rahatlatıcı bir golf solitaire oyunudur. Her hamleyi düşünerek destenizi mümkün olduğunca verimli kullanın.",
+    "seo": "Palm Island Solitaire ücretsiz kart ve golf solitaire oyunu.",
+    "longDescription": "Palm Island Solitaire, kart oyun deneyimi sunan bir tarayıcı oyunudur. Palm Island Solitaire, tropik bir atmosferde kartları doğru sırayla eşleştirdiğiniz rahatlatıcı bir golf solitaire oyunudur. Her hamleyi düşünerek destenizi mümkün olduğunca verimli kullanın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Palm Island Solitaire oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Karakteri veya nesneyi kontrol edin.",
+      "Engelleri ve hedefleri takip edin.",
+      "Doğru zamanda hareket ederek ilerleyin.",
+      "Mümkün olan en iyi skoru hedefleyin."
+    ],
+    "tips": [
+      "Önünüzdeki engellere odaklanın.",
+      "Kontrollü hareket edin.",
+      "Tekrar oynayarak oyun mekaniklerini öğrenin."
+    ],
+    "features": [
+      "Hızlı arcade oynanışı",
+      "Refleks odaklı görevler",
+      "Kolay öğrenilen mekanikler",
+      "Tarayıcıdan oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Görevleri tamamlayarak mümkün olduğunca iyi bir skor veya sonuç elde etmektir."
+      },
+      {
+        "q": "Oyun kolay öğrenilir mi?",
+        "a": "Temel mekanikler kolay öğrenilebilir; yüksek başarı için pratik gerekir."
+      }
+    ]
+  },
+  {
+    "id": "jixora-jigsaw-solitaire-puzzle",
+    "title": "Jixora: Jigsaw Solitaire Puzzle",
+    "category": "Bulmaca",
+    "thumb": "images/games/jixora-jigsaw-solitaire-puzzle.jpg",
+    "embed": "https://html5.gamedistribution.com/c22dd33f66654986bf42e494c5934308/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=jixora-jigsaw-solitaire-puzzle",
+    "description": "Jixora, yapboz parçalarını doğru konumlarına sürükleyerek görselleri tamamladığınız huzurlu bir bulmaca oyunudur. İpuçlarını kullanın, süreyi yönetin ve giderek zorlaşan seviyeleri çözün.",
+    "seo": "Jixora ücretsiz yapboz ve mantık bulmaca oyunu.",
+    "longDescription": "Jixora: Jigsaw Solitaire Puzzle, bulmaca oyun deneyimi sunan bir tarayıcı oyunudur. Jixora, yapboz parçalarını doğru konumlarına sürükleyerek görselleri tamamladığınız huzurlu bir bulmaca oyunudur. İpuçlarını kullanın, süreyi yönetin ve giderek zorlaşan seviyeleri çözün. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Jixora: Jigsaw Solitaire Puzzle oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "mahjong-lines",
+    "title": "Mahjong Lines",
+    "category": "Bulmaca",
+    "thumb": "images/games/mahjong-lines.jpg",
+    "embed": "https://html5.gamedistribution.com/8625ea2a8244492980f16e192880f934/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-lines",
+    "description": "Mahjong Lines, aynı taş çiftlerini geçerli bir yol ile bağlayarak tahtayı temizlediğiniz bir mantık oyunudur. İpuçlarını akıllıca kullanın ve hamle kalmadığında karıştırma seçeneğini değerlendirin.",
+    "seo": "Mahjong Lines ücretsiz eşleştirme ve mahjong bulmaca oyunu.",
+    "longDescription": "Mahjong Lines, bulmaca oyun deneyimi sunan bir tarayıcı oyunudur. Mahjong Lines, aynı taş çiftlerini geçerli bir yol ile bağlayarak tahtayı temizlediğiniz bir mantık oyunudur. İpuçlarını akıllıca kullanın ve hamle kalmadığında karıştırma seçeneğini değerlendirin. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Mahjong Lines oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "mahjong-riddles-egypt",
+    "title": "Mahjong Riddles: Egypt",
+    "category": "Bulmaca",
+    "thumb": "images/games/mahjong-riddles-egypt.jpg",
+    "embed": "https://html5.gamedistribution.com/818098f929e24bcbb73348bd15b01a62/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-riddles-egypt",
+    "description": "Mahjong Riddles: Egypt, Antik Mısır temalı seviyelerde eş taşları bularak gizemleri çözdüğünüz bir mahjong oyunudur. Farklı bölgeleri keşfedin, kilitleri açın ve bölümleri tamamlayın.",
+    "seo": "Mahjong Riddles Egypt ücretsiz Mısır temalı mahjong oyunu.",
+    "longDescription": "Mahjong Riddles: Egypt, bulmaca oyun deneyimi sunan bir tarayıcı oyunudur. Mahjong Riddles: Egypt, Antik Mısır temalı seviyelerde eş taşları bularak gizemleri çözdüğünüz bir mahjong oyunudur. Farklı bölgeleri keşfedin, kilitleri açın ve bölümleri tamamlayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Mahjong Riddles: Egypt oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "mahjong-connect-hd",
+    "title": "Mahjong Connect HD",
+    "category": "Bulmaca",
+    "thumb": "images/games/mahjong-connect-hd.jpg",
+    "embed": "https://html5.gamedistribution.com/1d8bd690253c483b82ffa647380dc76e/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-connect-hd",
+    "description": "Mahjong Connect HD, aynı sembollü taşları iki dönüşten fazla yapmayan çizgilerle birleştirdiğiniz klasik bir eşleştirme oyunudur. Tahtayı dikkatle okuyun ve tüm çiftleri kaldırın.",
+    "seo": "Mahjong Connect HD ücretsiz mahjong eşleştirme oyunu.",
+    "longDescription": "Mahjong Connect HD, bulmaca oyun deneyimi sunan bir tarayıcı oyunudur. Mahjong Connect HD, aynı sembollü taşları iki dönüşten fazla yapmayan çizgilerle birleştirdiğiniz klasik bir eşleştirme oyunudur. Tahtayı dikkatle okuyun ve tüm çiftleri kaldırın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Mahjong Connect HD oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "mahjong-slide-puzzle",
+    "title": "Mahjong Slide Puzzle",
+    "category": "Bulmaca",
+    "thumb": "images/games/mahjong-slide-puzzle.jpg",
+    "embed": "https://html5.gamedistribution.com/10d9f5e5cec04793806e91e5d58db9da/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=mahjong-slide-puzzle",
+    "description": "Mahjong Slide Puzzle, taşları kaydırarak eşleştirme yolları oluşturduğunuz modern bir mahjong bulmacasıdır. Her hamleyi planlayın, blokları doğru konuma taşıyın ve seviyeleri tamamlayın.",
+    "seo": "Mahjong Slide Puzzle ücretsiz kaydırmalı mahjong bulmacası.",
+    "longDescription": "Mahjong Slide Puzzle, bulmaca oyun deneyimi sunan bir tarayıcı oyunudur. Mahjong Slide Puzzle, taşları kaydırarak eşleştirme yolları oluşturduğunuz modern bir mahjong bulmacasıdır. Her hamleyi planlayın, blokları doğru konuma taşıyın ve seviyeleri tamamlayın. Oyunun temel amacı mevcut mekanikleri doğru kullanarak görevleri tamamlamak ve her yeni denemede daha iyi bir sonuç elde etmektir. Oyunun ritmini öğrenmek, çevredeki engelleri veya fırsatları takip etmek ve doğru zamanda karar vermek başarıya ulaşmanıza yardımcı olur. OyunKafe üzerinden Mahjong Slide Puzzle oyununu tarayıcıda açarak deneyebilir ve kendi performansınızı geliştirmek için farklı stratejiler uygulayabilirsiniz.",
+    "howToPlay": [
+      "Bulmacadaki nesneleri ve seçenekleri inceleyin.",
+      "Doğru eşleşmeyi veya çözümü bulun.",
+      "Hamlelerinizi planlayın.",
+      "Bölümü tamamlayın."
+    ],
+    "tips": [
+      "Acele etmeden seçenekleri inceleyin.",
+      "Kolay hamleleri önce değerlendirin.",
+      "Bir sonraki hamlenizin sonucunu düşünün."
+    ],
+    "features": [
+      "Zeka ve dikkat odaklı oynanış",
+      "Bulmaca bölümleri",
+      "Planlama gerektiren görevler",
+      "Tarayıcı üzerinden oynanabilme"
+    ],
+    "faq": [
+      {
+        "q": "Oyunun amacı nedir?",
+        "a": "Bulmacayı çözerek bölümü tamamlamaktır."
+      },
+      {
+        "q": "Oyunda ne geliştirilir?",
+        "a": "Dikkat, problem çözme ve planlama becerileri üzerinde çalışabilirsiniz."
+      }
+    ]
+  }
 ]
