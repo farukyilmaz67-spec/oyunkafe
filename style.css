@@ -3142,3 +3142,52 @@ body.dark-theme{
     }
 
 }
+/* ANA SAYFA YATAY REKLAM */
+
+.home-ad-banner{
+    width:100%;
+    max-width:970px;
+    margin:28px auto 32px;
+    padding:0 12px;
+    box-sizing:border-box;
+}
+
+.home-ad-label{
+    text-align:center;
+    font-size:11px;
+    color:#8b93a1;
+    margin-bottom:7px;
+}
+
+.home-ad-placeholder{
+    width:100%;
+    min-height:90px;
+
+    border:1px dashed #cfd5df;
+    border-radius:12px;
+
+    background:#f8fafc;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    color:#8b93a1;
+    font-size:12px;
+    line-height:1.5;
+}
+
+@media(max-width:700px){
+
+    .home-ad-banner{
+        margin:20px auto 25px;
+        padding:0 8px;
+    }
+
+    .home-ad-placeholder{
+        min-height:100px;
+    }
+
+}
