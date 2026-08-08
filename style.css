@@ -1727,10 +1727,19 @@ justify-content:center;
 ===================================== */
 
 .homepage-top{
+    position:relative;
+
     display:grid;
-    grid-template-columns:240px minmax(0,1fr) 240px;
+
+    grid-template-columns:
+        240px
+        minmax(0,1fr)
+        240px;
+
     gap:25px;
+
     margin:30px 0;
+
     align-items:start;
 }
 
@@ -3276,6 +3285,67 @@ body.dark-theme{
 
     .sponsor-button{
         margin-left:0;
+    }
+
+}
+/* =========================================
+   OYUNKAFE DİKEY REKLAM ALANLARI
+========================================= */
+
+.vertical-ad{
+    position:absolute;
+
+    top:360px;
+
+    width:160px;
+    height:600px;
+
+    border:1px dashed #cfd5df;
+    border-radius:10px;
+
+    background:#fafbfc;
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    color:#8b93a1;
+
+    font-size:11px;
+
+    box-sizing:border-box;
+}
+
+.vertical-ad span{
+    position:absolute;
+
+    top:-20px;
+
+    font-size:10px;
+
+    color:#8b93a1;
+}
+
+.vertical-ad-left{
+    left:-185px;
+}
+
+.vertical-ad-right{
+    right:-185px;
+}
+
+/* =========================================
+   DİKEY REKLAMLARI DAR EKRANLARDA GİZLE
+========================================= */
+
+@media(max-width:1400px){
+
+    .vertical-ad{
+        display:none;
     }
 
 }
