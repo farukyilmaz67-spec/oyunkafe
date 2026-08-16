@@ -5,38 +5,38 @@
     "category": "Parkour",
     "thumb": "images/games/geometry-dash-maze-maps-v2.jpg",
     "embed": "https://html5.gamedistribution.com/bc4de39b3f9045cd920eb90cf14a8986/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=geometry-dash-maze-maps-v2",
-    "description": "Geometry Dash Maze Maps V2, refleks ve zamanlama becerilerinizi test eden heyecan verici bir parkour oyunudur. Engellerden kaçın, zorlu parkurları tamamlayın ve en yüksek skora ulaşmaya çalışın. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Geometry Dash Maze Maps V2, engellerle dolu parkurlarda reflekslerinizi test eden ücretsiz bir parkour oyunudur. Mobil ve bilgisayarda oynanabilir.",
-    "longDescription": "Geometry Dash Maze Maps V2, hızlı refleks ve doğru zamanlama gerektiren bir parkur oyunudur. Oyunda amaç, karakterinizi engellerin arasından geçirerek bölümü mümkün olduğunca hatasız tamamlamaktır. Labirent yapısındaki parkurlar, yalnızca zıplama zamanlamasına değil, önünüzdeki yolu dikkatli takip etmeye de önem verir. Her denemede parkurun ritmini daha iyi anlamaya çalışabilir ve önceki hatalarınızı düzelterek ilerleyebilirsiniz. Kısa sürede öğrenilebilen oynanış yapısı sayesinde oyuna başlamak kolaydır; yüksek başarı için ise dikkat, sabır ve tekrar gerekir. OyunKafe üzerinden tarayıcıda oynayarak farklı bölümlerde reflekslerinizi test edebilirsiniz.",
+    "description": "Geometry Dash Maze Maps V2, labirent biçimindeki parkurlarda refleks ve zamanlama becerisini öne çıkaran bir beceri oyunudur. Engelleri doğru anda aşarak bölümü tamamlamaya ve önceki denemenizdeki hataları azaltmaya çalışırsınız.",
+    "seo": "Geometry Dash Maze Maps V2 ücretsiz parkur oyunu – labirent haritalarında refleks ve zamanlamanızı test edin.",
+    "longDescription": "Geometry Dash Maze Maps V2'nin temel mücadelesi, karakteri labirent yapısındaki parkurlardan geçirirken engelleri doğru zamanda aşmaktır. Parkuru yalnızca hızlı tamamlamak yeterli değildir; önünüzdeki yolu takip etmek ve yaklaşan engeli önceden fark etmek de önemlidir. İlk denemelerde bölümün ritmini öğrenmek daha yararlı olabilir. Hangi noktada zıplamanız veya hareket etmeniz gerektiğini keşfettikçe aynı bölümü daha kontrollü geçebilirsiniz. Oyun kısa sürede öğrenilebilen bir yapıya sahip olsa da daha iyi sonuç almak tekrar, dikkat ve sabır gerektirir. OyunKafe üzerinden tarayıcıda oynayarak farklı denemelerde kendi performansınızı geliştirmeye çalışabilirsiniz.",
     "howToPlay": [
-      "Karakterin hareketini takip edin.",
-      "Engellere yaklaşmadan önce doğru zamanlamayı belirleyin.",
-      "Zıplayarak veya gerekli hareketi yaparak engelleri aşın.",
-      "Bölümün sonuna ulaşmaya çalışın."
+      "Karakterin önündeki parkuru ve yaklaşan engelleri takip edin.",
+      "Engelin konumuna göre hareket veya zıplama zamanlamasını ayarlayın.",
+      "Labirent içindeki yolu dikkatli takip ederek gereksiz hatalardan kaçının.",
+      "Bölümün sonuna ulaşmaya ve önceki denemenizden daha iyi sonuç almaya çalışın."
     ],
     "tips": [
-      "İlk denemelerde parkurun ritmini öğrenmeye odaklanın.",
-      "Acele hareketler yerine kontrollü zamanlama kullanın.",
-      "Tekrarlanan bölümlerde önceki hatalarınızı hatırlayın."
+      "İlk turu yalnızca parkurun düzenini öğrenmek için kullanın.",
+      "Engelin hemen önünde karar vermek yerine yaklaşan bölümü önceden okumaya çalışın.",
+      "Aynı noktada hata yapıyorsanız o bölümün ritmini ezberlemek için birkaç kez tekrar edin."
     ],
     "features": [
-      "Refleks ve zamanlama odaklı parkurlar",
-      "Labirent temalı haritalar",
-      "Tarayıcı üzerinden oynanış",
-      "Mobil ve bilgisayarda oynanabilme"
+      "Labirent temalı parkurlar",
+      "Refleks ve zamanlama odaklı oynanış",
+      "Tekrar oynayarak gelişmeye uygun bölüm yapısı",
+      "Tarayıcıdan ve mobil cihazlarda oynanabilme"
     ],
     "faq": [
       {
-        "q": "Geometry Dash Maze Maps V2 nedir?",
-        "a": "Refleks ve zamanlama gerektiren, labirent temalı parkurlardan oluşan bir beceri oyunudur."
+        "q": "Geometry Dash Maze Maps V2'nin amacı nedir?",
+        "a": "Karakteri engellerin arasından geçirerek labirent temalı bölümü mümkün olduğunca hatasız tamamlamaktır."
       },
       {
-        "q": "Oyun nasıl oynanır?",
-        "a": "Karakteri engellerden geçirerek bölümü tamamlamaya çalışırsınız."
+        "q": "Bu oyunda en önemli beceri nedir?",
+        "a": "Engelleri önceden fark etmek ve doğru anda hareket etmek önemlidir."
       },
       {
-        "q": "Oyunda önemli olan nedir?",
-        "a": "Doğru zamanlama, dikkat ve sabır önemlidir."
+        "q": "İlk denemede başarılı olamazsam ne yapmalıyım?",
+        "a": "Parkurun ritmini öğrenmek için bölümü tekrar oynayın ve hata yaptığınız noktaların zamanlamasını düzeltmeye çalışın."
       }
     ]
   },
@@ -46,38 +46,38 @@
     "category": "Araba",
     "thumb": "images/games/drift-boss.jpg",
     "embed": "https://html5.gamedistribution.com/0a8b51e5eaee42e7b4db83ca00afc92e/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=drift-boss",
-    "description": "Drift Boss, reflekslerinizi ve zamanlamanızı test eden popüler bir araba oyunudur. Virajlarda düşmeden ilerleyerek mümkün olduğunca uzun süre yolda kalmaya çalışın. Basit kontrolleri ve eğlenceli oynanışıyla mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Drift Boss, virajlarda düşmeden ilerlemeye çalıştığınız eğlenceli bir drift ve araba oyunudur. Ücretsiz olarak mobil ve bilgisayarda oynanabilir.",
-    "longDescription": "Drift Boss, aracınızı dar ve virajlı bir platform üzerinde kontrol ettiğiniz refleks odaklı bir araba oyunudur. Araç sürekli ilerlerken temel göreviniz dönüşleri doğru zamanda yaparak yoldan düşmemektir. Parkur uzadıkça daha dikkatli olmanız gerekir ve küçük bir zamanlama hatası bile turun sona ermesine neden olabilir. Oyunun sade kontrol sistemi sayesinde kısa sürede temel mekanikleri öğrenebilirsiniz. Asıl mücadele ise kendi skorunuzu geliştirmek ve daha uzun süre hatasız ilerlemektir. OyunKafe'de Drift Boss'u tarayıcı üzerinden açarak hızlı bir oyun deneyimi yaşayabilir, farklı denemelerde dönüş noktalarını öğrenerek performansınızı artırabilirsiniz.",
+    "description": "Drift Boss, dar ve virajlı bir platformda ilerlerken dönüşleri doğru zamanda yapmaya dayanan refleks odaklı bir araba oyunudur. Amaç yoldan düşmeden mümkün olduğunca uzun süre ilerlemek ve kendi skorunuzu geliştirmektir.",
+    "seo": "Drift Boss ücretsiz araba oyunu – virajlarda doğru zamanlama ile yüksek skor yapın.",
+    "longDescription": "Drift Boss'ta araç sürekli ilerlerken asıl göreviniz yaklaşan virajlarda doğru zamanda yön değiştirmektir. Yolun dar olması, küçük bir zamanlama hatasının bile aracın platformdan çıkmasına neden olabilmesi anlamına gelir. Bu nedenle oyunda yalnızca hızlı tepki vermek değil, virajın gelişini önceden okumak da önemlidir. İlk birkaç denemede yüksek skor kovalamak yerine parkurun ritmini anlamaya odaklanabilirsiniz. Zamanla hangi dönüşlerde daha erken veya daha geç tepki vermeniz gerektiğini öğrenirsiniz. OyunKafe'de Drift Boss'u tarayıcı üzerinden oynayarak her yeni denemede önceki skorunuzu geçmeye çalışabilirsiniz.",
     "howToPlay": [
-      "Araç otomatik olarak ilerler.",
-      "Dönüşleri doğru zamanda yapmak için kontrolü kullanın.",
-      "Virajlarda aracın platform dışına çıkmasını önleyin.",
-      "Mümkün olduğunca uzun süre ilerleyin."
+      "Araç otomatik olarak ilerlerken önünüzdeki yolu takip edin.",
+      "Viraj yaklaşırken dönüş için doğru zamanı bekleyin.",
+      "Aracın platformun dışına çıkmasını engelleyecek kontrollü hareketler yapın.",
+      "Tur sona ermeden mümkün olduğunca uzun mesafe kat etmeye çalışın."
     ],
     "tips": [
-      "Virajlara yaklaşırken erken tepki vermemeye çalışın.",
-      "Önce güvenli ve kontrollü sürüşe odaklanın.",
-      "Yüksek skor için parkurun ritmini öğrenin."
+      "Virajı gördüğünüz anda panik yapmak yerine dönüş noktasını takip edin.",
+      "Yüksek skor denemelerinden önce güvenli bir ritim yakalamaya çalışın.",
+      "Aynı virajda sürekli hata yapıyorsanız tepki zamanınızı değiştirerek yeniden deneyin."
     ],
     "features": [
-      "Teknik refleks ve zamanlama oynanışı",
-      "Virajlı parkurlar",
-      "Basit kontrol sistemi",
-      "Tarayıcıdan oynanabilme"
+      "Dar ve virajlı platformlar",
+      "Zamanlama ve refleks odaklı sürüş",
+      "Kısa sürede öğrenilebilen kontrol yapısı",
+      "Skor geliştirmeye uygun tekrar oynanış"
     ],
     "faq": [
       {
         "q": "Drift Boss'un amacı nedir?",
-        "a": "Aracı yoldan düşürmeden mümkün olduğunca uzun süre ilerletmektir."
+        "a": "Aracı platformdan düşürmeden mümkün olduğunca uzun süre ilerlemektir."
       },
       {
-        "q": "Drift Boss zor mu?",
-        "a": "Kontrolleri basittir; ancak yüksek skor için iyi zamanlama gerekir."
+        "q": "Drift Boss neden zorlaşır?",
+        "a": "Parkur ilerledikçe virajları doğru zamanda karşılamak daha fazla dikkat ve zamanlama gerektirir."
       },
       {
-        "q": "Drift Boss'ta ne geliştirilir?",
-        "a": "Dikkat, refleks ve zamanlama becerileri üzerinde çalışabilirsiniz."
+        "q": "Yüksek skor için neye dikkat etmeliyim?",
+        "a": "Virajları önceden okumaya ve kontrollü, tutarlı dönüş zamanlaması oluşturmaya odaklanın."
       }
     ]
   },
@@ -87,38 +87,38 @@
     "category": "Futbol",
     "thumb": "images/games/soccer-random.jpg",
     "embed": "https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=soccer-random",
-    "description": "Soccer Random, eğlenceli fizik mekanikleriyle oynanan sıra dışı bir futbol oyunudur. Arkadaşınıza veya bilgisayara karşı mücadele ederek komik ve heyecan dolu maçlar yapabilirsiniz. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Soccer Random, komik fizik kurallarıyla oynanan eğlenceli bir futbol oyunudur. Arkadaşınızla veya bilgisayara karşı ücretsiz oynayabilirsiniz.",
-    "longDescription": "Soccer Random, klasik futbol karşılaşmasını rastgele gelişen fizik hareketleriyle eğlenceli hale getiren bir futbol oyunudur. Oyuncuların hareketleri ve topun yönü her pozisyonda farklı sonuçlar doğurabilir. Bu nedenle maç sırasında yalnızca hücum etmeyi değil, topun gelişini ve rakibin pozisyonunu da takip etmek gerekir. Basit kontrol yapısı sayesinde hızlıca oyuna başlayabilir ve kısa maçlarla eğlenceli vakit geçirebilirsiniz. İki kişilik oynanış seçeneği destekleniyorsa aynı cihazda arkadaşınızla rekabet etmek de mümkündür. OyunKafe üzerinden Soccer Random'ı tarayıcıda açarak gol atmaya ve maçın sonucunu kendi lehinize çevirmeye çalışabilirsiniz.",
+    "description": "Soccer Random, her pozisyonda farklı fizik hareketlerinin ortaya çıkabildiği eğlenceli bir futbol oyunudur. Rakibe karşı gol atmaya çalışırken topun yönünü, oyuncunun hareketini ve gelişen pozisyonu aynı anda takip etmeniz gerekir.",
+    "seo": "Soccer Random ücretsiz futbol oyunu – fizik tabanlı hızlı maçlarda rakibinizi yenin.",
+    "longDescription": "Soccer Random, klasik futbol kurallarını öngörülmesi her zaman kolay olmayan fizik hareketleriyle daha eğlenceli hale getirir. Oyuncuların ve topun hareketleri pozisyona göre değişebildiği için aynı hamlenin her zaman aynı sonucu vermemesi oyunun temel özelliklerinden biridir. Maç sırasında yalnızca hücuma odaklanmak yerine rakibin hareketini ve topun geliş yönünü de takip etmek gerekir. Basit kontrol yapısı sayesinde hızlıca maça başlayabilirsiniz. Eğer aynı cihazda iki kişilik oynanış seçeneği oyun tarafından destekleniyorsa arkadaşınızla karşılıklı mücadele de edebilirsiniz. OyunKafe üzerinden oynayarak kısa maçlarda farklı pozisyonları deneyebilir ve daha iyi sonuç almaya çalışabilirsiniz.",
     "howToPlay": [
-      "Oyuncunuzu kontrol ederek topa müdahale edin.",
-      "Topu rakip kaleye göndermeye çalışın.",
-      "Savunmada rakibin hamlesini takip edin.",
-      "Maç sonunda daha fazla gol atan tarafı hedefleyin."
+      "Oyuncunuzu kontrol ederek topa müdahale etmeye çalışın.",
+      "Topu rakip kaleye yönlendirecek uygun pozisyonu yakalayın.",
+      "Rakibin hareketlerini ve topun geliş yönünü savunmada takip edin.",
+      "Maç sonunda rakibinizden daha fazla gol atmaya çalışın."
     ],
     "tips": [
-      "Topun geliş yönünü sürekli takip edin.",
-      "Rastgele hareketlere karşı hazırlıklı olun.",
-      "Gol fırsatı bulduğunuzda hızlı karar verin."
+      "Topun sekme ve yön değişikliklerine karşı hazırlıklı olun.",
+      "Rakibin hamlesini gördüğünüzde hızlı ama kontrollü tepki verin.",
+      "Her pozisyonun farklı gelişebileceğini unutmayın; tek bir hamleye bağlı kalmayın."
     ],
     "features": [
       "Fizik tabanlı futbol oynanışı",
-      "Hızlı maç yapısı",
-      "Basit kontroller",
-      "Tarayıcı üzerinden oynanabilme"
+      "Hızlı ve kısa maçlar",
+      "Basit kontrol yapısı",
+      "Tekrar oynandığında farklı pozisyonlar oluşturabilen yapı"
     ],
     "faq": [
       {
         "q": "Soccer Random nasıl bir oyun?",
-        "a": "Fizik tabanlı ve rastgele gelişen pozisyonlara sahip eğlenceli bir futbol oyunudur."
+        "a": "Futbolu fizik tabanlı ve değişken pozisyonlarla birleştiren hızlı bir spor oyunudur."
       },
       {
-        "q": "Soccer Random'da amaç nedir?",
-        "a": "Rakipten daha fazla gol atmaya çalışırsınız."
+        "q": "Oyunda amaç nedir?",
+        "a": "Rakibinizden daha fazla gol atarak maçı kazanmaya çalışırsınız."
       },
       {
-        "q": "Oyun hızlı öğrenilir mi?",
-        "a": "Basit kontrol yapısı sayesinde temel oynanış kısa sürede öğrenilebilir."
+        "q": "Oyunda neden her pozisyon farklı gelişebiliyor?",
+        "a": "Oyunun fizik yapısı oyuncu ve top hareketlerinin pozisyona göre değişebilmesine neden olur."
       }
     ]
   },
@@ -128,38 +128,38 @@
     "category": "Araba",
     "thumb": "images/games/parking-fury.jpg",
     "embed": "https://html5.gamedistribution.com/6ca9e461efb84bfba46b29379378cf78/?gd_sdk_referrer_url=https://oyunkafe.com/oyun.html?id=parking-fury",
-    "description": "Parking Fury, sürüş becerilerinizi test eden eğlenceli bir park etme oyunudur. Dar alanlarda aracınızı dikkatlice yönlendirerek park yerlerine ulaşmaya çalışın. Farklı araçlar ve zorlu bölümlerle mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "seo": "Parking Fury, aracınızı çarpmadan park etmeye çalıştığınız eğlenceli bir araba ve park etme oyunudur. Mobil ve bilgisayarda ücretsiz oynanabilir.",
-    "longDescription": "Parking Fury, farklı araçları belirlenen alanlara dikkatli şekilde park etmeye çalıştığınız bir sürüş ve beceri oyunudur. Park alanına ulaşırken duvarlar, diğer araçlar ve dar geçişler gibi engellerle karşılaşabilirsiniz. Başarılı olmak için yalnızca hedefe ulaşmak değil, aracı kontrollü biçimde konumlandırmak gerekir. Hızınızı düşürmek, dönüşleri önceden planlamak ve çevredeki alanı takip etmek daha güvenli manevralar yapmanıza yardımcı olur. Bölümler ilerledikçe park görevlerinin daha fazla dikkat ve hassasiyet gerektirmesi oyuna ek bir meydan okuma getirir. OyunKafe'de Parking Fury'yi tarayıcı üzerinden oynayarak sürüş ve park etme becerilerinizi test edebilirsiniz.",
+    "description": "Parking Fury, farklı araçları dar alanlardan geçirip belirlenen park yerlerine yerleştirmeye odaklanan bir sürüş oyunudur. Başarılı olmak için hızınızı kontrol etmeniz, dönüşleri planlamanız ve çevredeki engellere dikkat etmeniz gerekir.",
+    "seo": "Parking Fury ücretsiz park etme oyunu – dar alanlarda hassas sürüş ve manevra becerinizi test edin.",
+    "longDescription": "Parking Fury'de hedef yalnızca park alanına ulaşmak değil, aracı belirlenen yere kontrollü biçimde yerleştirmektir. Duvarlar, diğer araçlar ve dar geçişler manevra alanını kısıtlayabilir. Bu nedenle özellikle sıkışık bölümlerde yüksek hız yerine kontrollü hareket etmek daha güvenli bir yaklaşım olabilir. Dönüşe başlamadan önce aracın çevresini ve gideceğiniz yönü değerlendirmek, gereksiz çarpışmaları azaltır. Bölümler ilerledikçe park görevinin hassasiyeti arttığından aynı hareketi birkaç kez denemeniz gerekebilir. OyunKafe'de Parking Fury'yi tarayıcı üzerinden oynayarak farklı park alanlarında sürüş ve yön kontrolünüzü test edebilirsiniz.",
     "howToPlay": [
-      "Aracı kontrol ederek hedef park alanına ilerleyin.",
-      "Engellere ve diğer araçlara dikkat edin.",
-      "Aracı belirtilen alana doğru konumlandırın.",
-      "Görevi tamamlamak için kontrollü manevralar yapın."
+      "Aracı hedef park alanına doğru kontrollü şekilde sürün.",
+      "Duvar, diğer araç ve dar geçişleri önceden kontrol edin.",
+      "Dönüşlerde aracın yönünü küçük ve kontrollü hareketlerle ayarlayın.",
+      "Aracı belirtilen park alanına doğru konumlandırarak görevi tamamlayın."
     ],
     "tips": [
-      "Dar alanlarda hızınızı azaltın.",
-      "Dönüş yapmadan önce çevrenizi kontrol edin.",
-      "Park alanına yaklaşırken küçük ve kontrollü hareketler yapın."
+      "Dar alanlarda gereksiz hızlanmaktan kaçının.",
+      "Dönüş yapmadan önce aracın ön ve yan tarafındaki boşluğu kontrol edin.",
+      "Park alanına yaklaşırken büyük manevralar yerine küçük yön düzeltmeleri yapın."
     ],
     "features": [
       "Park etme görevleri",
-      "Sürüş ve hassasiyet odaklı oynanış",
-      "Farklı park alanları",
-      "Tarayıcıdan oynanabilme"
+      "Dar alanlarda hassas sürüş",
+      "Yön ve manevra kontrolü",
+      "Farklı park alanları ve zorluklar"
     ],
     "faq": [
       {
         "q": "Parking Fury'nin amacı nedir?",
-        "a": "Aracı engellere dikkat ederek hedef park alanına yerleştirmektir."
+        "a": "Aracı engellere çarpmadan belirlenen park alanına yerleştirmektir."
       },
       {
-        "q": "Parking Fury neyi test eder?",
-        "a": "Dikkat, yön kontrolü ve hassas manevra becerilerini test eder."
+        "q": "Parking Fury hangi becerileri test eder?",
+        "a": "Dikkat, yön kontrolü, hız ayarı ve hassas manevra becerilerini test eder."
       },
       {
-        "q": "Park ederken en önemli şey nedir?",
-        "a": "Hızınızı kontrol etmek ve manevraları önceden planlamak önemlidir."
+        "q": "Dar alanlarda nasıl daha kontrollü park edilir?",
+        "a": "Hızı azaltıp dönüşleri önceden planlamak ve küçük yön düzeltmeleri yapmak daha kontrollü hareket etmenize yardımcı olur."
       }
     ]
   },
@@ -169,38 +169,38 @@
     "category": "Futbol",
     "thumb": "images/games/football-legends.jpg",
     "embed": "https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/?gd_sdk_referrer_url=https://www.oyunkafe.com/oyun.html?id=football-legends-2026",
-    "description": "Football Legends 2026, tek kişilik veya iki kişilik oynanabilen eğlenceli futbol oyunudur. Dünyaca ünlü futbolcularla maç yapabilir, turnuvalara katılabilirsiniz. Futbol kategorisindeki bu oyun, kolay öğrenilen kontrolleri ve akıcı oynanışı sayesinde hem yeni başlayanlar hem de deneyimli oyuncular için keyifli bir deneyim sunar. En yüksek puanı elde etmeye çalışın ve mobil ile bilgisayarda ücretsiz oynayın.",
-    "seo": "Football Legends 2026 ücretsiz futbol oyunu. Mobil ve bilgisayarda hemen oynayın.",
-    "longDescription": "Football Legends 2026, hızlı tempolu futbol karşılaşmalarıyla öne çıkan bir spor oyunudur. Takımınızı seçerek rakip kaleye gol atmaya ve maçın kontrolünü ele almaya çalışırsınız. Futbol oyunlarında yalnızca şut çekmek değil, savunma pozisyonunu korumak ve doğru anda hücuma çıkmak da önemlidir. Basit kontroller sayesinde kısa sürede maça başlayabilir, farklı karşılaşmalarda kendi oyun tarzınızı geliştirebilirsiniz. OyunKafe üzerinden tarayıcıda oynayarak futbol becerilerinizi test edebilir ve daha iyi sonuç almak için maçları tekrar deneyebilirsiniz.",
+    "description": "Football Legends 2026, hızlı futbol karşılaşmalarında takım seçimi, hücum ve savunma kararlarını bir araya getiren bir spor oyunudur. Rakip kaleye gol atmaya çalışırken kendi kalenizi korumak ve doğru anda hücuma çıkmak önemlidir.",
+    "seo": "Football Legends 2026 ücretsiz futbol oyunu – hızlı maçlarda takımınızı seçin ve rakibinizi yenin.",
+    "longDescription": "Football Legends 2026'da temel hedef rakibinizden daha fazla gol atarak karşılaşmayı kazanmaktır. Ancak oyunun mücadelesi yalnızca şut çekmekten ibaret değildir. Topu kazandığınızda hücum için uygun alanı değerlendirmek, rakip atağa geçtiğinde savunma pozisyonunu korumak ve doğru zamanda hamle yapmak önemlidir. Takım ve oyuncu seçimiyle başlayan karşılaşmalarda kısa sürede oyunun temposuna uyum sağlayabilirsiniz. Basit kontroller oyuna başlamayı kolaylaştırırken daha iyi sonuç için pozisyon alma ve zamanlama üzerinde çalışmanız gerekir. OyunKafe üzerinden tarayıcıda oynayarak farklı karşılaşmalarda kendi oyun tarzınızı geliştirmeyi deneyebilirsiniz.",
     "howToPlay": [
-      "Takımınızı ve oyuncularınızı seçin.",
+      "Takımınızı ve oyuncularınızı seçerek karşılaşmaya başlayın.",
       "Sahada hareket ederek topun kontrolünü almaya çalışın.",
-      "Pas ve şut fırsatlarını değerlendirin.",
-      "Rakibin gol atmasını engelleyin."
+      "Uygun pozisyonda pas ve şut fırsatlarını değerlendirin.",
+      "Rakibin hücumunu takip ederek kendi kalenizi koruyun."
     ],
     "tips": [
-      "Hücum kadar savunmaya da dikkat edin.",
-      "Rakibin boş bıraktığı alanları değerlendirin.",
-      "Şut için uygun pozisyonu bekleyin."
+      "Hücum yaparken savunmada boşluk bırakmamaya dikkat edin.",
+      "Rakibin boş bıraktığı alanları hızlı şekilde değerlendirin.",
+      "Şut için acele etmek yerine daha uygun pozisyonu bekleyin."
     ],
     "features": [
-      "Futbol temalı oynanış",
-      "Hızlı maçlar",
-      "Takım seçimi",
+      "Futbol temalı hızlı karşılaşmalar",
+      "Takım ve oyuncu seçimi",
+      "Hücum ve savunma dengesi",
       "Tarayıcı üzerinden oynanabilme"
     ],
     "faq": [
       {
         "q": "Football Legends 2026'nın amacı nedir?",
-        "a": "Rakipten daha fazla gol atarak karşılaşmayı kazanmaktır."
+        "a": "Rakibinizden daha fazla gol atarak karşılaşmayı kazanmaktır."
       },
       {
-        "q": "Oyunda hangi beceriler önemlidir?",
-        "a": "Pozisyon alma, zamanlama, hücum ve savunma dengesi önemlidir."
+        "q": "Oyunda sadece hücum yapmak yeterli mi?",
+        "a": "Hayır. Hücum kadar savunma pozisyonunu korumak ve rakibin ataklarını takip etmek de önemlidir."
       },
       {
-        "q": "Oyun tarayıcıdan oynanabilir mi?",
-        "a": "Evet, OyunKafe üzerinden tarayıcıda oynanabilir."
+        "q": "Daha iyi oynamak için neye dikkat etmeliyim?",
+        "a": "Pozisyon alma, zamanlama ve hücum-savunma dengesini geliştirmeye odaklanabilirsiniz."
       }
     ]
   },
