@@ -31,11 +31,22 @@ async function init(){
 
     await loadGames();
 
-    const requestedCategory = new URLSearchParams(window.location.search)
-        .get("category");
+    const params = new URLSearchParams(window.location.search);
 
-    multiplayerOnly = new URLSearchParams(window.location.search)
-        .get("mode") === "multiplayer";
+    const requestedCategory = params.get("category");
+    const requestedSearch = params.get("search");
+
+    multiplayerOnly = params.get("mode") === "multiplayer";
+
+    if(requestedSearch){
+        const searchInput =
+            document.getElementById("headerSearch") ||
+            document.getElementById("searchInput");
+
+        if(searchInput){
+            searchInput.value = requestedSearch;
+        }
+    }
 
     if(requestedCategory && games.some(game => game.category === requestedCategory)){
         activeCategory = requestedCategory;
@@ -164,19 +175,42 @@ async function loadGames(){
 
     try{
 
-        const response = await fetch("games.json");
+        const response = await fetch("games.json", {
+            cache: "no-store"
+        });
 
-        games = await response.json();
+        if(!response.ok){
+            throw new Error("games.json HTTP " + response.status);
+        }
+
+        const data = await response.json();
+
+        if(!Array.isArray(data)){
+            throw new Error("games.json bir dizi içermiyor.");
+        }
+
+        games = data;
 
         console.log("Oyun sayısı:", games.length);
-
-        console.log(games);
 
     }
 
     catch(error){
 
         console.error("JSON HATASI:", error);
+
+        games = [];
+
+        const grid = document.getElementById("gamesGrid");
+
+        if(grid){
+            grid.innerHTML = `
+                <div class="no-result">
+                    <h2>🎮 Oyunlar şu anda yüklenemiyor</h2>
+                    <p>Lütfen sayfayı yenileyin. Sorun devam ederse bize İletişim sayfasından ulaşabilirsiniz.</p>
+                </div>
+            `;
+        }
 
     }
 
@@ -368,7 +402,7 @@ function renderGames(){
 
             game.category.toLowerCase().includes(text) ||
 
-            game.description.toLowerCase().includes(text)
+            (game.description || "").toLowerCase().includes(text)
 
         );
 
