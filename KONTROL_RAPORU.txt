@@ -1,0 +1,17 @@
+OYUNKAFE — TEK SEFERLİK ADSENSE İÇERİK PAKETİ
+================================================
+Oyun sayısı: 60
+Rehber sayısı: 10
+Eski tekrar şablonu kalan oyun: 0
+
+Hazır dosyalar:
+- index.html
+- games.json
+- game.js
+- rehberler.html
+
+Kontroller:
+- Oyun bağlantıları: /oyun?id=...
+- games.json: geçerli JSON
+- Oyun kayıtları: 60
+- Rehber sayfası: mevcut

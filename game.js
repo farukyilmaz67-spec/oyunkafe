@@ -1,1137 +1,135 @@
+// OYUNKAFE GAME.JS — TEK SEFERLİK ADSENSE SÜRÜMÜ
 let games = [];
+document.addEventListener("DOMContentLoaded", init);
 
-async function loadGame() {
+async function init() {
+    await loadGames();
+    loadGame();
+}
 
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
-
-    if (!id) {
-
-        document.body.innerHTML = `
-
-        <div class="container" style="padding:80px 20px;text-align:center;">
-
-            <h1>🎮 Oyun Bulunamadı</h1>
-
-            <p>Aradığınız oyun mevcut değil veya bağlantı hatalı.</p>
-
-            <br>
-
-            <a href="index.html" class="btn">
-
-                Ana Sayfaya Dön
-
-            </a>
-
-        </div>
-
-        `;
-
-        return;
-
-    }
-
+async function loadGames() {
     try {
-
-        const response = await fetch("games.json");
-
-        if (!response.ok) {
-            throw new Error("games.json yüklenemedi.");
-        }
-
-        games = await response.json();
-
-        const game = games.find(g => g.id === id);
-
-        if (!game) {
-
-            document.body.innerHTML = `
-
-            <div class="container" style="padding:80px 20px;text-align:center;">
-
-                <h1>❌ Oyun Bulunamadı</h1>
-
-                <p>Bu oyun kaldırılmış olabilir.</p>
-
-                <br>
-
-                <a href="index.html" class="btn">
-
-                    Ana Sayfaya Dön
-
-                </a>
-
-            </div>
-
-            `;
-
-            return;
-
-        }
-
-        const recent = JSON.parse(
-            localStorage.getItem("recentGames") || "[]"
-        )
-        .filter(gameId => gameId !== game.id);
-
-        recent.unshift(game.id);
-
-        localStorage.setItem(
-            "recentGames",
-            JSON.stringify(recent.slice(0, 4))
-        );
-
-        document.title = game.title + " | OyunKafe";
-
-        /*
-         * ==========================================
-         * SEO META DESCRIPTION
-         * ==========================================
-         */
-
-        const metaDescription =
-            game.seo ||
-            game.description ||
-            `OyunKafe'de ${game.title} oyununu ücretsiz oynayın.`;
-
-        document
-            .getElementById("pageDescription")
-            .setAttribute(
-                "content",
-                metaDescription.slice(0, 160)
-            );
-
-
-        /*
-         * ==========================================
-         * CANONICAL URL
-         * ==========================================
-         */
-
-        const canonicalUrl =
-            `https://www.oyunkafe.com/oyun?id=${encodeURIComponent(game.id)}`;
-
-        document
-            .getElementById("canonicalLink")
-            .href = canonicalUrl;
-
-
-        /*
-         * ==========================================
-         * OPEN GRAPH
-         * ==========================================
-         */
-
-        document
-            .getElementById("ogTitle")
-            .setAttribute(
-                "content",
-                game.title + " | OyunKafe"
-            );
-
-        document
-            .getElementById("ogDescription")
-            .setAttribute(
-                "content",
-                game.description || metaDescription
-            );
-
-        document
-            .getElementById("ogUrl")
-            .setAttribute(
-                "content",
-                canonicalUrl
-            );
-
-        if (game.thumb) {
-
-            const ogImage =
-                game.thumb.startsWith("http")
-                    ? game.thumb
-                    : `https://www.oyunkafe.com/${game.thumb}`;
-
-            document
-                .getElementById("ogImage")
-                .setAttribute(
-                    "content",
-                    ogImage
-                );
-        }
-
-
-        /*
-         * ==========================================
-         * BREADCRUMB
-         * ==========================================
-         */
-
-        document
-            .getElementById("breadcrumbGame")
-            .textContent = game.title;
-
-
-        /*
-         * ==========================================
-         * ANA OYUN BİLGİLERİ
-         * ==========================================
-         */
-
-        document
-            .getElementById("gameTitle")
-            .textContent = game.title;
-
-        document
-            .getElementById("gameCategory")
-            .textContent = game.category;
-
-
-        /*
-         * ÖNEMLİ:
-         *
-         * longDescription varsa onu kullanıyoruz.
-         * Böylece games.json içinde hazırladığımız
-         * özgün uzun açıklamalar gerçekten sayfada
-         * görünecek.
-         */
-
-        const descriptionArea =
-            document.getElementById("gameDescription");
-
-        const fullDescription =
-            game.longDescription ||
-            game.description ||
-            "";
-
-        if (fullDescription) {
-
-            descriptionArea.innerHTML =
-                fullDescription
-                    .split(/\n\s*\n/)
-                    .filter(Boolean)
-                    .map(paragraph =>
-                        `<p>${paragraph.trim()}</p>`
-                    )
-                    .join("");
-
-        } else {
-
-            descriptionArea.textContent =
-                "Bu oyun hakkında henüz açıklama bulunmuyor.";
-
-        }
-
-
-        /*
-         * ==========================================
-         * OYUN FRAME
-         * ==========================================
-         */
-
-        document
-            .getElementById("gameFrame")
-            .src = game.embed;
-
-
-        /*
-         * ==========================================
-         * İÇERİK BÖLÜMLERİ
-         * ==========================================
-         */
-
-        renderHowToPlay(game);
-
-        renderFeatures(game);
-
-        renderTips(game);
-
-        renderFAQ(game);
-
-
-        /*
-         * ==========================================
-         * STRUCTURED DATA
-         * ==========================================
-         */
-
-        createBreadcrumbSchema(game);
-
-        createGameSchema(game);
-
-
-        /*
-         * ==========================================
-         * BENZER OYUNLAR
-         * ==========================================
-         */
-
-        renderRelated(game);
-
+        const response = await fetch("games.json", {cache:"no-store"});
+        if (!response.ok) throw new Error("games.json HTTP " + response.status);
+        const data = await response.json();
+        if (!Array.isArray(data)) throw new Error("games.json dizi değil.");
+        games = data;
+    } catch (error) {
+        console.error("games.json yüklenemedi:", error);
+        showError("Oyun verileri şu anda yüklenemedi. Lütfen sayfayı yenileyip tekrar deneyin.");
     }
-
-    catch (error) {
-
-        console.error(
-            "Oyun yüklenirken hata oluştu:",
-            error
-        );
-
-        document.body.innerHTML = `
-
-        <div class="container" style="padding:80px 20px;text-align:center;">
-
-            <h1>⚠️ Oyun Yüklenemedi</h1>
-
-            <p>
-                Oyun bilgileri yüklenirken bir sorun oluştu.
-                Lütfen sayfayı yenileyin.
-            </p>
-
-            <br>
-
-            <a href="index.html" class="btn">
-                Ana Sayfaya Dön
-            </a>
-
-        </div>
-
-        `;
-
-    }
-
-}
-function renderRelated(game) {
-
-    const area =
-        document.getElementById("relatedGames");
-
-    if (!area) return;
-
-    area.innerHTML = "";
-
-    games
-        .filter(
-            g =>
-                g.category === game.category &&
-                g.id !== game.id
-        )
-        .slice(0, 4)
-        .forEach(item => {
-
-            area.innerHTML += `
-
-            <article class="card">
-
-                <img
-                    src="${item.thumb}"
-                    alt="${item.title}"
-                    loading="lazy"
-                >
-
-                <div class="card-content">
-
-                    <span class="tag">
-                        ${item.category}
-                    </span>
-
-                    <h3>
-                        ${item.title}
-                    </h3>
-
-                    <button
-                        class="btn"
-                        onclick="location.href='oyun.html?id=${item.id}'"
-                    >
-
-                        🎮 Hemen Oyna
-
-                    </button>
-
-                </div>
-
-            </article>
-
-            `;
-
-        });
-
 }
 
+function loadGame() {
+    const id = new URLSearchParams(window.location.search).get("id");
+    if (!id) return showError("Oyun bağlantısında oyun kimliği bulunamadı.");
 
-/*
- * ==========================================
- * SAYFA YÜKLENDİĞİNDE OYUNU BAŞLAT
- * ==========================================
- */
+    const game = games.find(g => g.id === id);
+    if (!game) return showError("Aradığınız oyun bulunamadı veya kaldırılmış olabilir.");
 
-window.addEventListener(
-    "DOMContentLoaded",
-    loadGame
-);
+    document.title = `${game.title} - Ücretsiz Online Oyun | OyunKafe`;
 
+    const meta = document.getElementById("metaDescription");
+    if (meta) meta.content = game.seo || game.description || "";
 
-/*
- * ==========================================
- * OYUN İÇERİKLERİ
- * ==========================================
- */
+    const canonical = document.getElementById("canonicalLink");
+    if (canonical) canonical.href = `https://www.oyunkafe.com/oyun?id=${encodeURIComponent(game.id)}`;
 
-function getGameContent(game) {
+    setText("gameTitle", game.title);
+    setText("gameCategory", game.category || "Oyun");
 
-    const categoryTips = {
+    const desc = document.getElementById("gameDescription");
+    if (desc) desc.textContent = game.longDescription || game.description || "";
 
-        "Araba":
-            "Virajlara girmeden önce hızınızı ayarlayın; kısa ve kontrollü hareketler daha güvenlidir.",
-
-        "Motor":
-            "Dengeyi korumak için engelleri önceden okuyun ve ani hareketlerden kaçının.",
-
-        "Parkour":
-            "Bölümün ritmini ilk denemelerde gözlemleyin; her engeli aynı hızla geçmeye çalışmayın.",
-
-        "Futbol":
-            "Rakibin hamlesini izleyin ve doğru anda pas ya da şut seçeneğini deneyin.",
-
-        "Zeka":
-            "Hızlı karar vermeden önce olası hamleleri karşılaştırın; küçük adımlar daha az hata getirir.",
-
-        "Bulmaca":
-            "Kolay görünen parçaları önce yerleştirin ve çözümü aşamalara bölün.",
-
-        "Kart":
-            "Elinizdeki seçenekleri acele etmeden değerlendirin ve bir sonraki turu da düşünün."
-
-    };
-
-
-    return {
-
-        /*
-         * games.json'da özel içerik varsa
-         * onu kullan.
-         */
-
-        howToPlay:
-            game.howToPlay?.length
-                ? game.howToPlay
-                : [
-
-                    `${game.title} açıldığında ekrandaki kısa yönlendirmeyi inceleyin.`,
-
-                    "Kontrolleri ilk bölümde deneyerek oyunun temposuna alışın.",
-
-                    "Hedefi tamamlayın, skorunuzu geliştirin ve isterseniz yeniden oynayın."
-
-                ],
-
-
-        features:
-            game.features?.length
-                ? game.features
-                : [
-
-                    "Tarayıcıdan anında oynanabilir",
-
-                    "Mobil ve bilgisayar uyumlu",
-
-                    `${game.category} türünde ücretsiz oyun`
-
-                ],
-
-
-        tips:
-            game.tips?.length
-                ? game.tips
-                : [
-
-                    categoryTips[game.category]
-                        ||
-                    "İlk denemeyi oyunun kurallarını ve kontrollerini anlamak için kullanın.",
-
-                    "Kısa molalar vererek daha dikkatli ve keyifli oynayın.",
-
-                    "Zorlandığınızda benzer oyunları deneyerek farklı bir oyun tarzı keşfedin."
-
-                ],
-
-
-        faq:
-            game.faq?.length
-                ? game.faq
-                : [
-
-                    {
-                        q:
-                            `${game.title} ücretsiz mi?`,
-
-                        a:
-                            "Evet. OyunKafe'de bu oyunu tarayıcınızdan ücretsiz oynayabilirsiniz."
-                    },
-
-                    {
-                        q:
-                            `${game.title} mobilde oynanır mı?`,
-
-                        a:
-                            "OyunKafe'de oyun mobil ve bilgisayar uyumluluğu için sunulmaktadır; cihaz ve oyunun kendi kontrol desteğine göre deneyim değişebilir."
-                    }
-
-                ]
-
-    };
-
-}
-
-
-/*
- * ==========================================
- * NASIL OYNANIR
- * ==========================================
- */
-
-function renderHowToPlay(game) {
-
-    const area =
-        document.getElementById("howToPlay");
-
-    if (!area) return;
-
-    const content =
-        getGameContent(game);
-
-    area.innerHTML =
-        content.howToPlay
-
-            .map(
-                item =>
-                    `<li>${item}</li>`
-            )
-
-            .join("");
-
-}
-
-
-/*
- * ==========================================
- * OYUN ÖZELLİKLERİ
- * ==========================================
- */
-
-function renderFeatures(game) {
-
-    const area =
-        document.getElementById("gameFeatures");
-
-    if (!area) return;
-
-    const content =
-        getGameContent(game);
-
-    area.innerHTML =
-        content.features
-
-            .map(
-                item =>
-                    `<div class="feature-item">${item}</div>`
-            )
-
-            .join("");
-
-}
-
-
-/*
- * ==========================================
- * İPUÇLARI
- * ==========================================
- */
-
-function renderTips(game) {
-
-    const area =
-        document.getElementById("gameTips");
-
-    if (!area) return;
-
-    const content =
-        getGameContent(game);
-
-    area.innerHTML =
-        content.tips
-
-            .map(
-                item =>
-                    `<li>${item}</li>`
-            )
-
-            .join("");
-
-}
-/*
- * ==========================================
- * SIK SORULAN SORULAR
- * ==========================================
- */
-
-function renderFAQ(game) {
-
-    const area =
-        document.getElementById("faqArea");
-
-    if (!area) return;
-
-    const content =
-        getGameContent(game);
-
-    area.innerHTML =
-        content.faq
-
-            .map(item => `
-
-                <div class="faq-item">
-
-                    <button
-                        class="faq-question"
-                        type="button"
-                        aria-expanded="false"
-                    >
-
-                        <span>
-                            ${item.q}
-                        </span>
-
-                        <span>
-                            +
-                        </span>
-
-                    </button>
-
-                    <div class="faq-answer">
-
-                        ${item.a}
-
-                    </div>
-
-                </div>
-
-            `)
-
-            .join("");
-
-
-    /*
-     * FAQ aç / kapat
-     */
-
-    area
-        .querySelectorAll(".faq-question")
-        .forEach(btn => {
-
-            btn.addEventListener(
-                "click",
-                () => {
-
-                    const item =
-                        btn.parentElement;
-
-                    const isActive =
-                        item.classList.contains("active");
-
-                    /*
-                     * Aynı anda sadece bir
-                     * FAQ açık kalsın.
-                     */
-
-                    area
-                        .querySelectorAll(".faq-item.active")
-                        .forEach(openItem => {
-
-                            openItem.classList.remove("active");
-
-                            const openButton =
-                                openItem.querySelector(
-                                    ".faq-question"
-                                );
-
-                            if (openButton) {
-
-                                openButton
-                                    .setAttribute(
-                                        "aria-expanded",
-                                        "false"
-                                    );
-
-                            }
-
-                        });
-
-
-                    if (!isActive) {
-
-                        item.classList.add("active");
-
-                        btn.setAttribute(
-                            "aria-expanded",
-                            "true"
-                        );
-
-                    }
-
-                }
-            );
-
-        });
-
-}
-
-
-/*
- * ==========================================
- * BREADCRUMB SCHEMA
- * ==========================================
- */
-
-function createBreadcrumbSchema(game) {
-
-    const canonicalUrl =
-        `https://www.oyunkafe.com/oyun?id=${encodeURIComponent(game.id)}`;
-
-
-    const schema = {
-
-        "@context":
-            "https://schema.org",
-
-        "@type":
-            "BreadcrumbList",
-
-        "itemListElement": [
-
-            {
-
-                "@type":
-                    "ListItem",
-
-                "position":
-                    1,
-
-                "name":
-                    "Ana Sayfa",
-
-                "item":
-                    "https://www.oyunkafe.com/"
-
-            },
-
-            {
-
-                "@type":
-                    "ListItem",
-
-                "position":
-                    2,
-
-                "name":
-                    game.category
-
-            },
-
-            {
-
-                "@type":
-                    "ListItem",
-
-                "position":
-                    3,
-
-                "name":
-                    game.title,
-
-                "item":
-                    canonicalUrl
-
-            }
-
-        ]
-
-    };
-
-
-    const schemaElement =
-        document.getElementById(
-            "breadcrumbSchema"
-        );
-
-    if (schemaElement) {
-
-        schemaElement.textContent =
-            JSON.stringify(schema);
-
-    }
-
-}
-
-
-/*
- * ==========================================
- * VIDEO GAME SCHEMA
- * ==========================================
- */
-
-function createGameSchema(game) {
-
-    const canonicalUrl =
-        `https://www.oyunkafe.com/oyun?id=${encodeURIComponent(game.id)}`;
-
-
-    const schema = {
-
-        "@context":
-            "https://schema.org",
-
-        "@type":
-            "VideoGame",
-
-        "name":
-            game.title,
-
-        "description":
-            game.longDescription ||
-            game.seo ||
-            game.description ||
-            "",
-
-        "genre":
-            game.category,
-
-        "applicationCategory":
-            "Game",
-
-        "operatingSystem":
-            "Web Browser",
-
-        "url":
-            canonicalUrl,
-
-        "image":
-            game.thumb
-                ? (
-                    game.thumb.startsWith("http")
-                        ? game.thumb
-                        : `https://www.oyunkafe.com/${game.thumb}`
-                  )
-                : "https://www.oyunkafe.com/logo.png",
-
-        "author": {
-
-            "@type":
-                "Organization",
-
-            "name":
-                "OyunKafe"
-
-        },
-
-        "publisher": {
-
-            "@type":
-                "Organization",
-
-            "name":
-                "OyunKafe"
-
-        }
-
-    };
-
-
-    /*
-     * Rating bilgisi gerçekten varsa
-     * schema'ya ekle.
-     */
-
-    if (
-        game.rating !== undefined &&
-        game.rating !== null &&
-        game.rating !== ""
-    ) {
-
-        schema.aggregateRating = {
-
-            "@type":
-                "AggregateRating",
-
-            "ratingValue":
-                game.rating,
-
-            "ratingCount":
-                game.ratingCount || 1
-
-        };
-
-    }
-
-
-    const schemaElement =
-        document.getElementById(
-            "gameSchema"
-        );
-
-    if (schemaElement) {
-
-        schemaElement.textContent =
-            JSON.stringify(schema);
-
-    }
-
-}
-/*
- * ==========================================
- * EK SEO YARDIMCILARI
- * ==========================================
- */
-
-/*
- * Sayfanın dilini ve temel erişilebilirlik
- * bilgisini güvenli şekilde ayarla.
- */
-
-function improvePageAccessibility(game) {
-
-    document.documentElement.lang = "tr";
-
-    const frame =
-        document.getElementById("gameFrame");
-
+    const frame = document.getElementById("gameFrame");
     if (frame) {
-
-        frame.setAttribute(
-            "title",
-            `${game.title} - OyunKafe`
-        );
-
+        frame.removeAttribute("src");
+        frame.src = game.embed || "";
+        frame.allowFullscreen = true;
+        frame.setAttribute("allow","fullscreen; autoplay; clipboard-read; clipboard-write");
+        frame.onload = () => {
+            const loading = document.getElementById("loading");
+            if (loading) loading.style.display = "none";
+        };
     }
 
+    renderList("howToPlay", game.howToPlay);
+    renderFeatures(game.features);
+    renderList("gameTips", game.tips);
+    renderFAQ(game.faq);
+    renderRelated(game);
 }
 
-
-/*
- * ==========================================
- * OYUN SAYFASI İÇERİK KONTROLÜ
- * ==========================================
- */
-
-function ensureGameContent(game) {
-
-    /*
-     * games.json'da longDescription yoksa
-     * mevcut description kullanılmaya devam eder.
-     */
-
-    const description =
-        game.longDescription ||
-        game.description ||
-        "";
-
-    const descriptionArea =
-        document.getElementById(
-            "gameDescription"
-        );
-
-    if (
-        descriptionArea &&
-        !descriptionArea.textContent.trim() &&
-        description
-    ) {
-
-        descriptionArea.textContent =
-            description;
-
-    }
-
-
-    /*
-     * Oyun başlığının boş kalmasını önle.
-     */
-
-    const title =
-        document.getElementById(
-            "gameTitle"
-        );
-
-    if (
-        title &&
-        !title.textContent.trim()
-    ) {
-
-        title.textContent =
-            game.title || "Oyun";
-
-    }
-
-
-    /*
-     * Kategori bilgisi boşsa varsayılan
-     * değer göster.
-     */
-
-    const category =
-        document.getElementById(
-            "gameCategory"
-        );
-
-    if (
-        category &&
-        !category.textContent.trim()
-    ) {
-
-        category.textContent =
-            game.category || "Online Oyun";
-
-    }
-
+function renderList(id, items) {
+    const area = document.getElementById(id);
+    if (!area) return;
+    area.innerHTML = "";
+    (Array.isArray(items) ? items : []).forEach(text => {
+        const li = document.createElement("li");
+        li.textContent = text;
+        area.appendChild(li);
+    });
 }
 
-
-/*
- * ==========================================
- * YARDIMCI FONKSİYONLARI LOADGAME'E BAĞLA
- * ==========================================
- *
- * Bu fonksiyonlar mevcut loadGame()
- * çalıştıktan sonra kullanılabilir.
- */
-
-const originalLoadGame =
-    loadGame;
-
-
-/*
- * Mevcut loadGame fonksiyonunu bozmadan
- * içerik kontrollerini sonradan çalıştır.
- */
-
-async function loadGameWithEnhancements() {
-
-    await originalLoadGame();
-
-    /*
-     * URL'deki oyun ID'sini tekrar al.
-     */
-
-    const params =
-        new URLSearchParams(
-            window.location.search
-        );
-
-    const id =
-        params.get("id");
-
-    if (!id) return;
-
-    const game =
-        games.find(
-            item => item.id === id
-        );
-
-    if (!game) return;
-
-
-    improvePageAccessibility(game);
-
-    ensureGameContent(game);
-
+function renderFeatures(items) {
+    const area = document.getElementById("gameFeatures");
+    if (!area) return;
+    area.innerHTML = "";
+    (Array.isArray(items) ? items : []).forEach(text => {
+        const box = document.createElement("div");
+        box.className = "feature-item";
+        box.textContent = text;
+        area.appendChild(box);
+    });
 }
 
+function renderFAQ(items) {
+    const area = document.getElementById("faqArea");
+    if (!area) return;
+    area.innerHTML = "";
+    (Array.isArray(items) ? items : []).forEach(item => {
+        const box = document.createElement("div");
+        box.className = "faq-item";
+        const q = document.createElement("h3");
+        q.textContent = item.q || "Soru";
+        const a = document.createElement("p");
+        a.textContent = item.a || "";
+        box.append(q,a);
+        area.appendChild(box);
+    });
+}
 
-/*
- * DOMContentLoaded olayını yenile.
- *
- * Part 2'de tanımlanan eski listener
- * loadGame'u çalıştırmaya devam edeceği için
- * burada ikinci kez çalıştırmıyoruz.
- *
- * Bu nedenle aşağıdaki listener sadece
- * yardımcı kontrolleri çalıştırır.
- */
+function renderRelated(current) {
+    const area = document.getElementById("relatedGames");
+    if (!area) return;
+    area.innerHTML = "";
+    games.filter(g => g.category === current.category && g.id !== current.id).slice(0,4).forEach(game => {
+        const card = document.createElement("article");
+        card.className = "card";
+        card.innerHTML = `<img src="${escapeHtml(game.thumb || "logo.png")}" alt="${escapeHtml(game.title || "Oyun")}" loading="lazy">
+            <div class="card-content"><span class="tag">${escapeHtml(game.category || "Oyun")}</span>
+            <h3>${escapeHtml(game.title || "Oyun")}</h3><button class="btn" type="button">🎮 Hemen Oyna</button></div>`;
+        card.querySelector("button").addEventListener("click", () => {
+            location.href = `oyun?id=${encodeURIComponent(game.id)}`;
+        });
+        area.appendChild(card);
+    });
+}
 
-window.addEventListener(
-    "load",
-    () => {
+function setText(id,value) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = value || "";
+}
 
-        setTimeout(
-            () => {
+function showError(message) {
+    const page = document.querySelector(".game-page") || document.getElementById("gameSection");
+    if (!page) return;
+    page.style.display = "block";
+    page.innerHTML = `<div class="container" style="padding:80px 20px;text-align:center">
+        <div class="no-result"><h2>😔 Oyun Bulunamadı</h2><p>${escapeHtml(message)}</p>
+        <br><a href="index.html" class="play-btn">🏠 Ana Sayfaya Dön</a></div></div>`;
+}
 
-                const params =
-                    new URLSearchParams(
-                        window.location.search
-                    );
-
-                const id =
-                    params.get("id");
-
-                if (!id) return;
-
-                const game =
-                    games.find(
-                        item => item.id === id
-                    );
-
-                if (!game) return;
-
-                improvePageAccessibility(game);
-
-                ensureGameContent(game);
-
-            },
-            100
-        );
-
-    }
-);
-/*
- * ==========================================
- * SON GÜVENLİK / HATA KONTROLÜ
- * ==========================================
- *
- * Bu bölüm oyun sistemini değiştirmez.
- * Sadece beklenmeyen JavaScript hatalarının
- * konsolda görülebilmesini sağlar.
- */
-
-window.addEventListener(
-    "error",
-    function (event) {
-
-        console.error(
-            "OyunKafe oyun sayfasında bir hata oluştu:",
-            event.error || event.message
-        );
-
-    }
-);
-
-
-/*
- * Promise / fetch kaynaklı beklenmeyen
- * hataları yakala.
- */
-
-window.addEventListener(
-    "unhandledrejection",
-    function (event) {
-
-        console.error(
-            "OyunKafe oyun sayfasında beklenmeyen bir işlem hatası:",
-            event.reason
-        );
-
-    }
-);
-
-
-/*
- * ==========================================
- * OYUNKAFE GAME.JS SONU
- * ==========================================
- */
+function escapeHtml(value) {
+    return String(value ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");
+}
