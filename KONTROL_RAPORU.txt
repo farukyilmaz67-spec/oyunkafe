@@ -1,17 +1,24 @@
-OYUNKAFE — TEK SEFERLİK ADSENSE İÇERİK PAKETİ
-================================================
+OYUNKAFE — BUGÜN FINAL ADSENSE PAKETİ
+======================================
 Oyun sayısı: 60
-Rehber sayısı: 10
+Statik oyun sayfaları: 60
+Rehber: 10
+Ana oyun URL yapısı: /oyun/<id>/
 Eski tekrar şablonu kalan oyun: 0
+Sitemap URL sayısı: 70
 
-Hazır dosyalar:
-- index.html
-- games.json
-- game.js
-- rehberler.html
+ANA DÜZELTME
+------------
+Önceki sürümde oyun içerikleri game.js ile sonradan dolduruluyordu.
+Bu sürümde 60 oyunun her biri ayrı statik HTML sayfasıdır.
+Başlık, açıklama, nasıl oynanır, özellikler, ipuçları, SSS ve benzer oyunlar
+HTML içinde doğrudan bulunur.
 
-Kontroller:
-- Oyun bağlantıları: /oyun?id=...
-- games.json: geçerli JSON
-- Oyun kayıtları: 60
-- Rehber sayfası: mevcut
+Legacy /oyun?id=<id> adresleri korunur; yeni statik sayfalar canonical olarak
+kullanılır. Ana sayfa, kategori, çok oyunculu sayfa ve sitemap yeni adresleri
+kullanır.
+
+NOT
+---
+Bu paket mevcut sitenin tasarımını koruyarak SEO/AdSense içerik görünürlüğünü
+güçlendirmek için hazırlanmıştır.
