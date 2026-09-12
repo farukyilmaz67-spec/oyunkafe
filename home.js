@@ -697,7 +697,7 @@ function openGame(id){
     recent.unshift(id);
     localStorage.setItem("recentGames", JSON.stringify(recent.slice(0, 4)));
 
-    window.location.href = "oyun.html?id=" + id;
+    window.location.href = "oyun/" + encodeURIComponent(id) + "/";
 
 }
 
