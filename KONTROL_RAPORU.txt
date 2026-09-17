@@ -1,24 +1,11 @@
-OYUNKAFE — BUGÜN FINAL ADSENSE PAKETİ
-======================================
-Oyun sayısı: 60
-Statik oyun sayfaları: 60
-Rehber: 10
-Ana oyun URL yapısı: /oyun/<id>/
-Eski tekrar şablonu kalan oyun: 0
-Sitemap URL sayısı: 70
+OyunKafe – AdSense Son Hazırlık Paketi
 
-ANA DÜZELTME
-------------
-Önceki sürümde oyun içerikleri game.js ile sonradan dolduruluyordu.
-Bu sürümde 60 oyunun her biri ayrı statik HTML sayfasıdır.
-Başlık, açıklama, nasıl oynanır, özellikler, ipuçları, SSS ve benzer oyunlar
-HTML içinde doğrudan bulunur.
+Yapılan kontroller/düzenlemeler:
+- 60 oyun statik oyun sayfaları mevcut.
+- Ana sayfadaki oyun kartlarının tekrar eden eski açıklama kalıpları kaldırıldı.
+- games.json içindeki kısa oyun açıklamaları oyun türüne göre genişletildi.
+- Statik oyun sayfalarındaki oyun-özel içerik yapısı korunmuştur.
+- robots.txt, sitemap.xml ve ads.txt korunmuştur.
+- Eski /oyun?id=... yapısı korunmuş, yeni /oyun/<id>/ sayfaları ana yapı olarak tutulmuştur.
 
-Legacy /oyun?id=<id> adresleri korunur; yeni statik sayfalar canonical olarak
-kullanılır. Ana sayfa, kategori, çok oyunculu sayfa ve sitemap yeni adresleri
-kullanır.
-
-NOT
----
-Bu paket mevcut sitenin tasarımını koruyarak SEO/AdSense içerik görünürlüğünü
-güçlendirmek için hazırlanmıştır.
+Not: Bu paket AdSense onayını garanti etmez. Google, sitenin tamamını kendi kalite ve politika değerlendirmesine göre inceler.
