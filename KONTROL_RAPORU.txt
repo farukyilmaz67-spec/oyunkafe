@@ -1,11 +1,15 @@
-OyunKafe – AdSense Son Hazırlık Paketi
+OyunKafe AdSense Hazırlık Paketi V2
 
-Yapılan kontroller/düzenlemeler:
-- 60 oyun statik oyun sayfaları mevcut.
-- Ana sayfadaki oyun kartlarının tekrar eden eski açıklama kalıpları kaldırıldı.
-- games.json içindeki kısa oyun açıklamaları oyun türüne göre genişletildi.
-- Statik oyun sayfalarındaki oyun-özel içerik yapısı korunmuştur.
-- robots.txt, sitemap.xml ve ads.txt korunmuştur.
-- Eski /oyun?id=... yapısı korunmuş, yeni /oyun/<id>/ sayfaları ana yapı olarak tutulmuştur.
+Kontroller:
+- 60 oyun kaydı bulundu.
+- 60 adet statik /oyun/<id>/index.html sayfası bulundu.
+- Her statik oyun sayfasında HTML görünür açıklama, Nasıl Oynanır, Oyun Özellikleri, İpuçları ve SSS bölümleri mevcut.
+- Oyun içeriklerinde kategoriye göre çeşitlendirilmiş oynanış, ipucu ve özellik metinleri kullanıldı; önceki seri şablon tekrarları azaltıldı.
+- VideoGame ve Breadcrumb JSON-LD korunmuştur.
+- Canonical URL yapısı /oyun/<id>/ olarak korunmuştur.
+- ads.txt, robots.txt ve sitemap.xml pakette korunmuştur.
+- Yasal sayfalar, Hakkımızda, İletişim, Rehberler ve Çok Oyunculu sayfaları korunmuştur.
 
-Not: Bu paket AdSense onayını garanti etmez. Google, sitenin tamamını kendi kalite ve politika değerlendirmesine göre inceler.
+Not: Bu paket AdSense onayı garanti etmez. Google değerlendirmesi; içerik kalitesi, özgünlük, kullanıcı deneyimi ve politika uygunluğu dahil birçok faktöre bağlıdır.
+
+Yayınlama: ZIP içindeki dosyaları mevcut OyunKafe sitenin kök dizinine yükleyin. Mevcut images/, logo.png ve favicon.ico dosyalarını silmeyin; bunlar pakete dahil edilmemiştir.
