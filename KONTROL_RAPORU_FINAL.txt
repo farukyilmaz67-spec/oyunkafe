@@ -1,0 +1,24 @@
+OyunKafe – AdSense İçerik Temizliği / FINAL
+Tarih: 29.09.2026
+
+YAPILANLAR
+- Ana sayfadaki 60 oyun kartı korunmuştur.
+- 29 oyunda tekrar eden “kolay öğrenilen kontrolleri...” şablon cümlesi kaldırılmıştır.
+- games.json içindeki aynı oyun açıklamaları ana sayfadaki temiz açıklamalarla senkronlanmıştır.
+- Statik /oyun/<id>/ sayfaları bu pakette korunmuştur.
+- robots.txt, ads.txt, sitemap.xml, yasal sayfalar ve rehberler korunmuştur.
+- Sitemap ana sayfa lastmod tarihi güncellenmiştir.
+
+KONTROL
+- Oyun sayısı: 60
+- Statik oyun sayfası sayısı: 60
+- Tekrarlayan şablon cümlesi kalan ana sayfa kartı: 0
+- ZIP bütünlüğü: doğrulanacak
+
+YAYINLAMA
+Bu paketin içindeki dosyaları mevcut OyunKafe GitHub/Cloudflare Pages projenizde aynı klasör yapısıyla üzerine yazın.
+Mevcut images/ klasörünüzü değiştirmeyin; bu paket mevcut görselleri içermez.
+
+ADSENSE NOTU
+Google'ın güncel AdSense yardım sayfası, sitenin özgün, alakalı ve kullanıcıya değer sunan içerik sağlamasını; otomatik/çok az özgün içerikli sayfalardan kaçınılmasını ve gezinmenin açık olmasını vurguluyor.
+Bu paket özellikle ana sayfadaki tekrar eden açıklama şablonunu azaltmak için hazırlanmıştır. Onay garanti değildir.
