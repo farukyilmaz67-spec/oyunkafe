@@ -1,0 +1,27 @@
+OyunKafe – AdSense Hazırlık / V2 Kontrol Raporu
+Tarih: 29.09.2026
+
+YAPILANLAR
+- 60 statik oyun sayfasının içerikleri güncellendi.
+- Tekrarlanan genel açıklama kalıpları kaldırıldı; oyunlara özel editoryal açıklama, oynanış adımları, ipuçları, özellikler ve SSS metinleri kullanıldı.
+- Ana sayfadaki statik oyun kartları güncel oyun açıklamalarıyla senkronlandı.
+- Kategori sayfasındaki oyun verileri games.json ile senkronlandı ve GameDistribution referrer URL'leri www alan adıyla standardize edildi.
+- Çok oyunculu sayfasındaki oyun açıklamaları güncellendi.
+- Oyun sayfalarına Hakkımızda, İletişim, Gizlilik, Çerez, Kullanım Şartları, Telif ve Rehber bağlantıları içeren footer eklendi.
+- Ana sayfadaki görünür reklam yer tutucuları / boş reklam kutuları kaldırıldı; onay öncesi sayfa reklam alanlarıyla doldurulmuyor.
+- Ana sayfadaki 60+ / yüzlerce oyun gibi mevcut sayıyla uyuşmayan ifadeler düzeltildi.
+- Hakkımızda sayfasındaki içerik sağlayıcı açıklaması daha temkinli ve doğrulanabilir hâle getirildi.
+- Sitemap içindeki güncellenen URL'lere 2026-09-29 lastmod eklendi.
+- robots.txt ve ads.txt korunmuştur.
+
+KONTROL
+- Statik oyun sayfası: 60
+- Oyun verisi: 60
+- Eski “kolay öğrenilen kontrolleri...” şablonu: 0
+- Eski “ilk birkaç dakikayı...” şablonu: 0
+- Eski “yüzlerce kaliteli oyun” ifadesi: 0
+- Ana sayfada görünür reklam placeholder: 0
+- Oyun sayfalarında temel meta title/description/canonical: mevcut
+
+NOT
+Bu paket AdSense onayı garanti etmez. Ama Google'ın mevcut “Düşük değere sahip içerik” uyarısına doğrudan odaklanan, içerik tekrarını ve reklam-öncelikli görünümü azaltan bir hazırlık sürümüdür. Yayına aldıktan sonra Google'ın sayfaları yeniden taraması için zaman tanımak gerekir.
