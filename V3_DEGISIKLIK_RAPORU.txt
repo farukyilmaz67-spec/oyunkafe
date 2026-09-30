@@ -1,0 +1,9 @@
+OyunKafe V3
+
+- Proje içindeki legacy /oyun?id=... ve /oyun.html?id=... bağlantıları yeni /oyun/slug/ yapısına çevrildi.
+- _redirects eklendi: /oyun.html -> /oyun/ 301.
+- Query-string legacy URL’ler için Cloudflare Redirect Rule gerektiği ayrıca belgelendi.
+- Sitemap/robots/ads.txt korunmuştur.
+- 60 oyun sayfasının silinmemesi ve mevcut görsellerin korunması amaçlanmıştır.
+
+Bu sürüm canlıya alınmadan önce Cloudflare Redirect Rule kurulmalıdır.

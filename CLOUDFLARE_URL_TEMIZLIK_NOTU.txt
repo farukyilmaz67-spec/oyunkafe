@@ -1,0 +1,26 @@
+OyunKafe V3 – URL TEMİZLİĞİ
+
+Bu paket yeni /oyun/SLUG/ URL yapısını korur ve proje içindeki eski /oyun?id=SLUG ile /oyun.html?id=SLUG bağlantılarını yeni URL’lere çevirir.
+
+ÖNEMLİ: Cloudflare Pages _redirects dosyası query parameter eşleştirmeyi desteklemez. Bu nedenle eski Google URL’lerinin gerçek 301 ile yeni URL’lere taşınması Cloudflare Redirect Rules üzerinden yapılmalıdır. Cloudflare dokümantasyonu: https://developers.cloudflare.com/pages/configuration/redirects/
+
+Cloudflare’da Redirect Rules > Create Rule > Custom filter expression kullanarak şu mantığı kurun:
+1) URI Path equals /oyun
+2) Expression Editor filtre: `http.host eq "www.oyunkafe.com" and http.request.uri.path eq "/oyun" and starts_with(http.request.uri.query, "id=")`
+3) Action: Dynamic Redirect
+4) Target URL expression: `wildcard_replace(http.request.uri.query, "id=*", "https://www.oyunkafe.com/oyun/${1}/")`
+5) Status code: 301 Permanent Redirect
+6) Preserve query string: OFF
+
+NOT: Cloudflare dashboard ifadesinin kesin sözdizimi hesabınızdaki Redirect Rules arayüzüne göre oluşturulmalıdır; bu dosya canlı DNS/Cloudflare ayarı yapmaz.
+
+Ayrıca eski /oyun.html?id=SLUG URL’leri için /oyun.html -> /oyun/ yönlendirmesi _redirects içine eklenmiştir; query parametresi eski URL’de kalıyorsa Redirect Rule ile ayrıca temizlenmesi gerekir.
+
+V3 sonrası kontrol edilecekler:
+- İç linklerde eski ?id= URL kalmamalı.
+- Sitemap yalnızca /oyun/SLUG/ URL’lerini içermeli.
+- Her oyun sayfasının canonical adresi kendi /oyun/SLUG/ URL’si olmalı.
+- Canlıda eski URL’ler 301 ile yeni URL’ye gitmeli.
+- Search Console’da eski URL’ler zaman içinde redirect olarak görünmeli.
+
+TEST: https://www.oyunkafe.com/oyun?id=drift-boss adresi 301 ile https://www.oyunkafe.com/oyun/drift-boss/ adresine gitmeli.

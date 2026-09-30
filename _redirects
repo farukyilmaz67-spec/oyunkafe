@@ -1,0 +1,5 @@
+# OyunKafe URL canonicalization
+# IMPORTANT: Cloudflare Pages _redirects cannot match query parameters.
+# Therefore the legacy /oyun?id=SLUG URLs require a Cloudflare Redirect Rule (or Worker).
+# Static legacy paths are handled below.
+/oyun.html /oyun/ 301
