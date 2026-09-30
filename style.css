@@ -3207,3 +3207,18 @@ body.dark-theme{
 .info-page{
     display:none;
 }
+
+/* OyunKafe V4: game-specific editorial content */
+.ok-editor-note {
+  margin: 24px 0;
+  padding: 18px;
+  border: 1px solid rgba(127,127,127,.22);
+  border-radius: 12px;
+}
+.ok-editor-note h2 {
+  margin: 0 0 10px;
+}
+.ok-editor-note p {
+  margin: 8px 0;
+  line-height: 1.65;
+}

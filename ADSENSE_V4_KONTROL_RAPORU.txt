@@ -1,0 +1,17 @@
+OyunKafe AdSense V4 kontrol paketi
+Tarih: 30 Eylül 2026
+
+Bu paket V3 üzerinde hazırlanmıştır.
+- HTML sayfaları: 71
+- Oyun sayfaları: 60
+- Güçlendirilen oyun sayfaları: 60
+
+Korunan ana teknik dosyalar:
+- robots.txt
+- sitemap.xml
+- ads.txt
+- mevcut yönlendirme dosyaları
+
+Not:
+Bu paket Google/AdSense onayını garanti etmez. Amaç; oyun sayfalarının yalnızca iframe/şablon görünümünde kalmamasını,
+mevcut sayfa açıklamalarını görünür ve anlamlı hale getirmeyi ve teknik yapıyı bozmadan kullanıcıya ek bağlam sunmayı sağlamaktır.
