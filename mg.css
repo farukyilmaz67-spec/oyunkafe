@@ -1,0 +1,40 @@
+/* Çerez bildirimi + ortak alt bilgi (footer) — tüm sayfalarda kullanılır */
+.mg-consent{
+  position:fixed;left:16px;right:16px;bottom:16px;z-index:99999;
+  max-width:980px;margin:0 auto;padding:18px 20px;
+  background:#111827;color:#f3f4f6;border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,.35);
+  display:flex;gap:18px;align-items:center;flex-wrap:wrap;
+  font:14px/1.55 Arial,Helvetica,sans-serif;
+}
+.mg-consent-text{flex:1 1 420px;min-width:0}
+.mg-consent-text strong{display:block;font-size:15px;margin-bottom:4px}
+.mg-consent-text p{margin:0;color:#d1d5db}
+.mg-consent-text a{color:#93c5fd;text-decoration:underline}
+.mg-consent-actions{display:flex;gap:10px;flex-wrap:wrap}
+.mg-btn{
+  appearance:none;border:1px solid #6b7280;background:#1f2937;color:#fff;
+  padding:11px 18px;border-radius:10px;cursor:pointer;font:600 14px Arial,Helvetica,sans-serif;
+  min-width:150px;
+}
+.mg-btn:hover{background:#374151}
+.mg-btn:focus-visible{outline:2px solid #93c5fd;outline-offset:2px}
+@media(max-width:600px){
+  .mg-consent{left:8px;right:8px;bottom:8px;padding:14px}
+  .mg-consent-actions{width:100%}
+  .mg-btn{flex:1 1 140px}
+}
+
+.mg-footer{
+  border-top:1px solid rgba(128,128,128,.35);margin-top:40px;padding:28px 16px;
+  background:#0f172a;color:#cbd5e1;font:14px/1.7 Arial,Helvetica,sans-serif;text-align:center;
+}
+.mg-footer-inner{max-width:1080px;margin:0 auto}
+.mg-footer nav{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;margin-bottom:14px}
+.mg-footer a,.mg-footer button.mg-link{
+  color:#e2e8f0;text-decoration:none;background:none;border:0;padding:0;cursor:pointer;font:inherit;
+}
+.mg-footer a:hover,.mg-footer button.mg-link:hover{text-decoration:underline}
+.mg-footer p{margin:4px 0;color:#94a3b8}
+
+button.mg-link-inline{background:none;border:0;padding:0;color:inherit;font:inherit;text-decoration:underline;cursor:pointer}
