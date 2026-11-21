@@ -38,3 +38,5 @@
 .mg-footer p{margin:4px 0;color:#94a3b8}
 
 button.mg-link-inline{background:none;border:0;padding:0;color:inherit;font:inherit;text-decoration:underline;cursor:pointer}
+
+.cat-links a{display:inline-block;margin:4px 10px 4px 0;text-decoration:underline}
