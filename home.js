@@ -708,7 +708,7 @@ function openGame(id){
 // ================================
 
 function goMultiplayer(){
-    window.location.href = "cok-oyunculu.html";
+    window.location.href = "iki-kisilik-oyunlar.html";
 }
 
 // ================================
