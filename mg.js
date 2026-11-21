@@ -77,3 +77,26 @@
     }
   });
 })();
+
+/* Mobil/tablet açılır menü */
+(function () {
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.getElementById("navToggle");
+    var nav = document.getElementById("mainNav");
+    var hdr = document.querySelector(".header");
+    if (!btn || !nav || !hdr) return;
+    function setOpen(open) {
+      if (open) hdr.classList.add("nav-open"); else hdr.classList.remove("nav-open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.setAttribute("aria-label", open ? "Menüyü kapat" : "Menüyü aç");
+      btn.textContent = open ? "✕" : "☰";
+    }
+    btn.addEventListener("click", function () { setOpen(!hdr.classList.contains("nav-open")); });
+    nav.addEventListener("click", function (e) {
+      var t = e.target;
+      while (t && t !== nav) { if (t.tagName === "A") { setOpen(false); return; } t = t.parentNode; }
+    });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") setOpen(false); });
+    window.addEventListener("resize", function () { if (window.innerWidth > 900) setOpen(false); });
+  });
+})();
